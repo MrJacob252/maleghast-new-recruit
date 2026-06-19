@@ -1,0 +1,146 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "e6b8-3f11-a311-c6d0",
+    "name": "Goregrinders",
+    "gameSystemId": "sys-ec2b-f0d3-4663-8364",
+    "gameSystemRevision": 1,
+    "revision": 1,
+    "battleScribeVersion": "2.03",
+    "page": "",
+    "sharedSelectionEntries": [
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Warhead Squad",
+        "hidden": false,
+        "id": "6cd4-a6fa-d647-6f18",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "33",
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 1
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "defaultAmount": "",
+        "step": "",
+        "categoryLinks": [
+          {
+            "targetId": "8bcf-0b80-c15a-bf1e",
+            "id": "74a8-fa34-fd8b-e51d",
+            "primary": true,
+            "name": "Thrall"
+          },
+          {
+            "targetId": "default-category",
+            "id": "c859-e27b-186b-6ae4",
+            "primary": false,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Warhead",
+            "hidden": false,
+            "id": "1ba1-dd4a-0795-6c57",
+            "infoLinks": [
+              {
+                "name": "Warhead",
+                "id": "dc1c-32e8-291e-0f9b",
+                "hidden": false,
+                "type": "profile",
+                "targetId": "2185-e863-bd3e-6863"
+              },
+              {
+                "name": "Thrall",
+                "id": "8486-2177-feb5-4b7c",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "30c8-382b-46b6-e34e"
+              }
+            ],
+            "defaultAmount": "2",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "6b8f-a143-0a3c-49f5",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 2,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "e079-6f23-35c5-ae1f",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Warhead",
+        "typeId": "6426-dcea-42df-f2d5",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "2185-e863-bd3e-6863",
+        "characteristics": [
+          {
+            "name": "Unit Slot Cost",
+            "typeId": "494c-527d-1db0-f5a4",
+            "$text": ""
+          },
+          {
+            "name": "MV",
+            "typeId": "db02-56b8-b943-0359",
+            "$text": "4"
+          },
+          {
+            "name": "HP",
+            "typeId": "ad0d-0434-b3bd-9cfe",
+            "$text": "1"
+          },
+          {
+            "name": "DF",
+            "typeId": "5357-22fe-763d-4a20",
+            "$text": "3+"
+          },
+          {
+            "name": "ARM",
+            "typeId": "d539-7a96-9a0b-9090",
+            "$text": "-"
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "33"
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": "Warhead",
+        "hidden": false,
+        "id": "6532-af85-a64e-163d",
+        "type": "selectionEntry",
+        "targetId": "6cd4-a6fa-d647-6f18"
+      }
+    ],
+    "type": "catalogue"
+  }
+}

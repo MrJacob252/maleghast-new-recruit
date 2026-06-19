@@ -1,0 +1,424 @@
+{
+  "gameSystem": {
+    "id": "sys-ec2b-f0d3-4663-8364",
+    "name": "Maleghast",
+    "battleScribeVersion": "2.03",
+    "revision": 1,
+    "categoryEntries": [
+      {
+        "name": "Unit",
+        "id": "default-category",
+        "publicationId": "da35-e534-5d09-746b"
+      },
+      {
+        "name": "Necromancer",
+        "id": "fe30-71be-eb40-926a",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "3835-da72-9060-78f7-min",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "3835-da72-9060-78f7-max",
+            "includeChildSelections": false
+          }
+        ]
+      },
+      {
+        "name": "Thrall",
+        "id": "8bcf-0b80-c15a-bf1e",
+        "hidden": false,
+        "description": "",
+        "publicationId": "da35-e534-5d09-746b"
+      },
+      {
+        "name": "Scion",
+        "id": "c422-7dc4-5583-c6fd",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "64d8-a6fe-4b4d-4a17",
+            "includeChildSelections": false
+          }
+        ]
+      },
+      {
+        "name": "Freak",
+        "id": "8026-360f-68ed-6a0c",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "2019-cc6f-e6b9-8854",
+            "includeChildSelections": false
+          }
+        ]
+      },
+      {
+        "name": "Horror",
+        "id": "a5cb-2aa7-a054-c37b",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "1056-8988-d3e9-0c82",
+            "includeChildSelections": false
+          }
+        ]
+      },
+      {
+        "name": "Hunter",
+        "id": "85b3-be32-3ac6-24b2",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "e81c-1059-9bdb-b00b",
+            "includeChildSelections": false
+          }
+        ]
+      },
+      {
+        "name": "Tyrant",
+        "id": "7314-e0e7-35fe-aa92",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "0b89-ccbd-aa5c-aefe",
+            "includeChildSelections": false
+          }
+        ]
+      }
+    ],
+    "forceEntries": [
+      {
+        "name": "1v1 Game",
+        "hidden": false,
+        "id": "default-force",
+        "categoryLinks": [
+          {
+            "name": "Necromancer",
+            "hidden": false,
+            "id": "8daf-6087-4419-200e",
+            "targetId": "fe30-71be-eb40-926a"
+          },
+          {
+            "name": "Freak",
+            "hidden": false,
+            "id": "fdb0-ad9c-c15f-a7b8",
+            "targetId": "8026-360f-68ed-6a0c"
+          },
+          {
+            "name": "Horror",
+            "hidden": false,
+            "id": "887d-a67f-1f6a-f29b",
+            "targetId": "a5cb-2aa7-a054-c37b"
+          },
+          {
+            "name": "Hunter",
+            "hidden": false,
+            "id": "bc7b-88f3-b598-1c42",
+            "targetId": "85b3-be32-3ac6-24b2"
+          },
+          {
+            "name": "Scion",
+            "hidden": false,
+            "id": "5289-e990-fb93-be7d",
+            "targetId": "c422-7dc4-5583-c6fd"
+          },
+          {
+            "name": "Thrall",
+            "hidden": false,
+            "id": "25de-fe63-aea4-f4dd",
+            "targetId": "8bcf-0b80-c15a-bf1e"
+          },
+          {
+            "name": "Tyrant",
+            "hidden": false,
+            "id": "d8e3-8621-0473-a62f",
+            "targetId": "7314-e0e7-35fe-aa92"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b"
+      }
+    ],
+    "type": "gameSystem",
+    "publications": [
+      {
+        "name": "Malehast Update 3",
+        "id": "da35-e534-5d09-746b",
+        "hidden": false,
+        "shortName": "Maleghast",
+        "publisher": "Magnagothica Maleghast Update 3",
+        "publisherUrl": "https://tombloom.itch.io/magnagothica-maleghast",
+        "publicationDate": "2025-05-30"
+      }
+    ],
+    "costTypes": [
+      {
+        "name": "Unit Slots",
+        "id": "729d-200e-b1c7-683e",
+        "defaultCostLimit": -1
+      },
+      {
+        "name": "Dark Power",
+        "id": "2bfb-93d9-91d6-b153",
+        "defaultCostLimit": -1
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Unit",
+        "id": "6426-dcea-42df-f2d5",
+        "hidden": false,
+        "kind": "model",
+        "characteristicTypes": [
+          {
+            "name": "MV",
+            "id": "db02-56b8-b943-0359",
+            "defaultValue": "1"
+          },
+          {
+            "name": "HP",
+            "id": "ad0d-0434-b3bd-9cfe",
+            "defaultValue": "1"
+          },
+          {
+            "name": "DF",
+            "id": "5357-22fe-763d-4a20",
+            "defaultValue": "1+"
+          },
+          {
+            "name": "ARM",
+            "id": "d539-7a96-9a0b-9090",
+            "defaultValue": "-"
+          }
+        ]
+      },
+      {
+        "name": "ACT Abilities",
+        "id": "a874-3212-1e77-eae3",
+        "hidden": false,
+        "kind": "ability"
+      },
+      {
+        "name": "Upgrades",
+        "id": "bc74-524a-c3d8-deb8",
+        "hidden": false
+      },
+      {
+        "name": "Traits",
+        "id": "c4ab-0724-e1de-ebce",
+        "hidden": false,
+        "kind": "ability"
+      },
+      {
+        "name": "SOUL Abilities",
+        "id": "04a5-88c2-b120-5055",
+        "hidden": false
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "MOVE",
+        "id": "98bc-8e1e-e591-23d6",
+        "hidden": false,
+        "description": "Units may move spaces equal to their MV value\nwhen they MOVE",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "13"
+      },
+      {
+        "name": "Step",
+        "id": "c017-2f16-4d88-8c6b",
+        "hidden": false,
+        "description": "When a unit steps, it moves that many spaces, but it doesn’t count as a MOVE.",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "13"
+      },
+      {
+        "name": "Push",
+        "id": "e400-17e1-4374-0dcb",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "13",
+        "description": "When a unit is pushed by an ability, it is called forced movement. Forced movement ignores movement penalties (such as from terrain) and doesn’t count as a MOVE or step."
+      },
+      {
+        "name": "Pull",
+        "id": "f53b-1470-2340-5632",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "13",
+        "description": "When a unit is pulled by an ability, it is called forced movement. Forced movement ignores movement penalties (such as from terrain) and doesn’t count as a MOVE or step."
+      },
+      {
+        "name": "Free Movement",
+        "id": "1599-bc10-aa0f-1796",
+        "hidden": false,
+        "page": "13",
+        "publicationId": "da35-e534-5d09-746b",
+        "description": "Free movement means a unit’s movement can’t be reduced by any means"
+      },
+      {
+        "name": "Physical Armor",
+        "id": "fe9c-d30f-faaa-0283",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "14",
+        "description": "Take 1 less damage from type that is NOT fire, toxic, curse and holy."
+      },
+      {
+        "name": "Super Armor",
+        "id": "348c-1744-4051-838d",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "14",
+        "description": "Take 1 less damage from any damage."
+      },
+      {
+        "name": "Magical Armor",
+        "id": "48c2-8b2c-923c-7eaa",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "14",
+        "description": "Take 1 less damage from fire, toxic, curse and holy type damage."
+      },
+      {
+        "name": "Melee",
+        "id": "01be-6619-763c-0b95",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "16",
+        "description": "Melee abilities can only target adjacent characters."
+      },
+      {
+        "name": "Ranged",
+        "id": "0c94-bcaa-a6ec-6810",
+        "hidden": false,
+        "description": "Range can be measured in any direction, including diagonally. Abilities have a minimum range of 1 by default, but may have a higher minimum range (range 2-4, for example, meaning adjacent characters or spaces cannot be targeted).",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "18"
+      },
+      {
+        "name": "Devil Damage",
+        "id": "97d6-91a3-5f58-6d45",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "18",
+        "description": "Devil damage cannot be reduced, increased, or ignored for any reason. Additionally units reduced to 0 hp by devil damage are instantly obliterated"
+      },
+      {
+        "name": "New Rule",
+        "id": "4bf8-266e-8c98-6107",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "18",
+        "description": "Piercing damage ignores armor. It otherwise keeps its damage type."
+      },
+      {
+        "name": "Vitality",
+        "id": "f187-e53c-c368-071c",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "18",
+        "description": "Take -1 damage, discard one after taking damage."
+      },
+      {
+        "name": "Strength",
+        "id": "a078-a8b5-22c4-c2e5",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "18",
+        "description": "+1 damage, discard one after dealing damage."
+      },
+      {
+        "name": "Weak",
+        "id": "8441-cb67-3e0b-02b6",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "18",
+        "description": "-1 damage, discard one after dealing damage."
+      },
+      {
+        "name": "Vulnerability",
+        "id": "f158-6551-ca06-cd13",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "18",
+        "description": "Take +1 damage, discard one after taking damage."
+      },
+      {
+        "name": "Speed",
+        "id": "0ca2-ff44-6777-335a",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "18",
+        "description": "MOVE +2 more spaces, discard one after MOVEing."
+      },
+      {
+        "name": "Slow",
+        "id": "0d13-dca4-d672-7825",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "18",
+        "description": "MOVE a max of 1 space, discard one after MOVEing."
+      },
+      {
+        "name": "Thrall",
+        "id": "30c8-382b-46b6-e34e",
+        "hidden": false,
+        "description": "2 of these units are worth 1 unit slot. Can be activated two at a time."
+      }
+    ]
+  }
+}

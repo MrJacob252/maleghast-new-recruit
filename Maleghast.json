@@ -202,11 +202,6 @@
             ]
           }
         ]
-      },
-      {
-        "name": "Upgrade List",
-        "id": "63cc-4b3a-e473-bf56",
-        "hidden": false
       }
     ],
     "forceEntries": [
@@ -274,12 +269,6 @@
             "hidden": false,
             "id": "7d73-4a90-3aae-2fd5",
             "targetId": "default-category"
-          },
-          {
-            "name": "Upgrade List",
-            "hidden": false,
-            "id": "26e6-2cea-7faf-4992",
-            "targetId": "63cc-4b3a-e473-bf56"
           }
         ],
         "costs": [
@@ -539,7 +528,89 @@
       {
         "name": "SOUL Abilities",
         "id": "04a5-88c2-b120-5055",
-        "hidden": false
+        "hidden": false,
+        "characteristicTypes": [
+          {
+            "name": "Cost",
+            "id": "e757-13c7-c21e-70b9",
+            "formatRules": [
+              {
+                "name": "New Format Rule",
+                "id": "f093-725b-c529-1876",
+                "hidden": false,
+                "type": "regex",
+                "match": "^$",
+                "replace": "-",
+                "comment": "Empty → -"
+              }
+            ],
+            "kind": "longText"
+          },
+          {
+            "name": "When",
+            "id": "54b8-302b-9e65-ec30",
+            "formatRules": [
+              {
+                "name": "New Format Rule",
+                "id": "e55c-2c5a-4c3d-5260",
+                "hidden": false,
+                "type": "regex",
+                "match": "^$",
+                "replace": "-",
+                "comment": "Empty → -"
+              }
+            ],
+            "kind": "longText"
+          },
+          {
+            "name": "Tags",
+            "id": "677f-0884-533f-ae72",
+            "formatRules": [
+              {
+                "name": "New Format Rule",
+                "id": "3f05-9927-1400-d08f",
+                "hidden": false,
+                "type": "regex",
+                "match": "^$",
+                "replace": "-",
+                "comment": "Empty → -"
+              }
+            ],
+            "kind": "longText"
+          },
+          {
+            "name": "Trigger",
+            "id": "3a92-2619-a477-005f",
+            "formatRules": [
+              {
+                "name": "New Format Rule",
+                "id": "3ded-d5c2-accc-81e9",
+                "hidden": false,
+                "type": "regex",
+                "match": "^$",
+                "replace": "-",
+                "comment": "Empty → -"
+              }
+            ],
+            "kind": "longText"
+          },
+          {
+            "name": "Effect",
+            "id": "d03e-2c10-89c9-8e5c",
+            "formatRules": [
+              {
+                "name": "New Format Rule",
+                "id": "a9ec-0dff-0e62-0c47",
+                "hidden": false,
+                "type": "regex",
+                "match": "^$",
+                "replace": "-",
+                "comment": "Empty → -"
+              }
+            ],
+            "kind": "longText"
+          }
+        ]
       }
     ],
     "sharedRules": [
@@ -709,6 +780,20 @@
           }
         ],
         "publicationId": "da35-e534-5d09-746b"
+      },
+      {
+        "name": "Tyrant",
+        "typeId": "c4ab-0724-e1de-ebce",
+        "typeName": "Traits",
+        "hidden": false,
+        "id": "5c4d-9068-2b4f-1f43",
+        "characteristics": [
+          {
+            "name": "Effect",
+            "typeId": "b305-f2f7-6e6a-44ce",
+            "$text": "2x2 unit."
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [

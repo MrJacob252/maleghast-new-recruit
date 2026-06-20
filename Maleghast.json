@@ -126,11 +126,92 @@
             "includeChildSelections": false
           }
         ]
+      },
+      {
+        "name": "1v1",
+        "id": "60a4-8a7e-544b-6fb9",
+        "hidden": false
+      },
+      {
+        "name": "2v2",
+        "id": "e3fe-692b-1def-fa7a",
+        "hidden": false
+      },
+      {
+        "name": "Game Options",
+        "id": "44b7-5d0d-0ecc-ae1d",
+        "hidden": false
+      },
+      {
+        "name": "Spite",
+        "id": "ccfc-d008-faa5-e28d",
+        "hidden": false
+      },
+      {
+        "name": "Loathing",
+        "id": "8906-537c-f092-556f",
+        "hidden": false
+      },
+      {
+        "name": "Hatred",
+        "id": "1d11-e1c7-fb8b-02f8",
+        "hidden": false
+      },
+      {
+        "name": "Hell",
+        "id": "7ea7-6a69-2512-5b92",
+        "hidden": false
+      },
+      {
+        "name": "Ultrahell",
+        "id": "d1a6-bfa6-286d-1b1c",
+        "hidden": false
+      },
+      {
+        "name": "Upgrade",
+        "id": "a70b-cf66-dbc9-4441",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "89a8-421f-19a1-cfcd",
+            "includeChildSelections": false
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "89a8-421f-19a1-cfcd",
+            "conditions": [
+              {
+                "type": "equalTo",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "Ultrahell",
+                "includeChildForces": true,
+                "childId": "c8f4-e48c-0dd6-3259"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Upgrade List",
+        "id": "63cc-4b3a-e473-bf56",
+        "hidden": false
       }
     ],
     "forceEntries": [
       {
-        "name": "1v1 Game",
+        "name": "Dark Mass",
         "hidden": false,
         "id": "default-force",
         "categoryLinks": [
@@ -175,6 +256,30 @@
             "hidden": false,
             "id": "d8e3-8621-0473-a62f",
             "targetId": "7314-e0e7-35fe-aa92"
+          },
+          {
+            "name": "Game Options",
+            "hidden": false,
+            "id": "3a25-7e77-ea9a-c47f",
+            "targetId": "44b7-5d0d-0ecc-ae1d"
+          },
+          {
+            "name": "Upgrade",
+            "hidden": false,
+            "id": "f59b-0281-6e39-da8a",
+            "targetId": "a70b-cf66-dbc9-4441"
+          },
+          {
+            "name": "Unit",
+            "hidden": false,
+            "id": "7d73-4a90-3aae-2fd5",
+            "targetId": "default-category"
+          },
+          {
+            "name": "Upgrade List",
+            "hidden": false,
+            "id": "26e6-2cea-7faf-4992",
+            "targetId": "63cc-4b3a-e473-bf56"
           }
         ],
         "costs": [
@@ -189,7 +294,150 @@
             "value": 0
           }
         ],
-        "publicationId": "da35-e534-5d09-746b"
+        "publicationId": "da35-e534-5d09-746b",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 5,
+            "field": "1a09-8023-2de5-1099",
+            "conditions": [
+              {
+                "type": "equalTo",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "60a4-8a7e-544b-6fb9",
+                "shared": true,
+                "childName": "1v1",
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 4,
+            "field": "1a09-8023-2de5-1099",
+            "conditions": [
+              {
+                "type": "equalTo",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "e3fe-692b-1def-fa7a",
+                "shared": true,
+                "childName": "2v2",
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 0,
+            "field": "959a-a4b7-85f8-3dbc",
+            "conditions": [
+              {
+                "type": "equalTo",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "ccfc-d008-faa5-e28d",
+                "shared": true,
+                "childName": "Spite",
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 4,
+            "field": "959a-a4b7-85f8-3dbc",
+            "conditions": [
+              {
+                "type": "equalTo",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "8906-537c-f092-556f",
+                "shared": true,
+                "childName": "Loathing",
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 7,
+            "field": "959a-a4b7-85f8-3dbc",
+            "conditions": [
+              {
+                "type": "equalTo",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "1d11-e1c7-fb8b-02f8",
+                "shared": true,
+                "childName": "Hatred",
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 10,
+            "field": "959a-a4b7-85f8-3dbc",
+            "conditions": [
+              {
+                "type": "equalTo",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "7ea7-6a69-2512-5b92",
+                "shared": true,
+                "childName": "Hell",
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 12,
+            "field": "959a-a4b7-85f8-3dbc",
+            "conditions": [
+              {
+                "type": "equalTo",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "d1a6-bfa6-286d-1b1c",
+                "shared": true,
+                "childName": "Ultrahell",
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": -1,
+            "field": "729d-200e-b1c7-683e",
+            "scope": "roster",
+            "shared": true,
+            "id": "1a09-8023-2de5-1099",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          },
+          {
+            "type": "max",
+            "value": -1,
+            "field": "2bfb-93d9-91d6-b153",
+            "scope": "roster",
+            "shared": true,
+            "id": "959a-a4b7-85f8-3dbc",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ]
       }
     ],
     "type": "gameSystem",
@@ -461,6 +709,377 @@
           }
         ],
         "publicationId": "da35-e534-5d09-746b"
+      }
+    ],
+    "sharedSelectionEntryGroups": [
+      {
+        "name": "Game Size",
+        "id": "d543-ba48-5d7f-25b5",
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "1v1",
+            "hidden": false,
+            "id": "5021-c317-07bd-12b9",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "5ce2-4dba-99ef-febb",
+                "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "60a4-8a7e-544b-6fb9",
+                "id": "2abe-62b5-fe4c-f6c2",
+                "primary": false,
+                "name": "1v1"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "2v2",
+            "hidden": false,
+            "id": "9799-2fc3-f617-7f69",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "2c12-f456-6903-2075",
+                "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "e3fe-692b-1def-fa7a",
+                "id": "afb5-81ec-3cae-df73",
+                "primary": false,
+                "name": "2v2"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "b2c2-c85c-1126-828b",
+            "includeChildSelections": true
+          },
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "e6f4-8a39-5842-ec08",
+            "includeChildSelections": true
+          },
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "63e0-f2cc-56a8-9dba",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "2e15-3f0e-b5e9-35ae",
+            "includeChildSelections": true
+          }
+        ]
+      },
+      {
+        "name": "Malice Level",
+        "id": "afbf-6dd9-dd3e-a279",
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Spite",
+            "hidden": false,
+            "id": "155d-6e22-0ba9-6c9d",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "45aa-705b-f192-5862",
+                "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "ccfc-d008-faa5-e28d",
+                "id": "168b-02a7-521e-eed5",
+                "primary": false,
+                "name": "Spite"
+              }
+            ],
+            "sortIndex": 1
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Loathing",
+            "hidden": false,
+            "id": "71b8-5a7d-b007-de2d",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "c6a4-af8b-5ce0-fce2",
+                "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "8906-537c-f092-556f",
+                "id": "44f9-9117-364e-9fed",
+                "primary": false,
+                "name": "Loathing"
+              }
+            ],
+            "sortIndex": 2
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Hatred",
+            "hidden": false,
+            "id": "0a07-306b-6bc7-eb33",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "3032-6a44-aae3-2395",
+                "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "1d11-e1c7-fb8b-02f8",
+                "id": "dbd2-3ded-9c00-f15a",
+                "primary": false,
+                "name": "Hatred"
+              }
+            ],
+            "sortIndex": 3
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Hell",
+            "hidden": false,
+            "id": "bd12-05d1-0165-0b9e",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "ca2b-2505-2411-0388",
+                "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "7ea7-6a69-2512-5b92",
+                "id": "9948-e1e4-f3ea-11e1",
+                "primary": false,
+                "name": "Hell"
+              }
+            ],
+            "sortIndex": 4
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Ultrahell",
+            "hidden": false,
+            "id": "c8f4-e48c-0dd6-3259",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "e621-6181-f6d2-f9a0",
+                "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "d1a6-bfa6-286d-1b1c",
+                "id": "98ca-e49b-3cbd-29c9",
+                "primary": false,
+                "name": "Ultrahell"
+              }
+            ],
+            "sortIndex": 5
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "c17a-3964-1eb7-437e",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "6bee-8f88-9b2d-998f",
+            "includeChildSelections": true
+          },
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "8753-c8dc-653d-b325",
+            "includeChildSelections": true
+          },
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "c707-076c-9bf5-ecd2",
+            "includeChildSelections": true
+          }
+        ]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Game Size",
+        "hidden": false,
+        "id": "70be-a498-6a92-b7fc",
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Game Size",
+            "hidden": false,
+            "id": "90dc-62e6-d6e5-f317",
+            "type": "selectionEntryGroup",
+            "targetId": "d543-ba48-5d7f-25b5"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "dd50-9f5d-6983-cbd6",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "64ab-2bad-fbdf-202f",
+            "includeChildSelections": false
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "44b7-5d0d-0ecc-ae1d",
+            "id": "f0b5-4162-8f4e-52ce",
+            "primary": true,
+            "name": "Game Options"
+          }
+        ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Malice Level",
+        "hidden": false,
+        "id": "3af2-8090-5323-5846",
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "0abc-14fb-6b1c-ed2c",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "f2e2-371d-73c5-4093",
+            "includeChildSelections": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Malice Level",
+            "hidden": false,
+            "id": "05ec-ed65-9e48-d922",
+            "type": "selectionEntryGroup",
+            "targetId": "afbf-6dd9-dd3e-a279"
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "44b7-5d0d-0ecc-ae1d",
+            "id": "205f-8711-24ed-b76f",
+            "primary": true,
+            "name": "Game Options"
+          }
+        ]
       }
     ]
   }

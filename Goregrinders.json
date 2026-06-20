@@ -178,7 +178,14 @@
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
-                    "page": "33"
+                    "page": "33",
+                    "attributes": [
+                      {
+                        "name": "New Attribute Type",
+                        "typeId": "18e6-c43c-9abf-e078",
+                        "$text": ""
+                      }
+                    ]
                   }
                 ],
                 "constraints": [
@@ -188,11 +195,31 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "f6bb-f733-981d-9bec",
+                    "id": "1a59-9d9f-0329-0873",
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 1
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "8888-1fab-a5f1-81cb",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
               },
               {
                 "type": "upgrade",
@@ -215,7 +242,14 @@
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
-                    "page": "33"
+                    "page": "33",
+                    "attributes": [
+                      {
+                        "name": "New Attribute Type",
+                        "typeId": "18e6-c43c-9abf-e078",
+                        "$text": ""
+                      }
+                    ]
                   }
                 ],
                 "constraints": [
@@ -225,11 +259,31 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "7b0e-5f48-f471-c720",
+                    "id": "fce2-4d0f-85e9-ee22",
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 2
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "7348-30cf-2cf9-0dd7",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
               },
               {
                 "type": "upgrade",
@@ -252,7 +306,14 @@
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
-                    "page": "33"
+                    "page": "33",
+                    "attributes": [
+                      {
+                        "name": "New Attribute Type",
+                        "typeId": "18e6-c43c-9abf-e078",
+                        "$text": ""
+                      }
+                    ]
                   }
                 ],
                 "constraints": [
@@ -262,11 +323,39 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "93bd-f3e2-2d9a-2b26",
+                    "id": "f6fe-71ac-5775-a3c3",
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 3
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "937e-752a-d123-8fc4",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "63cc-4b3a-e473-bf56",
+                "id": "39f6-b94a-c440-2a31",
+                "primary": false,
+                "name": "Upgrade List"
               }
             ]
           }

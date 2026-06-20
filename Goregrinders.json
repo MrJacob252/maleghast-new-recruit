@@ -10,6 +10,79 @@
     "page": "",
     "sharedSelectionEntries": [
       {
+        "type": "upgrade",
+        "import": true,
+        "name": "Pain Ghoul",
+        "hidden": false,
+        "id": "7c46-4a31-072e-9056",
+        "categoryLinks": [
+          {
+            "targetId": "8026-360f-68ed-6a0c",
+            "id": "b92d-d5c8-0cf0-4165",
+            "primary": true,
+            "name": "Freak"
+          },
+          {
+            "targetId": "default-category",
+            "id": "a21c-e275-6f91-8efc",
+            "primary": false,
+            "name": "Unit"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Blood Rage",
+            "id": "4236-7289-5eb9-55e7",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5414-d21e-62ad-17ef"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Pain Ghoul",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "2221-2514-acaa-bc90",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 1
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ]
+      },
+      {
         "type": "unit",
         "import": true,
         "name": "Warhead Squad",
@@ -33,16 +106,18 @@
         "step": "",
         "categoryLinks": [
           {
-            "targetId": "8bcf-0b80-c15a-bf1e",
+            "name": "Thrall",
+            "hidden": false,
             "id": "74a8-fa34-fd8b-e51d",
-            "primary": true,
-            "name": "Thrall"
+            "targetId": "8bcf-0b80-c15a-bf1e",
+            "primary": true
           },
           {
-            "targetId": "default-category",
+            "name": "Unit",
+            "hidden": false,
             "id": "c859-e27b-186b-6ae4",
-            "primary": false,
-            "name": "Unit"
+            "targetId": "default-category",
+            "primary": false
           }
         ],
         "selectionEntries": [
@@ -52,22 +127,6 @@
             "name": "Warhead",
             "hidden": false,
             "id": "1ba1-dd4a-0795-6c57",
-            "infoLinks": [
-              {
-                "name": "Warhead",
-                "id": "dc1c-32e8-291e-0f9b",
-                "hidden": false,
-                "type": "profile",
-                "targetId": "2185-e863-bd3e-6863"
-              },
-              {
-                "name": "Thrall",
-                "id": "8486-2177-feb5-4b7c",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "30c8-382b-46b6-e34e"
-              }
-            ],
             "defaultAmount": "2",
             "constraints": [
               {
@@ -88,7 +147,195 @@
                 "id": "e079-6f23-35c5-ae1f",
                 "includeChildSelections": false
               }
+            ],
+            "sortIndex": 1
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "7d84-4ee9-5351-0a4b",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Blooded",
+                "hidden": false,
+                "id": "97d7-a72e-576c-e6cf",
+                "profiles": [
+                  {
+                    "name": "Blooded",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "c828-6a3b-6196-0cfd",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Charge has a (5+) chance to grant retaliation until the start of its next turn."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "33"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f6bb-f733-981d-9bec",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overclocked",
+                "hidden": false,
+                "id": "7ed0-d66b-a72a-7ba0",
+                "profiles": [
+                  {
+                    "name": "Overclocked",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "6cef-8566-8cf9-c28c",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "At 1 hp or lower, gain free movement."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "33"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7b0e-5f48-f471-c720",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Lobotomized",
+                "hidden": false,
+                "id": "9d65-2680-7681-4498",
+                "profiles": [
+                  {
+                    "name": "Lobotomized",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "90c4-989e-5441-e39a",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Gain Curseproof."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "33"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "93bd-f3e2-2d9a-2b26",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3
+              }
             ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Blood Rage",
+            "id": "0360-1d69-83e2-9cbe",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5414-d21e-62ad-17ef"
+          },
+          {
+            "name": "Thrall",
+            "id": "83b5-609c-8a88-0e62",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "b2c6-299b-cd95-9540"
+          },
+          {
+            "name": "Warhead",
+            "id": "dc1c-32e8-291e-0f9b",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "2185-e863-bd3e-6863"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Charge",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "0f80-1035-68e7-f366",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Effect: MOVE as far as possible in a straight line, passing through units. Then, units passed through during this move take 1 damage."
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "33"
+          },
+          {
+            "name": "Cleave",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "a316-c383-890d-ee18",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee, attack"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "On hit: 1 damage and 1 damage to another adjacent unit."
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "33"
           }
         ]
       }
@@ -101,11 +348,6 @@
         "hidden": false,
         "id": "2185-e863-bd3e-6863",
         "characteristics": [
-          {
-            "name": "Unit Slot Cost",
-            "typeId": "494c-527d-1db0-f5a4",
-            "$text": ""
-          },
           {
             "name": "MV",
             "typeId": "db02-56b8-b943-0359",
@@ -129,16 +371,38 @@
         ],
         "publicationId": "da35-e534-5d09-746b",
         "page": "33"
+      },
+      {
+        "name": "Blood Rage",
+        "typeId": "c4ab-0724-e1de-ebce",
+        "typeName": "Traits",
+        "hidden": false,
+        "id": "5414-d21e-62ad-17ef",
+        "characteristics": [
+          {
+            "name": "Effect",
+            "typeId": "b305-f2f7-6e6a-44ce",
+            "$text": "If a unit with this trait is reduced to 0 hp, they are not slain, but instead gain 1 strength and remain at 0 hp, no matter how much damage they took. If they take any further damage at 0 hp, they are slain as normal."
+          }
+        ]
       }
     ],
     "entryLinks": [
       {
         "import": true,
-        "name": "Warhead",
+        "name": "Warhead Squad",
         "hidden": false,
         "id": "6532-af85-a64e-163d",
         "type": "selectionEntry",
         "targetId": "6cd4-a6fa-d647-6f18"
+      },
+      {
+        "import": true,
+        "name": "Pain Ghoul",
+        "hidden": false,
+        "id": "3b64-6a94-4078-edc6",
+        "targetId": "7c46-4a31-072e-9056",
+        "type": "selectionEntry"
       }
     ],
     "type": "catalogue"

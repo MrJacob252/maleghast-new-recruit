@@ -249,18 +249,44 @@
         "name": "ACT Abilities",
         "id": "a874-3212-1e77-eae3",
         "hidden": false,
-        "kind": "ability"
+        "kind": "ability",
+        "characteristicTypes": [
+          {
+            "name": "Tags",
+            "id": "d241-c19b-8fd1-da04",
+            "kind": "longText"
+          },
+          {
+            "name": "Effect",
+            "id": "08c9-0af1-3467-12b3",
+            "kind": "longText"
+          }
+        ]
       },
       {
         "name": "Upgrades",
         "id": "bc74-524a-c3d8-deb8",
-        "hidden": false
+        "hidden": false,
+        "characteristicTypes": [
+          {
+            "name": "Upgrade Effect",
+            "id": "d962-7955-1a5c-5069",
+            "kind": "longText"
+          }
+        ]
       },
       {
         "name": "Traits",
         "id": "c4ab-0724-e1de-ebce",
         "hidden": false,
-        "kind": "ability"
+        "kind": "ability",
+        "characteristicTypes": [
+          {
+            "name": "Effect",
+            "id": "b305-f2f7-6e6a-44ce",
+            "kind": "longText"
+          }
+        ]
       },
       {
         "name": "SOUL Abilities",
@@ -418,6 +444,23 @@
         "id": "30c8-382b-46b6-e34e",
         "hidden": false,
         "description": "2 of these units are worth 1 unit slot. Can be activated two at a time."
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Thrall",
+        "typeId": "c4ab-0724-e1de-ebce",
+        "typeName": "Traits",
+        "hidden": false,
+        "id": "b2c6-299b-cd95-9540",
+        "characteristics": [
+          {
+            "name": "Effect",
+            "typeId": "b305-f2f7-6e6a-44ce",
+            "$text": "2 of these units are worth 1 unit slot. Can be activated two at a time."
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b"
       }
     ]
   }

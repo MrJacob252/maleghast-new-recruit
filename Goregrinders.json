@@ -17,15 +17,9 @@
         "id": "7c46-4a31-072e-9056",
         "categoryLinks": [
           {
-            "targetId": "8026-360f-68ed-6a0c",
-            "id": "b92d-d5c8-0cf0-4165",
-            "primary": true,
-            "name": "Freak"
-          },
-          {
             "targetId": "default-category",
             "id": "a21c-e275-6f91-8efc",
-            "primary": false,
+            "primary": true,
             "name": "Unit"
           }
         ],
@@ -146,7 +140,7 @@
           {
             "name": "Unit Slots",
             "typeId": "729d-200e-b1c7-683e",
-            "value": 1
+            "value": 0
           },
           {
             "name": "Dark Power",
@@ -338,7 +332,58 @@
           }
         ],
         "publicationId": "da35-e534-5d09-746b",
-        "page": "34"
+        "page": "34",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Pain Ghoul",
+            "hidden": false,
+            "id": "fd73-a26b-f476-7bfa",
+            "categoryLinks": [
+              {
+                "targetId": "8026-360f-68ed-6a0c",
+                "id": "d5d8-e277-4dc1-b962",
+                "primary": true,
+                "name": "Freak"
+              }
+            ],
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "bcd0-1b2a-4e02-767b",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "50d9-bbf2-4bd4-c1de",
+            "includeChildSelections": false
+          }
+        ]
       },
       {
         "type": "unit",
@@ -352,7 +397,7 @@
           {
             "name": "Unit Slots",
             "typeId": "729d-200e-b1c7-683e",
-            "value": 1
+            "value": 0
           },
           {
             "name": "Dark Power",
@@ -364,18 +409,11 @@
         "step": "",
         "categoryLinks": [
           {
-            "name": "Thrall",
-            "hidden": false,
-            "id": "74a8-fa34-fd8b-e51d",
-            "targetId": "8bcf-0b80-c15a-bf1e",
-            "primary": true
-          },
-          {
             "name": "Unit",
             "hidden": false,
             "id": "c859-e27b-186b-6ae4",
             "targetId": "default-category",
-            "primary": false
+            "primary": true
           }
         ],
         "selectionEntries": [
@@ -384,8 +422,50 @@
             "import": true,
             "name": "Warhead",
             "hidden": false,
-            "id": "1ba1-dd4a-0795-6c57",
-            "defaultAmount": "2",
+            "id": "197f-665b-e591-05ff",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Warhead",
+                "hidden": false,
+                "id": "1ba1-dd4a-0795-6c57",
+                "defaultAmount": "2",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6b8f-a143-0a3c-49f5",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e079-6f23-35c5-ae1f",
+                    "includeChildSelections": false
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 1,
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
             "constraints": [
               {
                 "type": "min",
@@ -393,20 +473,10 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "6b8f-a143-0a3c-49f5",
-                "includeChildSelections": false
-              },
-              {
-                "type": "max",
-                "value": 2,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "e079-6f23-35c5-ae1f",
+                "id": "b295-e89d-3cf0-c443",
                 "includeChildSelections": false
               }
-            ],
-            "sortIndex": 1
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -872,6 +942,17 @@
             "publicationId": "da35-e534-5d09-746b",
             "page": "33"
           }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "4f9a-75e6-73b9-26ea",
+            "includeChildSelections": false
+          }
         ]
       },
       {
@@ -884,14 +965,8 @@
           {
             "targetId": "default-category",
             "id": "202c-ccf5-55a6-97ef",
-            "primary": false,
-            "name": "Unit"
-          },
-          {
-            "targetId": "c422-7dc4-5583-c6fd",
-            "id": "e95b-e322-d673-3838",
             "primary": true,
-            "name": "Scion"
+            "name": "Unit"
           }
         ],
         "infoLinks": [
@@ -1011,7 +1086,7 @@
           {
             "name": "Unit Slots",
             "typeId": "729d-200e-b1c7-683e",
-            "value": 1
+            "value": 0
           },
           {
             "name": "Dark Power",
@@ -1201,7 +1276,58 @@
           }
         ],
         "publicationId": "da35-e534-5d09-746b",
-        "page": "33"
+        "page": "33",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Carnifex",
+            "hidden": false,
+            "id": "a4a2-27db-2b4b-9358",
+            "categoryLinks": [
+              {
+                "targetId": "c422-7dc4-5583-c6fd",
+                "id": "e78f-73ac-0eb6-daca",
+                "primary": true,
+                "name": "Scion"
+              }
+            ],
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "6d52-ad31-a678-b5e5",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "f391-5b23-60eb-7b93",
+            "includeChildSelections": false
+          }
+        ]
       },
       {
         "type": "unit",
@@ -1541,7 +1667,30 @@
                 "name": "Horror"
               }
             ],
-            "defaultAmount": "1"
+            "defaultAmount": "1",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0251-34c8-9bca-cd1e",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "3ffa-fb93-ccf1-a620",
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
         ]
       },
@@ -2891,14 +3040,8 @@
           {
             "targetId": "default-category",
             "id": "9a81-9717-f3b9-e928",
-            "primary": false,
-            "name": "Unit"
-          },
-          {
-            "targetId": "7314-e0e7-35fe-aa92",
-            "id": "4165-9cd0-f152-3707",
             "primary": true,
-            "name": "Tyrant"
+            "name": "Unit"
           }
         ],
         "infoLinks": [
@@ -3038,7 +3181,7 @@
           {
             "name": "Unit Slots",
             "typeId": "729d-200e-b1c7-683e",
-            "value": 1
+            "value": 0
           },
           {
             "name": "Dark Power",
@@ -3228,7 +3371,58 @@
           }
         ],
         "publicationId": "da35-e534-5d09-746b",
-        "page": "35"
+        "page": "35",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "103f-086c-4ca2-0e78",
+            "includeChildSelections": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Berserker",
+            "hidden": false,
+            "id": "0f58-8b0e-e757-fc3d",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "7314-e0e7-35fe-aa92",
+                "id": "fb98-719f-c3b9-7266",
+                "primary": true,
+                "name": "Tyrant"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "abfe-5d7d-31fe-b97f",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ]
       },
       {
         "type": "unit",
@@ -3240,14 +3434,8 @@
           {
             "targetId": "default-category",
             "id": "db68-6219-95be-961b",
-            "primary": false,
-            "name": "Unit"
-          },
-          {
-            "targetId": "8026-360f-68ed-6a0c",
-            "id": "0acf-6612-b42b-39df",
             "primary": true,
-            "name": "Freak"
+            "name": "Unit"
           }
         ],
         "infoLinks": [
@@ -3366,7 +3554,7 @@
           {
             "name": "Unit Slots",
             "typeId": "729d-200e-b1c7-683e",
-            "value": 1
+            "value": 0
           },
           {
             "name": "Dark Power",
@@ -3556,7 +3744,58 @@
           }
         ],
         "publicationId": "0300-2d2b-d6c4-502c",
-        "page": "17"
+        "page": "17",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Gearhead",
+            "hidden": false,
+            "id": "3a3a-bc15-bcb0-2629",
+            "categoryLinks": [
+              {
+                "targetId": "8026-360f-68ed-6a0c",
+                "id": "f2b7-08f4-c8ee-9822",
+                "primary": true,
+                "name": "Freak"
+              }
+            ],
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "c384-6465-bca0-6800",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "099b-afc3-2ea1-0786",
+            "includeChildSelections": false
+          }
+        ]
       }
     ],
     "sharedProfiles": [

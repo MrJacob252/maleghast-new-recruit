@@ -84,6 +84,11 @@
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
                 "$text": "Unit gains 2 berserk or 2 speed."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
               }
             ]
           },
@@ -103,6 +108,11 @@
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
                 "$text": "Clear all negative tokens on self or a unit, then deal 1 piercing fire damage to them. This damage can’t slay a unit."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
               }
             ]
           },
@@ -122,6 +132,11 @@
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
                 "$text": "Pull unit 3"
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
               }
             ],
             "page": ""
@@ -163,13 +178,6 @@
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
                         "$text": "At 1 hp or lower, self and adjacent allies become curseproof."
-                      }
-                    ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
@@ -230,13 +238,6 @@
                         "$text": "At 1 hp or lower, Meat Hook can pull up to three units"
                       }
                     ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
-                      }
-                    ],
                     "publicationId": "da35-e534-5d09-746b",
                     "page": "33"
                   }
@@ -293,13 +294,6 @@
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
                         "$text": "Allies gain 1 speed per negative token removed from Cauterize."
-                      }
-                    ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
@@ -442,14 +436,7 @@
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
-                    "page": "33",
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
-                      }
-                    ]
+                    "page": "33"
                   }
                 ],
                 "constraints": [
@@ -506,14 +493,7 @@
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
-                    "page": "33",
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
-                      }
-                    ]
+                    "page": "33"
                   }
                 ],
                 "constraints": [
@@ -570,14 +550,7 @@
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
-                    "page": "33",
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
-                      }
-                    ]
+                    "page": "33"
                   }
                 ],
                 "constraints": [
@@ -640,13 +613,6 @@
                             "$text": "Charge has a (5+) chance to grant retaliation until the start of its next turn."
                           }
                         ],
-                        "attributes": [
-                          {
-                            "name": "New Attribute Type",
-                            "typeId": "18e6-c43c-9abf-e078",
-                            "$text": ""
-                          }
-                        ],
                         "publicationId": "da35-e534-5d09-746b",
                         "page": "33"
                       }
@@ -705,13 +671,6 @@
                             "$text": "At 1 hp or lower, gain free movement."
                           }
                         ],
-                        "attributes": [
-                          {
-                            "name": "New Attribute Type",
-                            "typeId": "18e6-c43c-9abf-e078",
-                            "$text": ""
-                          }
-                        ],
                         "publicationId": "da35-e534-5d09-746b",
                         "page": "33"
                       }
@@ -768,13 +727,6 @@
                             "name": "Upgrade Effect",
                             "typeId": "d962-7955-1a5c-5069",
                             "$text": "Gain Curseproof."
-                          }
-                        ],
-                        "attributes": [
-                          {
-                            "name": "New Attribute Type",
-                            "typeId": "18e6-c43c-9abf-e078",
-                            "$text": ""
                           }
                         ],
                         "publicationId": "da35-e534-5d09-746b",
@@ -852,7 +804,12 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Effect: MOVE as far as possible in a straight line, passing through units. Then, units passed through during this move take 1 damage."
+                "$text": "MOVE as far as possible in a straight line, passing through units. Then, units passed through during this move take 1 damage."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
               }
             ],
             "publicationId": "da35-e534-5d09-746b",
@@ -873,7 +830,12 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "On hit: 1 damage and 1 damage to another adjacent unit."
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage and 1 damage to another adjacent unit."
               }
             ],
             "publicationId": "da35-e534-5d09-746b",
@@ -987,6 +949,11 @@
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
                 "$text": "MOVE as far as possible in a straight line. Then, all units adjacent to any space of this MOVE take 1 fire damage."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
               }
             ]
           },
@@ -1006,6 +973,11 @@
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
                 "$text": "Gain 1 strength and speed (4+) and retaliation until the start of this unit’s next turn."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
               }
             ]
           },
@@ -1024,7 +996,12 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "On hit: 1 damage, and (effect: 4+): 1 damage again, (6+): 1 damage again."
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage, and (effect: 4+): 1 damage again, (6+): 1 damage again."
               }
             ],
             "page": ""
@@ -1066,13 +1043,6 @@
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
                         "$text": "May step 1 before and after using Chainsaw."
-                      }
-                    ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
                       }
                     ],
                     "page": ""
@@ -1132,13 +1102,6 @@
                         "$text": "Rev grants one (5+) or two berserk."
                       }
                     ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
-                      }
-                    ],
                     "page": ""
                   }
                 ],
@@ -1196,13 +1159,6 @@
                         "$text": "At 0 hp, all damage gains pierce."
                       }
                     ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
-                      }
-                    ],
                     "page": ""
                   }
                 ],
@@ -1257,14 +1213,8 @@
           {
             "targetId": "default-category",
             "id": "459b-4d50-4fc6-6c92",
-            "primary": false,
-            "name": "Unit"
-          },
-          {
-            "targetId": "a5cb-2aa7-a054-c37b",
-            "id": "f489-74d5-4b6a-be33",
             "primary": true,
-            "name": "Horror"
+            "name": "Unit"
           }
         ],
         "infoLinks": [
@@ -1322,6 +1272,11 @@
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
                 "$text": "Unit MOVEs as far as possible in a straight line. The first enemy unit this unit passes through during this MOVE  takes 1 fire damage. Then this unit gains 2 speed."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
               }
             ]
           },
@@ -1340,7 +1295,12 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "On hit: 1 damage and (effect: 4+) 1 damage again. (6+) 1 damage again."
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage and (effect: 4+) 1 damage again. (6+) 1 damage again."
               }
             ]
           },
@@ -1363,7 +1323,7 @@
           {
             "name": "Unit Slots",
             "typeId": "729d-200e-b1c7-683e",
-            "value": 1
+            "value": 0
           },
           {
             "name": "Dark Power",
@@ -1395,13 +1355,6 @@
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
                         "$text": "Spin Out may pull a unit in range 3 one space before its MOVE."
-                      }
-                    ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
                       }
                     ],
                     "page": ""
@@ -1461,13 +1414,6 @@
                         "$text": "Spin out grants 1 berserk."
                       }
                     ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
-                      }
-                    ],
                     "page": ""
                   }
                 ],
@@ -1525,13 +1471,6 @@
                         "$text": "At 1 hp, may MOVE again for free at any point during turn."
                       }
                     ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
-                      }
-                    ],
                     "page": ""
                   }
                 ],
@@ -1574,7 +1513,37 @@
           }
         ],
         "publicationId": "da35-e534-5d09-746b",
-        "page": "34"
+        "page": "34",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Painwheel",
+            "hidden": false,
+            "id": "4cfe-d9fc-0751-89d7",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "a5cb-2aa7-a054-c37b",
+                "id": "4aa2-55ca-05b6-74f1",
+                "primary": true,
+                "name": "Horror"
+              }
+            ],
+            "defaultAmount": "1"
+          }
+        ]
       },
       {
         "type": "unit",
@@ -1650,7 +1619,12 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "On hit: 1 damage and (effect: 4+): 1 fire damage again, (6+): 1 fire damage again"
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage and (effect: 4+): 1 fire damage again, (6+): 1 fire damage again"
               }
             ]
           },
@@ -1678,7 +1652,7 @@
               {
                 "name": "Cost",
                 "typeId": "e757-13c7-c21e-70b9",
-                "$text": "1 SOUL"
+                "$text": "1"
               },
               {
                 "name": "When",
@@ -1712,7 +1686,7 @@
               {
                 "name": "Cost",
                 "typeId": "e757-13c7-c21e-70b9",
-                "$text": "3 SOUL"
+                "$text": "3"
               },
               {
                 "name": "When",
@@ -1944,7 +1918,8 @@
                 "id": "359f-d4a5-b826-0313-max",
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 1
           },
           {
             "name": "Free ACT Upgrade",
@@ -1976,7 +1951,8 @@
                     "type": "profile",
                     "targetId": "f04e-1728-92d8-7dbc"
                   }
-                ]
+                ],
+                "sortIndex": 2
               },
               {
                 "type": "upgrade",
@@ -2003,7 +1979,148 @@
                     "type": "profile",
                     "targetId": "5a14-03af-99fe-504e"
                   }
-                ]
+                ],
+                "sortIndex": 1
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Furious Roar",
+                "hidden": false,
+                "id": "3e08-762a-ef87-9c6d",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7c9d-f725-3a76-a318",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Furious Roar",
+                    "id": "ea54-6ad8-a802-6e7d",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "48a0-6b6a-e205-4f26"
+                  }
+                ],
+                "sortIndex": 3
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Apoplexy",
+                "hidden": false,
+                "id": "bdbc-bd26-f909-7b07",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "61fa-3aed-0896-fdac",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Apoplexy",
+                    "id": "b202-b8d2-5550-8489",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a08f-820d-916d-9341"
+                  }
+                ],
+                "sortIndex": 4
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Pilebunker",
+                "hidden": false,
+                "id": "1a1d-343c-e0bb-7af5",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1fd3-1560-5097-d2e8",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Pilebunker",
+                    "id": "7474-ad6e-9c1f-338e",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6649-5137-ab13-25af"
+                  }
+                ],
+                "sortIndex": 5
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Saw Toothed Slayer Axe",
+                "hidden": false,
+                "id": "e483-1172-d654-5d46",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0950-e3c3-a51f-1ed4",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Saw Toothed Slayer Axe",
+                    "id": "6dab-6487-70cb-2509",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "76a1-ab3c-b1b1-27a3"
+                  }
+                ],
+                "sortIndex": 6
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Spine Devil Blade",
+                "hidden": false,
+                "id": "a5fb-9ac1-c811-da13",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f2d5-ec4f-d04e-2c12",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Spine Devil Blade",
+                    "id": "2751-f96f-be0c-f718",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4ed5-699b-1a6f-97c1"
+                  }
+                ],
+                "sortIndex": 7
               }
             ],
             "constraints": [
@@ -2025,7 +2142,8 @@
                 "id": "2c20-21ab-7cf5-e884-max",
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "sortIndex": 2
           },
           {
             "name": "ACT Upgrades",
@@ -2069,7 +2187,8 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "sortIndex": 2
               },
               {
                 "type": "upgrade",
@@ -2108,9 +2227,655 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
+                ],
+                "sortIndex": 1
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Furious Roar",
+                "hidden": false,
+                "id": "828e-8abb-25cf-c611",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1dbd-490c-face-8ef7",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Furious Roar",
+                    "id": "d5d6-fa96-63f6-ae2c",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "48a0-6b6a-e205-4f26"
+                  }
+                ],
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Apoplexy",
+                "hidden": false,
+                "id": "f324-885c-e0a6-f4b8",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0812-0538-2209-e10a",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Apoplexy",
+                    "id": "8644-7d1c-a331-38f3",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a08f-820d-916d-9341"
+                  }
+                ],
+                "sortIndex": 4,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Pilebunker",
+                "hidden": false,
+                "id": "dccd-f8ad-7520-73b8",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f3fe-4b54-545d-981e",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Pilebunker",
+                    "id": "0dab-8e34-e08b-34f1",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6649-5137-ab13-25af"
+                  }
+                ],
+                "sortIndex": 5,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Saw Toothed Slayer Axe",
+                "hidden": false,
+                "id": "53ba-f1fb-6e58-64f1",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "eacc-a05c-91e8-d275",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Saw Toothed Slayer Axe",
+                    "id": "af49-7a06-8efc-07ab",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "76a1-ab3c-b1b1-27a3"
+                  }
+                ],
+                "sortIndex": 6,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Spine Devil Blade",
+                "hidden": false,
+                "id": "6236-72e2-e13c-d704",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d4db-6b8a-de6f-68ad",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Spine Devil Blade",
+                    "id": "9820-627e-4132-1889",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4ed5-699b-1a6f-97c1"
+                  }
+                ],
+                "sortIndex": 7,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
                 ]
               }
-            ]
+            ],
+            "sortIndex": 4
+          },
+          {
+            "name": "Free SOUL Upgrade",
+            "id": "a5c5-21ef-1dbb-6a45",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1476-19c2-b896-9044",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a25f-0184-f84b-9ec1",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Hellrider Kick",
+                "hidden": false,
+                "id": "4c79-63a6-edbb-1a62",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6035-6c40-ca68-d6bc",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "infoLinks": [
+                  {
+                    "name": "Hellrider Kick",
+                    "id": "4bfe-69a1-534a-ea5e",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c870-f66d-c0a9-b01e"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overclock",
+                "hidden": false,
+                "id": "3a94-795a-750a-5974",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cef7-9f04-418d-fd9a",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "infoLinks": [
+                  {
+                    "name": "Overclock",
+                    "id": "25c4-f010-6297-7be0",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "03a4-85e5-861d-a960"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Gorebather",
+                "hidden": false,
+                "id": "d92d-46a9-6651-1941",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "591a-8f87-178a-71c7",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Gorebather",
+                    "id": "3bec-7b3c-3c2f-7f0b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a572-1542-6152-af78"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Killing Spree",
+                "hidden": false,
+                "id": "a1d0-5594-e7fc-10d9",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6898-a45f-51ab-c67b",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 5,
+                "infoLinks": [
+                  {
+                    "name": "Killing Spree",
+                    "id": "6e1c-f8cb-2bc0-7cad",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "9044-d85f-f0b5-db9e"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Blood Boil",
+                "hidden": false,
+                "id": "3b3f-1cc9-3649-85e2",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "695b-a6d9-69e8-4948",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Blood Boil",
+                    "id": "1dd3-72bb-3fa6-6e7a",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6ab8-c8dd-3395-4bf0"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Devil Impact",
+                "hidden": false,
+                "id": "5f3f-725a-4166-8621",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0ed2-8e07-7523-7ea8",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 6,
+                "infoLinks": [
+                  {
+                    "name": "Devil Impact",
+                    "id": "84e3-ea69-0460-7588",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "e304-50cb-86fb-a3c4"
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 3
+          },
+          {
+            "name": "SOUL Upgrade",
+            "id": "2435-ab68-6e98-c114",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Hellrider Kick",
+                "hidden": false,
+                "id": "e54c-f5d7-536c-b00e",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "4cb5-8147-023d-95b3",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "infoLinks": [
+                  {
+                    "name": "Hellrider Kick",
+                    "id": "6b9f-7e8b-69b4-1348",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c870-f66d-c0a9-b01e"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overclock",
+                "hidden": false,
+                "id": "2957-7afa-d6e4-1257",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9cc6-073d-66ed-b964",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "infoLinks": [
+                  {
+                    "name": "Overclock",
+                    "id": "a064-ea1f-5575-c5f0",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "03a4-85e5-861d-a960"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Gorebather",
+                "hidden": false,
+                "id": "344b-3eb7-05dc-4db2",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1bb1-88b4-05a9-e370",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Gorebather",
+                    "id": "1a66-6a65-0b42-ad57",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a572-1542-6152-af78"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Killing Spree",
+                "hidden": false,
+                "id": "e0ea-e970-c9c5-ca04",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "78cc-348c-6648-402c",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 5,
+                "infoLinks": [
+                  {
+                    "name": "Killing Spree",
+                    "id": "d8db-f5bf-c576-640d",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "9044-d85f-f0b5-db9e"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Blood Boil",
+                "hidden": false,
+                "id": "d704-ab33-6352-8717",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ef4d-f439-a7c4-6efa",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Blood Boil",
+                    "id": "6988-5e9a-cb85-022b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6ab8-c8dd-3395-4bf0"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Devil Impact",
+                "hidden": false,
+                "id": "7c4f-21de-2544-199f",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6cd1-4073-914a-0db4",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 6,
+                "infoLinks": [
+                  {
+                    "name": "Devil Impact",
+                    "id": "faa3-1ca9-d7c9-d757",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "e304-50cb-86fb-a3c4"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 5
           }
         ],
         "publicationId": "da35-e534-5d09-746b",
@@ -2198,6 +2963,11 @@
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
                 "$text": "Gain 1 strength and 1 berserk, (4+) then gain retaliation until end of this unit’s next turn."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
               }
             ]
           },
@@ -2217,6 +2987,11 @@
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
                 "$text": "Pull all units in range 2 one space towards this unit. Then splash (self): 1 fire damage and destroy all adjacent walls."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
               }
             ]
           },
@@ -2250,6 +3025,11 @@
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
                 "$text": "2 damage. Deal 1 damage again if this unit has 3 or less hp, then deal 1 damage again if it is at 1 hp or less."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
               }
             ]
           }
@@ -2290,13 +3070,6 @@
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
                         "$text": "At 1 hp or lower, gains super armor."
-                      }
-                    ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
                       }
                     ],
                     "page": ""
@@ -2356,13 +3129,6 @@
                         "$text": "May step 2 before using Pulverize."
                       }
                     ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
-                      }
-                    ],
                     "page": ""
                   }
                 ],
@@ -2420,13 +3186,6 @@
                         "$text": "Rip and Tear obliterates units that it reduces to 0 hp."
                       }
                     ],
-                    "attributes": [
-                      {
-                        "name": "New Attribute Type",
-                        "typeId": "18e6-c43c-9abf-e078",
-                        "$text": ""
-                      }
-                    ],
                     "page": ""
                   }
                 ],
@@ -2470,6 +3229,334 @@
         ],
         "publicationId": "da35-e534-5d09-746b",
         "page": "35"
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Gearhead",
+        "hidden": false,
+        "id": "6b1f-7407-cd81-488b",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "db68-6219-95be-961b",
+            "primary": false,
+            "name": "Unit"
+          },
+          {
+            "targetId": "8026-360f-68ed-6a0c",
+            "id": "0acf-6612-b42b-39df",
+            "primary": true,
+            "name": "Freak"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Blood Rage",
+            "id": "7636-af98-76b1-3809",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5414-d21e-62ad-17ef"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Gearhead",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "4b0e-f5f2-2b58-1157",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ]
+          },
+          {
+            "name": "Overclock",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "3cdb-e26e-778c-6326",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Range 1-3"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Self or a unit in range gains 2 speed. If target is at 1 hp or lower, splash (target) 1 fire damage."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Tinker",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "fb5b-d988-56f3-9de7",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Tinker with an adjacent unit. Unit gains 1 berserk, then roll the effect die (1-3): Increase unit’s MV stat by +1 this battle, (4-5): increase a unit’s DF stat by +1 this battle, to a max of 6+, (6+): Increase unit’s current and max hp by 1 this battle."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Restart Engine",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "b48b-9a75-fbcd-df34",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Ally, Melee"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Self or an adjacent ally has their hp set to 1."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 1
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "b035-6b9e-4de9-1127",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Rage Overclock",
+                "hidden": false,
+                "id": "52d5-b28a-d379-8750",
+                "profiles": [
+                  {
+                    "name": "Rage Overclock",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "4a64-6968-a788-404a",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Overclock has a 5+ effect chance to grant retaliation until the start of this units next turn."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9cfa-0341-3a76-487d",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "0b68-7e39-93c1-19a7",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Rolling Start",
+                "hidden": false,
+                "id": "016c-c5d4-31ed-b9c6",
+                "profiles": [
+                  {
+                    "name": "Rolling Start",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "b71a-451d-eb21-571e",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Restart engine allows allows ally to step 2"
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ff8b-2698-586d-1968",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "5b57-e825-458e-f12c",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Frenzied Tinkering",
+                "hidden": false,
+                "id": "6ddf-011e-f412-8c90",
+                "profiles": [
+                  {
+                    "name": "Frenzied Tinkering",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "f90d-bf88-2a08-b9c1",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "At 1 hp or lower, all abilities target self and an adjacent ally."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1b9b-8a3f-1a8d-147d",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "440e-a497-4f95-0a8a",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "page": ""
+          }
+        ],
+        "publicationId": "0300-2d2b-d6c4-502c",
+        "page": "17"
       }
     ],
     "sharedProfiles": [
@@ -2503,6 +3590,11 @@
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
             "$text": "Convert up to 3 negative tokens on self or adjacent allies to speed or strength tokens. Then this unit becomes curseproof until the start of its next turn."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
           }
         ]
       },
@@ -2522,6 +3614,335 @@
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
             "$text": "Pull a unit in range 2 spaces. Effect (3+): Pull another unit. (5+): Pull another unit."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Furious Roar",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "48a0-6b6a-e205-4f26",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Destroy all adjacent walls. Then, self and two other adjacent units may step 1 and gain 1 speed."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Apoplexy",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "a08f-820d-916d-9341",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Gain 1 strength and 1 berserk, then double all berserk and strength tokens."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Pilebunker",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "6649-5137-ab13-25af",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Melee, Attack"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "2 damage, then 1 fire damage again. Effect: This attack rolls -1D."
+          }
+        ]
+      },
+      {
+        "name": "Saw Toothed Slayer Axe",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "76a1-ab3c-b1b1-27a3",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Line 4"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "1 damage. If only one unit is caught in the area, increase this damage to 2 instead and this line passes through and destroys walls."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Spine Devil Blade",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "4ed5-699b-1a6f-97c1",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Melee, Attack"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Increase this damage by +1 on hit for every 3 hp this unit is missing. If this unit is at 0 hp, this damage obliterates its target if it slays them"
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 fire damage."
+          }
+        ]
+      },
+      {
+        "name": "Hellrider Kick",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "c870-f66d-c0a9-b01e",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or allied turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "MOVE with free movement, then deal 1 fire damage to an adjacent foe."
+          }
+        ]
+      },
+      {
+        "name": "Overclock",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "03a4-85e5-861d-a960",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or allied turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 1-3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Self or unit in range gains 2 speed. If the unit is at 1 hp or lower, splash (target): 1 fire damage."
+          }
+        ]
+      },
+      {
+        "name": "Gorebather",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "a572-1542-6152-af78",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "You slay a unit"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Step 1. All allied units anywhere may step 1."
+          }
+        ]
+      },
+      {
+        "name": "Killing Spree",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "9044-d85f-f0b5-db9e",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "3"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any Turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "After a unit ACTs"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Step 1, then deal 1 piercing damage to an adjacent unit. Speed can be spent to extend this step by +2. If that unit is slain, repeat this effect. It can repeat any number of times."
+          }
+        ]
+      },
+      {
+        "name": "Blood Boil",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "6ab8-c8dd-3395-4bf0",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "4"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any Turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Unit is slain"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Unit is not slain but remains at 0 hp and becomes immune to all damage. At the end of its next turn, it explodes, obliterating it, and dealing splash (self): 1 fire damage."
+          }
+        ]
+      },
+      {
+        "name": "Devil Impact",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "e304-50cb-86fb-a3c4",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "6"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Deal 6 devil damage to an adjacent unit. Then deal 6 devil damage to yourself."
           }
         ]
       }
@@ -2557,6 +3978,30 @@
         "hidden": false,
         "id": "bd79-b3f1-7787-7ffd",
         "targetId": "92f7-3264-2aab-6cb8",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Warhead",
+        "hidden": false,
+        "id": "613f-64de-b765-6e99",
+        "targetId": "6cd4-a6fa-d647-6f18",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Berserker",
+        "hidden": false,
+        "id": "9d7d-6dde-dcef-93b8",
+        "targetId": "02fc-63bd-b6ab-116c",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Gearhead",
+        "hidden": false,
+        "id": "64f1-16b7-fddf-eba9",
+        "targetId": "6b1f-7407-cd81-488b",
         "type": "selectionEntry"
       }
     ],

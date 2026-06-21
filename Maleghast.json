@@ -90,7 +90,7 @@
             "scope": "force",
             "shared": true,
             "id": "1056-8988-d3e9-0c82",
-            "includeChildSelections": false
+            "includeChildSelections": true
           }
         ]
       },
@@ -439,6 +439,14 @@
         "publisher": "Magnagothica Maleghast Update 3",
         "publisherUrl": "https://tombloom.itch.io/magnagothica-maleghast",
         "publicationDate": "2025-05-30"
+      },
+      {
+        "name": "Games for Freaks 2 2025",
+        "id": "0300-2d2b-d6c4-502c",
+        "hidden": false,
+        "publisher": "Games for Freaks",
+        "publicationDate": "June 2025",
+        "publisherUrl": "https://patreon.com/killsixbilliondemons"
       }
     ],
     "costTypes": [
@@ -480,7 +488,8 @@
             "id": "d539-7a96-9a0b-9090",
             "defaultValue": "-"
           }
-        ]
+        ],
+        "sortIndex": 1
       },
       {
         "name": "ACT Abilities",
@@ -497,8 +506,14 @@
             "name": "Effect",
             "id": "08c9-0af1-3467-12b3",
             "kind": "longText"
+          },
+          {
+            "name": "On Hit",
+            "id": "20c2-cbeb-cb0b-47be",
+            "kind": "longText"
           }
-        ]
+        ],
+        "sortIndex": 3
       },
       {
         "name": "Upgrades",
@@ -510,7 +525,8 @@
             "id": "d962-7955-1a5c-5069",
             "kind": "longText"
           }
-        ]
+        ],
+        "sortIndex": 5
       },
       {
         "name": "Traits",
@@ -523,7 +539,8 @@
             "id": "b305-f2f7-6e6a-44ce",
             "kind": "longText"
           }
-        ]
+        ],
+        "sortIndex": 2
       },
       {
         "name": "SOUL Abilities",
@@ -536,12 +553,12 @@
             "formatRules": [
               {
                 "name": "New Format Rule",
-                "id": "f093-725b-c529-1876",
+                "id": "0fd6-de2c-8166-72ef",
                 "hidden": false,
                 "type": "regex",
-                "match": "^$",
-                "replace": "-",
-                "comment": "Empty → -"
+                "match": "([\\s\\S]*)",
+                "replace": "$1 SOUL",
+                "comment": "Append SUFFIX"
               }
             ],
             "kind": "longText"
@@ -610,7 +627,8 @@
             ],
             "kind": "longText"
           }
-        ]
+        ],
+        "sortIndex": 4
       }
     ],
     "sharedRules": [
@@ -626,36 +644,36 @@
         "name": "Step",
         "id": "c017-2f16-4d88-8c6b",
         "hidden": false,
-        "description": "When a unit steps, it moves that many spaces, but it doesn’t count as a MOVE.",
+        "description": "Move the specified number of spaces. Does not count as a MOVE.",
         "publicationId": "da35-e534-5d09-746b",
-        "page": "13"
+        "page": "62"
       },
       {
         "name": "Push",
         "id": "e400-17e1-4374-0dcb",
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
-        "page": "13",
-        "description": "When a unit is pushed by an ability, it is called forced movement. Forced movement ignores movement penalties (such as from terrain) and doesn’t count as a MOVE or step."
+        "page": "62",
+        "description": "Forcibly push unit a number of spaces, as long as each space of the push is further away from the pushing unit or effect than the last space. Does not count as a MOVE."
       },
       {
         "name": "Pull",
         "id": "f53b-1470-2340-5632",
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
-        "page": "13",
-        "description": "When a unit is pulled by an ability, it is called forced movement. Forced movement ignores movement penalties (such as from terrain) and doesn’t count as a MOVE or step."
+        "page": "62",
+        "description": "Forcibly pull unit a number of spaces, as long as each space of the pull is closer to the pulling unit or effect than the last space. Does not count as a MOVE."
       },
       {
         "name": "Free Movement",
         "id": "1599-bc10-aa0f-1796",
         "hidden": false,
-        "page": "13",
+        "page": "62",
         "publicationId": "da35-e534-5d09-746b",
-        "description": "Free movement means a unit’s movement can’t be reduced by any means"
+        "description": "Unit’s movement cannot be reduced by any means."
       },
       {
-        "name": "Physical Armor",
+        "name": "PHYS",
         "id": "fe9c-d30f-faaa-0283",
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
@@ -663,7 +681,7 @@
         "description": "Take 1 less damage from type that is NOT fire, toxic, curse and holy."
       },
       {
-        "name": "Super Armor",
+        "name": "SUPER",
         "id": "348c-1744-4051-838d",
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
@@ -671,7 +689,7 @@
         "description": "Take 1 less damage from any damage."
       },
       {
-        "name": "Magical Armor",
+        "name": "MAG",
         "id": "48c2-8b2c-923c-7eaa",
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
@@ -700,7 +718,7 @@
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
         "page": "18",
-        "description": "Devil damage cannot be reduced, increased, or ignored for any reason. Additionally units reduced to 0 hp by devil damage are instantly obliterated"
+        "description": "Cannot be reduced, increased, or ignored for any reason. Additionally units reduced to 0 hp by devil damage are instantly obliterated"
       },
       {
         "name": "New Rule",
@@ -716,7 +734,7 @@
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
         "page": "18",
-        "description": "Take -1 damage, discard one after taking damage."
+        "description": "Take -1 damage, discard one after taking damage. Cancels Vulnerable."
       },
       {
         "name": "Strength",
@@ -724,7 +742,7 @@
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
         "page": "18",
-        "description": "+1 damage, discard one after dealing damage."
+        "description": "+1 damage, discard one after dealing damage. Cancels weak."
       },
       {
         "name": "Weak",
@@ -732,7 +750,7 @@
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
         "page": "18",
-        "description": "-1 damage, discard one after dealing damage."
+        "description": "-1 damage, discard one after dealing damage. Cancels Strength."
       },
       {
         "name": "Vulnerability",
@@ -740,7 +758,7 @@
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
         "page": "18",
-        "description": "Take +1 damage, discard one after taking damage."
+        "description": "Take +1 damage, discard one after taking damage. Cancels Vitality."
       },
       {
         "name": "Speed",
@@ -748,7 +766,7 @@
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
         "page": "18",
-        "description": "MOVE +2 more spaces, discard one after MOVEing."
+        "description": "MOVE +2 more spaces, discard one after MOVEing. Cancels Slow."
       },
       {
         "name": "Slow",
@@ -756,13 +774,136 @@
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
         "page": "18",
-        "description": "MOVE a max of 1 space, discard one after MOVEing."
+        "description": "MOVE a max of 1 space, discard one after MOVEing. Cancels Speed."
       },
       {
-        "name": "Thrall",
-        "id": "30c8-382b-46b6-e34e",
+        "name": "Adverse",
+        "id": "65d3-6afb-4579-e343",
         "hidden": false,
-        "description": "2 of these units are worth 1 unit slot. Can be activated two at a time."
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "Special terrain type, like mud, rubble, water, etc. Costs +1 more movement to exit."
+      },
+      {
+        "name": "Armor",
+        "id": "09e0-8180-75eb-0964",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "Armor blocks 1 damage any time it is applied, depending on type."
+      },
+      {
+        "name": "Hazard",
+        "id": "29f7-4151-a515-b088",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "Special terrain type. A unit that starts their turn in a hazard takes 1 damage, ignoring armor, and a unit also takes this damage if they enter a hazard space during their turn. Hazards can overlap other terrain types."
+      },
+      {
+        "name": "Charge",
+        "id": "7825-7d1a-3bb7-c43a",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "Cannot be used round 1."
+      },
+      {
+        "name": "Curseproof",
+        "id": "6949-df60-4ad5-266d",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "Immune to damage and effects of Curses from foes."
+      },
+      {
+        "name": "Elevation",
+        "id": "adcb-5e0a-15b8-40f4",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "Special terrain type. Provides cover. Costs +1 movement to enter from a non-elevated space. Units on elevation gain +1D on attacks against units not on elevation, and units gain -1D to attack units on elevation if they are on ground level."
+      },
+      {
+        "name": "Damage",
+        "id": "d0df-bd18-8252-fa0c",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "All damage is physical (un-typed), magical (toxic, curse, fire, holy), or devil."
+      },
+      {
+        "name": "Line",
+        "id": "169d-d625-cf2a-6dc8",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "Affects all units in a line. Lines can only be drawn in orthogonal (compass) directions and can only be drawn from one of those spaces."
+      },
+      {
+        "name": "Large",
+        "id": "1758-6282-af7b-2d65",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "This unit is 2x2. It ignores elevated spaces and cannot take cover. It is affected by terrain and other space-based effects as long as their occupy at least one space of their total area, but these effects don’t stack on them."
+      },
+      {
+        "name": "Obliterate",
+        "id": "300a-06fd-038a-9e02",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "A unit that is obliterated leaves neither body nor SOUL and does not trigger effects that trigger when they are slain or reduced to 0 hp."
+      },
+      {
+        "name": "Pierce",
+        "id": "5f34-028e-546c-634c",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "This damage ignores armor"
+      },
+      {
+        "name": "Soulless",
+        "id": "dd58-6f92-81f8-9ed7",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "A soulless unit leaves no corpse, doesn’t grant SOUL, and can’t be used for body block."
+      },
+      {
+        "name": "Splash",
+        "id": "854b-b098-5061-6a50",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "Affects all adjacent units, but not the target. Can be splash (target) or splash (self)."
+      },
+      {
+        "name": "Summon",
+        "id": "2247-175f-d327-0b2b",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "Summoned units are usually created by abilities. When summoning a unit, place it on the battlefield in a free space in range. Summoning a unit doesn’t count as it moving or entering a space. Summoned units are SOULLESS and may be activated in the round after their summoning."
+      },
+      {
+        "name": "Wall",
+        "id": "5f25-fc5a-8bda-ec1b",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "62",
+        "description": "Terrain type. Blocks movement and line of sight. Can be targeted and destroyed as a character but does not trigger effects, and has 2 hp."
+      },
+      {
+        "name": "Token",
+        "id": "52aa-183d-215e-51f0",
+        "hidden": false,
+        "alias": [
+          "Tokens"
+        ],
+        "description": "Tokens apply a static effect while a unit has at least one. Mutation tokens may be discarded in place of any other token, ie they can be a stand-in and act as a ‘copy’ for any other token, allowing you to keep the original."
       }
     ],
     "sharedProfiles": [

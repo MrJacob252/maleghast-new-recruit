@@ -5,7 +5,7 @@
     "name": "Goregrinders",
     "gameSystemId": "sys-ec2b-f0d3-4663-8364",
     "gameSystemRevision": 1,
-    "revision": 1,
+    "revision": 2,
     "battleScribeVersion": "2.03",
     "page": "",
     "sharedSelectionEntries": [
@@ -476,6 +476,14 @@
                 "shared": true,
                 "id": "b295-e89d-3cf0-c443",
                 "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "8bcf-0b80-c15a-bf1e",
+                "id": "f750-ddf2-4207-5896",
+                "primary": true,
+                "name": "Thrall"
               }
             ]
           }

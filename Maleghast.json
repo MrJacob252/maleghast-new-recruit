@@ -3,7 +3,7 @@
     "id": "sys-ec2b-f0d3-4663-8364",
     "name": "Maleghast",
     "battleScribeVersion": "2.03",
-    "revision": 1,
+    "revision": 2,
     "categoryEntries": [
       {
         "name": "Unit",
@@ -754,14 +754,6 @@
         "description": "Cannot be reduced, increased, or ignored for any reason. Additionally units reduced to 0 hp by devil damage are instantly obliterated"
       },
       {
-        "name": "New Rule",
-        "id": "4bf8-266e-8c98-6107",
-        "hidden": false,
-        "publicationId": "da35-e534-5d09-746b",
-        "page": "18",
-        "description": "Piercing damage ignores armor. It otherwise keeps its damage type."
-      },
-      {
         "name": "Vitality",
         "id": "f187-e53c-c368-071c",
         "hidden": false,
@@ -937,6 +929,12 @@
           "Tokens"
         ],
         "description": "Tokens apply a static effect while a unit has at least one. Mutation tokens may be discarded in place of any other token, ie they can be a stand-in and act as a ‘copy’ for any other token, allowing you to keep the original."
+      },
+      {
+        "name": "Corpse",
+        "id": "a55b-b0e2-9a4f-96d6",
+        "hidden": false,
+        "description": "When a unit dies, it leaves a corpse marker. Multiple corpses can stack in one location. Corpses can be created by other means."
       }
     ],
     "sharedProfiles": [
@@ -966,6 +964,20 @@
             "name": "Effect",
             "typeId": "b305-f2f7-6e6a-44ce",
             "$text": "2x2 unit."
+          }
+        ]
+      },
+      {
+        "name": "Flight",
+        "typeId": "c4ab-0724-e1de-ebce",
+        "typeName": "Traits",
+        "hidden": false,
+        "id": "78b5-8705-5f73-3e44",
+        "characteristics": [
+          {
+            "name": "Effect",
+            "typeId": "b305-f2f7-6e6a-44ce",
+            "$text": "Ignores adverse terrain and elevation attack and movement penalties."
           }
         ]
       }

@@ -381,7 +381,8 @@
             "scope": "parent",
             "shared": true,
             "id": "50d9-bbf2-4bd4-c1de",
-            "includeChildSelections": false
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
         ]
       },
@@ -656,189 +657,6 @@
                   }
                 ]
               }
-            ],
-            "selectionEntryGroups": [
-              {
-                "name": "Upgrades",
-                "id": "5bfe-2936-6346-b4e0",
-                "hidden": false,
-                "selectionEntries": [
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Blooded",
-                    "hidden": false,
-                    "id": "d5c7-0ac7-d6ba-9bc0",
-                    "profiles": [
-                      {
-                        "name": "Blooded",
-                        "typeId": "bc74-524a-c3d8-deb8",
-                        "typeName": "Upgrades",
-                        "hidden": false,
-                        "id": "704b-6f59-b6e6-180d",
-                        "characteristics": [
-                          {
-                            "name": "Upgrade Effect",
-                            "typeId": "d962-7955-1a5c-5069",
-                            "$text": "Charge has a (5+) chance to grant retaliation until the start of its next turn."
-                          }
-                        ],
-                        "publicationId": "da35-e534-5d09-746b",
-                        "page": "33"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "00d0-cab9-bc33-6cd2",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "sortIndex": 1,
-                    "categoryLinks": [
-                      {
-                        "name": "Upgrade",
-                        "hidden": false,
-                        "id": "128a-9bef-2cd4-39fe",
-                        "targetId": "a70b-cf66-dbc9-4441",
-                        "primary": false
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Unit Slots",
-                        "typeId": "729d-200e-b1c7-683e",
-                        "value": 0
-                      },
-                      {
-                        "name": "Dark Power",
-                        "typeId": "2bfb-93d9-91d6-b153",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Overclocked",
-                    "hidden": false,
-                    "id": "9fc1-baa2-8ebe-b61d",
-                    "profiles": [
-                      {
-                        "name": "Overclocked",
-                        "typeId": "bc74-524a-c3d8-deb8",
-                        "typeName": "Upgrades",
-                        "hidden": false,
-                        "id": "6017-38d2-0e28-88eb",
-                        "characteristics": [
-                          {
-                            "name": "Upgrade Effect",
-                            "typeId": "d962-7955-1a5c-5069",
-                            "$text": "At 1 hp or lower, gain free movement."
-                          }
-                        ],
-                        "publicationId": "da35-e534-5d09-746b",
-                        "page": "33"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "75fb-1df8-49fd-35a4",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "sortIndex": 2,
-                    "categoryLinks": [
-                      {
-                        "name": "Upgrade",
-                        "hidden": false,
-                        "id": "8a72-0dfa-2229-5c67",
-                        "targetId": "a70b-cf66-dbc9-4441",
-                        "primary": false
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Unit Slots",
-                        "typeId": "729d-200e-b1c7-683e",
-                        "value": 0
-                      },
-                      {
-                        "name": "Dark Power",
-                        "typeId": "2bfb-93d9-91d6-b153",
-                        "value": 1
-                      }
-                    ]
-                  },
-                  {
-                    "type": "upgrade",
-                    "import": true,
-                    "name": "Lobotomized",
-                    "hidden": false,
-                    "id": "e230-0b26-5f47-1bf2",
-                    "profiles": [
-                      {
-                        "name": "Lobotomized",
-                        "typeId": "bc74-524a-c3d8-deb8",
-                        "typeName": "Upgrades",
-                        "hidden": false,
-                        "id": "9993-0cf8-a3ad-33fb",
-                        "characteristics": [
-                          {
-                            "name": "Upgrade Effect",
-                            "typeId": "d962-7955-1a5c-5069",
-                            "$text": "Gain Curseproof."
-                          }
-                        ],
-                        "publicationId": "da35-e534-5d09-746b",
-                        "page": "33"
-                      }
-                    ],
-                    "constraints": [
-                      {
-                        "type": "max",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "parent",
-                        "shared": true,
-                        "id": "7a02-237f-12a2-04ad",
-                        "includeChildSelections": false
-                      }
-                    ],
-                    "sortIndex": 3,
-                    "categoryLinks": [
-                      {
-                        "name": "Upgrade",
-                        "hidden": false,
-                        "id": "e154-5369-ea85-54a4",
-                        "targetId": "a70b-cf66-dbc9-4441",
-                        "primary": false
-                      }
-                    ],
-                    "costs": [
-                      {
-                        "name": "Unit Slots",
-                        "typeId": "729d-200e-b1c7-683e",
-                        "value": 0
-                      },
-                      {
-                        "name": "Dark Power",
-                        "typeId": "2bfb-93d9-91d6-b153",
-                        "value": 1
-                      }
-                    ]
-                  }
-                ]
-              }
             ]
           }
         ],
@@ -951,7 +769,8 @@
             "scope": "parent",
             "shared": true,
             "id": "4f9a-75e6-73b9-26ea",
-            "includeChildSelections": false
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
         ]
       },
@@ -1325,7 +1144,8 @@
             "scope": "parent",
             "shared": true,
             "id": "f391-5b23-60eb-7b93",
-            "includeChildSelections": false
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
         ]
       },
@@ -3380,7 +3200,8 @@
             "scope": "parent",
             "shared": true,
             "id": "103f-086c-4ca2-0e78",
-            "includeChildSelections": false
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
         ],
         "selectionEntries": [
@@ -3793,7 +3614,8 @@
             "scope": "parent",
             "shared": true,
             "id": "099b-afc3-2ea1-0786",
-            "includeChildSelections": false
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
         ]
       }

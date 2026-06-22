@@ -2278,6 +2278,1335 @@
             "targetId": "7ff8-65d0-7a06-213e"
           }
         ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Chirurgeon",
+        "hidden": false,
+        "id": "162b-ae43-0432-9415",
+        "categoryLinks": [
+          {
+            "name": "Necromancer",
+            "hidden": false,
+            "id": "cc95-eda3-aeae-c6c6",
+            "targetId": "fe30-71be-eb40-926a",
+            "primary": true
+          },
+          {
+            "name": "Unit",
+            "hidden": false,
+            "id": "5cc5-f87f-58ed-66f3",
+            "targetId": "default-category",
+            "primary": false
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Chirurgeon",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "9997-4b58-cf05-4ea0",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "10"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "MAG"
+              }
+            ]
+          },
+          {
+            "name": "Experimental Surgery",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "216c-9288-1080-509c",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Line 4"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Line: 1 damage. Allies in the line mutate instead of taking damage"
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "\n"
+              }
+            ]
+          },
+          {
+            "name": "Polyglot",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "aa15-2387-c19a-2745",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "At turn start, may convert one of this unit’s mutation tokens into strength, speed, or vitality. Then, mutate."
+              }
+            ]
+          },
+          {
+            "name": "Sample Genome",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "94ce-d455-373e-b1be",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "3"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Own or allied turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "Range 4"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": ""
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Copy all positive tokens on target unit, then grant them to another unit in range"
+              }
+            ]
+          },
+          {
+            "name": "Wild Mutation",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "1c28-4bfa-381f-6ee2",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "1"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Own or Allied Turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "Range 4"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": "Turn start"
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Unit gains 1 strength, (3-4) OR 1 speed, (5-6) OR 1 vitality. Spare Parts: May choose one token per corpse consumed instead of rolling."
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Bonus Traits",
+            "id": "1e13-9666-9207-b365",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Accelerate Evolution",
+                "hidden": false,
+                "id": "092e-60d2-6e0f-9229",
+                "profiles": [
+                  {
+                    "name": "Accelerate Evolution",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "6ef3-2470-4806-ead0",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "At turn end, may remove one token from this unit and grant to a unit in range 2."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b553-a56a-dcbe-2f25",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "1a43-2b38-33b5-53cd",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Rapid Move",
+                "hidden": false,
+                "id": "38ca-318c-fecf-a4ac",
+                "profiles": [
+                  {
+                    "name": "Rapid Move",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "dd7e-1b3a-f606-b5ea",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "May remove a mutation token at start or end of own turn to step 2 with free movement."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "147f-4fe4-4322-0260",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "2ca8-2c22-1e65-820e",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Ancillary Limb",
+                "hidden": false,
+                "id": "eb09-be9a-6c60-3222",
+                "profiles": [
+                  {
+                    "name": "Ancillary Limbs",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "df25-0bbb-a69b-7833",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "May remove a mutation token on self to grant +2 range to any ability and +1D on any attacks it makes."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9199-4e4f-6bc0-3b33",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "0d57-4a97-006d-b441",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "page": "",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "5d00-3e0a-8831-9115",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1860-ea87-a6b2-cd3f",
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 1
+          },
+          {
+            "name": "Free ACT Upgrade",
+            "id": "bc67-6b2a-b25e-dbf3",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Clone",
+                "hidden": false,
+                "id": "ce7d-4de5-62dd-daff",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5883-1d2a-fee4-016e",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Clone",
+                    "id": "6f81-f5ec-7e35-af6b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "bee8-70d7-0c68-a7f7"
+                  }
+                ],
+                "sortIndex": 2
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "New Material",
+                "hidden": false,
+                "id": "4429-d3af-8e70-78e8",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "543d-067d-bd23-4c8f",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "New Material",
+                    "id": "5dc4-db0a-080b-5b86",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "409c-00e8-e7c6-c90b"
+                  }
+                ],
+                "sortIndex": 1
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Stitch Fix",
+                "hidden": false,
+                "id": "4a81-22f0-a59a-d5be",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e0df-95a7-7cbb-9b62",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Stitch Fix",
+                    "id": "fae1-8f44-3050-465b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c90b-fccb-5fb9-1a88"
+                  }
+                ],
+                "sortIndex": 3
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Inject Stimulant",
+                "hidden": false,
+                "id": "74d2-ba01-3f73-8437",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0301-849b-964c-e6b8",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Inject Stimulant",
+                    "id": "14ac-fcc4-6f22-459f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "186e-8bf9-9ed5-5657"
+                  }
+                ],
+                "sortIndex": 4
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Biotoxin Injector",
+                "hidden": false,
+                "id": "02fe-0308-61e6-5956",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f102-46ca-c801-5327",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Biotoxin Injector",
+                    "id": "4cab-81f3-5893-d9ef",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "b560-1acc-3605-b678"
+                  }
+                ],
+                "sortIndex": 5
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Mutagen Injector",
+                "hidden": false,
+                "id": "9684-7bd6-e315-faf0",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "03c2-0d9a-6474-9d45",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Mutagen Injector",
+                    "id": "640f-080d-754f-ea3a",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8a82-ec79-bb7f-7cdb"
+                  }
+                ],
+                "sortIndex": 6
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Chaos Beam",
+                "hidden": false,
+                "id": "2a18-db80-4972-6b82",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ac7a-1083-5668-82c7",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Chaos Beam",
+                    "id": "b119-2348-d7f2-b617",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "9786-5b6b-cfea-62ee"
+                  }
+                ],
+                "sortIndex": 7
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "b743-ca67-2203-e45c",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "058e-edf6-8b7f-9e70",
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 2
+          },
+          {
+            "name": "SOUL Upgrade",
+            "id": "db8c-f1c4-e23c-ab4b",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Flesh Jump",
+                "hidden": false,
+                "id": "f2b2-dc87-ad4f-8006",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "91e3-1c1a-6689-f30b",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "infoLinks": [
+                  {
+                    "name": "Flesh Jump",
+                    "id": "8467-282a-3ff0-4ae7",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6a67-54ab-7d32-4042"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grow Bonus Legs",
+                "hidden": false,
+                "id": "ddfc-e782-d7db-3bd6",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fc92-2480-cdd2-405f",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "infoLinks": [
+                  {
+                    "name": "Grow Bonus Legs",
+                    "id": "81da-0f3b-6063-36ac",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6470-b70d-5c08-5ee0"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grow Bonus Limbs",
+                "hidden": false,
+                "id": "7f3b-00de-946a-fdf8",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "138a-2357-c687-4f6a",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Grow Bonus Limbs",
+                    "id": "0e03-a60e-dcd8-29a8",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7f87-72b6-dfb3-61e3"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Devolve",
+                "hidden": false,
+                "id": "ec50-d1ed-4506-cc5a",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f12f-da87-f06e-9fcd",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 5,
+                "infoLinks": [
+                  {
+                    "name": "Devolve",
+                    "id": "e66d-fdbb-0568-4b5a",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "00d2-575a-546b-a62b"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Recycle",
+                "hidden": false,
+                "id": "9ea5-cdca-cd95-b6eb",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7375-2bcc-a146-2561",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Recycle",
+                    "id": "829d-056d-4b50-d9ea",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "5885-27d4-0608-228a"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Final Form",
+                "hidden": false,
+                "id": "8e68-894e-bdc4-fb19",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c7ac-25a7-2b6a-0d57",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 6,
+                "infoLinks": [
+                  {
+                    "name": "Final Form",
+                    "id": "d0e4-d62b-1c53-361e",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "b44a-a721-1e6f-dc00"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 5
+          },
+          {
+            "name": "ACT Upgrade",
+            "id": "4d59-3cd8-f9ab-dbe0",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Clone",
+                "hidden": false,
+                "id": "019f-e002-86ed-8f65",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9877-70ec-6747-a37d",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Clone",
+                    "id": "7e82-973a-dae7-30a7",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "bee8-70d7-0c68-a7f7"
+                  }
+                ],
+                "sortIndex": 2,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "New Material",
+                "hidden": false,
+                "id": "5285-66f7-227a-6c7d",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "da7c-cf4b-012c-e0fc",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "New Material",
+                    "id": "427a-2a3e-ca07-93a9",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "409c-00e8-e7c6-c90b"
+                  }
+                ],
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Stitch Fix",
+                "hidden": false,
+                "id": "6a80-8cc8-cdf7-9ece",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c7a4-3e68-95c1-de67",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Stitch Fix",
+                    "id": "5d35-7b17-21c5-9c56",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c90b-fccb-5fb9-1a88"
+                  }
+                ],
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Inject Stimulant",
+                "hidden": false,
+                "id": "3c14-8564-da32-ed95",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "19f5-6f5c-c4e4-1713",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Inject Stimulant",
+                    "id": "2bc1-2757-1028-286d",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "186e-8bf9-9ed5-5657"
+                  }
+                ],
+                "sortIndex": 4,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Biotoxin Injector",
+                "hidden": false,
+                "id": "0832-5e4a-687d-7531",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cdb8-fd4a-b89d-4b48",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Biotoxin Injector",
+                    "id": "77ad-777c-e011-a0a5",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "b560-1acc-3605-b678"
+                  }
+                ],
+                "sortIndex": 5,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Mutagen Injector",
+                "hidden": false,
+                "id": "4ccb-bb06-ae6d-5b17",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "182b-f4e6-9bba-4d13",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Mutagen Injector",
+                    "id": "f0e2-7501-0bae-e316",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8a82-ec79-bb7f-7cdb"
+                  }
+                ],
+                "sortIndex": 6,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Chaos Beam",
+                "hidden": false,
+                "id": "dc51-57b6-aa8e-4666",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "564b-ef6e-b77e-1fc6",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Chaos Beam",
+                    "id": "12a1-b6b6-20df-a992",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "9786-5b6b-cfea-62ee"
+                  }
+                ],
+                "sortIndex": 7,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 4
+          },
+          {
+            "name": "Free SOUL Upgrade",
+            "id": "062f-0f47-257d-3d05",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "7c4a-2aaf-8755-a9ec",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "46a7-fb49-4f40-7ef1",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Flesh Jump",
+                "hidden": false,
+                "id": "0943-addb-bc29-6100",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "358e-eeed-9265-9c7b",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "infoLinks": [
+                  {
+                    "name": "Flesh Jump",
+                    "id": "2701-0acf-3031-b7ad",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6a67-54ab-7d32-4042"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grow Bonus Legs",
+                "hidden": false,
+                "id": "3c10-7dfd-5e0d-3bf7",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f9fd-ddd3-dbc0-087d",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "infoLinks": [
+                  {
+                    "name": "Grow Bonus Legs",
+                    "id": "242a-7bc8-f154-3e77",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6470-b70d-5c08-5ee0"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grow Bonus Limbs",
+                "hidden": false,
+                "id": "b8ed-5a70-e546-8fd9",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d07b-60f4-0ce7-3231",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Grow Bonus Limbs",
+                    "id": "c149-650b-d674-0133",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7f87-72b6-dfb3-61e3"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Devolve",
+                "hidden": false,
+                "id": "0373-a483-8cd9-2989",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "76df-c5e9-8f54-5792",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 5,
+                "infoLinks": [
+                  {
+                    "name": "Devolve",
+                    "id": "321c-3620-69b7-6fda",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "00d2-575a-546b-a62b"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Recycle",
+                "hidden": false,
+                "id": "50c0-28ca-cedc-5bfc",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f873-2d96-a8f5-3e07",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Recycle",
+                    "id": "12ff-8d93-c1e4-4f4a",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "5885-27d4-0608-228a"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Final Form",
+                "hidden": false,
+                "id": "7dbd-7bd8-aae0-1c40",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b854-98fc-31f0-0ea7",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 6,
+                "infoLinks": [
+                  {
+                    "name": "Final Form",
+                    "id": "c0c9-3861-fc9c-32b0",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "b44a-a721-1e6f-dc00"
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 3
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "35"
       }
     ],
     "sharedRules": [
@@ -2317,7 +3646,7 @@
       },
       {
         "import": true,
-        "name": "Lycan",
+        "name": "Strigoi",
         "hidden": false,
         "id": "34ac-6f80-365d-f172",
         "targetId": "4324-4674-2720-155c",
@@ -2346,6 +3675,14 @@
         "id": "e13d-aa74-fe22-e54b",
         "targetId": "f8d2-5b88-4bb1-4ea8",
         "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Chirurgeon",
+        "hidden": false,
+        "id": "6014-379e-c4ba-c83f",
+        "targetId": "162b-ae43-0432-9415",
+        "type": "selectionEntry"
       }
     ],
     "sharedProfiles": [
@@ -2360,6 +3697,378 @@
             "name": "Effect",
             "typeId": "b305-f2f7-6e6a-44ce",
             "$text": "Starts combat with 4 mutation tokens."
+          }
+        ]
+      },
+      {
+        "name": "New Material",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "409c-00e8-e7c6-c90b",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Create two or (5+) three corpses in free adjacent spaces, then mutate."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Clone",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "bee8-70d7-0c68-a7f7",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 2"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "Create a perfect copy of an allied unit in range in any other free space in range. Then obliterate the original as it collapses into flesh and replace it with a corpse token."
+          }
+        ]
+      },
+      {
+        "name": "Stitch Fix",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "c90b-fccb-5fb9-1a88",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "Remove up to three negative tokens from a unit, then it may step 1 and it mutates. Spare Parts: The unit mutates and steps once for each negative token removed instead."
+          }
+        ]
+      },
+      {
+        "name": "Inject Stimulant",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "186e-8bf9-9ed5-5657",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Choose a unit in range. That unit may step 2. If it ends its turn in the space of a corpse, it mutates, removes the corpse, then may repeat this effect."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Biotoxin Injector",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "b560-1acc-3605-b678",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Range 2-5"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "At end of target’s next turn, they explode for a splash (target) effect for 1 toxin damage. Your allies in the area mutate instead of taking damage."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 toxin damage."
+          }
+        ]
+      },
+      {
+        "name": "Mutagen Injector",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "8a82-ec79-bb7f-7cdb",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Range 2-5"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "May remove one positive token from target, then deal 1 toxin damage. Spare Parts: If at least one corpse was consumed, repeat this effect."
+          }
+        ]
+      },
+      {
+        "name": "Chaos Beam",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "9786-5b6b-cfea-62ee",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Line 3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "Line: 1 fire damage and inflict 1 vulnerable, (3-4) OR 1 toxic damage and inflict 1 slow, (5-6) OR 1 curse damage and inflict 1 weak. Spare Parts: Roll 1D for effect per corpse consumed and choose any result."
+          }
+        ]
+      },
+      {
+        "name": "Flesh Jump",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "6a67-54ab-7d32-4042",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or allied turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Swap places with an allied unit, then both of you mutate."
+          }
+        ]
+      },
+      {
+        "name": "Grow Bonus Legs",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "6470-b70d-5c08-5ee0",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or allied turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Remove any number of mutation tokens on self or target unit, then target may step 2 per token removed with free movement, ignoring hazards."
+          }
+        ]
+      },
+      {
+        "name": "Grow Bonus Limbs",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "7f87-72b6-dfb3-61e3",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or allied turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Remove any number of mutation tokens from target, then target gains +1D on attacks this turn per token removed, and their damage ignores armor."
+          }
+        ]
+      },
+      {
+        "name": "Recycle",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "5885-27d4-0608-228a",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "3"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Curse"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn end"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Deal 1 toxic damage to unit. If this reduces them to 0 hp, they are obliterated. Create up to 3 corpse tokens under their space or in free adjacent spaces"
+          }
+        ]
+      },
+      {
+        "name": "Devolve",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "00d2-575a-546b-a62b",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "4"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Foe turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Curse, Range 3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Inflict 1 slow, weak, and vulnerable on a foe (5+) twice."
+          }
+        ]
+      },
+      {
+        "name": "Final Form",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "b44a-a721-1e6f-dc00",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "6"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Increase MV to 6, DF to 6+, deal +1 damage with all abilities, become curseproof, gain free movement, and gain super armor. Keep any damage taken. At the end of your next turn, your form destabilizes and you are obliterated."
           }
         ]
       }

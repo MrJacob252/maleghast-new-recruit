@@ -1,11 +1,11 @@
 {
   "catalogue": {
     "library": false,
-    "id": "e6b8-3f11-a311-c6d0",
-    "name": "CARCASS",
+    "id": "b444-3bcf-5c87-69a8",
+    "name": "Carcass",
     "gameSystemId": "sys-ec2b-f0d3-4663-8364",
     "gameSystemRevision": 1,
-    "revision": 1,
+    "revision": 3,
     "battleScribeVersion": "2.03",
     "page": "",
     "sharedSelectionEntries": [
@@ -14,11 +14,11 @@
         "import": true,
         "name": "Ammo Goblin",
         "hidden": false,
-        "id": "7c46-4a31-072e-9056",
+        "id": "5fed-0009-c744-d414",
         "categoryLinks": [
           {
             "targetId": "default-category",
-            "id": "a21c-e275-6f91-8efc",
+            "id": "28d1-a327-5c33-d767",
             "primary": true,
             "name": "Unit"
           }
@@ -26,10 +26,12 @@
         "infoLinks": [
           {
             "name": "Formation",
-            "id": "4236-7289-5eb9-55e7",
+            "id": "7ca4-5413-bf08-461c",
             "hidden": false,
             "type": "profile",
-            "targetId": "5414-d21e-62ad-17ef"
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
           }
         ],
         "profiles": [
@@ -38,7 +40,7 @@
             "typeId": "6426-dcea-42df-f2d5",
             "typeName": "Unit",
             "hidden": false,
-            "id": "2221-2514-acaa-bc90",
+            "id": "f54a-2e83-3447-ab75",
             "characteristics": [
               {
                 "name": "MV",
@@ -60,14 +62,16 @@
                 "typeId": "d539-7a96-9a0b-9090",
                 "$text": "-"
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
           },
           {
             "name": "Regurgitate Ammo",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "1823-fc44-2f25-ed8a",
+            "id": "2ffd-d6f3-0e20-6933",
             "characteristics": [
               {
                 "name": "Tags",
@@ -84,14 +88,16 @@
                 "typeId": "20c2-cbeb-cb0b-47be",
                 "$text": ""
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
           },
           {
             "name": "Bone Shards",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "f734-07b2-a874-55ea",
+            "id": "f095-86d6-b758-1c0f",
             "characteristics": [
               {
                 "name": "Tags",
@@ -108,14 +114,16 @@
                 "typeId": "20c2-cbeb-cb0b-47be",
                 "$text": ""
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
           },
           {
             "name": "Destructive Glee",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "c532-516a-33ea-2247",
+            "id": "6e23-8979-c843-1276",
             "characteristics": [
               {
                 "name": "Tags",
@@ -133,7 +141,8 @@
                 "$text": ""
               }
             ],
-            "page": ""
+            "page": "28",
+            "publicationId": "da35-e534-5d09-746b"
           }
         ],
         "costs": [
@@ -151,7 +160,7 @@
         "selectionEntryGroups": [
           {
             "name": "Upgrades",
-            "id": "5fbe-efa2-9ad2-06a3",
+            "id": "c04c-4a09-bb80-767c",
             "hidden": false,
             "selectionEntries": [
               {
@@ -159,14 +168,14 @@
                 "import": true,
                 "name": "Vomit Bullets",
                 "hidden": false,
-                "id": "802e-534d-efae-fca0",
+                "id": "ed14-e31d-85d1-ac98",
                 "profiles": [
                   {
                     "name": "Vomit Bullets",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "e703-d102-3a7d-617a",
+                    "id": "bbe4-91d0-c6ca-a74f",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -185,18 +194,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "5721-b494-3371-d391",
+                    "id": "5721-b494-3371-d392",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 1,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "9257-02a6-3ebf-5efb",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "3ffb-b495-4586-48f2",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -210,21 +218,23 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Napalm Injector",
                 "hidden": false,
-                "id": "fa6e-a723-ec9a-7c3b",
+                "id": "4bee-59bb-fdd7-1f90",
                 "profiles": [
                   {
                     "name": "Napalm Injector",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "5cae-5116-6ec9-08f7",
+                    "id": "e41a-5e61-972d-38f7",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -243,18 +253,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "1cf7-2c2a-ca78-35e9",
+                    "id": "1cf7-2c2a-ca78-35ea",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 2,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "0ccd-4d17-e8c1-2aff",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "ebd7-8734-e997-f3c4",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -268,21 +277,23 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Hot Chamber",
                 "hidden": false,
-                "id": "8647-84d6-4fc9-370a",
+                "id": "4bf5-11bd-1e73-ee45",
                 "profiles": [
                   {
                     "name": "Hot Chamber",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "3554-684f-0941-9161",
+                    "id": "fd0f-49e4-ad28-dd53",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -301,18 +312,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "d508-7bde-69c3-a186",
+                    "id": "d508-7bde-69c3-a187",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 3,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "a779-8f9b-293b-beea",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "aa9f-ee61-aa74-b5eb",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -326,24 +336,28 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28"
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
           }
         ],
         "publicationId": "da35-e534-5d09-746b",
-        "page": "34",
+        "page": "28",
         "selectionEntries": [
           {
             "type": "upgrade",
             "import": true,
             "name": "Ammo Goblin",
             "hidden": false,
-            "id": "fd73-a26b-f476-7bfa",
+            "id": "f78b-393a-e12d-6fd1",
             "categoryLinks": [
               {
                 "targetId": "8026-360f-68ed-6a0c",
-                "id": "d5d8-e277-4dc1-b962",
+                "id": "4752-d1f5-37c2-7e17",
                 "primary": true,
                 "name": "Freak"
               }
@@ -367,10 +381,12 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "bcd0-1b2a-4e02-767b",
+                "id": "bcd0-1b2a-4e02-767c",
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
           }
         ],
         "constraints": [
@@ -380,7 +396,7 @@
             "field": "selections",
             "scope": "parent",
             "shared": true,
-            "id": "50d9-bbf2-4bd4-c1de",
+            "id": "50d9-bbf2-4bd4-c1df",
             "includeChildSelections": false,
             "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
@@ -391,9 +407,9 @@
         "import": true,
         "name": "Gunwight",
         "hidden": false,
-        "id": "6cd4-a6fa-d647-6f18",
+        "id": "4980-3982-04e3-d42a",
         "publicationId": "da35-e534-5d09-746b",
-        "page": "33",
+        "page": "27",
         "costs": [
           {
             "name": "Unit Slots",
@@ -410,11 +426,10 @@
         "step": "",
         "categoryLinks": [
           {
-            "name": "Unit",
-            "hidden": false,
-            "id": "c859-e27b-186b-6ae4",
             "targetId": "default-category",
-            "primary": true
+            "id": "71cf-2828-9def-25e6",
+            "primary": true,
+            "name": "Unit"
           }
         ],
         "selectionEntries": [
@@ -423,14 +438,14 @@
             "import": true,
             "name": "Gunwight",
             "hidden": false,
-            "id": "197f-665b-e591-05ff",
+            "id": "4809-8e90-ade0-8fcf",
             "selectionEntries": [
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Gunwight",
                 "hidden": false,
-                "id": "1ba1-dd4a-0795-6c57",
+                "id": "7bc9-d05e-a4b2-79cb",
                 "defaultAmount": "2",
                 "constraints": [
                   {
@@ -439,7 +454,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "6b8f-a143-0a3c-49f5",
+                    "id": "6b8f-a143-0a3c-49f6",
                     "includeChildSelections": false
                   },
                   {
@@ -448,10 +463,12 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "e079-6f23-35c5-ae1f",
+                    "id": "e079-6f23-35c5-ae3f",
                     "includeChildSelections": false
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
               }
             ],
             "sortIndex": 1,
@@ -474,16 +491,18 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "b295-e89d-3cf0-c443",
+                "id": "b295-e89d-3cf0-c444",
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
           }
         ],
         "selectionEntryGroups": [
           {
             "name": "Upgrades",
-            "id": "7d84-4ee9-5351-0a4b",
+            "id": "ba25-317c-78ad-45b3",
             "hidden": false,
             "selectionEntries": [
               {
@@ -491,14 +510,14 @@
                 "import": true,
                 "name": "Brace",
                 "hidden": false,
-                "id": "97d7-a72e-576c-e6cf",
+                "id": "efaa-14b0-bcd4-537f",
                 "profiles": [
                   {
                     "name": "Brace",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "c828-6a3b-6196-0cfd",
+                    "id": "cf69-1b1f-9e0e-a82f",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -507,7 +526,7 @@
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
-                    "page": "33"
+                    "page": "27"
                   }
                 ],
                 "constraints": [
@@ -517,7 +536,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "1a59-9d9f-0329-0873",
+                    "id": "1a59-9d9f-0329-0874",
                     "includeChildSelections": false
                   }
                 ],
@@ -525,7 +544,7 @@
                 "categoryLinks": [
                   {
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "id": "8888-1fab-a5f1-81cb",
+                    "id": "2859-c677-bc83-94b5",
                     "primary": false,
                     "name": "Upgrade"
                   }
@@ -541,21 +560,23 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Tactical Reload",
                 "hidden": false,
-                "id": "7ed0-d66b-a72a-7ba0",
+                "id": "7187-4398-e5b3-b23a",
                 "profiles": [
                   {
                     "name": "Tactical Reload",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "6cef-8566-8cf9-c28c",
+                    "id": "0be4-98f7-2b6e-9b49",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -564,7 +585,7 @@
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
-                    "page": "33"
+                    "page": "27"
                   }
                 ],
                 "constraints": [
@@ -574,7 +595,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "fce2-4d0f-85e9-ee22",
+                    "id": "fce2-4d0f-85e9-ee23",
                     "includeChildSelections": false
                   }
                 ],
@@ -582,7 +603,7 @@
                 "categoryLinks": [
                   {
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "id": "7348-30cf-2cf9-0dd7",
+                    "id": "128a-2979-327b-d7ad",
                     "primary": false,
                     "name": "Upgrade"
                   }
@@ -598,21 +619,23 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Scavenge Ammo",
                 "hidden": false,
-                "id": "9d65-2680-7681-4498",
+                "id": "1693-cf46-cc2e-a59f",
                 "profiles": [
                   {
                     "name": "Scavenge Ammo",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "90c4-989e-5441-e39a",
+                    "id": "f3d8-ff72-9c5b-7c07",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -621,7 +644,7 @@
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
-                    "page": "33"
+                    "page": "27"
                   }
                 ],
                 "constraints": [
@@ -631,7 +654,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "f6fe-71ac-5775-a3c3",
+                    "id": "f6fe-71ac-5775-a3c4",
                     "includeChildSelections": false
                   }
                 ],
@@ -639,7 +662,7 @@
                 "categoryLinks": [
                   {
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "id": "937e-752a-d123-8fc4",
+                    "id": "9605-b989-49ac-3858",
                     "primary": false,
                     "name": "Upgrade"
                   }
@@ -655,22 +678,28 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
           }
         ],
         "infoLinks": [
           {
             "name": "Formation",
-            "id": "0360-1d69-83e2-9cbe",
+            "id": "c0af-53cd-7986-6ac1",
             "hidden": false,
             "type": "profile",
-            "targetId": "5414-d21e-62ad-17ef"
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
           },
           {
             "name": "Thrall",
-            "id": "83b5-609c-8a88-0e62",
+            "id": "0653-836f-8dc9-4e34",
             "hidden": false,
             "type": "profile",
             "targetId": "b2c6-299b-cd95-9540"
@@ -682,7 +711,7 @@
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "0f80-1035-68e7-f366",
+            "id": "063b-56e1-c052-99cd",
             "characteristics": [
               {
                 "name": "Tags",
@@ -701,14 +730,14 @@
               }
             ],
             "publicationId": "da35-e534-5d09-746b",
-            "page": "33"
+            "page": "27"
           },
           {
             "name": "Baton",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "a316-c383-890d-ee18",
+            "id": "556b-f594-be1e-34a2",
             "characteristics": [
               {
                 "name": "Tags",
@@ -727,14 +756,14 @@
               }
             ],
             "publicationId": "da35-e534-5d09-746b",
-            "page": "33"
+            "page": "27"
           },
           {
             "name": "Gunwight",
             "typeId": "6426-dcea-42df-f2d5",
             "typeName": "Unit",
             "hidden": false,
-            "id": "2185-e863-bd3e-6863",
+            "id": "1a16-d9b4-76ac-3cdf",
             "characteristics": [
               {
                 "name": "MV",
@@ -758,7 +787,7 @@
               }
             ],
             "publicationId": "da35-e534-5d09-746b",
-            "page": "33"
+            "page": "27"
           }
         ],
         "constraints": [
@@ -768,7 +797,7 @@
             "field": "selections",
             "scope": "parent",
             "shared": true,
-            "id": "4f9a-75e6-73b9-26ea",
+            "id": "4f9a-75e6-73b9-26eb",
             "includeChildSelections": false,
             "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
@@ -779,11 +808,11 @@
         "import": true,
         "name": "Enforcer",
         "hidden": false,
-        "id": "30fb-600c-c196-e83f",
+        "id": "d125-0949-9152-aa53",
         "categoryLinks": [
           {
             "targetId": "default-category",
-            "id": "202c-ccf5-55a6-97ef",
+            "id": "5c39-ab8f-77e6-0df6",
             "primary": true,
             "name": "Unit"
           }
@@ -791,10 +820,12 @@
         "infoLinks": [
           {
             "name": "Formation",
-            "id": "4f93-f138-e432-b888",
+            "id": "6200-c124-88ca-6bbd",
             "hidden": false,
             "type": "profile",
-            "targetId": "5414-d21e-62ad-17ef"
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
           }
         ],
         "profiles": [
@@ -803,7 +834,7 @@
             "typeId": "6426-dcea-42df-f2d5",
             "typeName": "Unit",
             "hidden": false,
-            "id": "fc4c-1a23-def5-6431",
+            "id": "f484-da98-a3ef-3cc7",
             "characteristics": [
               {
                 "name": "MV",
@@ -825,14 +856,16 @@
                 "typeId": "d539-7a96-9a0b-9090",
                 "$text": "PHYS"
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
           },
           {
             "name": "Skull Crack",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "faf1-60cc-fe27-427d",
+            "id": "dc04-c358-c39c-7a82",
             "characteristics": [
               {
                 "name": "Tags",
@@ -849,14 +882,16 @@
                 "typeId": "20c2-cbeb-cb0b-47be",
                 "$text": "2 damage and push 1. Headshot: push 2"
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
           },
           {
             "name": "Flashbang",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "0ba7-89f8-ed51-dedc",
+            "id": "a3d5-e159-dbea-3e47",
             "characteristics": [
               {
                 "name": "Tags",
@@ -873,14 +908,16 @@
                 "typeId": "20c2-cbeb-cb0b-47be",
                 "$text": ""
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
           },
           {
             "name": "Shieldwall",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "029d-5b13-aae7-0530",
+            "id": "df1d-f882-348c-d2d2",
             "characteristics": [
               {
                 "name": "Tags",
@@ -898,7 +935,8 @@
                 "$text": ""
               }
             ],
-            "page": ""
+            "page": "27",
+            "publicationId": "da35-e534-5d09-746b"
           }
         ],
         "costs": [
@@ -916,7 +954,7 @@
         "selectionEntryGroups": [
           {
             "name": "Upgrades",
-            "id": "37e6-ff89-76b0-3417",
+            "id": "dc67-11aa-6aa0-667b",
             "hidden": false,
             "selectionEntries": [
               {
@@ -924,14 +962,14 @@
                 "import": true,
                 "name": "Shield Charge",
                 "hidden": false,
-                "id": "7339-5873-b11a-9724",
+                "id": "faa4-0a58-7c1d-cbde",
                 "profiles": [
                   {
                     "name": "Shield Charge",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "fb62-7990-629a-c93c",
+                    "id": "63cf-66da-3e69-db31",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -939,7 +977,8 @@
                         "$text": "Unit may step 1 before using Skull Crack and it gains splash (self) push foes 1"
                       }
                     ],
-                    "page": ""
+                    "page": "27",
+                    "publicationId": "da35-e534-5d09-746b"
                   }
                 ],
                 "constraints": [
@@ -949,18 +988,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "5c73-d074-1d72-c793",
+                    "id": "5c73-d074-1d72-c794",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 1,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "8d5a-f9ea-fe76-ed48",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "918a-a693-0783-8306",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -974,21 +1012,23 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Bulwark",
                 "hidden": false,
-                "id": "e974-0569-90a7-343d",
+                "id": "4e87-d118-283f-9124",
                 "profiles": [
                   {
                     "name": "Bulwark",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "6744-0cdc-b1f5-885a",
+                    "id": "6c7f-9819-a46b-3924",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -996,7 +1036,8 @@
                         "$text": "Shieldwall also clears up to two negative tokens on self or adjacent allies."
                       }
                     ],
-                    "page": ""
+                    "page": "27",
+                    "publicationId": "da35-e534-5d09-746b"
                   }
                 ],
                 "constraints": [
@@ -1006,18 +1047,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "5374-3bc4-58d8-8a22",
+                    "id": "5374-3bc4-58d8-8a23",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 2,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "ff64-e284-da00-70dd",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "c95b-8596-c8e3-ec52",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -1031,21 +1071,23 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Bone Dust Napalm",
                 "hidden": false,
-                "id": "552d-fc1e-c056-cf90",
+                "id": "14d3-5385-480e-9a60",
                 "profiles": [
                   {
                     "name": "Bone Dust Napalm",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "c3f1-ce82-a8b2-6aac",
+                    "id": "6a27-5022-7f2e-a763",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -1053,7 +1095,8 @@
                         "$text": "Flashbang deals 1 splash fire damage but gains charge and has no effect on its main target."
                       }
                     ],
-                    "page": ""
+                    "page": "27",
+                    "publicationId": "da35-e534-5d09-746b"
                   }
                 ],
                 "constraints": [
@@ -1063,18 +1106,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "1df0-7dee-9c30-2538",
+                    "id": "1df0-7dee-9c30-2539",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 3,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "0a39-b3ce-6670-3b83",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "234e-c78f-e472-f9db",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -1088,25 +1130,27 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
               }
             ],
             "page": ""
           }
         ],
         "publicationId": "da35-e534-5d09-746b",
-        "page": "33",
+        "page": "27",
         "selectionEntries": [
           {
             "type": "upgrade",
             "import": true,
             "name": "Enforcer",
             "hidden": false,
-            "id": "a4a2-27db-2b4b-9358",
+            "id": "3273-9330-2b10-d1f6",
             "categoryLinks": [
               {
                 "targetId": "c422-7dc4-5583-c6fd",
-                "id": "e78f-73ac-0eb6-daca",
+                "id": "8ad2-d1f3-b1ec-8b7d",
                 "primary": true,
                 "name": "Scion"
               }
@@ -1130,10 +1174,12 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "6d52-ad31-a678-b5e5",
+                "id": "6d52-ad31-a678-b5e6",
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
           }
         ],
         "constraints": [
@@ -1143,42 +1189,414 @@
             "field": "selections",
             "scope": "parent",
             "shared": true,
-            "id": "f391-5b23-60eb-7b93",
+            "id": "f391-5b23-60eb-7b94",
             "includeChildSelections": false,
             "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
         ]
       },
       {
-        "_comment": "Need add Barrelform"
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "2abe-c183-aeca-68af",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "name": "Barrelform",
+        "id": "c026-aa13-38d7-0231",
+        "type": "unit",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Barrelform",
+            "hidden": false,
+            "id": "a7d0-7ac3-93f7-0093",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "85b3-be32-3ac6-24b2",
+                "id": "c347-fe79-78b4-741f",
+                "primary": true,
+                "name": "Hunter"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "8ea7-e0c6-82ab-560e"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28",
+            "sortIndex": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Snipe",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "cb53-e5c1-4538-a85e",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, range 2-4, reload"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "2 damage. Headshot: and inflict 1 vulnerable."
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          },
+          {
+            "name": "Transform to Gun",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "1ec7-4c83-5ea4-e752",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Unit becomes unable to MOVE or step, but ranged abilities gain +2 maximum range and ignore armor and cover. It can end this effect by sacrificing a MOVE, but if it does, it loses all associate effects."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          },
+          {
+            "name": "Deathmark",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "78c2-fb6d-68d4-284b",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Curse, Range 2-4"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": " Inflict 2 vulnerable, (4+): 3 vulnerable, (6+): Remove any vitality first."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          },
+          {
+            "name": "Barrelform",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "f7ec-25b3-ea88-f3cd",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "2"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Formation",
+            "id": "336a-ce06-3c82-3ee8",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "ba19-3256-683d-04f9",
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "f70e-454d-25e6-de52",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Claw Pitons",
+                "hidden": false,
+                "id": "0bee-eefb-7e8f-ff23",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "119d-ad97-bfb3-1e58",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1158-a81a-5827-2769"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Claw Pitons",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "96d4-225d-57e3-44f4",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Transform to Gun makes this unit immune to push and pull."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "27"
+                  }
+                ],
+                "sortIndex": 1,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Extended Barrel",
+                "hidden": false,
+                "id": "8ac5-de56-82bc-32df",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "d45f-2cd1-8730-f9f6",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "sortIndex": 2,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8c73-6b86-85e7-072f"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Extended Barrel",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "6340-b70b-03ee-51cf",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Snipe gains +1D when this unit is in cover, and -1D when it is not."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "27"
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Caliber Up",
+                "hidden": false,
+                "id": "f707-b300-6719-9ae2",
+                "sortIndex": 3,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "b088-4843-4da8-5aa1",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c223-595b-3765-8d50"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Caliber Up",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "8c02-6b8d-333f-b004",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Snipe gains push 1 and Headshot: push 2"
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "28"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "28"
       },
       {
         "type": "unit",
         "import": true,
         "name": "Operator",
         "hidden": false,
-        "id": "92f7-3264-2aab-6cb8",
+        "id": "3ab6-3396-4fba-4151",
         "categoryLinks": [
           {
-            "targetId": "fe30-71be-eb40-926a",
-            "id": "2d8c-1b6b-c80e-0406",
-            "primary": true,
-            "name": "Necromancer"
-          },
-          {
             "targetId": "default-category",
-            "id": "c0e7-78b1-8a42-be8d",
+            "id": "cccf-b6cc-1576-6e70",
             "primary": false,
             "name": "Unit"
+          },
+          {
+            "targetId": "fe30-71be-eb40-926a",
+            "id": "3c32-693b-915b-4274",
+            "primary": true,
+            "name": "Necromancer"
           }
         ],
         "infoLinks": [
           {
             "name": "Formation",
-            "id": "44b0-fb9a-2d7c-2828",
+            "id": "6a03-94bc-f6e3-c66b",
             "hidden": false,
             "type": "profile",
-            "targetId": "5414-d21e-62ad-17ef"
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
           }
         ],
         "profiles": [
@@ -1187,7 +1605,7 @@
             "typeId": "6426-dcea-42df-f2d5",
             "typeName": "Unit",
             "hidden": false,
-            "id": "ca48-dc72-9145-6c2f",
+            "id": "ec14-7b0f-cf3b-5747",
             "characteristics": [
               {
                 "name": "MV",
@@ -1209,14 +1627,16 @@
                 "typeId": "d539-7a96-9a0b-9090",
                 "$text": "PHYS"
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           },
           {
             "name": "Akimbo",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "ea14-5119-67c9-1cf6",
+            "id": "899f-0c8f-086f-6023",
             "characteristics": [
               {
                 "name": "Tags",
@@ -1233,28 +1653,32 @@
                 "typeId": "20c2-cbeb-cb0b-47be",
                 "$text": "2 damage. On hit:(4+): One other foe in range takes 1 damage, (6+) one other foe in range takes 1 damage."
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           },
           {
             "name": "Hot Clip",
             "typeId": "c4ab-0724-e1de-ebce",
             "typeName": "Traits",
             "hidden": false,
-            "id": "cd81-ba69-7de2-a3af",
+            "id": "2b8d-6f7e-97c9-aaae",
             "characteristics": [
               {
                 "name": "Effect",
                 "typeId": "b305-f2f7-6e6a-44ce",
                 "$text": "Once a round, reloading grants you 1 strength"
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           },
           {
             "name": "Reload Slide",
             "typeId": "04a5-88c2-b120-5055",
             "typeName": "SOUL Abilities",
             "hidden": false,
-            "id": "2f25-cef1-b7f5-fe0e",
+            "id": "1559-4fd6-e57c-b9d4",
             "characteristics": [
               {
                 "name": "Cost",
@@ -1281,14 +1705,16 @@
                 "typeId": "d03e-2c10-89c9-8e5c",
                 "$text": "Step 1, then you or an adjacent ally reload."
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           },
           {
             "name": "Bullet Time",
             "typeId": "04a5-88c2-b120-5055",
             "typeName": "SOUL Abilities",
             "hidden": false,
-            "id": "7c5d-fd5d-f0c8-f084",
+            "id": "70f9-2776-5436-0f1b",
             "characteristics": [
               {
                 "name": "Cost",
@@ -1315,7 +1741,9 @@
                 "typeId": "d03e-2c10-89c9-8e5c",
                 "$text": "Clear one (5+) or two negative tokens. Ranged attacks automatically miss you until the end of your next turn (5+) and you are immune to splash and line damage for the duration."
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           }
         ],
         "costs": [
@@ -1333,7 +1761,7 @@
         "selectionEntryGroups": [
           {
             "name": "Bonus Traits",
-            "id": "2535-653d-915f-00c4",
+            "id": "b181-f5d9-c221-9e15",
             "hidden": false,
             "selectionEntries": [
               {
@@ -1341,21 +1769,23 @@
                 "import": true,
                 "name": "Bone Wall",
                 "hidden": false,
-                "id": "d216-c84f-bf64-8e09",
+                "id": "22fa-de11-a478-0100",
                 "profiles": [
                   {
                     "name": "Bone Wall",
                     "typeId": "c4ab-0724-e1de-ebce",
                     "typeName": "Traits",
                     "hidden": false,
-                    "id": "0f64-c30a-548c-c1e0",
+                    "id": "f458-2d25-7090-d2fd",
                     "characteristics": [
                       {
                         "name": "Effect",
                         "typeId": "b305-f2f7-6e6a-44ce",
                         "$text": "You can use your units as cover. While in cover your abilities gain +2 range."
                       }
-                    ]
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "constraints": [
@@ -1365,18 +1795,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "f3ee-eb31-3d2e-f68f",
+                    "id": "f3ee-eb31-3d2e-f68g",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 1,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "7200-b77a-d900-6c8e",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "8587-26f3-9fa8-bc5f",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -1390,28 +1819,32 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 0
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Gun Kata",
                 "hidden": false,
-                "id": "2fe8-f19d-8b25-784d",
+                "id": "698f-1be2-e574-121a",
                 "profiles": [
                   {
                     "name": "Gun Kata",
                     "typeId": "c4ab-0724-e1de-ebce",
                     "typeName": "Traits",
                     "hidden": false,
-                    "id": "d485-ef7b-4858-1c66",
+                    "id": "e702-1674-1bd4-c20d",
                     "characteristics": [
                       {
                         "name": "Effect",
                         "typeId": "b305-f2f7-6e6a-44ce",
                         "$text": "All ranged attacks gain a minimum range of 1 and push units 1 on hit if they are adjacent"
                       }
-                    ]
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "constraints": [
@@ -1421,18 +1854,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "d4be-f3f8-0e2b-73ca",
+                    "id": "d4be-f3f8-0e2b-73cb",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 2,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "6073-ad58-de98-bb94",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "34bd-5edc-6daa-11c7",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -1446,28 +1878,32 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 0
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Clutch Reload",
                 "hidden": false,
-                "id": "53b8-5bb4-c4b2-f4b4",
+                "id": "05c1-71a9-fd10-71a6",
                 "profiles": [
                   {
                     "name": "Clutch Reload",
                     "typeId": "c4ab-0724-e1de-ebce",
                     "typeName": "Traits",
                     "hidden": false,
-                    "id": "17a3-e681-68ca-8377",
+                    "id": "cae3-c418-dff5-0930",
                     "characteristics": [
                       {
                         "name": "Effect",
                         "typeId": "b305-f2f7-6e6a-44ce",
                         "$text": "Your ranged attacks gain headshot: reload"
                       }
-                    ]
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "constraints": [
@@ -1477,18 +1913,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "d112-224d-0210-4a37",
+                    "id": "d112-224d-0210-4a38",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 3,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "f22b-09b8-9d35-ead7",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "9c02-ad23-3288-ef49",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -1502,10 +1937,12 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 0
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               }
             ],
-            "page": "",
+            "page": "30",
             "constraints": [
               {
                 "type": "min",
@@ -1513,7 +1950,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "359f-d4a5-b826-0313-min",
+                "id": "359f-d4a5-b826-0314-min",
                 "includeChildSelections": false
               },
               {
@@ -1522,15 +1959,16 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "359f-d4a5-b826-0313-max",
+                "id": "359f-d4a5-b826-0314-max",
                 "includeChildSelections": false
               }
             ],
-            "sortIndex": 1
+            "sortIndex": 1,
+            "publicationId": "da35-e534-5d09-746b"
           },
           {
             "name": "Free ACT Upgrade",
-            "id": "57aa-7849-6a22-275c",
+            "id": "e0d7-703a-5a6d-322f",
             "hidden": false,
             "selectionEntries": [
               {
@@ -1538,7 +1976,7 @@
                 "import": true,
                 "name": "Grenade jump",
                 "hidden": false,
-                "id": "ec5b-dcd5-a40f-23fa",
+                "id": "6192-924e-92eb-178d",
                 "constraints": [
                   {
                     "type": "max",
@@ -1546,27 +1984,31 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "28cc-909a-6b22-faca",
+                    "id": "28cc-909a-6b22-facb",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "Grenade jump",
-                    "id": "a014-980c-e56e-059b",
+                    "id": "4113-4e32-e696-cc57",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "f04e-1728-92d8-7dbc"
+                    "targetId": "0ceb-cb3d-1239-3c88",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
-                "sortIndex": 1
+                "sortIndex": 1,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Armor Lock",
                 "hidden": false,
-                "id": "b112-34f8-71a6-1bef",
+                "id": "297c-4973-d5b1-9316",
                 "constraints": [
                   {
                     "type": "max",
@@ -1574,27 +2016,31 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "a907-92a8-16f4-9ec5",
+                    "id": "a907-92a8-16f4-9ec6",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "Armor Lock",
-                    "id": "0f15-7a75-0af1-fb83",
+                    "id": "5c7c-b678-f0a1-8539",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "5a14-03af-99fe-504e"
+                    "targetId": "6101-a91b-aabb-3d83",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
-                "sortIndex": 2
+                "sortIndex": 2,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Devil Bullet",
                 "hidden": false,
-                "id": "3e08-762a-ef87-9c6d",
+                "id": "bbb1-e204-6da9-3c8e",
                 "constraints": [
                   {
                     "type": "max",
@@ -1602,27 +2048,31 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "7c9d-f725-3a76-a318",
+                    "id": "7c9d-f725-3a76-a319",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "Devil Bullet",
-                    "id": "ea54-6ad8-a802-6e7d",
+                    "id": "aa46-3a8d-0b83-caa5",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "48a0-6b6a-e205-4f26"
+                    "targetId": "d83d-ca59-7f9d-84c4",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
-                "sortIndex": 3
+                "sortIndex": 3,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Superkick",
                 "hidden": false,
-                "id": "bdbc-bd26-f909-7b07",
+                "id": "9a01-5116-bc3b-c86f",
                 "constraints": [
                   {
                     "type": "max",
@@ -1630,27 +2080,31 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "61fa-3aed-0896-fdac",
+                    "id": "61fa-3aed-0896-fdad",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "Superkick",
-                    "id": "b202-b8d2-5550-8489",
+                    "id": "5cf6-8dab-5524-e160",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "a08f-820d-916d-9341"
+                    "targetId": "6f04-d78f-ac34-3be5",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
-                "sortIndex": 4
+                "sortIndex": 4,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "LV4 living cannon",
                 "hidden": false,
-                "id": "1a1d-343c-e0bb-7af5",
+                "id": "8183-1048-1961-6992",
                 "constraints": [
                   {
                     "type": "max",
@@ -1658,27 +2112,31 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "1fd3-1560-5097-d2e8",
+                    "id": "1fd3-1560-5097-d2e9",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "LV4 living cannon",
-                    "id": "7474-ad6e-9c1f-338e",
+                    "id": "f0ea-cd90-5fbf-1f1a",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "6649-5137-ab13-25af"
+                    "targetId": "d9c5-0a6d-8d66-e7e2",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
-                "sortIndex": 5
+                "sortIndex": 5,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "SG88 two barrel shotgun",
                 "hidden": false,
-                "id": "e483-1172-d654-5d46",
+                "id": "74d7-d518-2fcf-47ce",
                 "constraints": [
                   {
                     "type": "max",
@@ -1686,27 +2144,31 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "0950-e3c3-a51f-1ed4",
+                    "id": "0950-e3c3-a51f-1ed5",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "SG88 two barrel shotgun",
-                    "id": "6dab-6487-70cb-2509",
+                    "id": "0333-ac9b-4068-6492",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "76a1-ab3c-b1b1-27a3"
+                    "targetId": "c7d7-2680-96e2-8251",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
-                "sortIndex": 6
+                "sortIndex": 6,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Unholy Sixgun",
                 "hidden": false,
-                "id": "a5fb-9ac1-c811-da13",
+                "id": "895b-a329-2b5b-5971",
                 "constraints": [
                   {
                     "type": "max",
@@ -1714,20 +2176,22 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "f2d5-ec4f-d04e-2c12",
+                    "id": "f2d5-ec4f-d04e-2c13",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "Unholy Sixgun",
-                    "id": "2751-f96f-be0c-f718",
+                    "id": "0da5-9f92-ee0a-690f",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "4ed5-699b-1a6f-97c1"
+                    "targetId": "ec87-31f4-4153-9211"
                   }
                 ],
-                "sortIndex": 7
+                "sortIndex": 7,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               }
             ],
             "constraints": [
@@ -1737,7 +2201,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "2c20-21ab-7cf5-e884-min",
+                "id": "2c20-21ab-7cf5-e885-min",
                 "includeChildSelections": false
               },
               {
@@ -1746,15 +2210,17 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "2c20-21ab-7cf5-e884-max",
+                "id": "2c20-21ab-7cf5-e885-max",
                 "includeChildSelections": false
               }
             ],
-            "sortIndex": 2
+            "sortIndex": 2,
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "30"
           },
           {
             "name": "ACT Upgrades",
-            "id": "3359-72c6-62b8-0c1b",
+            "id": "63cd-0e1a-f048-494b",
             "hidden": false,
             "selectionEntries": [
               {
@@ -1762,7 +2228,7 @@
                 "import": true,
                 "name": "Grenade jump",
                 "hidden": false,
-                "id": "a158-b699-9854-84d8",
+                "id": "3a5a-1202-da5a-fabb",
                 "constraints": [
                   {
                     "type": "max",
@@ -1770,17 +2236,19 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "ba7c-326b-08f8-5bf7",
+                    "id": "ba7c-326b-08f8-5bf8",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "Grenade jump",
-                    "id": "ce21-e54b-84ad-52bb",
+                    "id": "62a8-37f0-131b-8cb1",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "f04e-1728-92d8-7dbc"
+                    "targetId": "0ceb-cb3d-1239-3c88",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "costs": [
@@ -1795,14 +2263,16 @@
                     "value": 1
                   }
                 ],
-                "sortIndex": 1
+                "sortIndex": 1,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Armor Lock",
                 "hidden": false,
-                "id": "e026-c38c-c22b-8404",
+                "id": "fd8c-9696-b3b2-552c",
                 "constraints": [
                   {
                     "type": "max",
@@ -1810,17 +2280,19 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "24a0-194b-dc44-0e6d",
+                    "id": "24a0-194b-dc44-0e6e",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "Armor Lock",
-                    "id": "bb53-d990-c128-eb86",
+                    "id": "ea42-c86d-2cdb-d98c",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "5a14-03af-99fe-504e"
+                    "targetId": "6101-a91b-aabb-3d83",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "costs": [
@@ -1835,14 +2307,16 @@
                     "value": 1
                   }
                 ],
-                "sortIndex": 2
+                "sortIndex": 2,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Devil Bullet",
                 "hidden": false,
-                "id": "828e-8abb-25cf-c611",
+                "id": "0b48-05a5-41fd-e3d6",
                 "constraints": [
                   {
                     "type": "max",
@@ -1850,17 +2324,19 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "1dbd-490c-face-8ef7",
+                    "id": "1dbd-490c-face-8ef8",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "Devil Bullet",
-                    "id": "d5d6-fa96-63f6-ae2c",
+                    "id": "0108-39bc-5402-4511",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "48a0-6b6a-e205-4f26"
+                    "targetId": "d83d-ca59-7f9d-84c4",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "sortIndex": 3,
@@ -1875,14 +2351,16 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Superkick",
                 "hidden": false,
-                "id": "f324-885c-e0a6-f4b8",
+                "id": "35ce-5448-eff8-868e",
                 "constraints": [
                   {
                     "type": "max",
@@ -1890,17 +2368,19 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "0812-0538-2209-e10a",
+                    "id": "0812-0538-2209-e10b",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "Superkick",
-                    "id": "8644-7d1c-a331-38f3",
+                    "id": "8059-fe78-80f4-574a",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "a08f-820d-916d-9341"
+                    "targetId": "6f04-d78f-ac34-3be5",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "sortIndex": 4,
@@ -1915,14 +2395,16 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "LV4 living cannon",
                 "hidden": false,
-                "id": "dccd-f8ad-7520-73b8",
+                "id": "8605-5e2a-0178-f28a",
                 "constraints": [
                   {
                     "type": "max",
@@ -1930,17 +2412,19 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "f3fe-4b54-545d-981e",
+                    "id": "f3fe-4b54-545d-981f",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "LV4 living cannon",
-                    "id": "0dab-8e34-e08b-34f1",
+                    "id": "c5f7-2ec4-66c9-347b",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "6649-5137-ab13-25af"
+                    "targetId": "d9c5-0a6d-8d66-e7e2",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "sortIndex": 5,
@@ -1955,14 +2439,16 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "SG88 two barrel shotgun",
                 "hidden": false,
-                "id": "53ba-f1fb-6e58-64f1",
+                "id": "c646-bd1d-8c69-6cb0",
                 "constraints": [
                   {
                     "type": "max",
@@ -1970,17 +2456,19 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "eacc-a05c-91e8-d275",
+                    "id": "eacc-a05c-91e8-d276",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "SG88 two barrel shotgun",
-                    "id": "af49-7a06-8efc-07ab",
+                    "id": "0920-eab5-9b4f-492d",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "76a1-ab3c-b1b1-27a3"
+                    "targetId": "c7d7-2680-96e2-8251",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "sortIndex": 6,
@@ -1995,14 +2483,16 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Unholy Sixgun",
                 "hidden": false,
-                "id": "6236-72e2-e13c-d704",
+                "id": "0b7a-7fc8-025c-5ade",
                 "constraints": [
                   {
                     "type": "max",
@@ -2010,17 +2500,19 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "d4db-6b8a-de6f-68ad",
+                    "id": "d4db-6b8a-de6f-68ae",
                     "includeChildSelections": false
                   }
                 ],
                 "infoLinks": [
                   {
                     "name": "Unholy Sixgun",
-                    "id": "9820-627e-4132-1889",
+                    "id": "6731-64c9-e492-af6c",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "4ed5-699b-1a6f-97c1"
+                    "targetId": "ec87-31f4-4153-9211",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "sortIndex": 7,
@@ -2035,14 +2527,18 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               }
             ],
-            "sortIndex": 4
+            "sortIndex": 4,
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "30"
           },
           {
             "name": "Free SOUL Upgrade",
-            "id": "a5c5-21ef-1dbb-6a45",
+            "id": "a535-1446-3c2c-6785",
             "hidden": false,
             "constraints": [
               {
@@ -2051,7 +2547,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "1476-19c2-b896-9044",
+                "id": "1476-19c2-b896-9045",
                 "includeChildSelections": false
               },
               {
@@ -2060,7 +2556,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "a25f-0184-f84b-9ec1",
+                "id": "a25f-0184-f84b-9ec2",
                 "includeChildSelections": false
               }
             ],
@@ -2070,7 +2566,7 @@
                 "import": true,
                 "name": "Double Tap",
                 "hidden": false,
-                "id": "4c79-63a6-edbb-1a62",
+                "id": "b0ed-5ffc-c44f-f135",
                 "constraints": [
                   {
                     "type": "max",
@@ -2078,7 +2574,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "6035-6c40-ca68-d6bc",
+                    "id": "6035-6c40-ca68-d6bd",
                     "includeChildSelections": false
                   }
                 ],
@@ -2086,19 +2582,23 @@
                 "infoLinks": [
                   {
                     "name": "Double Tap",
-                    "id": "4bfe-69a1-534a-ea5e",
+                    "id": "1c72-921f-7b79-a9a6",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "c870-f66d-c0a9-b01e"
+                    "targetId": "e855-16ac-20c1-47dc",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Frag Bullet",
                 "hidden": false,
-                "id": "3a94-795a-750a-5974",
+                "id": "7e46-e74e-1089-964e",
                 "constraints": [
                   {
                     "type": "max",
@@ -2106,7 +2606,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "cef7-9f04-418d-fd9a",
+                    "id": "cef7-9f04-418d-fd9b",
                     "includeChildSelections": false
                   }
                 ],
@@ -2114,19 +2614,23 @@
                 "infoLinks": [
                   {
                     "name": "Frag Bullet",
-                    "id": "25c4-f010-6297-7be0",
+                    "id": "538d-cb37-dfc9-ab24",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "03a4-85e5-861d-a960"
+                    "targetId": "c0a3-459b-a8b4-8ff6",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Bullet Hustle",
                 "hidden": false,
-                "id": "d92d-46a9-6651-1941",
+                "id": "e4d3-3fb1-1efc-43f2",
                 "constraints": [
                   {
                     "type": "max",
@@ -2134,7 +2638,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "591a-8f87-178a-71c7",
+                    "id": "591a-8f87-178a-71c8",
                     "includeChildSelections": false
                   }
                 ],
@@ -2142,19 +2646,23 @@
                 "infoLinks": [
                   {
                     "name": "Bullet Hustle",
-                    "id": "3bec-7b3c-3c2f-7f0b",
+                    "id": "5c46-5dc0-49e4-5c36",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "a572-1542-6152-af78"
+                    "targetId": "45a5-82a8-992d-f096",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Overwatch",
                 "hidden": false,
-                "id": "a1d0-5594-e7fc-10d9",
+                "id": "ab26-6531-5f0b-14d2",
                 "constraints": [
                   {
                     "type": "max",
@@ -2162,7 +2670,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "6898-a45f-51ab-c67b",
+                    "id": "6898-a45f-51ab-c67c",
                     "includeChildSelections": false
                   }
                 ],
@@ -2170,19 +2678,23 @@
                 "infoLinks": [
                   {
                     "name": "Overwatch",
-                    "id": "6e1c-f8cb-2bc0-7cad",
+                    "id": "f79d-338b-b3a4-a285",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "9044-d85f-f0b5-db9e"
+                    "targetId": "b912-fef7-52d8-3467",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Bullet Sonata",
                 "hidden": false,
-                "id": "3b3f-1cc9-3649-85e2",
+                "id": "7ad4-a116-d6fd-c0a8",
                 "constraints": [
                   {
                     "type": "max",
@@ -2190,7 +2702,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "695b-a6d9-69e8-4948",
+                    "id": "695b-a6d9-69e8-4949",
                     "includeChildSelections": false
                   }
                 ],
@@ -2198,19 +2710,23 @@
                 "infoLinks": [
                   {
                     "name": "Bullet Sonata",
-                    "id": "1dd3-72bb-3fa6-6e7a",
+                    "id": "5cd4-e054-5ef9-f25f",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "6ab8-c8dd-3395-4bf0"
+                    "targetId": "af31-d03b-a396-6dbc",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "S.T.G.",
                 "hidden": false,
-                "id": "5f3f-725a-4166-8621",
+                "id": "fe47-6f68-434b-2341",
                 "constraints": [
                   {
                     "type": "max",
@@ -2218,7 +2734,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "0ed2-8e07-7523-7ea8",
+                    "id": "0ed2-8e07-7523-7ea9",
                     "includeChildSelections": false
                   }
                 ],
@@ -2226,19 +2742,25 @@
                 "infoLinks": [
                   {
                     "name": "S.T.G.",
-                    "id": "84e3-ea69-0460-7588",
+                    "id": "85f4-1ee6-f3a8-3d66",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "e304-50cb-86fb-a3c4"
+                    "targetId": "2de9-530d-4094-51c5",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               }
             ],
-            "sortIndex": 3
+            "sortIndex": 3,
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "30"
           },
           {
             "name": "SOUL Upgrade",
-            "id": "2435-ab68-6e98-c114",
+            "id": "c0bf-4402-aef6-9176",
             "hidden": false,
             "selectionEntries": [
               {
@@ -2246,7 +2768,7 @@
                 "import": true,
                 "name": "Double Tap",
                 "hidden": false,
-                "id": "e54c-f5d7-536c-b00e",
+                "id": "12a8-a965-8150-d708",
                 "constraints": [
                   {
                     "type": "max",
@@ -2254,7 +2776,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "4cb5-8147-023d-95b3",
+                    "id": "4cb5-8147-023d-95b4",
                     "includeChildSelections": false
                   }
                 ],
@@ -2262,10 +2784,12 @@
                 "infoLinks": [
                   {
                     "name": "Double Tap",
-                    "id": "6b9f-7e8b-69b4-1348",
+                    "id": "33af-0b2f-a520-7930",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "c870-f66d-c0a9-b01e"
+                    "targetId": "e855-16ac-20c1-47dc",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "costs": [
@@ -2279,14 +2803,16 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Frag Bullet",
                 "hidden": false,
-                "id": "2957-7afa-d6e4-1257",
+                "id": "b23d-7050-30a7-3ea0",
                 "constraints": [
                   {
                     "type": "max",
@@ -2294,7 +2820,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "9cc6-073d-66ed-b964",
+                    "id": "9cc6-073d-66ed-b965",
                     "includeChildSelections": false
                   }
                 ],
@@ -2302,10 +2828,12 @@
                 "infoLinks": [
                   {
                     "name": "Frag Bullet",
-                    "id": "a064-ea1f-5575-c5f0",
+                    "id": "8500-b773-993d-4b71",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "03a4-85e5-861d-a960"
+                    "targetId": "c0a3-459b-a8b4-8ff6",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "costs": [
@@ -2319,14 +2847,16 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Bullet Hustle",
                 "hidden": false,
-                "id": "344b-3eb7-05dc-4db2",
+                "id": "516a-5974-b711-5b67",
                 "constraints": [
                   {
                     "type": "max",
@@ -2334,7 +2864,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "1bb1-88b4-05a9-e370",
+                    "id": "1bb1-88b4-05a9-e371",
                     "includeChildSelections": false
                   }
                 ],
@@ -2342,10 +2872,12 @@
                 "infoLinks": [
                   {
                     "name": "Bullet Hustle",
-                    "id": "1a66-6a65-0b42-ad57",
+                    "id": "4d36-fd23-e1ed-75fe",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "a572-1542-6152-af78"
+                    "targetId": "45a5-82a8-992d-f096",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "costs": [
@@ -2359,14 +2891,16 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Overwatch",
                 "hidden": false,
-                "id": "e0ea-e970-c9c5-ca04",
+                "id": "05f3-8db8-e19b-f5b4",
                 "constraints": [
                   {
                     "type": "max",
@@ -2374,7 +2908,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "78cc-348c-6648-402c",
+                    "id": "78cc-348c-6648-402d",
                     "includeChildSelections": false
                   }
                 ],
@@ -2382,10 +2916,12 @@
                 "infoLinks": [
                   {
                     "name": "Overwatch",
-                    "id": "d8db-f5bf-c576-640d",
+                    "id": "cca1-663c-1863-95d8",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "9044-d85f-f0b5-db9e"
+                    "targetId": "b912-fef7-52d8-3467",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "costs": [
@@ -2399,14 +2935,16 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Bullet Sonata",
                 "hidden": false,
-                "id": "d704-ab33-6352-8717",
+                "id": "ccad-8c51-6706-aecc",
                 "constraints": [
                   {
                     "type": "max",
@@ -2414,7 +2952,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "ef4d-f439-a7c4-6efa",
+                    "id": "ef4d-f439-a7c4-6efb",
                     "includeChildSelections": false
                   }
                 ],
@@ -2422,10 +2960,12 @@
                 "infoLinks": [
                   {
                     "name": "Bullet Sonata",
-                    "id": "6988-5e9a-cb85-022b",
+                    "id": "f725-4ec7-0339-23f8",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "6ab8-c8dd-3395-4bf0"
+                    "targetId": "af31-d03b-a396-6dbc",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "costs": [
@@ -2439,14 +2979,16 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "S.T.G.",
                 "hidden": false,
-                "id": "7c4f-21de-2544-199f",
+                "id": "5807-82d3-f68c-1ad2",
                 "constraints": [
                   {
                     "type": "max",
@@ -2454,7 +2996,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "6cd1-4073-914a-0db4",
+                    "id": "6cd1-4073-914a-0db5",
                     "includeChildSelections": false
                   }
                 ],
@@ -2462,10 +3004,12 @@
                 "infoLinks": [
                   {
                     "name": "S.T.G.",
-                    "id": "faa3-1ca9-d7c9-d757",
+                    "id": "42a6-f2e3-ba00-5d66",
                     "hidden": false,
                     "type": "profile",
-                    "targetId": "e304-50cb-86fb-a3c4"
+                    "targetId": "2de9-530d-4094-51c5",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
                   }
                 ],
                 "costs": [
@@ -2479,10 +3023,14 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
               }
             ],
-            "sortIndex": 5
+            "sortIndex": 5,
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "30"
           }
         ],
         "publicationId": "da35-e534-5d09-746b",
@@ -2493,11 +3041,11 @@
         "import": true,
         "name": "EGIS Weapon",
         "hidden": false,
-        "id": "02fc-63bd-b6ab-116c",
+        "id": "ba55-27d1-0e6c-4463",
         "categoryLinks": [
           {
             "targetId": "default-category",
-            "id": "9a81-9717-f3b9-e928",
+            "id": "eeb6-81e6-1476-f9b7",
             "primary": true,
             "name": "Unit"
           }
@@ -2505,17 +3053,21 @@
         "infoLinks": [
           {
             "name": "Formation",
-            "id": "f62e-89f5-1b45-0a83",
+            "id": "9ee5-36c5-346e-d985",
             "hidden": false,
             "type": "profile",
-            "targetId": "5414-d21e-62ad-17ef"
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
           },
           {
             "name": "Tyrant",
-            "id": "9023-f802-1376-50b5",
+            "id": "0543-ee15-d3fb-4bdd",
             "hidden": false,
             "type": "profile",
-            "targetId": "5c4d-9068-2b4f-1f43"
+            "targetId": "5c4d-9068-2b4f-1f43",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           }
         ],
         "profiles": [
@@ -2524,7 +3076,7 @@
             "typeId": "6426-dcea-42df-f2d5",
             "typeName": "Unit",
             "hidden": false,
-            "id": "bfcd-c005-f34d-96aa",
+            "id": "d449-5b4a-9320-c5e9",
             "characteristics": [
               {
                 "name": "MV",
@@ -2546,14 +3098,16 @@
                 "typeId": "d539-7a96-9a0b-9090",
                 "$text": "PHYS"
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           },
           {
             "name": "Juggernaut",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "a67d-a416-2378-af96",
+            "id": "99ef-e533-f7bc-0502",
             "characteristics": [
               {
                 "name": "Tags",
@@ -2570,14 +3124,16 @@
                 "typeId": "20c2-cbeb-cb0b-47be",
                 "$text": ""
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           },
           {
             "name": "Mortar",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "872c-df02-75f0-bc21",
+            "id": "26b3-2150-2aea-88fe",
             "characteristics": [
               {
                 "name": "Tags",
@@ -2594,28 +3150,32 @@
                 "typeId": "20c2-cbeb-cb0b-47be",
                 "$text": "1 damage then Splash: 1 fire damage. Headshot: +1 damage on main target"
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           },
           {
             "name": "Siege Shield",
             "typeId": "c4ab-0724-e1de-ebce",
             "typeName": "Traits",
             "hidden": false,
-            "id": "61b0-18d3-78cc-5752",
+            "id": "a679-c870-5366-de60",
             "characteristics": [
               {
                 "name": "Effect",
                 "typeId": "b305-f2f7-6e6a-44ce",
                 "$text": "May be used as a cover object by allies"
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           },
           {
             "name": "Catechism Devil Cannon",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
-            "id": "c378-cf41-8db1-901d",
+            "id": "d95a-0b79-0059-a8b7",
             "characteristics": [
               {
                 "name": "Tags",
@@ -2632,7 +3192,9 @@
                 "typeId": "20c2-cbeb-cb0b-47be",
                 "$text": ""
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           }
         ],
         "costs": [
@@ -2650,7 +3212,7 @@
         "selectionEntryGroups": [
           {
             "name": "Upgrades",
-            "id": "6b56-4128-18c1-6d9f",
+            "id": "b178-28c9-d906-285d",
             "hidden": false,
             "selectionEntries": [
               {
@@ -2658,14 +3220,14 @@
                 "import": true,
                 "name": "Fortify",
                 "hidden": false,
-                "id": "9860-0827-9aca-1f2f",
+                "id": "4730-1c80-26e7-bd3c",
                 "profiles": [
                   {
                     "name": "Fortify",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "4e31-1791-5743-713c",
+                    "id": "af7f-191a-3b78-2706",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -2673,7 +3235,8 @@
                         "$text": "Juggernaut also clears all negative tokens."
                       }
                     ],
-                    "page": ""
+                    "page": "29",
+                    "publicationId": "da35-e534-5d09-746b"
                   }
                 ],
                 "constraints": [
@@ -2683,18 +3246,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "cd68-d6f1-11f2-fdef",
+                    "id": "cd68-d6f1-11f2-fdeg",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 1,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "08a7-7daf-0d13-547c",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "74dd-da0d-2e63-6506",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -2708,21 +3270,23 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "29"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Heavy Caliber Cannon",
                 "hidden": false,
-                "id": "0282-8da9-d4c6-246e",
+                "id": "7743-42a8-5c81-5c38",
                 "profiles": [
                   {
                     "name": "Heavy Caliber Cannon",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "0e00-0a0a-bc57-5f47",
+                    "id": "04e9-f9ff-f265-aae1",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -2730,7 +3294,8 @@
                         "$text": "Catechism pushes all units in the line 1 space and destroys walls."
                       }
                     ],
-                    "page": ""
+                    "page": "29",
+                    "publicationId": "da35-e534-5d09-746b"
                   }
                 ],
                 "constraints": [
@@ -2740,18 +3305,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "7acb-05b4-8f3b-6080",
+                    "id": "7acb-05b4-8f3b-6081",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 2,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "6da1-3e81-8f36-0129",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "5a6c-ca7a-8079-3fb1",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -2765,21 +3329,23 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "29"
               },
               {
                 "type": "upgrade",
                 "import": true,
                 "name": "Gunner Pivot",
                 "hidden": false,
-                "id": "5e2a-84b1-58fe-4466",
+                "id": "a9b1-07b4-18b7-ad03",
                 "profiles": [
                   {
                     "name": "Gunner Pivot",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
-                    "id": "47ef-48a9-1e49-2d51",
+                    "id": "d213-bcad-f790-dccc",
                     "characteristics": [
                       {
                         "name": "Upgrade Effect",
@@ -2787,7 +3353,8 @@
                         "$text": "When at least one ally is adjacent to this unit, Mortar ignores cover."
                       }
                     ],
-                    "page": ""
+                    "page": "29",
+                    "publicationId": "da35-e534-5d09-746b"
                   }
                 ],
                 "constraints": [
@@ -2797,18 +3364,17 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "79de-38a3-0dcf-c060",
+                    "id": "79de-38a3-0dcf-c061",
                     "includeChildSelections": false
                   }
                 ],
                 "sortIndex": 3,
                 "categoryLinks": [
                   {
-                    "name": "Upgrade",
-                    "hidden": false,
-                    "id": "05d5-9d8e-36eb-5f9e",
                     "targetId": "a70b-cf66-dbc9-4441",
-                    "primary": false
+                    "id": "76fc-0f8d-959b-4cd7",
+                    "primary": false,
+                    "name": "Upgrade"
                   }
                 ],
                 "costs": [
@@ -2822,14 +3388,17 @@
                     "typeId": "2bfb-93d9-91d6-b153",
                     "value": 1
                   }
-                ]
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "29"
               }
             ],
-            "page": ""
+            "page": "29",
+            "publicationId": "da35-e534-5d09-746b"
           }
         ],
         "publicationId": "da35-e534-5d09-746b",
-        "page": "35",
+        "page": "29",
         "constraints": [
           {
             "type": "max",
@@ -2837,7 +3406,7 @@
             "field": "selections",
             "scope": "parent",
             "shared": true,
-            "id": "103f-086c-4ca2-0e78",
+            "id": "103f-086c-4ca2-0e79",
             "includeChildSelections": false,
             "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
@@ -2848,7 +3417,7 @@
             "import": true,
             "name": "EGIS Weapon",
             "hidden": false,
-            "id": "0f58-8b0e-e757-fc3d",
+            "id": "75fe-6e9f-b711-4e2f",
             "costs": [
               {
                 "name": "Unit Slots",
@@ -2864,7 +3433,7 @@
             "categoryLinks": [
               {
                 "targetId": "7314-e0e7-35fe-aa92",
-                "id": "fb98-719f-c3b9-7266",
+                "id": "1e72-81eb-dd09-1f3d",
                 "primary": true,
                 "name": "Tyrant"
               }
@@ -2876,15 +3445,388 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "abfe-5d7d-31fe-b97f",
+                "id": "abfe-5d7d-31fe-b97g",
                 "includeChildSelections": false
               }
-            ]
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
           }
         ]
       },
       {
-        "_comment": "Need add Infiltrator"
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "5dff-961c-4d02-93cc",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "id": "d5a9-c522-5682-5ed5",
+        "name": "Infiltrator",
+        "type": "unit",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Infiltrator",
+            "hidden": false,
+            "id": "5575-1c45-c401-3fc0",
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "ae1b-953f-6a47-8ae9"
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "85b3-be32-3ac6-24b2",
+                "id": "cb34-53d6-64ed-de0f",
+                "primary": true,
+                "name": "Hunter"
+              }
+            ],
+            "sortIndex": 1,
+            "page": "16"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "7bf5-f621-e70b-1feb"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Infiltrator",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "1e1f-8abb-8800-9351",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "3"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "MAG"
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "16"
+          },
+          {
+            "name": "Cross Fire",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "1004-f7f0-d9e8-efb7",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Line 4, reload"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "First unit in the line takes 1 piercing damage. If catching an allied unit in the line, also inflict 2 vulnerable."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "16"
+          },
+          {
+            "name": "Slide Kick",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "bff3-2b3f-a684-28d4",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Step"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Step 1, then push an adjacent foe 1 or (5+) 2 spaces. That foe must spend a MOVE before next attacking."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "16"
+          },
+          {
+            "name": "Trick Reload",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "72e3-bc23-5370-3546",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Reload and gain 1 strength (4+) then regain this unit’s ACT. This ability can’t be used again this turn."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "16"
+          }
+        ],
+        "publicationId": "0300-2d2b-d6c4-502c",
+        "page": "16",
+        "infoLinks": [
+          {
+            "name": "Formation",
+            "id": "c45d-ac7f-74b5-a9c4",
+            "hidden": false,
+            "type": "profile",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26",
+            "targetId": "f583-cdde-f2df-8f4f"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "68d1-ebd9-6ab5-ee88",
+            "hidden": false,
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "16",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Burst Fire",
+                "hidden": false,
+                "id": "b7cd-aed7-c938-b38c",
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "0494-a49a-8b79-69cc",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "publicationId": "0300-2d2b-d6c4-502c",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "de3f-ab6a-28d3-702b"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Burst Fire",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "98b1-5880-685c-313f",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "May step 1 before and after activating Cross Fire, but it becomes line 3"
+                      }
+                    ],
+                    "publicationId": "0300-2d2b-d6c4-502c",
+                    "page": "16"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Ricochet",
+                "hidden": false,
+                "id": "f378-445e-3d8d-e56d",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9aa8-2df6-7446-bd23"
+                  }
+                ],
+                "publicationId": "0300-2d2b-d6c4-502c",
+                "page": "16",
+                "sortIndex": 2,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Ricochet",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "5147-903d-b006-da89",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Cross fire’s extra effect also triggers if it catches a wall in the line"
+                      }
+                    ],
+                    "publicationId": "0300-2d2b-d6c4-502c",
+                    "page": "16"
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "242b-4d4e-e80f-2c5e",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Knife Slash",
+                "hidden": false,
+                "id": "e5de-e3ae-2b77-e581",
+                "sortIndex": 3,
+                "publicationId": "0300-2d2b-d6c4-502c",
+                "page": "16",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "ec53-eab1-046d-5e45",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "eb79-4a55-f9c8-b8ba"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Knife Slash",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "8893-f01d-e912-6940",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Slide kick also inflicts 1 vulnerable."
+                      }
+                    ],
+                    "publicationId": "0300-2d2b-d6c4-502c",
+                    "page": "16"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedProfiles": [
@@ -2893,7 +3835,7 @@
         "typeId": "c4ab-0724-e1de-ebce",
         "typeName": "Traits",
         "hidden": false,
-        "id": "5414-d21e-62ad-17ef",
+        "id": "f583-cdde-f2df-8f4f",
         "characteristics": [
           {
             "name": "Effect",
@@ -2907,7 +3849,7 @@
         "typeId": "a874-3212-1e77-eae3",
         "typeName": "ACT Abilities",
         "hidden": false,
-        "id": "5a14-03af-99fe-504e",
+        "id": "6101-a91b-aabb-3d83",
         "characteristics": [
           {
             "name": "Tags",
@@ -2931,7 +3873,7 @@
         "typeId": "a874-3212-1e77-eae3",
         "typeName": "ACT Abilities",
         "hidden": false,
-        "id": "f04e-1728-92d8-7dbc",
+        "id": "0ceb-cb3d-1239-3c88",
         "characteristics": [
           {
             "name": "Tags",
@@ -2955,7 +3897,7 @@
         "typeId": "a874-3212-1e77-eae3",
         "typeName": "ACT Abilities",
         "hidden": false,
-        "id": "48a0-6b6a-e205-4f26",
+        "id": "d83d-ca59-7f9d-84c4",
         "characteristics": [
           {
             "name": "Tags",
@@ -2979,7 +3921,7 @@
         "typeId": "a874-3212-1e77-eae3",
         "typeName": "ACT Abilities",
         "hidden": false,
-        "id": "a08f-820d-916d-9341",
+        "id": "6f04-d78f-ac34-3be5",
         "characteristics": [
           {
             "name": "Tags",
@@ -3003,7 +3945,7 @@
         "typeId": "a874-3212-1e77-eae3",
         "typeName": "ACT Abilities",
         "hidden": false,
-        "id": "6649-5137-ab13-25af",
+        "id": "d9c5-0a6d-8d66-e7e2",
         "characteristics": [
           {
             "name": "Tags",
@@ -3027,7 +3969,7 @@
         "typeId": "a874-3212-1e77-eae3",
         "typeName": "ACT Abilities",
         "hidden": false,
-        "id": "76a1-ab3c-b1b1-27a3",
+        "id": "c7d7-2680-96e2-8251",
         "characteristics": [
           {
             "name": "Tags",
@@ -3051,7 +3993,7 @@
         "typeId": "a874-3212-1e77-eae3",
         "typeName": "ACT Abilities",
         "hidden": false,
-        "id": "4ed5-699b-1a6f-97c1",
+        "id": "ec87-31f4-4153-9211",
         "characteristics": [
           {
             "name": "Tags",
@@ -3075,7 +4017,7 @@
         "typeId": "04a5-88c2-b120-5055",
         "typeName": "SOUL Abilities",
         "hidden": false,
-        "id": "c870-f66d-c0a9-b01e",
+        "id": "e855-16ac-20c1-47dc",
         "characteristics": [
           {
             "name": "Cost",
@@ -3109,7 +4051,7 @@
         "typeId": "04a5-88c2-b120-5055",
         "typeName": "SOUL Abilities",
         "hidden": false,
-        "id": "03a4-85e5-861d-a960",
+        "id": "c0a3-459b-a8b4-8ff6",
         "characteristics": [
           {
             "name": "Cost",
@@ -3143,7 +4085,7 @@
         "typeId": "04a5-88c2-b120-5055",
         "typeName": "SOUL Abilities",
         "hidden": false,
-        "id": "a572-1542-6152-af78",
+        "id": "45a5-82a8-992d-f096",
         "characteristics": [
           {
             "name": "Cost",
@@ -3177,7 +4119,7 @@
         "typeId": "04a5-88c2-b120-5055",
         "typeName": "SOUL Abilities",
         "hidden": false,
-        "id": "9044-d85f-f0b5-db9e",
+        "id": "b912-fef7-52d8-3467",
         "characteristics": [
           {
             "name": "Cost",
@@ -3211,7 +4153,7 @@
         "typeId": "04a5-88c2-b120-5055",
         "typeName": "SOUL Abilities",
         "hidden": false,
-        "id": "6ab8-c8dd-3395-4bf0",
+        "id": "af31-d03b-a396-6dbc",
         "characteristics": [
           {
             "name": "Cost",
@@ -3245,7 +4187,7 @@
         "typeId": "04a5-88c2-b120-5055",
         "typeName": "SOUL Abilities",
         "hidden": false,
-        "id": "e304-50cb-86fb-a3c4",
+        "id": "2de9-530d-4094-51c5",
         "characteristics": [
           {
             "name": "Cost",
@@ -3280,56 +4222,60 @@
         "import": true,
         "name": "Ammo Goblin",
         "hidden": false,
-        "id": "3b64-6a94-4078-edc6",
-        "targetId": "7c46-4a31-072e-9056",
-        "type": "selectionEntry"
+        "id": "d633-a028-c68f-66d3",
+        "targetId": "5fed-0009-c744-d414",
+        "type": "selectionEntry",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "28"
       },
       {
         "import": true,
         "name": "Enforcer",
         "hidden": false,
-        "id": "1698-e216-d536-99c2",
-        "targetId": "30fb-600c-c196-e83f",
+        "id": "3c4d-c631-5926-d919",
+        "targetId": "d125-0949-9152-aa53",
         "type": "selectionEntry"
       },
       {
         "import": true,
         "name": "Barrelform",
         "hidden": false,
-        "id": "79e7-dc80-f5a7-869e",
-        "targetId": "3c1c-d96d-5e60-3f04",
-        "type": "selectionEntry"
+        "id": "bed0-231a-4a5f-04b1",
+        "targetId": "c026-aa13-38d7-0231",
+        "type": "selectionEntry",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "28"
       },
       {
         "import": true,
         "name": "Operator",
         "hidden": false,
-        "id": "bd79-b3f1-7787-7ffd",
-        "targetId": "92f7-3264-2aab-6cb8",
+        "id": "c9b5-189f-31a4-6618",
+        "targetId": "3ab6-3396-4fba-4151",
         "type": "selectionEntry"
       },
       {
         "import": true,
         "name": "Gunwight",
         "hidden": false,
-        "id": "613f-64de-b765-6e99",
-        "targetId": "6cd4-a6fa-d647-6f18",
+        "id": "868c-d0cb-141a-38ee",
+        "targetId": "4980-3982-04e3-d42a",
         "type": "selectionEntry"
       },
       {
         "import": true,
         "name": "EGIS Weapon",
         "hidden": false,
-        "id": "9d7d-6dde-dcef-93b8",
-        "targetId": "02fc-63bd-b6ab-116c",
+        "id": "9f7a-fd82-6293-e501",
+        "targetId": "ba55-27d1-0e6c-4463",
         "type": "selectionEntry"
       },
       {
         "import": true,
         "name": "Infiltrator",
         "hidden": false,
-        "id": "64f1-16b7-fddf-eba9",
-        "targetId": "6b1f-7407-cd81-488b",
+        "id": "46c5-366d-999b-ae95",
+        "targetId": "d5a9-c522-5682-5ed5",
         "type": "selectionEntry"
       }
     ],
@@ -3337,18 +4283,22 @@
     "sharedRules": [
       {
         "name": "Reload",
-        "id": "14a3-5b0a-000b-3163",
+        "id": "4ae7-e493-2984-2372",
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
-        "page": "32",
+        "page": "26",
         "description": "Once used, a unit cannot use any ability with this tag until it reloads. To reload, sacrifice a MOVE. Other abilities may allow a reload for free.",
-        "alias": ["reload"]
+        "alias": [
+          "reload"
+        ]
       },
       {
         "name": "Headshot",
-        "id": "cb29-1c1b-c8a4-51fa",
+        "id": "ebe5-2d23-e776-76eb",
         "hidden": false,
-        "description": "Effect that triggers when rolling a 6 on the final attack roll."
+        "description": "Effect that triggers when rolling a 6 on the final attack roll.",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "26"
       }
     ]
   }

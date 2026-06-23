@@ -1,0 +1,1749 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "afad-d25a-4adc-edb4",
+    "name": "Abhorrers",
+    "gameSystemId": "sys-ec2b-f0d3-4663-8364",
+    "gameSystemRevision": 2,
+    "revision": 1,
+    "battleScribeVersion": "2.03",
+    "rules": [
+      {
+        "name": "Stance",
+        "id": "f961-e275-a009-7f72",
+        "hidden": false,
+        "description": "An ability with stance gains different effects on odd, even, or special numbered rounds."
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Miracle",
+        "typeId": "c4ab-0724-e1de-ebce",
+        "typeName": "Traits",
+        "hidden": false,
+        "id": "4a65-e02e-4d3c-12d9",
+        "characteristics": [
+          {
+            "name": "Effect",
+            "typeId": "b305-f2f7-6e6a-44ce",
+            "$text": "A unit affected by a Miracle has a 5+ effect chance to instantly return to life at 1 hp at the end of any turn it is slain, clearing all tokens."
+          }
+        ]
+      },
+      {
+        "name": "Grand Oath",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "de48-5830-a719-ab96",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Splash (self)"
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "Self and allies in the area may convert any number of vitality to strength."
+          }
+        ]
+      },
+      {
+        "name": "Redempta",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "0914-dde3-3523-6342",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 4"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Remove all negative tokens on an ally, then transfer to self. That ally gains 1 vitality per negative token removed and becomes curseproof until the start of its next turn"
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Communion",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "c66e-42e3-df4c-d3a0",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Gain 1 vitality. Until end of next turn, self and adjacent allies may spend this unit’s hp as if it were vitality tokens."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Decree of Forbiddance",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "1a8d-3119-095b-c7fb",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Curse, Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Until end of next turn, foes ending their turn in range 2 of this unit have a hazard created under them, then are pushed 1."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Holy Water Flail",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "7e7e-47ce-b40f-bbff",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Range 2-4, Charge"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 holy damage and splash (target): 1 holy damage. Stance (Round 3+): and create a hazard under target (round 5+) all targets in the area."
+          }
+        ]
+      },
+      {
+        "name": "Relic Lance",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "3dd6-1ea3-f05f-a1ec",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Melee"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "2 damage. Stance: May step spaces equal to the round number with free movement, in a straight line, before the attack. On hit, push target half that any spaces."
+          }
+        ]
+      },
+      {
+        "name": "Starmetal Shuriken",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "21c0-cc61-4b9c-566a",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Range 2-5"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 damage. Stance: Roll the effect die. If you roll under the round number, deal 1 holy damage again. If you roll exactly the round number, deal 2 holy damage again instead."
+          }
+        ]
+      },
+      {
+        "name": "Sword Art: Drifting Blossoms",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "673f-7f2a-d77e-572b",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "A unit MOVEs, and that move resolves."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Stance: Step spaces equal to 1 + the round number, then push an adjacent unit 1."
+          }
+        ]
+      },
+      {
+        "name": "Sword Art: Safflower cut",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "c266-c7f8-d7e3-f9c1",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or Allied turn."
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Line"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Stance: Step 1, then cut a line area with spaces equal to the round number +2, dealing 1 damage to all characters within and pushing those characters 1. Stance (R5+): This damage becomes Devil Damage."
+          }
+        ]
+      },
+      {
+        "name": "Grace",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "7f4a-318d-42d9-5182",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or allied turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 1-3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Unit becomes curseproof until end of its next turn and attacks against it gain -1D for the duration."
+          }
+        ]
+      },
+      {
+        "name": "Sword Art: Winter Sprout",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "7b86-4adc-6550-013b",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "3"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "This unit takes damage from an ACT ability, and that ability resolves"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Splash (self): remove 1 negative token on self or gain 1 vitality for every foe in the splash area. Stance (R4+): both effects trigger."
+          }
+        ]
+      },
+      {
+        "name": "Supreme Sword Art: Merciful Snowdrop Cut",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "89a5-dc6d-428b-c3b2",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "4"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn."
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "You hit an attack."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Splash (self): 1 holy damage. Stance (R3+): 2 holy damage (R5+): 4 holy damage. (R6+): 5 holy damage."
+          }
+        ]
+      },
+      {
+        "name": "Resurrection",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "0abe-c974-0696-3a02",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "6"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Allied unit is slain"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Return unit to life at 1 hp at the end of the turn. It becomes immune to all damage and curseproof until the start of its next turn. Stance (R3+) and it gains 1 vitality (R5+) 3 vitality instead."
+          }
+        ]
+      }
+    ],
+    "type": "catalogue",
+    "sharedSelectionEntries": [
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Exorcist",
+        "hidden": false,
+        "id": "153b-8a55-c222-2d46",
+        "categoryLinks": [
+          {
+            "name": "Necromancer",
+            "hidden": false,
+            "id": "dbe1-5c10-192e-3d49",
+            "targetId": "fe30-71be-eb40-926a",
+            "primary": true
+          },
+          {
+            "name": "Unit",
+            "hidden": false,
+            "id": "ff2b-f77b-b879-427b",
+            "targetId": "default-category",
+            "primary": false
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Exorcist",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "dfc4-5fae-f3b7-fe19",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "10"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Starmetal Godsword",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "ee0c-4256-3491-9918",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee, Attack"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "1 damage. Stance (Odd): and step 2, Stance (Even): and gain 1 vitality, Stance (Round 5+): Increase damage to 3."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "\n"
+              }
+            ]
+          },
+          {
+            "name": "Holy Vessel",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "8970-3c8a-c9e4-8f08",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "Lacks Miracle. However, while alive, miracle triggers for adjacent allies on a 4+, and gain 1 SOUL the first time it triggers in a round."
+              }
+            ]
+          },
+          {
+            "name": "Absolution",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "b2bb-bc8d-c43a-ecae",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "1"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Any turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "Range 2-6"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": "Turn start"
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Self takes 1 piercing damage, which cannot slay self. One allied unit in range gains one, (3+) two, or (5+) three vitality."
+              }
+            ]
+          },
+          {
+            "name": "Will of God",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "60ef-e256-fb7d-f0c2",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "3"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Own or Allied Turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "Range 1-3"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": "Turn start"
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "For this turn only, self or allied unit in range may treat the current round number as either 2 or 5."
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Bonus Traits",
+            "id": "cdb6-35c6-7f74-fd01",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Winter Rose Stance",
+                "hidden": false,
+                "id": "b585-59b8-c4aa-9bdb",
+                "profiles": [
+                  {
+                    "name": "Winter Rose Stance",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "74e4-01b1-6846-72c0",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "Stance: (Round 3+): Attacks cannot miss (all misses turn into hits)."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fc64-3c58-4b78-3971",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "a7da-7746-7a81-9f2b",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Corpse Violet Stance",
+                "hidden": false,
+                "id": "cba4-b07a-0558-86e3",
+                "profiles": [
+                  {
+                    "name": "Corpse Violet Stance",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "d0f1-2cea-76cf-c9a1",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "Stance: (Round 3+): Gain either physical or magical armor (choose)."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b615-3eda-23cc-39cc",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "b39c-cc3e-b70c-4b6a",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Royal Chrysanthemum Stance",
+                "hidden": false,
+                "id": "4294-2dd8-c1b0-07f9",
+                "profiles": [
+                  {
+                    "name": "Royal Chrysanthemum Stance",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "e04d-d33e-f996-a8b1",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "Stance (Round 3+): May step 2 after ACTing."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e505-7ae7-d016-6748",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "7b8c-6d76-6e99-e8fd",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "page": "",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f132-799e-81bd-19d9",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "fd6a-c40d-d88f-66c6",
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 1
+          },
+          {
+            "name": "Free ACT Upgrade",
+            "id": "2b88-76e0-ea2f-fefc",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Redempta",
+                "hidden": false,
+                "id": "f40c-ac2f-7d8c-e6d8",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f125-b3ff-5b29-78c9",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Redempta",
+                    "id": "8f8e-426c-4810-ad66",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0914-dde3-3523-6342"
+                  }
+                ],
+                "sortIndex": 2
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grand Oath",
+                "hidden": false,
+                "id": "a60f-9047-8f78-ee37",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "039d-f05c-cf46-7b46",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Grand Oath",
+                    "id": "4183-9866-1285-d6f9",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "de48-5830-a719-ab96"
+                  }
+                ],
+                "sortIndex": 1
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Communion",
+                "hidden": false,
+                "id": "b5ae-94b8-09b3-138f",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cb42-d0c1-8234-d5b6",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Communion",
+                    "id": "3b94-2f5d-0ab4-41a3",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c66e-42e3-df4c-d3a0"
+                  }
+                ],
+                "sortIndex": 3
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Decree of Forbiddance",
+                "hidden": false,
+                "id": "6e4d-8de4-1d14-eee5",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "96c0-b801-b22b-93e4",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Holy Water Flail",
+                    "id": "07cc-f1ec-5742-3228",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "1a8d-3119-095b-c7fb"
+                  }
+                ],
+                "sortIndex": 4
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Holy Water Flail",
+                "hidden": false,
+                "id": "4406-a262-7e22-df28",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3040-7d0b-e4bd-f67b",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Holy Water Flail",
+                    "id": "fbac-4e01-2b1f-b607",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7e7e-47ce-b40f-bbff"
+                  }
+                ],
+                "sortIndex": 5
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Relic Lance",
+                "hidden": false,
+                "id": "2a9e-d1ea-7b6b-8366",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d23d-84a4-34fc-3504",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Relic Lance",
+                    "id": "df76-ea3f-d168-6969",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "3dd6-1ea3-f05f-a1ec"
+                  }
+                ],
+                "sortIndex": 6
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Starmetal Shuriken",
+                "hidden": false,
+                "id": "851a-9f7f-8d19-0d80",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f863-063f-e617-f940",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Drifting Blossoms",
+                    "id": "af84-7a8f-030a-7146",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "21c0-cc61-4b9c-566a"
+                  }
+                ],
+                "sortIndex": 7
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0eca-1914-1668-c785",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0e94-0d85-0e08-a204",
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 2
+          },
+          {
+            "name": "Free SOUL Upgrade",
+            "id": "94d2-6541-aaa3-8a51",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "318a-b5db-5c37-8f8d",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "54e4-fc12-eed0-480c",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Drifting Blossoms",
+                "hidden": false,
+                "id": "1340-13b7-d94e-9529",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c7cf-5121-55dc-3edc",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Drifting Blossoms",
+                    "id": "4986-6da1-acdb-2647",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "673f-7f2a-d77e-572b"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Safflower cut",
+                "hidden": false,
+                "id": "0597-435b-ef92-9cbb",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5565-bf16-2530-9caa",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Safflower cut",
+                    "id": "d718-90e8-0918-772c",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c266-c7f8-d7e3-f9c1"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grace",
+                "hidden": false,
+                "id": "bedc-998f-3ff7-ad0d",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1f1d-8cc1-1da6-a843",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Grace",
+                    "id": "e120-a800-d4e1-9eef",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7f4a-318d-42d9-5182"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Supreme Sword Art: Merciful Snowdrop Cut",
+                "hidden": false,
+                "id": "bc47-75c6-fce2-016a",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6908-fc09-41e7-13cf",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 5,
+                "infoLinks": [
+                  {
+                    "name": "Supreme Sword Art: Merciful Snowdrop Cut",
+                    "id": "4e7c-3dc4-55b3-3d39",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "89a5-dc6d-428b-c3b2"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Winter Sprout",
+                "hidden": false,
+                "id": "73a3-2877-fc4b-dfea",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7b7f-32b5-ed05-6ca7",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Winter Sprout",
+                    "id": "64d5-c22e-2492-98c1",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7b86-4adc-6550-013b"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Resurrection",
+                "hidden": false,
+                "id": "4c06-9312-6e13-3053",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "416d-d2a0-0494-0bf1",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 6,
+                "infoLinks": [
+                  {
+                    "name": "Resurrection",
+                    "id": "2503-c08f-aa9f-d383",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0abe-c974-0696-3a02"
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 3
+          },
+          {
+            "name": "ACT Upgrade",
+            "id": "e6f6-c88f-5b62-c4b0",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Redempta",
+                "hidden": false,
+                "id": "d14c-3394-5fe6-89d2",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8986-f972-8f88-18e0",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Redempta",
+                    "id": "fafd-5bf3-9259-dca8",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0914-dde3-3523-6342"
+                  }
+                ],
+                "sortIndex": 2,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grand Oath",
+                "hidden": false,
+                "id": "e921-839a-2629-5bbb",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0fea-4e31-8a9d-74d1",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Grand Oath",
+                    "id": "6183-7446-5249-137b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "de48-5830-a719-ab96"
+                  }
+                ],
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Communion",
+                "hidden": false,
+                "id": "96bc-891d-7f18-9d94",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f931-c62a-f8c7-f776",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Communion",
+                    "id": "527f-60f2-e48e-df60",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c66e-42e3-df4c-d3a0"
+                  }
+                ],
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Decree of Forbiddance",
+                "hidden": false,
+                "id": "c157-aae0-ea95-d85e",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "bd61-43ab-f0cd-154d",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Decree of Forbiddance",
+                    "id": "7b46-e747-f6d8-b79f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "1a8d-3119-095b-c7fb"
+                  }
+                ],
+                "sortIndex": 4,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Holy Water Flail",
+                "hidden": false,
+                "id": "af1e-6e69-6866-7bfd",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5a5b-1c02-a15f-7e9a",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Holy Water Flail",
+                    "id": "b7b4-2338-c3f9-042f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7e7e-47ce-b40f-bbff"
+                  }
+                ],
+                "sortIndex": 5,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Relic Lance",
+                "hidden": false,
+                "id": "edd5-86f1-b1dc-61e5",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b1ba-145e-9b69-90ad",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Relic Lance",
+                    "id": "2030-1bc8-178d-55f6",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "3dd6-1ea3-f05f-a1ec"
+                  }
+                ],
+                "sortIndex": 6,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Starmetal Shuriken",
+                "hidden": false,
+                "id": "1714-fee0-0876-9297",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d054-090f-33f9-d701",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Starmetal Shuriken",
+                    "id": "8f73-931b-45f6-15db",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "21c0-cc61-4b9c-566a"
+                  }
+                ],
+                "sortIndex": 7,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 4
+          },
+          {
+            "name": "SOUL Upgrade",
+            "id": "8681-1234-f78f-5048",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Drifting Blossoms",
+                "hidden": false,
+                "id": "ce5f-72f6-30e5-2110",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "eb63-4af4-5836-45ed",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Drifting Blossoms",
+                    "id": "6cc6-02bc-6dd0-c66f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "673f-7f2a-d77e-572b"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Safflower cut",
+                "hidden": false,
+                "id": "4e6c-2232-d22e-1ead",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9393-27d5-d82d-fc61",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Safflower cut",
+                    "id": "2627-8070-af8f-b719",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c266-c7f8-d7e3-f9c1"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grace",
+                "hidden": false,
+                "id": "c7ee-124a-67c5-7193",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9809-3bb6-9298-f361",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Grace",
+                    "id": "22c0-ffaf-3673-e5f7",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7f4a-318d-42d9-5182"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Supreme Sword Art: Merciful Snowdrop Cut",
+                "hidden": false,
+                "id": "7ef9-caa3-21f7-ba10",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cec8-00c2-3a1a-17e4",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 5,
+                "infoLinks": [
+                  {
+                    "name": "Supreme Sword Art: Merciful Snowdrop Cut",
+                    "id": "efb3-51f7-5ffe-e613",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "89a5-dc6d-428b-c3b2"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Winter Sprout",
+                "hidden": false,
+                "id": "c513-86de-254a-d8bf",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "120f-925d-5bf3-7497",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Winter Sprout",
+                    "id": "9b07-3053-db65-61e4",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7b86-4adc-6550-013b"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Resurrection",
+                "hidden": false,
+                "id": "090b-e67c-6ae6-f9a1",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "bfd2-ec93-47c7-dcea",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 6,
+                "infoLinks": [
+                  {
+                    "name": "Resurrection",
+                    "id": "75e9-075b-5c97-3c87",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0abe-c974-0696-3a02"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 5
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "53"
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": "Exorcist",
+        "hidden": false,
+        "id": "6328-ae24-371b-ca3b",
+        "targetId": "153b-8a55-c222-2d46",
+        "type": "selectionEntry"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "8cfa-b6c1-61d4-617e",
+    "name": "Hellminth",
+    "gameSystemId": "sys-ec2b-f0d3-4663-8364",
+    "gameSystemRevision": 2,
+    "revision": 1,
+    "battleScribeVersion": "2.03",
+    "type": "catalogue"
+  }
+}

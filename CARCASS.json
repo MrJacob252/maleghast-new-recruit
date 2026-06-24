@@ -1,0 +1,4305 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "b444-3bcf-5c87-69a8",
+    "name": "Carcass",
+    "gameSystemId": "sys-ec2b-f0d3-4663-8364",
+    "gameSystemRevision": 1,
+    "revision": 3,
+    "battleScribeVersion": "2.03",
+    "page": "",
+    "sharedSelectionEntries": [
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Ammo Goblin",
+        "hidden": false,
+        "id": "5fed-0009-c744-d414",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "28d1-a327-5c33-d767",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Formation",
+            "id": "7ca4-5413-bf08-461c",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Ammo Goblin",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "f54a-2e83-3447-ab75",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          },
+          {
+            "name": "Regurgitate Ammo",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "2ffd-d6f3-0e20-6933",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Range 1-2"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "A unit in range reloads and gains one, (6+) or two strength."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          },
+          {
+            "name": "Bone Shards",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "f095-86d6-b758-1c0f",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Curse, Range 1-3"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Unit takes 1 damage after any ACT ability resolves that pushes or pulls them. Lasts until end of this units next turn or until this unit has taken 3 damage this way."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          },
+          {
+            "name": "Destructive Glee",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "6e23-8979-c843-1276",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Step 1, then Splash (self): 1 fire damage, push 1, and inflict 1 vulnerable, then self is obliterated."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "page": "28",
+            "publicationId": "da35-e534-5d09-746b"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "c04c-4a09-bb80-767c",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Vomit Bullets",
+                "hidden": false,
+                "id": "ed14-e31d-85d1-ac98",
+                "profiles": [
+                  {
+                    "name": "Vomit Bullets",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "bbe4-91d0-c6ca-a74f",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Bone shards gains effect: (4+) push 1, (6) push 1 again."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "33"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5721-b494-3371-d392",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "3ffb-b495-4586-48f2",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Napalm Injector",
+                "hidden": false,
+                "id": "4bee-59bb-fdd7-1f90",
+                "profiles": [
+                  {
+                    "name": "Napalm Injector",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "e41a-5e61-972d-38f7",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Destructive Glee’s splash effect gains effect (4+): +1 fire damage (6+): and +1 vulnerable"
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "33"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1cf7-2c2a-ca78-35ea",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "ebd7-8734-e997-f3c4",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Hot Chamber",
+                "hidden": false,
+                "id": "4bf5-11bd-1e73-ee45",
+                "profiles": [
+                  {
+                    "name": "Hot Chamber",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "fd0f-49e4-ad28-dd53",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Regurgitate Ammo now targets two different adjacent unit and no longer grants stregth."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "33"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d508-7bde-69c3-a187",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "aa9f-ee61-aa74-b5eb",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "28",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Ammo Goblin",
+            "hidden": false,
+            "id": "f78b-393a-e12d-6fd1",
+            "categoryLinks": [
+              {
+                "targetId": "8026-360f-68ed-6a0c",
+                "id": "4752-d1f5-37c2-7e17",
+                "primary": true,
+                "name": "Freak"
+              }
+            ],
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "bcd0-1b2a-4e02-767c",
+                "includeChildSelections": false
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "50d9-bbf2-4bd4-c1df",
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Gunwight",
+        "hidden": false,
+        "id": "4980-3982-04e3-d42a",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "27",
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "defaultAmount": "",
+        "step": "",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "71cf-2828-9def-25e6",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Gunwight",
+            "hidden": false,
+            "id": "4809-8e90-ade0-8fcf",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Gunwight",
+                "hidden": false,
+                "id": "7bc9-d05e-a4b2-79cb",
+                "defaultAmount": "2",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6b8f-a143-0a3c-49f6",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e079-6f23-35c5-ae3f",
+                    "includeChildSelections": false
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
+              }
+            ],
+            "sortIndex": 1,
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "b295-e89d-3cf0-c444",
+                "includeChildSelections": false
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "ba25-317c-78ad-45b3",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Brace",
+                "hidden": false,
+                "id": "efaa-14b0-bcd4-537f",
+                "profiles": [
+                  {
+                    "name": "Brace",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "cf69-1b1f-9e0e-a82f",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "While in cover, attacks gain +1 max range and push 1 on hit."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "27"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1a59-9d9f-0329-0874",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "2859-c677-bc83-94b5",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Tactical Reload",
+                "hidden": false,
+                "id": "7187-4398-e5b3-b23a",
+                "profiles": [
+                  {
+                    "name": "Tactical Reload",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "0be4-98f7-2b6e-9b49",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Gain Headshot: reload and gain 1 strength "
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "27"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fce2-4d0f-85e9-ee23",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "128a-2979-327b-d7ad",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Scavenge Ammo",
+                "hidden": false,
+                "id": "1693-cf46-cc2e-a59f",
+                "profiles": [
+                  {
+                    "name": "Scavenge Ammo",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "f3d8-ff72-9c5b-7c07",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "May consume one adjacent corpse before or after ACTing to reload and gain 1 strength."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "27"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f6fe-71ac-5775-a3c4",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "9605-b989-49ac-3858",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Formation",
+            "id": "c0af-53cd-7986-6ac1",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
+          },
+          {
+            "name": "Thrall",
+            "id": "0653-836f-8dc9-4e34",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "b2c6-299b-cd95-9540"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "OL45",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "063b-56e1-c052-99cd",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, range 2-3, reload"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 piercing damage. Headshot: inflict 1 vulnerable"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
+          },
+          {
+            "name": "Baton",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "556b-f594-be1e-34a2",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Push, melee"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Push 1 and (3+) inflict 1 vulnerable."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
+          },
+          {
+            "name": "Gunwight",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "1a16-d9b4-76ac-3cdf",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "2"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "2"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "4f9a-75e6-73b9-26eb",
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Enforcer",
+        "hidden": false,
+        "id": "d125-0949-9152-aa53",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "5c39-ab8f-77e6-0df6",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Formation",
+            "id": "6200-c124-88ca-6bbd",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Enforcer",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "f484-da98-a3ef-3cc7",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "PHYS"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
+          },
+          {
+            "name": "Skull Crack",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "dc04-c358-c39c-7a82",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, melee, push"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "2 damage and push 1. Headshot: push 2"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
+          },
+          {
+            "name": "Flashbang",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "a3d5-e159-dbea-3e47",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Range 2-3, Reload, splash"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "1 fire damage and 1 vulnerable, then Splash (target): push 1 away from target."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
+          },
+          {
+            "name": "Shieldwall",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "df1d-f882-348c-d2d2",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Until start of this unit’s next turn, this unit cannot MOVE, step, or be pushed or pulled, gains cover, and grants cover to adjacent allies from all directions."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "page": "27",
+            "publicationId": "da35-e534-5d09-746b"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "dc67-11aa-6aa0-667b",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Shield Charge",
+                "hidden": false,
+                "id": "faa4-0a58-7c1d-cbde",
+                "profiles": [
+                  {
+                    "name": "Shield Charge",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "63cf-66da-3e69-db31",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Unit may step 1 before using Skull Crack and it gains splash (self) push foes 1"
+                      }
+                    ],
+                    "page": "27",
+                    "publicationId": "da35-e534-5d09-746b"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5c73-d074-1d72-c794",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "918a-a693-0783-8306",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bulwark",
+                "hidden": false,
+                "id": "4e87-d118-283f-9124",
+                "profiles": [
+                  {
+                    "name": "Bulwark",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "6c7f-9819-a46b-3924",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Shieldwall also clears up to two negative tokens on self or adjacent allies."
+                      }
+                    ],
+                    "page": "27",
+                    "publicationId": "da35-e534-5d09-746b"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5374-3bc4-58d8-8a23",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "c95b-8596-c8e3-ec52",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bone Dust Napalm",
+                "hidden": false,
+                "id": "14d3-5385-480e-9a60",
+                "profiles": [
+                  {
+                    "name": "Bone Dust Napalm",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "6a27-5022-7f2e-a763",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Flashbang deals 1 splash fire damage but gains charge and has no effect on its main target."
+                      }
+                    ],
+                    "page": "27",
+                    "publicationId": "da35-e534-5d09-746b"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1df0-7dee-9c30-2539",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "234e-c78f-e472-f9db",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "27"
+              }
+            ],
+            "page": ""
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "27",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Enforcer",
+            "hidden": false,
+            "id": "3273-9330-2b10-d1f6",
+            "categoryLinks": [
+              {
+                "targetId": "c422-7dc4-5583-c6fd",
+                "id": "8ad2-d1f3-b1ec-8b7d",
+                "primary": true,
+                "name": "Scion"
+              }
+            ],
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "6d52-ad31-a678-b5e6",
+                "includeChildSelections": false
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "27"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "f391-5b23-60eb-7b94",
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ]
+      },
+      {
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "2abe-c183-aeca-68af",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "name": "Barrelform",
+        "id": "c026-aa13-38d7-0231",
+        "type": "unit",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Barrelform",
+            "hidden": false,
+            "id": "a7d0-7ac3-93f7-0093",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "85b3-be32-3ac6-24b2",
+                "id": "c347-fe79-78b4-741f",
+                "primary": true,
+                "name": "Hunter"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "8ea7-e0c6-82ab-560e"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28",
+            "sortIndex": 1
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Snipe",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "cb53-e5c1-4538-a85e",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, range 2-4, reload"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "2 damage. Headshot: and inflict 1 vulnerable."
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          },
+          {
+            "name": "Transform to Gun",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "1ec7-4c83-5ea4-e752",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Unit becomes unable to MOVE or step, but ranged abilities gain +2 maximum range and ignore armor and cover. It can end this effect by sacrificing a MOVE, but if it does, it loses all associate effects."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          },
+          {
+            "name": "Deathmark",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "78c2-fb6d-68d4-284b",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Curse, Range 2-4"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": " Inflict 2 vulnerable, (4+): 3 vulnerable, (6+): Remove any vitality first."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          },
+          {
+            "name": "Barrelform",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "f7ec-25b3-ea88-f3cd",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "2"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "28"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Formation",
+            "id": "336a-ce06-3c82-3ee8",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "ba19-3256-683d-04f9",
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "f70e-454d-25e6-de52",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Claw Pitons",
+                "hidden": false,
+                "id": "0bee-eefb-7e8f-ff23",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "119d-ad97-bfb3-1e58",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1158-a81a-5827-2769"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Claw Pitons",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "96d4-225d-57e3-44f4",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Transform to Gun makes this unit immune to push and pull."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "27"
+                  }
+                ],
+                "sortIndex": 1,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Extended Barrel",
+                "hidden": false,
+                "id": "8ac5-de56-82bc-32df",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "d45f-2cd1-8730-f9f6",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "sortIndex": 2,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8c73-6b86-85e7-072f"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Extended Barrel",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "6340-b70b-03ee-51cf",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Snipe gains +1D when this unit is in cover, and -1D when it is not."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "27"
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Caliber Up",
+                "hidden": false,
+                "id": "f707-b300-6719-9ae2",
+                "sortIndex": 3,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "28",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "b088-4843-4da8-5aa1",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c223-595b-3765-8d50"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Caliber Up",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "8c02-6b8d-333f-b004",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Snipe gains push 1 and Headshot: push 2"
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "28"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "28"
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Operator",
+        "hidden": false,
+        "id": "3ab6-3396-4fba-4151",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "cccf-b6cc-1576-6e70",
+            "primary": false,
+            "name": "Unit"
+          },
+          {
+            "targetId": "fe30-71be-eb40-926a",
+            "id": "3c32-693b-915b-4274",
+            "primary": true,
+            "name": "Necromancer"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Formation",
+            "id": "6a03-94bc-f6e3-c66b",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Operator",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "ec14-7b0f-cf3b-5747",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "8"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "PHYS"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          },
+          {
+            "name": "Akimbo",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "899f-0c8f-086f-6023",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, range 2-4, reload"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "2 damage. On hit:(4+): One other foe in range takes 1 damage, (6+) one other foe in range takes 1 damage."
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          },
+          {
+            "name": "Hot Clip",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "2b8d-6f7e-97c9-aaae",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "Once a round, reloading grants you 1 strength"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          },
+          {
+            "name": "Reload Slide",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "1559-4fd6-e57c-b9d4",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "1"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Own or allied turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": ""
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": ""
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Step 1, then you or an adjacent ally reload."
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          },
+          {
+            "name": "Bullet Time",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "70f9-2776-5436-0f1b",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "3"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Own turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": ""
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": ""
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Clear one (5+) or two negative tokens. Ranged attacks automatically miss you until the end of your next turn (5+) and you are immune to splash and line damage for the duration."
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Bonus Traits",
+            "id": "b181-f5d9-c221-9e15",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bone Wall",
+                "hidden": false,
+                "id": "22fa-de11-a478-0100",
+                "profiles": [
+                  {
+                    "name": "Bone Wall",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "f458-2d25-7090-d2fd",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "You can use your units as cover. While in cover your abilities gain +2 range."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f3ee-eb31-3d2e-f68g",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "8587-26f3-9fa8-bc5f",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Gun Kata",
+                "hidden": false,
+                "id": "698f-1be2-e574-121a",
+                "profiles": [
+                  {
+                    "name": "Gun Kata",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "e702-1674-1bd4-c20d",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "All ranged attacks gain a minimum range of 1 and push units 1 on hit if they are adjacent"
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d4be-f3f8-0e2b-73cb",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "34bd-5edc-6daa-11c7",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Clutch Reload",
+                "hidden": false,
+                "id": "05c1-71a9-fd10-71a6",
+                "profiles": [
+                  {
+                    "name": "Clutch Reload",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "cae3-c418-dff5-0930",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "Your ranged attacks gain headshot: reload"
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d112-224d-0210-4a38",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "9c02-ad23-3288-ef49",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              }
+            ],
+            "page": "30",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "359f-d4a5-b826-0314-min",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "359f-d4a5-b826-0314-max",
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 1,
+            "publicationId": "da35-e534-5d09-746b"
+          },
+          {
+            "name": "Free ACT Upgrade",
+            "id": "e0d7-703a-5a6d-322f",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grenade jump",
+                "hidden": false,
+                "id": "6192-924e-92eb-178d",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "28cc-909a-6b22-facb",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Grenade jump",
+                    "id": "4113-4e32-e696-cc57",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0ceb-cb3d-1239-3c88",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "sortIndex": 1,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Armor Lock",
+                "hidden": false,
+                "id": "297c-4973-d5b1-9316",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a907-92a8-16f4-9ec6",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Armor Lock",
+                    "id": "5c7c-b678-f0a1-8539",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6101-a91b-aabb-3d83",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "sortIndex": 2,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Devil Bullet",
+                "hidden": false,
+                "id": "bbb1-e204-6da9-3c8e",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7c9d-f725-3a76-a319",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Devil Bullet",
+                    "id": "aa46-3a8d-0b83-caa5",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "d83d-ca59-7f9d-84c4",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "sortIndex": 3,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Superkick",
+                "hidden": false,
+                "id": "9a01-5116-bc3b-c86f",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "61fa-3aed-0896-fdad",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Superkick",
+                    "id": "5cf6-8dab-5524-e160",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6f04-d78f-ac34-3be5",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "sortIndex": 4,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "LV4 living cannon",
+                "hidden": false,
+                "id": "8183-1048-1961-6992",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1fd3-1560-5097-d2e9",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "LV4 living cannon",
+                    "id": "f0ea-cd90-5fbf-1f1a",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "d9c5-0a6d-8d66-e7e2",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "sortIndex": 5,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "SG88 two barrel shotgun",
+                "hidden": false,
+                "id": "74d7-d518-2fcf-47ce",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0950-e3c3-a51f-1ed5",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "SG88 two barrel shotgun",
+                    "id": "0333-ac9b-4068-6492",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c7d7-2680-96e2-8251",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "sortIndex": 6,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Unholy Sixgun",
+                "hidden": false,
+                "id": "895b-a329-2b5b-5971",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f2d5-ec4f-d04e-2c13",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Unholy Sixgun",
+                    "id": "0da5-9f92-ee0a-690f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec87-31f4-4153-9211"
+                  }
+                ],
+                "sortIndex": 7,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "2c20-21ab-7cf5-e885-min",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "2c20-21ab-7cf5-e885-max",
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 2,
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "30"
+          },
+          {
+            "name": "ACT Upgrades",
+            "id": "63cd-0e1a-f048-494b",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grenade jump",
+                "hidden": false,
+                "id": "3a5a-1202-da5a-fabb",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ba7c-326b-08f8-5bf8",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Grenade jump",
+                    "id": "62a8-37f0-131b-8cb1",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0ceb-cb3d-1239-3c88",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 1,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Armor Lock",
+                "hidden": false,
+                "id": "fd8c-9696-b3b2-552c",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "24a0-194b-dc44-0e6e",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Armor Lock",
+                    "id": "ea42-c86d-2cdb-d98c",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6101-a91b-aabb-3d83",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 2,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Devil Bullet",
+                "hidden": false,
+                "id": "0b48-05a5-41fd-e3d6",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1dbd-490c-face-8ef8",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Devil Bullet",
+                    "id": "0108-39bc-5402-4511",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "d83d-ca59-7f9d-84c4",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Superkick",
+                "hidden": false,
+                "id": "35ce-5448-eff8-868e",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0812-0538-2209-e10b",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Superkick",
+                    "id": "8059-fe78-80f4-574a",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6f04-d78f-ac34-3be5",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "sortIndex": 4,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "LV4 living cannon",
+                "hidden": false,
+                "id": "8605-5e2a-0178-f28a",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f3fe-4b54-545d-981f",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "LV4 living cannon",
+                    "id": "c5f7-2ec4-66c9-347b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "d9c5-0a6d-8d66-e7e2",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "sortIndex": 5,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "SG88 two barrel shotgun",
+                "hidden": false,
+                "id": "c646-bd1d-8c69-6cb0",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "eacc-a05c-91e8-d276",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "SG88 two barrel shotgun",
+                    "id": "0920-eab5-9b4f-492d",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c7d7-2680-96e2-8251",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "sortIndex": 6,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Unholy Sixgun",
+                "hidden": false,
+                "id": "0b7a-7fc8-025c-5ade",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d4db-6b8a-de6f-68ae",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Unholy Sixgun",
+                    "id": "6731-64c9-e492-af6c",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec87-31f4-4153-9211",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "sortIndex": 7,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              }
+            ],
+            "sortIndex": 4,
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "30"
+          },
+          {
+            "name": "Free SOUL Upgrade",
+            "id": "a535-1446-3c2c-6785",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1476-19c2-b896-9045",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a25f-0184-f84b-9ec2",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Double Tap",
+                "hidden": false,
+                "id": "b0ed-5ffc-c44f-f135",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6035-6c40-ca68-d6bd",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "infoLinks": [
+                  {
+                    "name": "Double Tap",
+                    "id": "1c72-921f-7b79-a9a6",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "e855-16ac-20c1-47dc",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Frag Bullet",
+                "hidden": false,
+                "id": "7e46-e74e-1089-964e",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cef7-9f04-418d-fd9b",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "infoLinks": [
+                  {
+                    "name": "Frag Bullet",
+                    "id": "538d-cb37-dfc9-ab24",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c0a3-459b-a8b4-8ff6",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bullet Hustle",
+                "hidden": false,
+                "id": "e4d3-3fb1-1efc-43f2",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "591a-8f87-178a-71c8",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Bullet Hustle",
+                    "id": "5c46-5dc0-49e4-5c36",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "45a5-82a8-992d-f096",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overwatch",
+                "hidden": false,
+                "id": "ab26-6531-5f0b-14d2",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6898-a45f-51ab-c67c",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Overwatch",
+                    "id": "f79d-338b-b3a4-a285",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "b912-fef7-52d8-3467",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bullet Sonata",
+                "hidden": false,
+                "id": "7ad4-a116-d6fd-c0a8",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "695b-a6d9-69e8-4949",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 5,
+                "infoLinks": [
+                  {
+                    "name": "Bullet Sonata",
+                    "id": "5cd4-e054-5ef9-f25f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "af31-d03b-a396-6dbc",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "S.T.G.",
+                "hidden": false,
+                "id": "fe47-6f68-434b-2341",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0ed2-8e07-7523-7ea9",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 6,
+                "infoLinks": [
+                  {
+                    "name": "S.T.G.",
+                    "id": "85f4-1ee6-f3a8-3d66",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "2de9-530d-4094-51c5",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              }
+            ],
+            "sortIndex": 3,
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "30"
+          },
+          {
+            "name": "SOUL Upgrade",
+            "id": "c0bf-4402-aef6-9176",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Double Tap",
+                "hidden": false,
+                "id": "12a8-a965-8150-d708",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "4cb5-8147-023d-95b4",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "infoLinks": [
+                  {
+                    "name": "Double Tap",
+                    "id": "33af-0b2f-a520-7930",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "e855-16ac-20c1-47dc",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Frag Bullet",
+                "hidden": false,
+                "id": "b23d-7050-30a7-3ea0",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9cc6-073d-66ed-b965",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "infoLinks": [
+                  {
+                    "name": "Frag Bullet",
+                    "id": "8500-b773-993d-4b71",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c0a3-459b-a8b4-8ff6",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bullet Hustle",
+                "hidden": false,
+                "id": "516a-5974-b711-5b67",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1bb1-88b4-05a9-e371",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Bullet Hustle",
+                    "id": "4d36-fd23-e1ed-75fe",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "45a5-82a8-992d-f096",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Overwatch",
+                "hidden": false,
+                "id": "05f3-8db8-e19b-f5b4",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "78cc-348c-6648-402d",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Overwatch",
+                    "id": "cca1-663c-1863-95d8",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "b912-fef7-52d8-3467",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bullet Sonata",
+                "hidden": false,
+                "id": "ccad-8c51-6706-aecc",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ef4d-f439-a7c4-6efb",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 5,
+                "infoLinks": [
+                  {
+                    "name": "Bullet Sonata",
+                    "id": "f725-4ec7-0339-23f8",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "af31-d03b-a396-6dbc",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "S.T.G.",
+                "hidden": false,
+                "id": "5807-82d3-f68c-1ad2",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6cd1-4073-914a-0db5",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 6,
+                "infoLinks": [
+                  {
+                    "name": "S.T.G.",
+                    "id": "42a6-f2e3-ba00-5d66",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "2de9-530d-4094-51c5",
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "30"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "30"
+              }
+            ],
+            "sortIndex": 5,
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "30"
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "35"
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "EGIS Weapon",
+        "hidden": false,
+        "id": "ba55-27d1-0e6c-4463",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "eeb6-81e6-1476-f9b7",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Formation",
+            "id": "9ee5-36c5-346e-d985",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "f583-cdde-f2df-8f4f",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26"
+          },
+          {
+            "name": "Tyrant",
+            "id": "0543-ee15-d3fb-4bdd",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5c4d-9068-2b4f-1f43",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "EGIS Weapon",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "d449-5b4a-9320-c5e9",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "6"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "2+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "PHYS"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          },
+          {
+            "name": "Juggernaut",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "99ef-e533-f7bc-0502",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self, Push"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Step 1, then splash (self) push foes 1. (4+) push foes 2. May move into and destroy walls with this step."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          },
+          {
+            "name": "Mortar",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "26b3-2150-2aea-88fe",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, range 3-4, reload, charge"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage then Splash: 1 fire damage. Headshot: +1 damage on main target"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          },
+          {
+            "name": "Siege Shield",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "a679-c870-5366-de60",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "May be used as a cover object by allies"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          },
+          {
+            "name": "Catechism Devil Cannon",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "d95a-0b79-0059-a8b7",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Line, reload"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Line 5, 1 fire damage. and inflicts 1 vulnerable on the first unit in the line. Pierces through walls and can target through walls."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "b178-28c9-d906-285d",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Fortify",
+                "hidden": false,
+                "id": "4730-1c80-26e7-bd3c",
+                "profiles": [
+                  {
+                    "name": "Fortify",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "af7f-191a-3b78-2706",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Juggernaut also clears all negative tokens."
+                      }
+                    ],
+                    "page": "29",
+                    "publicationId": "da35-e534-5d09-746b"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cd68-d6f1-11f2-fdeg",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "74dd-da0d-2e63-6506",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "29"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Heavy Caliber Cannon",
+                "hidden": false,
+                "id": "7743-42a8-5c81-5c38",
+                "profiles": [
+                  {
+                    "name": "Heavy Caliber Cannon",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "04e9-f9ff-f265-aae1",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Catechism pushes all units in the line 1 space and destroys walls."
+                      }
+                    ],
+                    "page": "29",
+                    "publicationId": "da35-e534-5d09-746b"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7acb-05b4-8f3b-6081",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "5a6c-ca7a-8079-3fb1",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "29"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Gunner Pivot",
+                "hidden": false,
+                "id": "a9b1-07b4-18b7-ad03",
+                "profiles": [
+                  {
+                    "name": "Gunner Pivot",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "d213-bcad-f790-dccc",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "When at least one ally is adjacent to this unit, Mortar ignores cover."
+                      }
+                    ],
+                    "page": "29",
+                    "publicationId": "da35-e534-5d09-746b"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "79de-38a3-0dcf-c061",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "76fc-0f8d-959b-4cd7",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "29"
+              }
+            ],
+            "page": "29",
+            "publicationId": "da35-e534-5d09-746b"
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "29",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "103f-086c-4ca2-0e79",
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "EGIS Weapon",
+            "hidden": false,
+            "id": "75fe-6e9f-b711-4e2f",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "7314-e0e7-35fe-aa92",
+                "id": "1e72-81eb-dd09-1f3d",
+                "primary": true,
+                "name": "Tyrant"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "abfe-5d7d-31fe-b97g",
+                "includeChildSelections": false
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "29"
+          }
+        ]
+      },
+      {
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "5dff-961c-4d02-93cc",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "id": "d5a9-c522-5682-5ed5",
+        "name": "Infiltrator",
+        "type": "unit",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Infiltrator",
+            "hidden": false,
+            "id": "5575-1c45-c401-3fc0",
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "ae1b-953f-6a47-8ae9"
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "85b3-be32-3ac6-24b2",
+                "id": "cb34-53d6-64ed-de0f",
+                "primary": true,
+                "name": "Hunter"
+              }
+            ],
+            "sortIndex": 1,
+            "page": "16"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "7bf5-f621-e70b-1feb"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Infiltrator",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "1e1f-8abb-8800-9351",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "3"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "MAG"
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "16"
+          },
+          {
+            "name": "Cross Fire",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "1004-f7f0-d9e8-efb7",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Line 4, reload"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "First unit in the line takes 1 piercing damage. If catching an allied unit in the line, also inflict 2 vulnerable."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "16"
+          },
+          {
+            "name": "Slide Kick",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "bff3-2b3f-a684-28d4",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Step"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Step 1, then push an adjacent foe 1 or (5+) 2 spaces. That foe must spend a MOVE before next attacking."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "16"
+          },
+          {
+            "name": "Trick Reload",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "72e3-bc23-5370-3546",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Reload and gain 1 strength (4+) then regain this unit’s ACT. This ability can’t be used again this turn."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "16"
+          }
+        ],
+        "publicationId": "0300-2d2b-d6c4-502c",
+        "page": "16",
+        "infoLinks": [
+          {
+            "name": "Formation",
+            "id": "c45d-ac7f-74b5-a9c4",
+            "hidden": false,
+            "type": "profile",
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "26",
+            "targetId": "f583-cdde-f2df-8f4f"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "68d1-ebd9-6ab5-ee88",
+            "hidden": false,
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "16",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Burst Fire",
+                "hidden": false,
+                "id": "b7cd-aed7-c938-b38c",
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "0494-a49a-8b79-69cc",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "publicationId": "0300-2d2b-d6c4-502c",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "de3f-ab6a-28d3-702b"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Burst Fire",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "98b1-5880-685c-313f",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "May step 1 before and after activating Cross Fire, but it becomes line 3"
+                      }
+                    ],
+                    "publicationId": "0300-2d2b-d6c4-502c",
+                    "page": "16"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Ricochet",
+                "hidden": false,
+                "id": "f378-445e-3d8d-e56d",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9aa8-2df6-7446-bd23"
+                  }
+                ],
+                "publicationId": "0300-2d2b-d6c4-502c",
+                "page": "16",
+                "sortIndex": 2,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Ricochet",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "5147-903d-b006-da89",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Cross fire’s extra effect also triggers if it catches a wall in the line"
+                      }
+                    ],
+                    "publicationId": "0300-2d2b-d6c4-502c",
+                    "page": "16"
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "242b-4d4e-e80f-2c5e",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Knife Slash",
+                "hidden": false,
+                "id": "e5de-e3ae-2b77-e581",
+                "sortIndex": 3,
+                "publicationId": "0300-2d2b-d6c4-502c",
+                "page": "16",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "ec53-eab1-046d-5e45",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "eb79-4a55-f9c8-b8ba"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Knife Slash",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "8893-f01d-e912-6940",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Slide kick also inflicts 1 vulnerable."
+                      }
+                    ],
+                    "publicationId": "0300-2d2b-d6c4-502c",
+                    "page": "16"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Formation",
+        "typeId": "c4ab-0724-e1de-ebce",
+        "typeName": "Traits",
+        "hidden": false,
+        "id": "f583-cdde-f2df-8f4f",
+        "characteristics": [
+          {
+            "name": "Effect",
+            "typeId": "b305-f2f7-6e6a-44ce",
+            "$text": "While adjacent to an ally, gain +1D on attacks."
+          }
+        ]
+      },
+      {
+        "name": "Armor Lock",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "6101-a91b-aabb-3d83",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Push all adjacent foes 1. Until the end of your next turn, you gain super armor, cover from all directions, and allied units can use you as a cover object. You cannot MOVE, step or be pushed or pulled for the same duration."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Grenade jump",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "0ceb-cb3d-1239-3c88",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Splash (self): 1 fire damage, then step 2 with free movement. You may move through foes with this step."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Devil Bullet",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "d83d-ca59-7f9d-84c4",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Reload. On hit, your next attack gains piercing and triggers headshot effects."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Superkick",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "6f04-d78f-ac34-3be5",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Melee"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Push an adjacent unit 3. Foes gain 1 vulnerable if they would be pushed into a wall or elevated space."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "LV4 living cannon",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "d9c5-0a6d-8d66-e7e2",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, range 3-6, charge, reload*"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "*Effect: Must reload twice before this is usable."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 fire damage and 1 vulnerable. Splash (target): 1 fire damage. Headshot: +1 damage on main target."
+          }
+        ]
+      },
+      {
+        "name": "SG88 two barrel shotgun",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "c7d7-2680-96e2-8251",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, range 2-2, reload*"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "*Effect: Must reload twice before this is usable."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 damage, then 1 damage. On Hit: push 1, then push 1. Headshot: increase all push by +1."
+          }
+        ]
+      },
+      {
+        "name": "Unholy Sixgun",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "ec87-31f4-4153-9211",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Range 2-4, reload."
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "2 damage. Headshot: this attack deals +1 base damage on hit for the rest of combat, up to a maximum of 5."
+          }
+        ]
+      },
+      {
+        "name": "Double Tap",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "e855-16ac-20c1-47dc",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "you reduce a unit to exactly 1 hp."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "you may immediately activate this ability to deal 1 damage to it."
+          }
+        ]
+      },
+      {
+        "name": "Frag Bullet",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "c0a3-459b-a8b4-8ff6",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "You hit an attack."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Target gains 3 vulnerable after the ability resolves."
+          }
+        ]
+      },
+      {
+        "name": "Bullet Hustle",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "45a5-82a8-992d-f096",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "After any unit MOVEs."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Step 2, then deal 1 damage to a unit in range 3."
+          }
+        ]
+      },
+      {
+        "name": "Overwatch",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "b912-fef7-52d8-3467",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "3"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own Turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Reload. Until the start of your next turn, enemy units entering adjacent spaces without being pushed or pulled there take 1 damage and are pushed 1, interrupting their movement. This effect can only trigger once a turn."
+          }
+        ]
+      },
+      {
+        "name": "Bullet Sonata",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "af31-d03b-a396-6dbc",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "4"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own Turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Every foe in range 2 and line of sight takes 1 piercing damage and is pushed 1."
+          }
+        ]
+      },
+      {
+        "name": "S.T.G.",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "2de9-530d-4094-51c5",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "6"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Headshot"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Deal 6 devil damage to the targeted unit, sending them Straight to the Grave."
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": "Ammo Goblin",
+        "hidden": false,
+        "id": "d633-a028-c68f-66d3",
+        "targetId": "5fed-0009-c744-d414",
+        "type": "selectionEntry",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "28"
+      },
+      {
+        "import": true,
+        "name": "Enforcer",
+        "hidden": false,
+        "id": "3c4d-c631-5926-d919",
+        "targetId": "d125-0949-9152-aa53",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Barrelform",
+        "hidden": false,
+        "id": "bed0-231a-4a5f-04b1",
+        "targetId": "c026-aa13-38d7-0231",
+        "type": "selectionEntry",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "28"
+      },
+      {
+        "import": true,
+        "name": "Operator",
+        "hidden": false,
+        "id": "c9b5-189f-31a4-6618",
+        "targetId": "3ab6-3396-4fba-4151",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Gunwight",
+        "hidden": false,
+        "id": "868c-d0cb-141a-38ee",
+        "targetId": "4980-3982-04e3-d42a",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "EGIS Weapon",
+        "hidden": false,
+        "id": "9f7a-fd82-6293-e501",
+        "targetId": "ba55-27d1-0e6c-4463",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Infiltrator",
+        "hidden": false,
+        "id": "46c5-366d-999b-ae95",
+        "targetId": "d5a9-c522-5682-5ed5",
+        "type": "selectionEntry"
+      }
+    ],
+    "type": "catalogue",
+    "sharedRules": [
+      {
+        "name": "Reload",
+        "id": "4ae7-e493-2984-2372",
+        "hidden": false,
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "26",
+        "description": "Once used, a unit cannot use any ability with this tag until it reloads. To reload, sacrifice a MOVE. Other abilities may allow a reload for free.",
+        "alias": [
+          "reload"
+        ]
+      },
+      {
+        "name": "Headshot",
+        "id": "ebe5-2d23-e776-76eb",
+        "hidden": false,
+        "description": "Effect that triggers when rolling a 6 on the final attack roll.",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "26"
+      }
+    ]
+  }
+}

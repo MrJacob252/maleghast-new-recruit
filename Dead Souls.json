@@ -2215,6 +2215,1394 @@
             "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
         ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Dark Priest",
+        "hidden": false,
+        "id": "da0f-7c42-122c-899e",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "47",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "a7ba-cfba-10dd-10b0",
+            "primary": false,
+            "name": "Unit"
+          },
+          {
+            "targetId": "fe30-71be-eb40-926a",
+            "id": "ddc7-e4a0-9105-f708",
+            "primary": true,
+            "name": "Necromancer"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Dread Presence",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "0758-2ca3-9265-640e",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "May move through walls. Foes count as isolated when adjacent to this unit unless they have two or more allies adjacent."
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "47"
+          },
+          {
+            "name": "Dark Priest",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "afca-aed5-babe-c533",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "8"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "MAG"
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "47"
+          },
+          {
+            "name": "Doomblade",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "6b94-f2fc-2c49-532a",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, Range 1-2"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 curse damage, or 2 curse damage against Doomed foes, then (Effect: 3+): foe is Doomed."
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "47"
+          },
+          {
+            "name": "Soulfeed",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "56fb-3f92-8f4b-690a",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "3"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Self or Allied Turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "Range 1-2"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": ""
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "All isolated or doomed foes in range take 1 curse damage, gain 1 weak, and this unit gains 1 strength for each of these foes."
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "47"
+          },
+          {
+            "name": "Cyclopean Monolith:",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "7b78-7cb5-56e2-f45c",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "1"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Own or Allied Turn."
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "Range 2-3"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": "Start of turn"
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Create a wall in range and inflict 1 weak on an adjacent foe to the wall."
+              }
+            ],
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "47"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Bonus Traits",
+            "id": "8a7f-a794-7fbd-76f1",
+            "hidden": false,
+            "sortIndex": 1,
+            "publicationId": "da35-e534-5d09-746b",
+            "page": "48",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "bf60-8519-2f47-8b7f"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1d47-fbba-7115-5d06"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Teleport",
+                "hidden": false,
+                "id": "00fc-c3ab-22e4-5ba8",
+                "sortIndex": 1,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "8cdb-196a-801f-18b7",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "92ec-ff19-d486-ae43"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Teleport",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "cc47-b60c-2a2a-d8ca",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "When MOVEing the second time or more in a turn, can remove this unit from the battlefield and place it in any free space in range 4, then clear a token."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "48"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Puppet Master",
+                "hidden": false,
+                "id": "cdf5-1de6-3386-168a",
+                "sortIndex": 2,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "b0ce-b32a-1b9a-640d",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "10a2-0481-277e-6c80"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Puppet Master",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "d04d-8640-cac5-051c",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "May use body block from within range 2 instead of adjacent."
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "48"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Maggot Destroyer",
+                "hidden": false,
+                "id": "e06a-7bf8-33a2-2e76",
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "27a7-3c8c-ed0f-5488",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "sortIndex": 3,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cc09-64b7-a021-ad21"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Maggot Destroyer",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "ba80-cd8e-34b1-4f0b",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "+1D on attacks and ignores cover against Doomed units"
+                      }
+                    ],
+                    "publicationId": "da35-e534-5d09-746b",
+                    "page": "48"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Free ACT Upgrade",
+            "id": "f448-fe1f-8512-3184",
+            "hidden": false,
+            "sortIndex": 2,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Unholy Summoning",
+                "hidden": false,
+                "id": "b4ac-9bce-dc06-d7a7",
+                "sortIndex": 1,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3647-e5e2-94a2-5781"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Unholy Summoning",
+                    "id": "e8c5-90a5-7115-e613",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "891e-1172-4b96-ae7d"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Vapor Form",
+                "hidden": false,
+                "id": "7884-3f32-4045-35de",
+                "sortIndex": 2,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ef8a-5e29-18bd-d567"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Vapor Form",
+                    "id": "ff3c-91ca-f32e-e206",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "d2b4-5f0f-9298-c3dd"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Tear Soul",
+                "hidden": false,
+                "id": "c5fd-aea5-6956-72e6",
+                "sortIndex": 3,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5550-d491-f80e-7f95"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Tear Soul",
+                    "id": "c46d-cd7b-925a-9064",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "77ea-58fa-32de-9d26"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Frozen Hell",
+                "hidden": false,
+                "id": "fc06-7803-b169-b8d8",
+                "sortIndex": 4,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "52b6-43ee-2094-b93f"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Frozen Hell",
+                    "id": "d7cf-e34c-1b7e-3253",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "9070-5fa1-fcb0-6008"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Great Urgal Bade",
+                "hidden": false,
+                "id": "76e1-b2ae-6878-098b",
+                "sortIndex": 5,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b5f5-d768-913f-462f"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Great Urgal Blade",
+                    "id": "1f2a-acc0-deb7-7664",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "900c-eaac-fc60-1a3f"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bloody Flail",
+                "hidden": false,
+                "id": "f902-53a9-0d85-a507",
+                "sortIndex": 6,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a32f-0742-9e5a-a22a"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Bloody Flail",
+                    "id": "2173-ec6d-5265-82c7",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "fa08-c0d9-5123-696d"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Lathean Devil Whip",
+                "hidden": false,
+                "id": "7cfb-873a-6171-2323",
+                "sortIndex": 7,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8593-a201-eeae-3eed"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Lathean Devil Whip",
+                    "id": "7ce2-1336-5a23-f4aa",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4132-90c8-78bb-6708"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "acd6-6266-1632-b72f"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "27bb-d1f9-687f-81aa"
+              }
+            ]
+          },
+          {
+            "name": "Free SOUL Upgrade",
+            "id": "ff12-2028-02fa-44e2",
+            "hidden": false,
+            "sortIndex": 3,
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "8257-96a1-0340-e51d"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "b976-bb13-5b35-ea97"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Twist Sinews",
+                "hidden": false,
+                "id": "00e1-b1cc-ac52-168c",
+                "sortIndex": 1,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f41a-b2ea-56f4-69b3"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Twist Sinews",
+                    "id": "310e-538c-3b10-d059",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "44a2-c593-e23e-b936"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Writhing Curse",
+                "hidden": false,
+                "id": "1dc9-86bf-aaec-70cc",
+                "sortIndex": 2,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "941a-543a-9830-0915"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Writhing Curse",
+                    "id": "0265-df94-5b4c-95d4",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "2571-33d4-3e0d-a565"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Disincorporate",
+                "hidden": false,
+                "id": "a850-eaa6-6668-80c4",
+                "sortIndex": 3,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "df6b-a0b0-e0d7-e0ce"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Disincorporate",
+                    "id": "2991-ff63-9d1b-502b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "e673-e187-3088-fbdf"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "External Curse",
+                "hidden": false,
+                "id": "9709-9f1e-70e9-d9e0",
+                "sortIndex": 4,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ece0-96a5-eab2-4e67"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Eternal Curse",
+                    "id": "1975-511e-75ab-0abe",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "b582-217d-4a3c-b9b5"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Malebolge",
+                "hidden": false,
+                "id": "00be-0189-422b-6aef",
+                "sortIndex": 5,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "339e-2d24-d2c6-fb44"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Malebolge",
+                    "id": "bb51-5054-7025-86ba",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8bf1-b63d-d24e-a986"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Great Satania",
+                "hidden": false,
+                "id": "bd2e-9955-aa83-ec6d",
+                "sortIndex": 6,
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ca40-5689-0f7c-b2c1"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Great Satania",
+                    "id": "e8ed-7fdd-17a6-1750",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "1ad1-fc4e-c650-6e00"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ACT Upgrades",
+            "id": "444e-14bb-6e69-dd00",
+            "hidden": false,
+            "sortIndex": 4,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Unholy Summoning",
+                "hidden": false,
+                "id": "e407-00bb-315d-2c6e",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7e25-0150-6998-8f7d"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Unholy Summoning",
+                    "id": "251b-8210-1b8c-8cf4",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "891e-1172-4b96-ae7d"
+                  }
+                ],
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Vapor Form",
+                "hidden": false,
+                "id": "c81a-656f-0b1d-8397",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "33b0-ae9a-01c7-3fa1"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Vapor Form",
+                    "id": "7737-3b61-8615-88eb",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "d2b4-5f0f-9298-c3dd"
+                  }
+                ],
+                "sortIndex": 2,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Tear Soul",
+                "hidden": false,
+                "id": "d0b9-e08f-23e9-8598",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9e9c-ef7a-8dec-d0ba"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Tear Soul",
+                    "id": "9666-f9e4-f92a-a346",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "77ea-58fa-32de-9d26"
+                  }
+                ],
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Frozen Hell",
+                "hidden": false,
+                "id": "0c5c-7cf8-c1ab-f30b",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2f76-3547-2e9e-d528"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Frozen Hell",
+                    "id": "06b0-4436-ff81-c1d8",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "9070-5fa1-fcb0-6008"
+                  }
+                ],
+                "sortIndex": 4,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Great Urgal Bade",
+                "hidden": false,
+                "id": "b35e-0b63-db68-e1d2",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7ce9-1b3c-acfc-3370"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Great Urgal Blade",
+                    "id": "0499-59a8-3697-e9bf",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "900c-eaac-fc60-1a3f"
+                  }
+                ],
+                "sortIndex": 5,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bloody Flail",
+                "hidden": false,
+                "id": "1539-2279-2e5c-030a",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "19ff-1cb2-5d46-c8c6"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Bloody Flail",
+                    "id": "5973-e148-c76c-2671",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "fa08-c0d9-5123-696d"
+                  }
+                ],
+                "sortIndex": 6,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Lathean Devil Whip",
+                "hidden": false,
+                "id": "a8a8-2358-99a7-adef",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a5cf-1fd1-bc69-57d6"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Lathean Devil Whip",
+                    "id": "8296-dda6-f070-f947",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4132-90c8-78bb-6708"
+                  }
+                ],
+                "sortIndex": 7,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "SOUL Upgrades",
+            "id": "9c37-f00b-2144-8bae",
+            "hidden": false,
+            "sortIndex": 5,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Twist Sinews",
+                "hidden": false,
+                "id": "d0aa-24c7-0af2-93b2",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9bad-dd13-f3ad-0166"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Twist Sinews",
+                    "id": "1539-fd5b-6618-0ad9",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "44a2-c593-e23e-b936"
+                  }
+                ],
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Writhing Curse",
+                "hidden": false,
+                "id": "4fcc-70be-9dca-e3d1",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ac31-05c5-3b3f-3cc1"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Writhing Curse",
+                    "id": "c4da-d561-d755-3b8c",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "2571-33d4-3e0d-a565"
+                  }
+                ],
+                "sortIndex": 2,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Disincorporate",
+                "hidden": false,
+                "id": "087d-269a-e5f4-9409",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9e97-188f-0781-a15b"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Disincorporate",
+                    "id": "578b-8b71-152a-95ed",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "e673-e187-3088-fbdf"
+                  }
+                ],
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Eternal Curse",
+                "hidden": false,
+                "id": "d65d-c388-cd01-c9f4",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0112-5b54-6bf6-7f63"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Eternal Curse",
+                    "id": "76f3-3ccc-f57e-4374",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "b582-217d-4a3c-b9b5"
+                  }
+                ],
+                "sortIndex": 4,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Malebolge",
+                "hidden": false,
+                "id": "e46d-7403-b7c8-bac2",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a553-e564-5946-a2c6"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Malebolge",
+                    "id": "a9d2-8447-312b-ccf2",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8bf1-b63d-d24e-a986"
+                  }
+                ],
+                "sortIndex": 5,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Great Satania",
+                "hidden": false,
+                "id": "e0bc-7886-3d8d-6c87",
+                "publicationId": "da35-e534-5d09-746b",
+                "page": "48",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6376-f4bb-4393-2b3b"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Great Satania",
+                    "id": "b954-d3f0-244e-67e3",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "1ad1-fc4e-c650-6e00"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 6
+              }
+            ]
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -2265,6 +3653,408 @@
         "id": "9be6-50c2-d9dc-05ce",
         "type": "selectionEntry",
         "targetId": "5168-10e6-ae32-1eda"
+      },
+      {
+        "import": true,
+        "name": "Dark Priest",
+        "hidden": false,
+        "id": "fd93-301a-42a2-038a",
+        "type": "selectionEntry",
+        "targetId": "da0f-7c42-122c-899e"
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Unholy Summoning",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "891e-1172-4b96-ae7d",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Curse, Range 2-4."
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Pull 2. Ignores line of sight. If the unit is an ally, may then pull another allied unit and clear a token on both allies."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "48"
+      },
+      {
+        "name": "Twist Sinews",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "44a2-c593-e23e-b936",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Curse, Range 2-4"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Start of turn"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Pull unit 1 in any direction."
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "48"
+      },
+      {
+        "name": "Vapor Form",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "d2b4-5f0f-9298-c3dd",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "MOVE with free movement, moving through walls and units. Foes passed through gain 1 weak. Doomed foes take 1 curse damage."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "48"
+      },
+      {
+        "name": "Tear Soul",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "77ea-58fa-32de-9d26",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Curse, Range 1-3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Unit takes 1 curse damage. Then, it gains 1 weak for every 1 hp it is missing. If it’s missing more than half its hp, it is then Doomed."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "48"
+      },
+      {
+        "name": "Frozen Hell",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "9070-5fa1-fcb0-6008",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 1-2"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Create up to three spaces of adverse terrain in range. Units standing in adverse terrain in range take 1 piercing damage."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "48"
+      },
+      {
+        "name": "Great Urgal Blade",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "900c-eaac-fc60-1a3f",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Melee, Attack"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 damage. Effect: At round 4 or later, deals 4 curse damage on hit instead."
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "48"
+      },
+      {
+        "name": "Bloody Flail",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "fa08-c0d9-5123-696d",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, range 2-2"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 damage. Effect: Pull all foes in range 1 space, then splash (self): 1 curse damage. Against doomed units, damage cannot be reduced in any way."
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "48"
+      },
+      {
+        "name": "Lathean Devil Whip",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "4132-90c8-78bb-6708",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, range 2-3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 curse damage. Effect: Cannot benefit from strength. Instead, may remove up to three weak tokens from target to increase curse damage by +1 per weak token removed."
+          }
+        ]
+      },
+      {
+        "name": "Writhing Curse",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "2571-33d4-3e0d-a565",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Foe Turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Curse, Range 1-4"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "At the end of their turn, foe inflicts splash (self) 1 curse damage and 1 weak, only affecting their allies."
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "48"
+      },
+      {
+        "name": "Disincorporate",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "e673-e187-3088-fbdf",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or allied turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 1-4"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Remove self and an adjacent allied unit, then place self in free space in range, then place ally adjacent. If there is no room to place allies, return them at their original location."
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "48"
+      },
+      {
+        "name": "Eternal Curse",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "b582-217d-4a3c-b9b5",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "3"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "A unit is slain"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Transfer all negative tokens to a different unit anywhere, then increase those tokens by 1."
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "48"
+      },
+      {
+        "name": "Malebolge",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "8bf1-b63d-d24e-a986",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "4"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Scour the battlefield with frozen wind, pulling all foes 1 space in the same direction. Foes that would be pulled into walls or adverse terrain take 1 damage."
+          }
+        ]
+      },
+      {
+        "name": "Great Satania",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "1ad1-fc4e-c650-6e00",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "6"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 1-2"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Doom all enemy units in range. All Doomed enemy units instead take 1 curse damage, +1 per Doom token they have."
+          }
+        ]
       }
     ],
     "type": "catalogue"

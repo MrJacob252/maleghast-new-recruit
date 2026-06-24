@@ -1,0 +1,4028 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "afad-d25a-4adc-edb4",
+    "name": "Abhorrers",
+    "gameSystemId": "sys-ec2b-f0d3-4663-8364",
+    "gameSystemRevision": 2,
+    "revision": 1,
+    "battleScribeVersion": "2.03",
+    "rules": [
+      {
+        "name": "Stance",
+        "id": "f961-e275-a009-7f72",
+        "hidden": false,
+        "description": "An ability with stance gains different effects on odd, even, or special numbered rounds."
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Miracle",
+        "typeId": "c4ab-0724-e1de-ebce",
+        "typeName": "Traits",
+        "hidden": false,
+        "id": "4a65-e02e-4d3c-12d9",
+        "characteristics": [
+          {
+            "name": "Effect",
+            "typeId": "b305-f2f7-6e6a-44ce",
+            "$text": "A unit affected by a Miracle has a 5+ effect chance to instantly return to life at 1 hp at the end of any turn it is slain, clearing all tokens."
+          }
+        ]
+      },
+      {
+        "name": "Grand Oath",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "de48-5830-a719-ab96",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Splash (self)"
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "Self and allies in the area may convert any number of vitality to strength."
+          }
+        ]
+      },
+      {
+        "name": "Redempta",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "0914-dde3-3523-6342",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 4"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Remove all negative tokens on an ally, then transfer to self. That ally gains 1 vitality per negative token removed and becomes curseproof until the start of its next turn"
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Communion",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "c66e-42e3-df4c-d3a0",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Gain 1 vitality. Until end of next turn, self and adjacent allies may spend this unit’s hp as if it were vitality tokens."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Decree of Forbiddance",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "1a8d-3119-095b-c7fb",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Curse, Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Until end of next turn, foes ending their turn in range 2 of this unit have a hazard created under them, then are pushed 1."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Holy Water Flail",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "7e7e-47ce-b40f-bbff",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Range 2-4, Charge"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 holy damage and splash (target): 1 holy damage. Stance (Round 3+): and create a hazard under target (round 5+) all targets in the area."
+          }
+        ]
+      },
+      {
+        "name": "Relic Lance",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "3dd6-1ea3-f05f-a1ec",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Melee"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "2 damage. Stance: May step spaces equal to the round number with free movement, in a straight line, before the attack. On hit, push target half that any spaces."
+          }
+        ]
+      },
+      {
+        "name": "Starmetal Shuriken",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "21c0-cc61-4b9c-566a",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Range 2-5"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 damage. Stance: Roll the effect die. If you roll under the round number, deal 1 holy damage again. If you roll exactly the round number, deal 2 holy damage again instead."
+          }
+        ]
+      },
+      {
+        "name": "Sword Art: Drifting Blossoms",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "673f-7f2a-d77e-572b",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "A unit MOVEs, and that move resolves."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Stance: Step spaces equal to 1 + the round number, then push an adjacent unit 1."
+          }
+        ]
+      },
+      {
+        "name": "Sword Art: Safflower cut",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "c266-c7f8-d7e3-f9c1",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or Allied turn."
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Line"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Stance: Step 1, then cut a line area with spaces equal to the round number +2, dealing 1 damage to all characters within and pushing those characters 1. Stance (R5+): This damage becomes Devil Damage."
+          }
+        ]
+      },
+      {
+        "name": "Grace",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "7f4a-318d-42d9-5182",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or allied turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 1-3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Unit becomes curseproof until end of its next turn and attacks against it gain -1D for the duration."
+          }
+        ]
+      },
+      {
+        "name": "Sword Art: Winter Sprout",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "7b86-4adc-6550-013b",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "3"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "This unit takes damage from an ACT ability, and that ability resolves"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Splash (self): remove 1 negative token on self or gain 1 vitality for every foe in the splash area. Stance (R4+): both effects trigger."
+          }
+        ]
+      },
+      {
+        "name": "Supreme Sword Art: Merciful Snowdrop Cut",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "89a5-dc6d-428b-c3b2",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "4"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn."
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "You hit an attack."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Splash (self): 1 holy damage. Stance (R3+): 2 holy damage (R5+): 4 holy damage. (R6+): 5 holy damage."
+          }
+        ]
+      },
+      {
+        "name": "Resurrection",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "0abe-c974-0696-3a02",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "6"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Allied unit is slain"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Return unit to life at 1 hp at the end of the turn. It becomes immune to all damage and curseproof until the start of its next turn. Stance (R3+) and it gains 1 vitality (R5+) 3 vitality instead."
+          }
+        ]
+      }
+    ],
+    "type": "catalogue",
+    "sharedSelectionEntries": [
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Exorcist",
+        "hidden": false,
+        "id": "153b-8a55-c222-2d46",
+        "categoryLinks": [
+          {
+            "name": "Necromancer",
+            "hidden": false,
+            "id": "dbe1-5c10-192e-3d49",
+            "targetId": "fe30-71be-eb40-926a",
+            "primary": true
+          },
+          {
+            "name": "Unit",
+            "hidden": false,
+            "id": "ff2b-f77b-b879-427b",
+            "targetId": "default-category",
+            "primary": false
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Exorcist",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "dfc4-5fae-f3b7-fe19",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "10"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Starmetal Godsword",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "ee0c-4256-3491-9918",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee, Attack"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "1 damage. Stance (Odd): and step 2, Stance (Even): and gain 1 vitality, Stance (Round 5+): Increase damage to 3."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "\n"
+              }
+            ]
+          },
+          {
+            "name": "Holy Vessel",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "8970-3c8a-c9e4-8f08",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "Lacks Miracle. However, while alive, miracle triggers for adjacent allies on a 4+, and gain 1 SOUL the first time it triggers in a round."
+              }
+            ]
+          },
+          {
+            "name": "Absolution",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "b2bb-bc8d-c43a-ecae",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "1"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Any turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "Range 2-6"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": "Turn start"
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Self takes 1 piercing damage, which cannot slay self. One allied unit in range gains one, (3+) two, or (5+) three vitality."
+              }
+            ]
+          },
+          {
+            "name": "Will of God",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "60ef-e256-fb7d-f0c2",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "3"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Own or Allied Turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "Range 1-3"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": "Turn start"
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "For this turn only, self or allied unit in range may treat the current round number as either 2 or 5."
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Bonus Traits",
+            "id": "cdb6-35c6-7f74-fd01",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Winter Rose Stance",
+                "hidden": false,
+                "id": "b585-59b8-c4aa-9bdb",
+                "profiles": [
+                  {
+                    "name": "Winter Rose Stance",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "74e4-01b1-6846-72c0",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "Stance: (Round 3+): Attacks cannot miss (all misses turn into hits)."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fc64-3c58-4b78-3971",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "a7da-7746-7a81-9f2b",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Corpse Violet Stance",
+                "hidden": false,
+                "id": "cba4-b07a-0558-86e3",
+                "profiles": [
+                  {
+                    "name": "Corpse Violet Stance",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "d0f1-2cea-76cf-c9a1",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "Stance: (Round 3+): Gain either physical or magical armor (choose)."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b615-3eda-23cc-39cc",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "b39c-cc3e-b70c-4b6a",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Royal Chrysanthemum Stance",
+                "hidden": false,
+                "id": "4294-2dd8-c1b0-07f9",
+                "profiles": [
+                  {
+                    "name": "Royal Chrysanthemum Stance",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "e04d-d33e-f996-a8b1",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "Stance (Round 3+): May step 2 after ACTing."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e505-7ae7-d016-6748",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "7b8c-6d76-6e99-e8fd",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 0
+                  }
+                ]
+              }
+            ],
+            "page": "",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f132-799e-81bd-19d9",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "fd6a-c40d-d88f-66c6",
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 1
+          },
+          {
+            "name": "Free ACT Upgrade",
+            "id": "2b88-76e0-ea2f-fefc",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Redempta",
+                "hidden": false,
+                "id": "f40c-ac2f-7d8c-e6d8",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f125-b3ff-5b29-78c9",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Redempta",
+                    "id": "8f8e-426c-4810-ad66",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0914-dde3-3523-6342"
+                  }
+                ],
+                "sortIndex": 2
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grand Oath",
+                "hidden": false,
+                "id": "a60f-9047-8f78-ee37",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "039d-f05c-cf46-7b46",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Grand Oath",
+                    "id": "4183-9866-1285-d6f9",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "de48-5830-a719-ab96"
+                  }
+                ],
+                "sortIndex": 1
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Communion",
+                "hidden": false,
+                "id": "b5ae-94b8-09b3-138f",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cb42-d0c1-8234-d5b6",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Communion",
+                    "id": "3b94-2f5d-0ab4-41a3",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c66e-42e3-df4c-d3a0"
+                  }
+                ],
+                "sortIndex": 3
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Decree of Forbiddance",
+                "hidden": false,
+                "id": "6e4d-8de4-1d14-eee5",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "96c0-b801-b22b-93e4",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Decree of Forbiddance",
+                    "id": "07cc-f1ec-5742-3228",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "1a8d-3119-095b-c7fb"
+                  }
+                ],
+                "sortIndex": 4
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Holy Water Flail",
+                "hidden": false,
+                "id": "4406-a262-7e22-df28",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3040-7d0b-e4bd-f67b",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Holy Water Flail",
+                    "id": "fbac-4e01-2b1f-b607",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7e7e-47ce-b40f-bbff"
+                  }
+                ],
+                "sortIndex": 5
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Relic Lance",
+                "hidden": false,
+                "id": "2a9e-d1ea-7b6b-8366",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d23d-84a4-34fc-3504",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Relic Lance",
+                    "id": "df76-ea3f-d168-6969",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "3dd6-1ea3-f05f-a1ec"
+                  }
+                ],
+                "sortIndex": 6
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Starmetal Shuriken",
+                "hidden": false,
+                "id": "851a-9f7f-8d19-0d80",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f863-063f-e617-f940",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Starmetal Shuriken",
+                    "id": "af84-7a8f-030a-7146",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "21c0-cc61-4b9c-566a"
+                  }
+                ],
+                "sortIndex": 7
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0eca-1914-1668-c785",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0e94-0d85-0e08-a204",
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 2
+          },
+          {
+            "name": "Free SOUL Upgrade",
+            "id": "94d2-6541-aaa3-8a51",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "318a-b5db-5c37-8f8d",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "54e4-fc12-eed0-480c",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Drifting Blossoms",
+                "hidden": false,
+                "id": "1340-13b7-d94e-9529",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c7cf-5121-55dc-3edc",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Drifting Blossoms",
+                    "id": "4986-6da1-acdb-2647",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "673f-7f2a-d77e-572b"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Safflower cut",
+                "hidden": false,
+                "id": "0597-435b-ef92-9cbb",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5565-bf16-2530-9caa",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Safflower cut",
+                    "id": "d718-90e8-0918-772c",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c266-c7f8-d7e3-f9c1"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grace",
+                "hidden": false,
+                "id": "bedc-998f-3ff7-ad0d",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1f1d-8cc1-1da6-a843",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Grace",
+                    "id": "e120-a800-d4e1-9eef",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7f4a-318d-42d9-5182"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Supreme Sword Art: Merciful Snowdrop Cut",
+                "hidden": false,
+                "id": "bc47-75c6-fce2-016a",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6908-fc09-41e7-13cf",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 5,
+                "infoLinks": [
+                  {
+                    "name": "Supreme Sword Art: Merciful Snowdrop Cut",
+                    "id": "4e7c-3dc4-55b3-3d39",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "89a5-dc6d-428b-c3b2"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Winter Sprout",
+                "hidden": false,
+                "id": "73a3-2877-fc4b-dfea",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7b7f-32b5-ed05-6ca7",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Winter Sprout",
+                    "id": "64d5-c22e-2492-98c1",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7b86-4adc-6550-013b"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Resurrection",
+                "hidden": false,
+                "id": "4c06-9312-6e13-3053",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "416d-d2a0-0494-0bf1",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 6,
+                "infoLinks": [
+                  {
+                    "name": "Resurrection",
+                    "id": "2503-c08f-aa9f-d383",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0abe-c974-0696-3a02"
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 3
+          },
+          {
+            "name": "ACT Upgrade",
+            "id": "e6f6-c88f-5b62-c4b0",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Redempta",
+                "hidden": false,
+                "id": "d14c-3394-5fe6-89d2",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8986-f972-8f88-18e0",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Redempta",
+                    "id": "fafd-5bf3-9259-dca8",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0914-dde3-3523-6342"
+                  }
+                ],
+                "sortIndex": 2,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grand Oath",
+                "hidden": false,
+                "id": "e921-839a-2629-5bbb",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0fea-4e31-8a9d-74d1",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Grand Oath",
+                    "id": "6183-7446-5249-137b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "de48-5830-a719-ab96"
+                  }
+                ],
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Communion",
+                "hidden": false,
+                "id": "96bc-891d-7f18-9d94",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f931-c62a-f8c7-f776",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Communion",
+                    "id": "527f-60f2-e48e-df60",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c66e-42e3-df4c-d3a0"
+                  }
+                ],
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Decree of Forbiddance",
+                "hidden": false,
+                "id": "c157-aae0-ea95-d85e",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "bd61-43ab-f0cd-154d",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Decree of Forbiddance",
+                    "id": "7b46-e747-f6d8-b79f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "1a8d-3119-095b-c7fb"
+                  }
+                ],
+                "sortIndex": 4,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Holy Water Flail",
+                "hidden": false,
+                "id": "af1e-6e69-6866-7bfd",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5a5b-1c02-a15f-7e9a",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Holy Water Flail",
+                    "id": "b7b4-2338-c3f9-042f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7e7e-47ce-b40f-bbff"
+                  }
+                ],
+                "sortIndex": 5,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Relic Lance",
+                "hidden": false,
+                "id": "edd5-86f1-b1dc-61e5",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b1ba-145e-9b69-90ad",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Relic Lance",
+                    "id": "2030-1bc8-178d-55f6",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "3dd6-1ea3-f05f-a1ec"
+                  }
+                ],
+                "sortIndex": 6,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Starmetal Shuriken",
+                "hidden": false,
+                "id": "1714-fee0-0876-9297",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d054-090f-33f9-d701",
+                    "includeChildSelections": false
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Starmetal Shuriken",
+                    "id": "8f73-931b-45f6-15db",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "21c0-cc61-4b9c-566a"
+                  }
+                ],
+                "sortIndex": 7,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 4
+          },
+          {
+            "name": "SOUL Upgrade",
+            "id": "8681-1234-f78f-5048",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Drifting Blossoms",
+                "hidden": false,
+                "id": "ce5f-72f6-30e5-2110",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "eb63-4af4-5836-45ed",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Drifting Blossoms",
+                    "id": "6cc6-02bc-6dd0-c66f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "673f-7f2a-d77e-572b"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Safflower cut",
+                "hidden": false,
+                "id": "4e6c-2232-d22e-1ead",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9393-27d5-d82d-fc61",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Safflower cut",
+                    "id": "2627-8070-af8f-b719",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c266-c7f8-d7e3-f9c1"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Grace",
+                "hidden": false,
+                "id": "c7ee-124a-67c5-7193",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9809-3bb6-9298-f361",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Grace",
+                    "id": "22c0-ffaf-3673-e5f7",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7f4a-318d-42d9-5182"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Supreme Sword Art: Merciful Snowdrop Cut",
+                "hidden": false,
+                "id": "7ef9-caa3-21f7-ba10",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cec8-00c2-3a1a-17e4",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 5,
+                "infoLinks": [
+                  {
+                    "name": "Supreme Sword Art: Merciful Snowdrop Cut",
+                    "id": "efb3-51f7-5ffe-e613",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "89a5-dc6d-428b-c3b2"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sword Art: Winter Sprout",
+                "hidden": false,
+                "id": "c513-86de-254a-d8bf",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "120f-925d-5bf3-7497",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Sword Art: Winter Sprout",
+                    "id": "9b07-3053-db65-61e4",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7b86-4adc-6550-013b"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Resurrection",
+                "hidden": false,
+                "id": "090b-e67c-6ae6-f9a1",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "bfd2-ec93-47c7-dcea",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 6,
+                "infoLinks": [
+                  {
+                    "name": "Resurrection",
+                    "id": "75e9-075b-5c97-3c87",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0abe-c974-0696-3a02"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 5
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "53"
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Holy Body",
+        "hidden": false,
+        "id": "6bfa-2a89-8900-b531",
+        "categoryLinks": [
+          {
+            "name": "Unit",
+            "hidden": false,
+            "id": "8e15-9bf8-c29c-c3c7",
+            "targetId": "default-category",
+            "primary": true
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Holy Body",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "f7df-dfd4-8edc-32f9",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "3"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "2+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "SUPER"
+              }
+            ]
+          },
+          {
+            "name": "Absolution",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "51d9-ec02-df44-44da",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Gain two vitality. Until the start of this unit’s next turn, adjacent allies may spend vitality tokens on this unit as if they were their own."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Indignation",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "2404-d630-88f6-7869",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self, Range 3-6"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Remove one or two vitality tokens on this unit, then deal 1 holy damage to that many units in range, and push those units 1."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Bolides",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "1fda-586f-3fff-3b1a",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Range 2-6"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Create one, (3+) two, (5+) or three hazards in range. May destroy a wall instead of creating a hazard."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Miraculous Flesh",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "61ac-aaa2-a405-33d1",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "Lacks miracle, but starts combat with 4 vitality tokens."
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "3edd-211c-a94a-e808",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Scathe",
+                "hidden": false,
+                "id": "fffa-c1ed-69fb-1128",
+                "profiles": [
+                  {
+                    "name": "Scathe",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "ec09-1d5c-dbb7-9783",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "When Bolides destroys a wall, it can deal 1 damage to an adjacent foe."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cb4f-ebe5-9e8b-cbba",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "3303-a9c3-efa9-7f0d",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Holy Font",
+                "hidden": false,
+                "id": "d64c-ca81-641d-0124",
+                "profiles": [
+                  {
+                    "name": "Holy Font",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "a0a9-483b-82c4-78a2",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Ablutions gains stance (round 3+): gain 3 vitality instead, (round 5+): gain 4 vitality instead."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8dc1-23cc-2c6d-f0c9",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "10e3-32c8-887f-80ef",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Witness",
+                "hidden": false,
+                "id": "c44b-3c3c-d005-683b",
+                "profiles": [
+                  {
+                    "name": "Witness",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "5d26-c7b5-bbee-7d91",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Indignation gains stance (round 4+): deal 2 holy damage instead."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e544-5ce7-830c-0bcf",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "914b-4b70-ade8-179e",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "page": ""
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "53",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "b7cc-3275-2058-25da",
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Holy Body",
+            "hidden": false,
+            "id": "eb8f-bea0-f4d9-bd54",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Tyrant",
+                "hidden": false,
+                "id": "e3fe-607a-3404-cb06",
+                "targetId": "7314-e0e7-35fe-aa92",
+                "primary": true
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "bde6-8f90-d039-0f87",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Tyrant",
+            "id": "251c-ffce-37b8-5d76",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5c4d-9068-2b4f-1f43"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Abbot",
+        "hidden": false,
+        "id": "ac98-da77-deb5-82d2",
+        "categoryLinks": [
+          {
+            "name": "Unit",
+            "hidden": false,
+            "id": "ba2c-6e51-ff1e-a8b3",
+            "targetId": "default-category",
+            "primary": true
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Abbot",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "b4cb-634f-cee9-5c2b",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "3"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "PHYS"
+              }
+            ]
+          },
+          {
+            "name": "Bible Thump",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "e949-7943-d72f-4410",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee, Attack"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "\n"
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "Self and an adjacent ally gain 1 vitality (Stance: R4+): 2 vitality. Then deal 1 damage and push 1. Cannot miss allies and pushes them +1."
+              }
+            ]
+          },
+          {
+            "name": "Wrath",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "8daa-8040-6e10-8200",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self, Range 1-3, Ally"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Target unit converts all vitality into strength, and then becomes unable to gain vitality tokens for the rest of combat."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Blood of the Covenant",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "a49a-167b-2e42-67ae",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self, Ally, Melee"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Choose self or an adjacent ally. At the end of that unit’s turn, slay them. They splash (self) 1 holy damage to foes, 1 vitality to allies. Increase damage and vitality by +1 if the unit had 3 or more vitality."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "28b1-5d61-aef6-c20c",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Good Word",
+                "hidden": false,
+                "id": "d9f1-cb1e-1867-e999",
+                "profiles": [
+                  {
+                    "name": "The Good Word",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "0ed3-4515-6e6d-8a33",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "At round 6+, Bible Thump deals 4 damage on hit."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ca60-83d6-1c22-62d4",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "b4f5-f2e2-84bd-85b3",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Cleansing the Hosts",
+                "hidden": false,
+                "id": "d9c2-396d-c68a-576d",
+                "profiles": [
+                  {
+                    "name": "Cleansing the Hosts",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "e9f6-f723-4c24-828a",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Bible Thump removes a negative token before granting vitality."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c64f-3d22-80e3-c293",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "bd5f-73fb-6d11-e39c",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sanctified Sacrifice",
+                "hidden": false,
+                "id": "f241-9ae1-9bd6-f65a",
+                "profiles": [
+                  {
+                    "name": "Sanctified Sacrifice",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "74e7-e088-2fe5-e727",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Blood of the Covenant causes miracle to trigger on a 3+"
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a601-dd2b-ad87-8244",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "0cde-880f-77c7-71ef",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "page": ""
+          }
+        ],
+        "publicationId": "0300-2d2b-d6c4-502c",
+        "page": "18",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "6b61-9bef-7791-95dc",
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Abbot",
+            "hidden": false,
+            "id": "da2d-a27d-b036-d074",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "8026-360f-68ed-6a0c",
+                "id": "2ca3-1262-4ebb-3747",
+                "primary": true,
+                "name": "Freak"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "71c6-7623-7c01-b5c5",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Miracle",
+            "id": "a1b3-ca7f-577b-89ec",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "4a65-e02e-4d3c-12d9"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Inquisitor",
+        "hidden": false,
+        "id": "061c-a64a-5eb2-c4ac",
+        "categoryLinks": [
+          {
+            "name": "Unit",
+            "hidden": false,
+            "id": "231d-d47b-4a92-0071",
+            "targetId": "default-category",
+            "primary": true
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Inquisitor",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "1f82-3f77-28d5-ae8b",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Winch",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "379b-99e0-ae66-409c",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Step 1. Next attack from this unit gains +1D and +2 maximum range. This effect stacks."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Requiesce en Pace",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "29c2-26c1-4107-738b",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, Range 2-3"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "2 damage. Stance (Round 3+): with piercing. (Round 5+): 4 damage with piercing."
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "ea34-95e4-0c0d-81e6",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Focus",
+                "hidden": false,
+                "id": "96b5-961d-64b6-d308",
+                "profiles": [
+                  {
+                    "name": "Focus",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "32ea-c8d5-fc6c-8729",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "If this unit does not move during its turn, it may remove a negative token from itself."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ae99-eda3-c07f-1f24",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "d0f5-b8d6-dcf2-698c",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Heart Destroyer",
+                "hidden": false,
+                "id": "5022-d870-72f9-bc35",
+                "profiles": [
+                  {
+                    "name": "Heart Destroyer",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "8585-6e4e-9dd7-b2e7",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Stance: Requiesce en Pace obliterates units it slays at round 3+."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6e81-4b74-d9c2-7303",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "9cc1-7f03-4b1b-1912",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Explosive Bolts",
+                "hidden": false,
+                "id": "b137-2c0d-e436-a49c",
+                "profiles": [
+                  {
+                    "name": "Explosive Bolts",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "d3a1-f765-dfaa-fd94",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Stance: Requiesce en Pace pushes units one, (Round 3+) two, or (Round 5+) four spaces."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c424-6e91-9806-ba1d",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "a818-4683-31c6-1b9b",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "page": ""
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "52",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "f449-b1f8-a8d4-4f74",
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Inquisitor",
+            "hidden": false,
+            "id": "c438-3dcc-06ee-a6bc",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "85b3-be32-3ac6-24b2",
+                "id": "81fc-a062-c57b-4155",
+                "primary": true,
+                "name": "Hunter"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "3801-f6f3-55cd-2831",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Miracle",
+            "id": "634f-8bea-0b31-6ad4",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "4a65-e02e-4d3c-12d9"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Antipriest",
+        "hidden": false,
+        "id": "8d62-436d-b247-555d",
+        "categoryLinks": [
+          {
+            "name": "Unit",
+            "hidden": false,
+            "id": "980c-fc0f-c760-2fa0",
+            "targetId": "default-category",
+            "primary": true
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Antipriest",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "1601-ffe8-4388-4be4",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "MAG"
+              }
+            ]
+          },
+          {
+            "name": "Delay Judgement",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "fcae-a712-9d4d-ba22",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Range 1-3"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "An allied unit in range gains miracle. If it already had miracle, miracle triggers on a 2+ until the end of their next turn. At the end of that unit’s turn, they lose miracle."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Gentleness",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "2614-2b33-da53-2d29",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Become unable to MOVE or step until start of this unit’s next turn. At the start of that turn, allied units adjacent to this unit gain 1 vitality."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Blessed Censer",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "077a-f52b-5cf3-f994",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Splash (self): Stance (Even): Allies gain 1 vitality. (Odd): foes take 1 holy damage."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "c37a-79f0-2096-fe9b",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Cleansing Prayer",
+                "hidden": false,
+                "id": "ed59-5c12-170c-fb50",
+                "profiles": [
+                  {
+                    "name": "Cleansing Prayer",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "df98-7c71-9736-8079",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Self and adjacent units are curseproof during gentleness."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "55b7-386f-7a57-0a29",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "cb2c-451d-773e-87d7",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Consecrate",
+                "hidden": false,
+                "id": "9d6d-4e9e-da9b-15f9",
+                "profiles": [
+                  {
+                    "name": "Consecrate",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "443e-256f-e5bd-e4ea",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Blessed Censer may remove up to three corpses or hazards in range."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "93a6-8a95-cde3-e621",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "d841-4803-76b3-7d06",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Boiling Censer",
+                "hidden": false,
+                "id": "0822-6a0f-b3d0-c3b9",
+                "profiles": [
+                  {
+                    "name": "Boiling Censer",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "e3cc-259c-5f2a-9a3a",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Stance (Round 4+): Blessed Censer’s effects trigger twice"
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "df86-8b1e-fcd5-b88f",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "20da-8366-9b21-fb65",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "page": ""
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "52",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "8ef7-817d-2eae-7ab8",
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Antipriest",
+            "hidden": false,
+            "id": "b15c-5677-75f2-3213",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "8026-360f-68ed-6a0c",
+                "id": "1e17-405b-553b-14a6",
+                "primary": true,
+                "name": "Freak"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0415-1207-e44e-fb12",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Miracle",
+            "id": "508b-6db9-16c1-1cb4",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "4a65-e02e-4d3c-12d9"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Zealot",
+        "hidden": false,
+        "id": "68a7-5455-1795-d625",
+        "categoryLinks": [
+          {
+            "name": "Unit",
+            "hidden": false,
+            "id": "236f-7ff7-fd6c-daa6",
+            "targetId": "default-category",
+            "primary": true
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Zealot",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "b2bc-1605-8a93-f0c2",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Smite",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "5aa4-5265-b731-8ea8",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Stance: MOVE again. The next use of Whirling Chain deals +damage equal to half the round number, rounded up."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Whirling Chain",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "a1c0-0b10-bbec-dac1",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, Range 1-2"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "2 damage. Stance (Odd): and MOVE again, Stance (Even) and push unit 2"
+              }
+            ]
+          },
+          {
+            "name": "Zealotry",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "e3f0-1de7-efbe-1e07",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "When MOVEing for the second time or more in a turn, gain 1 vitality."
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "5acc-f4b7-5f02-289b",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Punisher",
+                "hidden": false,
+                "id": "03cb-6b9f-0f93-a51e",
+                "profiles": [
+                  {
+                    "name": "Punisher",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "4e82-de12-c7aa-4cd5",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Stance: Whirling chain Obliterates foes it slays at round 3+"
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a8d1-daf1-d699-9c95",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "66b5-bd3e-561a-ed22",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Suffuse",
+                "hidden": false,
+                "id": "09f7-7633-be5f-9abe",
+                "profiles": [
+                  {
+                    "name": "Suffuse",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "5247-4d15-2150-d6f5",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Smite removes a negative token from this unit."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6f0b-0a41-15e8-8282",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "7acb-2951-fbd9-e327",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Fiery Chain",
+                "hidden": false,
+                "id": "1c4d-6c9b-c74a-dcd8",
+                "profiles": [
+                  {
+                    "name": "Fiery Chain",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "6d6e-e1d4-8da3-d9de",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Whirling chain creates one or (5+) two hazards adjacent to its target after it resolves"
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b8dc-44e8-ceae-8f16",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "9d5d-edc9-bd92-bdfc",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "page": ""
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "51",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "75f4-4e0f-e960-3b56",
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Zealot",
+            "hidden": false,
+            "id": "40b7-4890-2603-507b",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "a5cb-2aa7-a054-c37b",
+                "id": "5852-c31b-e78b-8eb9",
+                "primary": true,
+                "name": "Horror"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "48d8-cd5c-1778-601f",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Miracle",
+            "id": "a35c-f3c0-cc40-cce8",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "4a65-e02e-4d3c-12d9"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Penitent",
+        "hidden": false,
+        "id": "522d-cdb3-2240-063a",
+        "categoryLinks": [
+          {
+            "name": "Unit",
+            "hidden": false,
+            "id": "c6ea-cccd-ded3-c9e3",
+            "targetId": "default-category",
+            "primary": true
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Penitent",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "d197-e61e-e67a-5ba1",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "3"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "2+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "SUPER"
+              }
+            ]
+          },
+          {
+            "name": "Holy Water",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "d469-0e4b-1ec1-3cc9",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Range 2-3"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "1 holy damage and (3+) create a hazard under target."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Mea Culpa",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "2b7b-cbd5-c1e7-5f35",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Splash (self): Remove one negative token from all allies in range and place them on this unit. Then remove one, (4+) two, or (6+) all negative tokens from this unit, and gain 1 strength for each negative token removed this way."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Excorate",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "bdc9-3da3-ff68-73a8",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee, Attack"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage, and Stance (Odd): Splash (self): 1 holy damage. (Even): gain 1 vitality."
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "Unit Slots",
+            "typeId": "729d-200e-b1c7-683e",
+            "value": 0
+          },
+          {
+            "name": "Dark Power",
+            "typeId": "2bfb-93d9-91d6-b153",
+            "value": 0
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "4692-b250-ebc8-59e8",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Holy Blood",
+                "hidden": false,
+                "id": "8d80-c5db-76a0-5097",
+                "profiles": [
+                  {
+                    "name": "Holy Blood",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "4859-d159-6dfc-0927",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Mea Culpa creates one or (4+) two hazards in free adjacent spaces."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a2d5-e481-24ba-76e7",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "98e1-095b-21eb-fb66",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Eager",
+                "hidden": false,
+                "id": "2cad-54a6-b050-f1ed",
+                "profiles": [
+                  {
+                    "name": "Eager",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "3d51-f233-03e6-8a7e",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "May step 2 before using Mea Culpa"
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7a10-a361-b58c-8715",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "a4b3-fc36-4a0e-729a",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Taste the Lash",
+                "hidden": false,
+                "id": "b871-9471-dfe5-037c",
+                "profiles": [
+                  {
+                    "name": "Taste the Lash",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "799e-7897-a618-ba64",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Stance (round 4+): Excoriate triggers both effects."
+                      }
+                    ],
+                    "page": ""
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "de79-55ed-df16-c988",
+                    "includeChildSelections": false
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "name": "Upgrade",
+                    "hidden": false,
+                    "id": "956d-083e-a844-8e6b",
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "primary": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "page": ""
+          }
+        ],
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "52",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "f61e-8751-2fe2-506e",
+            "includeChildSelections": false,
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Penitent",
+            "hidden": false,
+            "id": "a0ab-4885-785c-08c2",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "c422-7dc4-5583-c6fd",
+                "id": "3b9e-9c3f-0002-6970",
+                "primary": true,
+                "name": "Scion"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "7104-34b3-7965-6bd1",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Miracle",
+            "id": "bf3f-a107-a96a-38fc",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "4a65-e02e-4d3c-12d9"
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": "Exorcist",
+        "hidden": false,
+        "id": "6328-ae24-371b-ca3b",
+        "targetId": "153b-8a55-c222-2d46",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Holy Body",
+        "hidden": false,
+        "id": "1ff5-17e3-88c8-6288",
+        "targetId": "6bfa-2a89-8900-b531",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Abbot",
+        "hidden": false,
+        "id": "34f0-6849-27f9-ba12",
+        "targetId": "ac98-da77-deb5-82d2",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Inquisitor",
+        "hidden": false,
+        "id": "42ee-8a55-a984-b497",
+        "targetId": "061c-a64a-5eb2-c4ac",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Antipriest",
+        "hidden": false,
+        "id": "3a48-b902-6708-2b86",
+        "targetId": "8d62-436d-b247-555d",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Zealot",
+        "hidden": false,
+        "id": "bbff-ac47-71c1-ab11",
+        "targetId": "68a7-5455-1795-d625",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Penitent",
+        "hidden": false,
+        "id": "b345-273c-f98f-07f2",
+        "targetId": "522d-cdb3-2240-063a",
+        "type": "selectionEntry"
+      }
+    ]
+  }
+}

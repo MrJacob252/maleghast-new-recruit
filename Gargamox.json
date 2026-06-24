@@ -5,7 +5,7 @@
     "name": "Gargamox",
     "gameSystemId": "sys-ec2b-f0d3-4663-8364",
     "gameSystemRevision": 1,
-    "revision": 1,
+    "revision": 2,
     "battleScribeVersion": "2.03",
     "sharedRules": [
       {
@@ -91,6 +91,14 @@
         "id": "7572-28ca-c2f7-9acd",
         "type": "selectionEntry",
         "targetId": "b29d-9ddc-4731-598c"
+      },
+      {
+        "import": true,
+        "name": "Plaguelord",
+        "hidden": false,
+        "id": "eeb1-2a26-cd57-a3f5",
+        "type": "selectionEntry",
+        "targetId": "2743-f057-e35b-a734"
       }
     ],
     "sharedSelectionEntries": [
@@ -2493,8 +2501,1554 @@
             "page": "18"
           }
         ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Plaguelord",
+        "hidden": false,
+        "id": "2743-f057-e35b-a734",
+        "publicationId": "da35-e534-5d09-746b",
+        "page": "41",
+        "categoryLinks": [
+          {
+            "targetId": "fe30-71be-eb40-926a",
+            "id": "e975-f559-ceed-c9d3",
+            "primary": true,
+            "name": "Necromancer"
+          },
+          {
+            "targetId": "default-category",
+            "id": "b99c-a6bb-20a9-86ef",
+            "primary": false,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Bonus Traits",
+            "id": "efd6-16ff-f3e2-7f06",
+            "hidden": false,
+            "sortIndex": 1,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "4939-2909-6160-d6f4"
+              },
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "bca9-bd8a-13a5-7c30"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Pollution Shroud",
+                "hidden": false,
+                "id": "14f3-55a1-6075-f6a2",
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "0eed-c24b-fb12-e9fa",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Pollution shroud",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "eb02-59c5-6736-089a",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "While standing in a hazard, you have cover from all directions and are curseproof."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "df12-cc44-6101-4934"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Corruptor",
+                "hidden": false,
+                "id": "368a-aea8-dcaa-a1ef",
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "78d9-3db5-5137-1485",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Corruptor",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "e085-30fb-1c12-8ba8",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "After you MOVE, create a hazard in an adjacent space."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b333-18f8-2e25-9993"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Spreader",
+                "hidden": false,
+                "id": "d700-af58-67fe-3e77",
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "adf7-dbf7-6a59-af97",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "4ffe-4633-37da-f38d"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Spreader",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "33a6-501e-fc58-fc28",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "Infect abilities that you use or that target you may jump an extra time."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Free ACT Upgrade",
+            "id": "0c0a-7b90-f601-235c",
+            "hidden": false,
+            "sortIndex": 2,
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d7dd-eee3-2514-9860"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d3e8-5fc7-142c-8375"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Melt",
+                "hidden": false,
+                "id": "4c06-0415-b140-05b7",
+                "sortIndex": 1,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d8a4-24e1-69cd-3222"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Melt",
+                    "id": "98f5-434b-04d8-8a9d",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c11b-3e2b-05c5-288d"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Corpse Explosion",
+                "hidden": false,
+                "id": "118a-f78c-8720-e964",
+                "sortIndex": 2,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "932a-b38f-b176-5294"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Corpse Explosion",
+                    "id": "9a4d-cc1f-0464-5507",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "9409-89e8-bcfd-bb5e"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Vermin Form",
+                "hidden": false,
+                "id": "2202-e880-7412-a36f",
+                "sortIndex": 3,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cbe0-02d3-7f47-9dd2"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Vermin Form",
+                    "id": "adbb-3b00-e3c8-715d",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "dcd5-27b4-79be-8ce5"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Ceaseless Spew",
+                "hidden": false,
+                "id": "0d19-ebbf-fc29-a8fd",
+                "sortIndex": 4,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a085-54e6-d10e-30db"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Ceaseless Spew",
+                    "id": "d27a-914e-1712-ab2f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "f8be-df01-663b-b9e7"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Flesh Feeder Blade",
+                "hidden": false,
+                "id": "e113-1753-5f45-41f4",
+                "sortIndex": 5,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "36e1-a49b-cc11-9ea7"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Flesh Feeder Blade",
+                    "id": "d748-e8ce-cdba-70a0",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "fd5c-d499-3765-70de"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Scourge",
+                "hidden": false,
+                "id": "f419-79a5-59bb-996a",
+                "sortIndex": 6,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "141a-4415-b6e0-a88e"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Scourge",
+                    "id": "9616-3976-1c9a-2bfc",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "b5a4-73e3-f225-f829"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Necrocinde",
+                "hidden": false,
+                "id": "c02e-88a5-9e67-b2cb",
+                "sortIndex": 7,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "265a-a8d9-c428-cf76"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Necrocinde",
+                    "id": "233d-b480-d7fe-c39f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "1b4d-1d7a-de00-26e9"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Free SOUL Upgrade",
+            "id": "492b-9194-7a44-e9d2",
+            "hidden": false,
+            "sortIndex": 3,
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "2249-c54f-8e67-fcdf"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "74d5-6330-142d-bcca"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Purge Guts",
+                "hidden": false,
+                "id": "42b9-7c9d-fdf8-9ac8",
+                "sortIndex": 1,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "050c-1b08-c00f-b0b2"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Purge Guts",
+                    "id": "f862-59a0-e9dc-1e1a",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8d6c-de12-5fba-2e1d"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Insides Out",
+                "hidden": false,
+                "id": "7056-7ba0-c3e4-3e0b",
+                "sortIndex": 2,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8816-fc37-1d08-fa84"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Insides Out",
+                    "id": "b530-6b02-399a-420a",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a809-3200-c2bf-9b82"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Fecundity",
+                "hidden": false,
+                "id": "7259-75b6-7ad2-7e07",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e050-15e1-2940-3f8f"
+                  }
+                ],
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Fecundity",
+                    "id": "27ad-b77b-7582-9a92",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a978-7190-bc77-1732"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Unholy Vapors",
+                "hidden": false,
+                "id": "aedf-dd45-e097-a7e7",
+                "sortIndex": 4,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2aaa-48db-179c-de29"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Unholy Vapors",
+                    "id": "6d99-82c2-b8d5-98e0",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "63e9-3792-e302-8f5e"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Praise the Filth",
+                "hidden": false,
+                "id": "3ef8-4c45-07c1-b64b",
+                "sortIndex": 5,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a1c3-f789-f1f6-3584"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Praise the Filth",
+                    "id": "7936-4222-8dd4-c284",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "5922-4028-5874-8996"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Mox Populi",
+                "hidden": false,
+                "id": "e93e-406e-0ef8-d4d4",
+                "sortIndex": 6,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9578-dc57-1762-dadf"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Mox Populi",
+                    "id": "54f6-64e0-9220-7277",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "1758-e598-82af-6da0"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "SOUL Upgrades",
+            "id": "7f15-f912-58bc-48b2",
+            "hidden": false,
+            "sortIndex": 5,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Insides Out",
+                "hidden": false,
+                "id": "ee44-95e9-f911-2342",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7027-c77d-df2b-42b5"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Insides Out",
+                    "id": "4707-a65b-1bb2-73a5",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a809-3200-c2bf-9b82"
+                  }
+                ],
+                "sortIndex": 2
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Purge Guts",
+                "hidden": false,
+                "id": "fa23-2119-25a0-5287",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b8d4-f145-ca91-5ebb"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Purge Guts",
+                    "id": "4c69-6de3-ee8f-cff1",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8d6c-de12-5fba-2e1d"
+                  }
+                ],
+                "sortIndex": 1
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Fecundity",
+                "hidden": false,
+                "id": "0eb1-d565-e489-6d71",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "92b5-78f9-ab8c-1946"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Fecundity",
+                    "id": "1164-c1e5-d8a8-da0b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a978-7190-bc77-1732"
+                  }
+                ],
+                "sortIndex": 3
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Unholy Vapors",
+                "hidden": false,
+                "id": "930c-6da7-21cb-e4a3",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6b41-9848-e55e-68aa"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Unholy Vapors",
+                    "id": "fd8b-c9e6-68de-0a41",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "63e9-3792-e302-8f5e"
+                  }
+                ],
+                "sortIndex": 4
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Praise the Filth",
+                "hidden": false,
+                "id": "d458-8422-5a67-a6e1",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6e65-0a22-f40b-5f48"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Praise the Filth",
+                    "id": "02ad-8949-968b-9df3",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "5922-4028-5874-8996"
+                  }
+                ],
+                "sortIndex": 5
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Mox Populi",
+                "hidden": false,
+                "id": "b42b-7d14-b607-c586",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6aee-808a-b7eb-84ec"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Mox Populi",
+                    "id": "d8cd-ea98-a785-e219",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "1758-e598-82af-6da0"
+                  }
+                ],
+                "sortIndex": 6
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Blessed with Filth",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "50f2-6141-031f-f403",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "Immune to hazards. At turn start, gain 1 plague, then may distribute any number of plague tokens on this unit to any other units in range 2."
+              }
+            ]
+          },
+          {
+            "name": "Plaguelord",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "f96d-235f-a5be-ced4",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "10"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ]
+          },
+          {
+            "name": "Virulence",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "5729-8fe3-61e1-7a9d",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, range 1-3"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage and inflict 1 plague. Then, may immediately remove a plague token on target to deal 1 toxic damage, again (effect: 3+) one more, (5+) one more."
+              }
+            ]
+          },
+          {
+            "name": "Infest",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "2865-543f-3ef9-ef46",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "1"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Any turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "Range 1-3"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": "Turn start"
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Grant 2 plague tokens to a unit in range."
+              }
+            ]
+          },
+          {
+            "name": "Slime Form",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "5950-c252-b882-b6f2",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "3"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Any turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": ""
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": "Turn start"
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "MOVE with free movement. Can pass through walls and units during this movement. After the movement finishes, push or pull all units in range 2 one space (5+) two spaces."
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "ACT Upgrades",
+            "hidden": false,
+            "id": "8ce0-a745-2201-cb4f",
+            "sortIndex": 4,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Melt",
+                "hidden": false,
+                "id": "d78b-c7e6-3d30-2564",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fa80-8101-d6c3-703e"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Melt",
+                    "id": "ac8d-16b8-5359-751f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c11b-3e2b-05c5-288d"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 1
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Corpse Explosion",
+                "hidden": false,
+                "id": "896d-11c7-f9b4-3138",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9829-abf0-4d15-c184"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Corpse Explosion",
+                    "id": "c60c-76d0-74ef-c23d",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "9409-89e8-bcfd-bb5e"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 2
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Vermin Form",
+                "hidden": false,
+                "id": "d42f-b128-b1be-55f0",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3e5d-817d-e5f1-0bf4"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Vermin Form",
+                    "id": "7c2a-2d60-a40c-ceeb",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "dcd5-27b4-79be-8ce5"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 3
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Ceaseless Spew",
+                "hidden": false,
+                "id": "eda6-0429-3004-a590",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fb86-5455-f1e0-f013"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Ceaseless Spew",
+                    "id": "871c-83c8-15e3-e5ad",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "f8be-df01-663b-b9e7"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 4
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Flesh Feeder Blade",
+                "hidden": false,
+                "id": "f2d3-28c9-5ab3-ffa0",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2970-0c1b-ce58-2453"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Flesh Feeder Blade",
+                    "id": "a6ce-01cd-2feb-fa07",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "fd5c-d499-3765-70de"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 5
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Scourge",
+                "hidden": false,
+                "id": "0e81-876c-4625-12ab",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8a16-ea98-c648-1f85"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Scourge",
+                    "id": "d79a-176f-1e58-a2d7",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "b5a4-73e3-f225-f829"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 6
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Necrocinde",
+                "hidden": false,
+                "id": "31bf-66c9-2f16-000e",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0288-c69d-9b31-30a0"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Necrocinde",
+                    "id": "5888-ad24-30e3-a982",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "1b4d-1d7a-de00-26e9"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 7
+              }
+            ]
+          }
+        ]
       }
     ],
-    "type": "catalogue"
+    "type": "catalogue",
+    "sharedProfiles": [
+      {
+        "name": "Melt",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "c11b-3e2b-05c5-288d",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Curse, range 1-3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Unit takes 1 devil damage. If this reduces it to 0 hp, it is obliterated and it melts, creating a hazard in its space."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Purge Guts",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "8d6c-de12-5fba-2e1d",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Self or Allied turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 1-3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Remove up to three plague tokens from self or allied unit and grant them to any other adjacent unit to target. Then, remove a negative token on the target for each plague token removed."
+          }
+        ]
+      },
+      {
+        "name": "Corpse Explosion",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "9409-89e8-bcfd-bb5e",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 1-4"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Choose a corpse in range. It explodes for a splash effect\ncentered on it for 1 plague and push 1. Then remove it and replace it with a hazard."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Vermin Form",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "dcd5-27b4-79be-8ce5",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 2-6"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Choose a corpse or a hazard in range and and swap places with it. You push all adjacent units 1 and become curseproof until the end of your next turn."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Ceaseless Spew",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "f8be-df01-663b-b9e7",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Line 6"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "1 plague (6+) or 2 plague. Already plagued foes take 1 toxic damage. Pull all affected units 1."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "Flesh Feeder Blade",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "fd5c-d499-3765-70de",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, melee"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 damage and Infect: 1 plague to foes and 1 strength to self or allied units. Double this effect if it slays a foe."
+          }
+        ]
+      },
+      {
+        "name": "Necrocinde",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "1b4d-1d7a-de00-26e9",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Range 2-3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 toxic damage. Infect: 1 toxic damage. Effect: After this ability resolves, gain 1 plague on self for each unit affected."
+          }
+        ]
+      },
+      {
+        "name": "Scourge",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "b5a4-73e3-f225-f829",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Range 2-4"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 damage, create a hazard under target and (effect: 3+)\nslow them (5+) twice."
+          }
+        ]
+      },
+      {
+        "name": "Insides Out",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "a809-3200-c2bf-9b82",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Curse, Range 1-3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Unit gains 1 slow and creates a hazard under themselves at the end of this turn."
+          }
+        ]
+      },
+      {
+        "name": "Fecundity",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "a978-7190-bc77-1732",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 1-3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Double all plague tokens on a unit. If this puts them at 5 or more tokens, they also explode with splash (target): 1 toxic damage."
+          }
+        ]
+      },
+      {
+        "name": "Unholy Vapors",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "63e9-3792-e302-8f5e",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "3"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Curse, Range 1-3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "At the end of the targeted unit’s turn, targeted unit takes 1 piercing toxic damage, for every hazard in range 2 of them."
+          }
+        ]
+      },
+      {
+        "name": "Praise the Filth",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "5922-4028-5874-8996",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "4"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 1-2"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Place one hazard in range for every other hazard in range."
+          }
+        ]
+      },
+      {
+        "name": "Mox Populi",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "1758-e598-82af-6da0",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "6"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own Turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Remove up to four corpse tokens or hazards anywhere and summon a SCUM unit for each. Then splash (target) on all scum created this way for 1 toxic damage to foes. Characters can only be damaged once by this effect."
+          }
+        ]
+      }
+    ]
   }
 }

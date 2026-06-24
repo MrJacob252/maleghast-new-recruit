@@ -3515,7 +3515,8 @@
             "field": "selections",
             "scope": "parent",
             "shared": true,
-            "id": "7bf5-f621-e70b-1feb"
+            "id": "7bf5-f621-e70b-1feb",
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
           }
         ],
         "profiles": [

@@ -151,7 +151,25 @@
                 "id": "81d1-26cd-2e9d-ef2d",
                 "publicationId": "da35-e534-5d09-746b",
                 "page": "39",
-                "defaultAmount": "2"
+                "defaultAmount": "2",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "279a-507a-6874-192b"
+                  },
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "79eb-1d5d-7ebd-6d88"
+                  }
+                ]
               }
             ]
           }
@@ -1992,7 +2010,25 @@
                 "id": "6bc8-b0b0-a215-5900",
                 "publicationId": "0300-2d2b-d6c4-502c",
                 "page": "18",
-                "defaultAmount": "2"
+                "defaultAmount": "2",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c00c-7c83-fcb3-65b8"
+                  },
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0537-3baf-67ad-8387"
+                  }
+                ]
               }
             ],
             "costs": [
@@ -2385,7 +2421,25 @@
                 "name": "Slimelet",
                 "hidden": false,
                 "id": "3f82-5484-98fa-0899",
-                "defaultAmount": "2"
+                "defaultAmount": "2",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "79b5-8153-026d-3d54"
+                  },
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9680-c271-0062-1de3"
+                  }
+                ]
               }
             ]
           }

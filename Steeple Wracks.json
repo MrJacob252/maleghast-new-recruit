@@ -116,7 +116,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "The Red Wethue",
+                "name": "The Red Wet Hue",
                 "hidden": false,
                 "id": "ef66-ad1e-73ea-03f1",
                 "sortIndex": 1,
@@ -153,7 +153,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "The Red Wethue",
+                    "name": "The Red Wet Hue",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
@@ -1706,6 +1706,13 @@
             "hidden": false,
             "type": "profile",
             "targetId": "5c4d-9068-2b4f-1f43"
+          },
+          {
+            "name": "Flesh Sacrifice",
+            "id": "6430-fb1b-f646-06e4",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5b09-569a-b9a7-00dc"
           }
         ],
         "profiles": [
@@ -1750,21 +1757,6 @@
                 "name": "Effect",
                 "typeId": "b305-f2f7-6e6a-44ce",
                 "$text": "Do not deploy the owl normally. Instead, it arrives at the start of round 3 but may be deployed in any free space. When it lands, it may destroy any walls under its space before being placed."
-              }
-            ],
-            "page": "8"
-          },
-          {
-            "name": "Flesh Sacrifice",
-            "typeId": "c4ab-0724-e1de-ebce",
-            "typeName": "Traits",
-            "hidden": false,
-            "id": "eedc-f867-b9a4-78c5",
-            "characteristics": [
-              {
-                "name": "Effect",
-                "typeId": "b305-f2f7-6e6a-44ce",
-                "$text": "The owl counts as two allied units for the purposes of Rip Apart, but not to itself."
               }
             ],
             "page": "8"
@@ -2205,6 +2197,1310 @@
             "page": "18"
           }
         ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Haruspex",
+        "hidden": false,
+        "id": "ebeb-f9bb-c594-2e95",
+        "page": "8",
+        "categoryLinks": [
+          {
+            "targetId": "fe30-71be-eb40-926a",
+            "id": "52c1-028b-e2e0-9cc6",
+            "primary": true,
+            "name": "Necromancer"
+          },
+          {
+            "targetId": "default-category",
+            "id": "9f55-8a59-605f-98af",
+            "primary": false,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Bonus Traits",
+            "id": "a69a-86b5-00db-d920",
+            "hidden": false,
+            "sortIndex": 1,
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "1241-94c1-fedc-bc84"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "9b44-4a83-2d78-cb61"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Red Communion",
+                "hidden": false,
+                "id": "394d-607a-8126-6157",
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "809c-411e-16c5-d671",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "05ad-523b-3577-6a33"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Red Communion",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "2fb3-72e1-f6bf-7862",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "Allied units may trigger ‘slay unit’ or ‘slay allied unit’ effects on you by dealing 1 devil damage to you instead."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Slaughter Frenzy",
+                "hidden": false,
+                "id": "1b98-9389-82f6-556e",
+                "sortIndex": 2,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "8e16-3675-1b59-3b8a",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "4e69-9bc7-188f-8295"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Slaughter Frenzy",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "eae6-acd1-d39f-6185",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "When an adjacent allied unit is slain, gain 1 strength. This effect can only trigger once a round."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Priest of the Hue",
+                "hidden": false,
+                "id": "9349-d370-7806-b577",
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "2816-bc64-864e-4fed",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "47f1-1d22-f79b-018c"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Priest of the Hue",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "0f10-b01b-4896-4099",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "When an adjacent allied unit is slain, summon a flock unit in a free adjacent space. This effect can only trigger once a round."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Free ACT Upgrade",
+            "id": "9e03-b672-ce99-282f",
+            "hidden": false,
+            "sortIndex": 2,
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "9de2-62a1-e21f-5cca"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "7527-8c3a-df52-fde5"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bloody Haze",
+                "hidden": false,
+                "id": "9e46-50f0-b33b-2cf7",
+                "sortIndex": 1,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "404f-2a7a-d889-f40a"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Bloody Haze",
+                    "id": "98b5-164c-f02a-0b1c",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8aee-2a68-170e-130c"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Flesh Hunt",
+                "hidden": false,
+                "id": "7b85-f0fc-085c-27ef",
+                "sortIndex": 2,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5ebf-bffb-fc1c-aeb9"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Flesh Hunt",
+                    "id": "8b23-1b08-66df-11f9",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4194-097d-65d2-2035"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Call Watcher Owl",
+                "hidden": false,
+                "id": "e098-1630-77a8-345d",
+                "sortIndex": 3,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6a1e-b6c3-1b50-3ddc"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Call Watcher Owl",
+                    "id": "3e9e-cf73-54bf-38cf",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "116d-aa06-1391-d963"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Darken Skies",
+                "hidden": false,
+                "id": "56f7-a7f7-81b1-62c3",
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Darken Skies",
+                    "id": "5482-d4f0-6218-11f2",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6c70-f8d5-e284-1d61"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f138-687f-fb59-3dec"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bloody Rain",
+                "hidden": false,
+                "id": "e93c-2762-1e26-2489",
+                "sortIndex": 5,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c148-2bbe-b11c-7063"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Bloody Rain",
+                    "id": "cd71-f499-c197-b2b2",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c08c-f33d-f098-eacd"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Hook",
+                "hidden": false,
+                "id": "d6bc-1559-b645-711a",
+                "sortIndex": 6,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fe19-da4f-398c-a0a3"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "The Hook",
+                    "id": "4851-8ad5-282e-8a19",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "f30f-a088-934c-4285"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Rope",
+                "hidden": false,
+                "id": "fd25-d0c7-6726-19f7",
+                "sortIndex": 7,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5b13-1d86-3734-0888"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "The Rope",
+                    "id": "f7ab-7a71-5aee-0929",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0076-76ff-e8d8-9d8f"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Pole",
+                "hidden": false,
+                "id": "10dd-fa18-14fc-a5e8",
+                "sortIndex": 8,
+                "infoLinks": [
+                  {
+                    "name": "The Pole",
+                    "id": "49e1-3cf2-3c7d-b250",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8135-cb15-dfc1-b208"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "07ff-3c2e-a7e1-0d92"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Free SOUL Upgrade",
+            "id": "c177-3d62-607e-446a",
+            "hidden": false,
+            "sortIndex": 3,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sudden twitching",
+                "hidden": false,
+                "id": "a866-0fd9-c5ad-2cc6",
+                "sortIndex": 1,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "05d2-cc1f-3b77-5d0e"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Sudden twitching",
+                    "id": "8756-3e65-364f-9a5e",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "029b-146c-95cc-aadb"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Carrion Leap",
+                "hidden": false,
+                "id": "649b-cf1f-70d6-73ac",
+                "sortIndex": 2,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5c82-6bb1-aea9-de26"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Carrion Leap",
+                    "id": "1fe4-42a5-9ed9-cbfb",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ed92-bdfd-fc8d-1a64"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Raptor Spasm",
+                "hidden": false,
+                "id": "813a-8c4b-2769-9f2b",
+                "sortIndex": 3,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "70e9-9e42-2a01-4cf0"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Raptor Spasm",
+                    "id": "a67d-914e-a336-0655",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a2ba-944f-cc05-f6d0"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Impale",
+                "hidden": false,
+                "id": "d32e-676b-12ca-5a00",
+                "sortIndex": 4,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "56a0-f1ad-2830-a14d"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Impale",
+                    "id": "3b19-c45c-70fa-0492",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "9e39-023d-2825-9936"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Carrion Burial",
+                "hidden": false,
+                "id": "9ad1-f829-7dd9-d4c4",
+                "sortIndex": 5,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d7e5-bb6a-12c8-7fdd"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Carrion Burial",
+                    "id": "a877-9801-42a0-b8cf",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "3d39-e0f3-e3c7-8bfe"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Rapture of the Red Wet Hue",
+                "hidden": false,
+                "id": "c813-71f9-7076-e77b",
+                "sortIndex": 6,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c8b6-7cc0-b542-ddc0"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Rapture of the Red Wet Hue",
+                    "id": "b834-7956-7890-461b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "14f7-e487-9404-9703"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f24a-d9a0-f49e-e5f3"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "60ef-6572-5f47-36ea"
+              }
+            ]
+          },
+          {
+            "name": "ACT Upgrade",
+            "id": "baa2-1b28-248b-5efb",
+            "hidden": false,
+            "sortIndex": 4,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bloody Haze",
+                "hidden": false,
+                "id": "ca6f-6913-fb09-5443",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "218e-e3d5-caab-01c3"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Bloody Haze",
+                    "id": "dee0-b10c-5ce0-13e6",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8aee-2a68-170e-130c"
+                  }
+                ],
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Flesh Hunt",
+                "hidden": false,
+                "id": "71ba-e404-d148-2842",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fa28-431e-3b19-b539"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Flesh Hunt",
+                    "id": "53b6-7516-b27a-8f13",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4194-097d-65d2-2035"
+                  }
+                ],
+                "sortIndex": 2,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Call Watcher Owl",
+                "hidden": false,
+                "id": "25af-7628-08bd-26b7",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c24b-12e0-1846-a27b"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Call Watcher Owl",
+                    "id": "7907-93f3-9b18-27db",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "116d-aa06-1391-d963"
+                  }
+                ],
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Darken Skies",
+                "hidden": false,
+                "id": "248f-d572-1693-0b8a",
+                "infoLinks": [
+                  {
+                    "name": "Darken Skies",
+                    "id": "e544-e141-64da-acd9",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6c70-f8d5-e284-1d61"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5c20-5a1b-8fb6-23c8"
+                  }
+                ],
+                "sortIndex": 4,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bloody Rain",
+                "hidden": false,
+                "id": "414e-4160-d2c9-12c9",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "962c-9ba3-509c-3b5b"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Bloody Rain",
+                    "id": "f040-e0ba-7bc6-6669",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "c08c-f33d-f098-eacd"
+                  }
+                ],
+                "sortIndex": 5,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Hook",
+                "hidden": false,
+                "id": "b7b5-323e-d000-6093",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a566-99a7-797b-4843"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "The Hook",
+                    "id": "bf2d-e38d-368b-63f4",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "f30f-a088-934c-4285"
+                  }
+                ],
+                "sortIndex": 6,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Rope",
+                "hidden": false,
+                "id": "c234-7886-8f61-741c",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a9bd-443f-4a43-9ee9"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "The Rope",
+                    "id": "a99e-79e1-0a58-c97a",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "0076-76ff-e8d8-9d8f"
+                  }
+                ],
+                "sortIndex": 7,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Pole",
+                "hidden": false,
+                "id": "7421-24fe-6965-ca5b",
+                "infoLinks": [
+                  {
+                    "name": "The Pole",
+                    "id": "fd38-588d-8e5b-4223",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8135-cb15-dfc1-b208"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0ba5-c19e-aad1-75da"
+                  }
+                ],
+                "sortIndex": 8,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "SOUL Upgrade",
+            "id": "5e9b-348d-2cac-7c5b",
+            "hidden": false,
+            "sortIndex": 5,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sudden twitching",
+                "hidden": false,
+                "id": "b6aa-a6c6-dcad-cd35",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9870-56c1-5048-1afc"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Sudden twitching",
+                    "id": "d9aa-c64e-e3b4-661e",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "029b-146c-95cc-aadb"
+                  }
+                ],
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Carrion Leap",
+                "hidden": false,
+                "id": "c971-8b47-6ac3-ffeb",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b728-4349-6d14-e09b"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Carrion Leap",
+                    "id": "fa34-4c08-4d15-622c",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ed92-bdfd-fc8d-1a64"
+                  }
+                ],
+                "sortIndex": 2,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Raptor Spasm",
+                "hidden": false,
+                "id": "23e3-9a4c-f676-292b",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "dac3-cd95-a802-dbb2"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Raptor Spasm",
+                    "id": "fe71-8905-8564-e5df",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a2ba-944f-cc05-f6d0"
+                  }
+                ],
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Impale",
+                "hidden": false,
+                "id": "a17d-f5fe-2cd5-dcd2",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b444-f0c4-f66c-49bf"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Impale",
+                    "id": "a716-d0f8-bdf5-59c1",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "9e39-023d-2825-9936"
+                  }
+                ],
+                "sortIndex": 4,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Carrion Burial",
+                "hidden": false,
+                "id": "597a-742a-9f68-c8c6",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8484-fd87-cd91-5dbd"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Carrion Burial",
+                    "id": "5c7c-709b-0338-f503",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "3d39-e0f3-e3c7-8bfe"
+                  }
+                ],
+                "sortIndex": 5,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Rapture of the Red Wet Hue",
+                "hidden": false,
+                "id": "5ccd-f8d7-e556-564a",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f7f4-50be-fee7-6b25"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Rapture of the Red Wet Hue",
+                    "id": "be7a-667a-2309-ff01",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "14f7-e487-9404-9703"
+                  }
+                ],
+                "sortIndex": 6,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Flesh Sacrifice",
+            "id": "ee26-1f9f-6b0b-469e",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5b09-569a-b9a7-00dc"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Haruspex",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "31da-4f5f-0684-4567",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "8"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "5+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ],
+            "page": "9"
+          },
+          {
+            "name": "The Knife",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "e180-9b31-4696-f4d1",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, Melee"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage. Rip Apart (2+): 1 damage again, (4+) and again, (6+) and again, (7+) and again."
+              }
+            ],
+            "page": "8"
+          },
+          {
+            "name": "Call Flock",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "6ad2-ff47-4a87-d283",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "1"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Own or allied turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "Range 1-2"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": "End of turn"
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Summon one or (6+) two flock thralls in range."
+              }
+            ],
+            "page": "9"
+          },
+          {
+            "name": "Fresh Meat",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "f82e-1e02-170e-e468",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "3"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Own or allied turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "Range 3"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": ""
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Slay an allied unit in range. Up to three allies adjacent to the slain unit and self gain 1 strength and may clear a negative token."
+              }
+            ],
+            "page": "9"
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -2255,6 +3551,441 @@
         "id": "b579-bb6f-cab3-7912",
         "type": "selectionEntry",
         "targetId": "cd5d-ff52-27e1-a006"
+      },
+      {
+        "import": true,
+        "name": "Haruspex",
+        "hidden": false,
+        "id": "460f-3f90-b018-22b2",
+        "type": "selectionEntry",
+        "targetId": "ebeb-f9bb-c594-2e95"
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Bloody Haze",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "8aee-2a68-170e-130c",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Until start of this unit’s next turn, all attacks against self and all units adjacent to this unit gain pierce and grant the attacker 1 strength after they resolve."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "Flesh Hunt",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "4194-097d-65d2-2035",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 1-3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "All allied units in range 2 of target foe are pushed 1 towards that foe (4+) and gain 1, (6+) or 2 strength."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "Call Watcher Owl",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "116d-aa06-1391-d963",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 1-3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Target a wall in range. That wall gains +1 hp, and counts as +1 ally for the purposes of Rip Apart."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "Darken Skies",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "6c70-f8d5-e284-1d61",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Until start of this unit’s next turn, cannot MOVE or step but self and adjacent allies gain cover from all directions and immunity to grazes."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "Bloody Rain",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "c08c-f33d-f098-eacd",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 1-3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Slay allied unit in range. Then summon a flock unit in range for every hp it is missing."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "The Hook",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "f30f-a088-934c-4285",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Melee"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 curse damage. Effect: Summon one or (5+) two flock units adjacent to the target."
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "The Rope",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "0076-76ff-e8d8-9d8f",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Range 3-4"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 devil damage. Effect: Then may pull self 2 towards a wall in range 3, or pull target 2 towards self or a wall in range 3."
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "The Pole",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "8135-cb15-dfc1-b208",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Range 2"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "2 damage. Effect: May step 2 after attack with free movement, and may pass through walls during this movement."
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "Sudden twitching",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "029b-146c-95cc-aadb",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or Allied Turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "End of turn."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Self or an allied unit in range gains 1 speed and steps 2. They may pass through walls during this step"
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "Carrion Leap",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "ed92-bdfd-fc8d-1a64",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Foe Turn, foe is in range 3"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Remove this unit from the battlefield. At the end of the triggering turn, place self in a free space adjacent to the triggering foe and gain 1 speed."
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "Raptor Spasm",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "a2ba-944f-cc05-f6d0",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Self or ally in range is targeted by a line or splash effect."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Reduce all damage taken by the targeted unit from the effect by 1 and the targeted unit becomes immune to any tokens or effects it would inflict."
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "Impale",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "9e39-023d-2825-9936",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "3"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or Allied turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 2-3"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn end"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Place a wall in free space adjacent to a foe in range. Until the end of its next turn or until that wall is destroyed, that unit cannot break adjacency to the wall for any reason."
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "Carrion Burial",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "3d39-e0f3-e3c7-8bfe",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "4"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Foe turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 3, Curse"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Turn start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Summon a flock unit in free adjacent space to that unit. At the start of that unit’s turn for the rest of combat, repeat this effect. End this effect if the unit is slain or they become curseproof."
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "Rapture of the Red Wet Hue",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "14f7-e487-9404-9703",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "6"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "For the rest of combat, all allied units double their MV stat, Dive Bomb can be used twice per round instead of just once, and units may deal 1 damage to an adjacent unit when they Dive Bomb."
+          }
+        ],
+        "page": "9"
+      },
+      {
+        "name": "Flesh Sacrifice",
+        "typeId": "c4ab-0724-e1de-ebce",
+        "typeName": "Traits",
+        "hidden": false,
+        "id": "5b09-569a-b9a7-00dc",
+        "characteristics": [
+          {
+            "name": "Effect",
+            "typeId": "b305-f2f7-6e6a-44ce",
+            "$text": "Counts as 2 units for the purposes of rip apart, but not for itself."
+          }
+        ],
+        "page": "8"
       }
     ]
   }

@@ -1,0 +1,28 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "8018-ec68-f6cd-38b6",
+    "name": "Steeple Wracks",
+    "gameSystemId": "sys-ec2b-f0d3-4663-8364",
+    "gameSystemRevision": 2,
+    "revision": 1,
+    "battleScribeVersion": "2.03",
+    "sharedRules": [
+      {
+        "name": "Rip Apart (X)",
+        "id": "3e9d-da84-1df5-1647",
+        "hidden": false,
+        "page": "5",
+        "description": "This ability gains extra bonuses if X or more allied units or walls are adjacent to the target, including this one."
+      },
+      {
+        "name": "Dive Bomb",
+        "id": "7cfb-ced5-58e3-b0de",
+        "hidden": false,
+        "description": "Once a round, at the end of own or an allied turn, a single steeplewrack unit may MOVE for free.",
+        "page": "5"
+      }
+    ],
+    "type": "catalogue"
+  }
+}

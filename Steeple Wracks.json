@@ -9,7 +9,7 @@
     "battleScribeVersion": "2.03",
     "sharedRules": [
       {
-        "name": "Rip Apart (X)",
+        "name": "Rip Apart",
         "id": "3e9d-da84-1df5-1647",
         "hidden": false,
         "page": "5",
@@ -23,6 +23,2239 @@
         "page": "5"
       }
     ],
-    "type": "catalogue"
+    "type": "catalogue",
+    "sharedSelectionEntries": [
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Flock",
+        "hidden": false,
+        "id": "d830-8964-c6f2-3195",
+        "page": "6",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "1166-8239-acb5-6233",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Flock",
+            "hidden": false,
+            "id": "5b42-4fa2-539a-d556",
+            "sortIndex": 1,
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "8bcf-0b80-c15a-bf1e",
+                "id": "e51c-77ff-82d2-a574",
+                "primary": true,
+                "name": "Thrall"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Flock",
+                "hidden": false,
+                "id": "29f2-f5df-a11f-f032",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "41dd-4c67-5e13-b377"
+                  },
+                  {
+                    "type": "max",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3de4-bc6b-45c5-d697"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "b9d0-bf55-96b1-97ca"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "cae7-5f38-af1f-4fb1",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Red Wethue",
+                "hidden": false,
+                "id": "ef66-ad1e-73ea-03f1",
+                "sortIndex": 1,
+                "page": "6",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "aecb-50cf-59da-2115",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0daf-967a-fb7f-54c1"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "The Red Wethue",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "e13c-185f-923d-7413",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Bloodletting gains Rip Apart (5+): and deal 1 curse damage again"
+                      }
+                    ],
+                    "page": "6"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Blood Frenzy",
+                "hidden": false,
+                "id": "9f2a-82f7-1981-7725",
+                "sortIndex": 2,
+                "page": "6",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "59ad-0cff-1145-e2a4",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "16c9-f661-2e40-5cb6"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Blood Frenzy",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "5cb1-ee5a-5127-9284",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "At round 5+, become immune to graze, line, and splash damage."
+                      }
+                    ],
+                    "page": "6"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Rabid",
+                "hidden": false,
+                "id": "bc10-a63f-6cf3-0090",
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "d57c-376b-b9b8-3273",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7af5-cc01-f1de-fa93"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Rabid",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "9e52-105f-eafe-7cc4",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "This faction’s dive bomb trait can be used for free on one flock unit a round."
+                      }
+                    ],
+                    "page": "6"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "00ac-13b8-30f4-d1a5",
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Thrall",
+            "id": "3369-2f66-c9a0-ed04",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "b2c6-299b-cd95-9540"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Flock",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "ecbf-3498-06b7-64c7",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "1"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "5+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ],
+            "page": "6"
+          },
+          {
+            "name": "Endless",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "754a-11c5-a737-8bc3",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "For every unit slot spent on Flock, you may summon an additional\nflock unit in free space adjacent to an allied unit at the end of every round."
+              }
+            ],
+            "page": "6"
+          },
+          {
+            "name": "Bloodletting",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "34bf-145c-f539-6292",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee, Attack"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage. Rip Apart (3+): gains piercing."
+              }
+            ]
+          },
+          {
+            "name": "Call to Feast",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "14d9-1fe0-d956-ed39",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "This unit gains 1 or (6+) 2 speed. It may then immediately spend two speed tokens to summon an additional Flock unit in an adjacent space."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Harpy",
+        "hidden": false,
+        "id": "f7e7-423f-2f63-bfc1",
+        "page": "6",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "7214-6a47-bea7-f786",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Harpy",
+            "hidden": false,
+            "id": "8db0-bac1-a27e-2c34",
+            "sortIndex": 1,
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "c422-7dc4-5583-c6fd",
+                "id": "6fbe-6150-61cb-d482",
+                "primary": true,
+                "name": "Scion"
+              }
+            ],
+            "page": "6",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "6ddd-b150-d3d3-8f51"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "8ecb-2850-a834-43ee",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sinew",
+                "hidden": false,
+                "id": "2f8e-9b6a-bdb0-3745",
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "aed4-c9df-becd-6347",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "310f-3e42-f206-7991"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Sinew",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "e7d2-2ce5-f691-723a",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "At 1 hp or lower, this unit is immune to damage from grazes, lines, and splash effects"
+                      }
+                    ],
+                    "page": "6"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Voracious",
+                "hidden": false,
+                "id": "8254-2729-11f6-5fbe",
+                "sortIndex": 2,
+                "page": "6",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "d03e-509a-8b81-3849",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0917-6d6e-93ed-782e"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Voracious",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "01c9-f4be-a70f-0255",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Cannibalize can also be used on an enemy unit at 1 hp or lower, but does not grant tokens if used this way"
+                      }
+                    ],
+                    "page": "6"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Noose",
+                "hidden": false,
+                "id": "ee32-084c-8ce4-4d2f",
+                "sortIndex": 3,
+                "page": "6",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "e29c-2542-8545-78fd",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e4aa-c9f4-fd39-c1b5"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "The Noose",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "3dcd-3030-55cb-e6e4",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Raise Roost gains +1 range and when it creates a wall, it may first pull a unit in range 2 one space."
+                      }
+                    ],
+                    "page": "6"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Harpy",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "53dc-f87a-8f12-c4d8",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ],
+            "page": "6"
+          },
+          {
+            "name": "Feral Dodge",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "fa36-f25e-ec54-ea70",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "May spend a speed token when attacked by an ACT ability to give the attacker -1D on the attack roll and step 1 after the ability resolves."
+              }
+            ],
+            "page": "6"
+          },
+          {
+            "name": "Disembowel",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "e7b8-ae21-8045-a201",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee, Attack"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage. Rip Apart (3+): +1 damage and gain 1 speed, Rip Apart (5+): and gain 1 strength and summon a Flock unit in free space adjacent to the target."
+              }
+            ],
+            "page": "6"
+          },
+          {
+            "name": "Raise Roost",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "c308-0085-a643-21e8",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Range 1-3"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Create a wall in range, then grant 1 speed to one (3+) or two, (5+) or all allied units to the wall."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "page": "6"
+          },
+          {
+            "name": "Cannibalize",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "66bd-5d3d-b62f-5f1a",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Slay an adjacent allied unit. This unit gains 1 strength, 1 speed, and may MOVE again"
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "page": "6"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "2fa3-2ba6-8b7a-374b",
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Siren",
+        "hidden": false,
+        "id": "9adf-1ca8-9579-c5bf",
+        "page": "7",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "c0c0-62e7-9858-fa8b",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Siren",
+            "hidden": false,
+            "id": "b894-03e2-d797-6fec",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "8026-360f-68ed-6a0c",
+                "id": "4b16-2462-1847-f492",
+                "primary": true,
+                "name": "Freak"
+              }
+            ],
+            "page": "7",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a6bc-ece0-facc-1acf"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "aba9-2aed-9df6-c915",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Ear Splitter",
+                "hidden": false,
+                "id": "3f15-d9ed-7d79-3ea6",
+                "sortIndex": 1,
+                "page": "7",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "ddbf-504f-b172-dafc",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a59e-d0c3-ef3c-42ca"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Ear Splitter",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "7751-ab9c-acf1-1a2a",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Sonic screech also grants one or two allies in the area 1 speed or strength."
+                      }
+                    ],
+                    "page": "7"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Painful Whispers",
+                "hidden": false,
+                "id": "b9b0-1314-1081-99ef",
+                "sortIndex": 2,
+                "page": "7",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "47dd-e6fd-55fd-a345",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "75e4-18b6-716e-a929"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Painful Whispers",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "9572-c6d2-95d2-2237",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Paranoia deals 1 piercing curse damage, but only counts as +1 adjacent unit"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Lullaby",
+                "hidden": false,
+                "id": "dc65-0cfe-f320-4b17",
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "c7df-4b9b-b9b8-892c",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fc70-86a7-38f2-22a6"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Lullaby",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "0a2e-d620-86b9-3777",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "When Siren’s Song expires, adjacent allies gain 1 speed."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "6556-722f-3885-c3e0",
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Siren",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "7072-2f04-df0b-6eb2",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "3"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "5+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "MAG"
+              }
+            ],
+            "page": "7"
+          },
+          {
+            "name": "Paranoia",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "ae7e-414f-fdf1-a904",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Curse, Range 1-3"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Target enemy unit always counts as having +2 of your units adjacent to it, even when alone. This effect lasts until this ability is used again or the Siren is slain."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Sonic Screech",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "1751-0df9-cdca-dfe5",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Splash (self): 1 curse damage. Push all units one (5+) or two spaces."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          },
+          {
+            "name": "Siren's Song",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "1817-1516-e0bb-7da9",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Until the start of this unit’s next turn, while adjacent to this unit, enemy units take -1D on attacks, and self and allies are immune to graze damage"
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Flight",
+            "id": "9045-5df6-f9db-d3c0",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "78b5-8705-5f73-3e44"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Stiltwalker",
+        "hidden": false,
+        "id": "ebed-41e1-7ccc-b891",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "d6af-e82b-1a54-e5d6",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Stiltwalker",
+            "hidden": false,
+            "id": "830d-8860-c729-a667",
+            "sortIndex": 1,
+            "page": "7",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "a5cb-2aa7-a054-c37b",
+                "id": "3dd3-8d55-6c28-4c59",
+                "primary": true,
+                "name": "Horror"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "ab3b-1f18-b033-28a0"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "d847-6bbb-db94-a6bb",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Perching",
+                "hidden": false,
+                "id": "1f66-1c84-4556-4782",
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "7664-bd85-12bc-102c",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e5d6-6b06-8f4f-2c67"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Perching",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "349f-861f-d8f5-9672",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "If starting turn adjacent to a wall, gain 1 speed and clear a negative token"
+                      }
+                    ],
+                    "page": "7"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Wrihing",
+                "hidden": false,
+                "id": "043b-9fd1-f056-1a40",
+                "sortIndex": 2,
+                "page": "7",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "ead7-fd74-e7b1-3bec",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b8bc-952c-1101-18a4"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Wrihing",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "62ee-b146-4bf8-10f2",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "While adjacent to a wall, damage always ignores vitality and armor."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Clinging",
+                "hidden": false,
+                "id": "2b6e-4a0a-3766-ac1a",
+                "sortIndex": 3,
+                "page": "7",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "925a-e971-de1e-dac4"
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "3ada-a578-d499-2ddb",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Clinging",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "50b0-942a-e12f-40be",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "While adjacent to a wall, is curseproof."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "045c-644b-b1fb-569f",
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Long Stilts",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "6369-f6b4-309c-f65f",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "May move through walls, but not end its turn in one. When\nmoving through a wall, gain free movement until end of turn."
+              }
+            ]
+          },
+          {
+            "name": "Stiltwalker",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "9ccf-1e33-9351-9490",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "3"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "5+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "MAG"
+              }
+            ],
+            "page": "7"
+          },
+          {
+            "name": "Prepare the Pole",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "ca2e-0cf3-9986-596c",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Step 2, then create a wall in a free adjacent space (4+) and gain 1 speed."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "page": "7"
+          },
+          {
+            "name": "Hang for the Owls",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "6d75-0a74-e120-9cb5",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, Melee"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "2 damage. Rip Apart (3+): ignoring armor, Rip Apart (5+): then 1 damage again and summon a flock unit adjacent to target."
+              }
+            ],
+            "page": "7"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Carniphagous Owl",
+        "hidden": false,
+        "id": "0adc-cbc7-32fe-5092",
+        "page": "8",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "32f4-b18a-2322-1878",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Carniphagous Owl",
+            "hidden": false,
+            "id": "beb5-fbc3-25ae-4e7c",
+            "page": "8",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "7314-e0e7-35fe-aa92",
+                "id": "3eb2-4b9a-3988-1e03",
+                "primary": true,
+                "name": "Tyrant"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "94a9-9f5c-05d4-fdea"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "d192-965c-dbac-485c",
+            "hidden": false,
+            "page": "8",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Messy Arrival",
+                "hidden": false,
+                "id": "ed86-065a-1b93-1b1b",
+                "sortIndex": 1,
+                "page": "8",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "e1fb-61b6-6a5a-f9de",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "aee9-043e-fcf3-84af"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Messy Arrival",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "49e0-249b-531b-9061",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "When it first arrives, the Owl may slay all adjacent allied\nunits, gaining 1 speed or strength for each."
+                      }
+                    ],
+                    "page": "8"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sleek Owl",
+                "hidden": false,
+                "id": "9789-7209-09ff-8596",
+                "sortIndex": 2,
+                "page": "8",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "73f0-7db4-2d5e-ef46",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "170c-9293-6359-5d1b"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Sleek Owl",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "b5d3-108e-a0e3-8ccc",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "The Owl loses Large (it becomes 1x1)\nand gains free movement."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Bone Resonance",
+                "hidden": false,
+                "id": "5bfe-6466-867e-08ae",
+                "sortIndex": 3,
+                "page": "8",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "7551-44b4-0515-1652",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "960d-c81f-3ecf-b0af"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Bone Resonance",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "6a12-b55c-2ef4-2a28",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Concussive shriek also slays allied units in the area, counting each as a wall for purposes of the ability."
+                      }
+                    ],
+                    "page": "8"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "b382-b3c5-17b5-4c88",
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Tyrant",
+            "id": "f16a-b01e-a8a2-c69e",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5c4d-9068-2b4f-1f43"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Carniphagous Owl",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "4aee-dde8-8589-a46a",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "5"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "SUPER"
+              }
+            ],
+            "page": "8"
+          },
+          {
+            "name": "Circling",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "02b1-5d3a-e441-ec74",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "Do not deploy the owl normally. Instead, it arrives at the start of round 3 but may be deployed in any free space. When it lands, it may destroy any walls under its space before being placed."
+              }
+            ],
+            "page": "8"
+          },
+          {
+            "name": "Flesh Sacrifice",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "eedc-f867-b9a4-78c5",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "The owl counts as two allied units for the purposes of Rip Apart, but not to itself."
+              }
+            ],
+            "page": "8"
+          },
+          {
+            "name": "Guzzle",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "3d6a-ef09-4675-c5a1",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, Melee"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "2 damage. Rip Apart (3+): +1 damage. Rip Apart (5+): +1 damage, and obliterate target if it is slain."
+              }
+            ],
+            "page": "8"
+          },
+          {
+            "name": "Fleshgorger",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "2976-8b54-4603-7130",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self, Splash"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Splash (self): 1 damage. Then, for every unit slain, clear one token, and gain 1 speed or strength. Then, step 1 per unit slain, and may destroy walls during this movement."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "page": "8"
+          },
+          {
+            "name": "Concussive Shriek",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "ad00-0e2e-aacd-d15f",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Range 2-4"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Splash (target): Deal 1 curse damage once, to a unit in the area for each wall in the area. The same unit can be targeted more than once."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "page": "8"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Great Stork",
+        "hidden": false,
+        "id": "cd5d-ff52-27e1-a006",
+        "publicationId": "0300-2d2b-d6c4-502c",
+        "page": "18",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "acdd-05d6-b630-0bde",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Great Stork",
+            "hidden": false,
+            "id": "9a6a-4681-89b9-b4b7",
+            "sortIndex": 1,
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "0355-4fb9-1e31-87e1"
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "18"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "1047-eb63-82d4-ea11",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Entrail Scatter",
+                "hidden": false,
+                "id": "9c8f-a814-8302-a0c4",
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "adc4-42ad-5c34-6491",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cbe9-4607-8c78-02fb"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Entrail Scatter",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "563b-71b2-7c36-7f6c",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "If feeding call triggers two or more times before it expires, this unit gains 2 strength."
+                      }
+                    ],
+                    "publicationId": "0300-2d2b-d6c4-502c",
+                    "page": "18"
+                  }
+                ],
+                "publicationId": "0300-2d2b-d6c4-502c",
+                "page": "18"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Jitter",
+                "hidden": false,
+                "id": "8913-5b3d-6f1f-eab9",
+                "sortIndex": 2,
+                "publicationId": "0300-2d2b-d6c4-502c",
+                "page": "18",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "df09-5a8b-2ccd-45e7",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ee9e-fcb4-f810-afb4"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Jitter",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "8afc-d00f-c7f6-7c2b",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Horrendous Pecking does not break if this unit moves out of its turn."
+                      }
+                    ],
+                    "publicationId": "0300-2d2b-d6c4-502c",
+                    "page": "18"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Wolf Down",
+                "hidden": false,
+                "id": "ff7f-a7d3-e572-f9cf",
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "publicationId": "0300-2d2b-d6c4-502c",
+                "page": "18",
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "0bb5-1c8a-6bbe-c74d",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cb1b-fb62-b753-8101"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Wolf Down",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "9f61-1930-93dd-d438",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Flense ignores armor and vitality if its target has 1 hp or lower."
+                      }
+                    ],
+                    "publicationId": "0300-2d2b-d6c4-502c",
+                    "page": "18"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "d526-994f-7d69-b5dd",
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Great Stork",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "5029-d3cf-4b9f-ba3c",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "3"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "18"
+          },
+          {
+            "name": "Longlegs",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "384f-8518-38ce-0192",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "This unit also counts as wall. It blocks line of sight and can be used for cover like a wall. Effects that would destroy walls have no effect on\nthis unit."
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "18"
+          },
+          {
+            "name": "Flense",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "30ec-cb07-4554-3f8c",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, Melee"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage. Rip Apart (3+): +1 damage (5+): +1 damage. This unit may spend speed tokens as part of this ability to reduce the cost of Rip Apart by 1 per token spend."
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "18"
+          },
+          {
+            "name": "Feeding Call",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "cf05-48c4-6705-f55c",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Until end of this unit’s next turn, after any adjacent unit is slain, summon a flock in free space in range. This effect cannot trigger more than once a turn."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "18"
+          },
+          {
+            "name": "Horrendous Pecking",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "b88c-0e90-9682-4cad",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Until this unit MOVEs or steps, any foe that ends a MOVE or ACT in an adjacent space takes 1 piercing damage. On slay, this unit gains 1 speed. This effect cannot trigger more than once a turn."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "18"
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": "Flock",
+        "hidden": false,
+        "id": "70b0-ca5a-1162-5e45",
+        "type": "selectionEntry",
+        "targetId": "d830-8964-c6f2-3195"
+      },
+      {
+        "import": true,
+        "name": "Harpy",
+        "hidden": false,
+        "id": "c520-50f6-20ff-eb76",
+        "type": "selectionEntry",
+        "targetId": "f7e7-423f-2f63-bfc1"
+      },
+      {
+        "import": true,
+        "name": "Siren",
+        "hidden": false,
+        "id": "e1fd-3534-5c90-acad",
+        "type": "selectionEntry",
+        "targetId": "9adf-1ca8-9579-c5bf"
+      },
+      {
+        "import": true,
+        "name": "Stitchwalker",
+        "hidden": false,
+        "id": "503e-a81d-61ac-5c27",
+        "type": "selectionEntry",
+        "targetId": "ebed-41e1-7ccc-b891"
+      },
+      {
+        "import": true,
+        "name": "Carniphagous Owl",
+        "hidden": false,
+        "id": "87c0-182a-6e76-3b74",
+        "type": "selectionEntry",
+        "targetId": "0adc-cbc7-32fe-5092"
+      },
+      {
+        "import": true,
+        "name": "Great Stork",
+        "hidden": false,
+        "id": "b579-bb6f-cab3-7912",
+        "type": "selectionEntry",
+        "targetId": "cd5d-ff52-27e1-a006"
+      }
+    ]
   }
 }

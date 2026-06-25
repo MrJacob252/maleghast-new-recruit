@@ -3,7 +3,7 @@
     "id": "sys-ec2b-f0d3-4663-8364",
     "name": "Maleghast",
     "battleScribeVersion": "2.03",
-    "revision": 2,
+    "revision": 3,
     "categoryEntries": [
       {
         "name": "Unit",
@@ -447,6 +447,14 @@
         "publisher": "Games for Freaks",
         "publicationDate": "June 2025",
         "publisherUrl": "https://patreon.com/killsixbilliondemons"
+      },
+      {
+        "name": "Games for Freaks 1 2024",
+        "id": "e760-0d8f-1201-98d5",
+        "hidden": false,
+        "publisherUrl": "https://patreon.com/killsixbilliondemons",
+        "publisher": "Games for Freaks",
+        "publicationDate": "October 2024"
       }
     ],
     "costTypes": [

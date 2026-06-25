@@ -5,7 +5,7 @@
     "name": "Steeple Wracks",
     "gameSystemId": "sys-ec2b-f0d3-4663-8364",
     "gameSystemRevision": 2,
-    "revision": 1,
+    "revision": 2,
     "battleScribeVersion": "2.03",
     "sharedRules": [
       {
@@ -397,7 +397,8 @@
               }
             ]
           }
-        ]
+        ],
+        "publicationId": "e760-0d8f-1201-98d5"
       },
       {
         "type": "unit",
@@ -437,7 +438,7 @@
             "categoryLinks": [
               {
                 "targetId": "c422-7dc4-5583-c6fd",
-                "id": "6fbe-6150-61cb-d482",
+                "id": "fa24-28f0-efba-6acd",
                 "primary": true,
                 "name": "Scion"
               }
@@ -1312,7 +1313,7 @@
                 ],
                 "constraints": [
                   {
-                    "type": "min",
+                    "type": "max",
                     "value": 1,
                     "field": "selections",
                     "scope": "parent",
@@ -1836,7 +1837,8 @@
             ],
             "page": "8"
           }
-        ]
+        ],
+        "publicationId": "e760-0d8f-1201-98d5"
       },
       {
         "type": "unit",
@@ -1873,7 +1875,27 @@
               }
             ],
             "publicationId": "0300-2d2b-d6c4-502c",
-            "page": "18"
+            "page": "18",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "c422-7dc4-5583-c6fd",
+                "id": "f3d4-0cf8-a303-c0e1",
+                "primary": true,
+                "name": "Scion"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -3500,7 +3522,8 @@
             ],
             "page": "9"
           }
-        ]
+        ],
+        "publicationId": "e760-0d8f-1201-98d5"
       }
     ],
     "entryLinks": [
@@ -3530,7 +3553,7 @@
       },
       {
         "import": true,
-        "name": "Stitchwalker",
+        "name": "Stiltwalker",
         "hidden": false,
         "id": "503e-a81d-61ac-5c27",
         "type": "selectionEntry",

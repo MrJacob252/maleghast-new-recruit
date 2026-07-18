@@ -5,7 +5,7 @@
     "name": "Volvadani",
     "gameSystemId": "sys-ec2b-f0d3-4663-8364",
     "gameSystemRevision": 3,
-    "revision": 2,
+    "revision": 3,
     "battleScribeVersion": "2.03",
     "type": "catalogue",
     "sharedProfiles": [
@@ -422,7 +422,7 @@
         "id": "00d6-942f-6356-6811",
         "hidden": false,
         "page": "12",
-        "description": "At the start of each round, each Volvadani necromancer must declare an active law from the list. Each Volvadani necromancer can only declare each law once per game, and each only lasts until the end of the round. Units that break the law gain a guilt token at the end of their turn. A guilt token is a negative token. A unit with at least one guilt token is considered a criminal. Volvadani abilities are stronger against criminals.",
+        "description": "At the start of each round, each Volvadani necromancer must declare an active law from the list. Each Volvadani necromancer can only declare each law once per game, and each only lasts until the end of the round. Units that break the law gain a guilt token at the end of their turn. A guilt token is a negative token. A unit with at least one guilt token is considered a criminal. Volvadani abilities are stronger against criminals.\n-Guilt tokens may only be discarded or cleared through the use of abilities and don’t go away on their own.\n-In the event a game goes past round 6, any law may be passed.\n-Your units cannot break their own laws.",
         "publicationId": "ec99-4149-c4ca-7263"
       }
     ],
@@ -3408,6 +3408,262 @@
                     "value": 1
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "name": "Laws",
+            "id": "1aa4-f917-57f6-ab96",
+            "hidden": false,
+            "sortIndex": 6,
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "12",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Possession",
+                "hidden": false,
+                "id": "d6a1-7aff-a194-9fd0",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "12",
+                "sortIndex": 1,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3442-db94-2fe1-1211"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Possession",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "0e24-4609-d0a0-f20a",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Ended their turn with a positive token."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "12"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Obstructing the Peace",
+                "hidden": false,
+                "id": "2be0-1024-df40-776a",
+                "sortIndex": 2,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "12",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a19f-1a53-9595-8031"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Obstructing the Peace",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "2f8c-abdb-254d-541e",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Ended their turn adjacent to a Volvadani unit."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "12"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Loitering",
+                "hidden": false,
+                "id": "1098-d54f-4570-956b",
+                "sortIndex": 3,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "12",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "16a7-775f-95e1-a63c"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Loitering",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "051b-96eb-fd63-9137",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Ended their turn without moving, or ended their turn in any deployment or objective zone."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "12"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Contempt of Court",
+                "hidden": false,
+                "id": "ddf5-0647-20ef-9349",
+                "sortIndex": 4,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "12",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "273d-3662-3f06-2c5f"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Contempt of Court",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "7977-cec1-1ef8-4efe",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Did not end their turn adjacent to a Volvadani unit."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "12"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Assaulting an Officer",
+                "hidden": false,
+                "id": "2ff8-391c-252f-0c3c",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "12",
+                "sortIndex": 5,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c401-c311-5899-0e11"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Assaulting an Officer",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "7e3d-5d2d-dfbd-5c26",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Attacked a Volvadani unit."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "12"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Conspiracy",
+                "hidden": false,
+                "id": "1a3d-7ff4-c351-d2f1",
+                "sortIndex": 6,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "12",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6abd-284c-06b4-4386"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Conspiracy",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "2a38-3c2a-217e-c7c7",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Used an ability that affected an allied unit."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "12"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "e6e0-7e3b-7d8e-055f"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "fea3-21d8-f890-1200"
               }
             ]
           }

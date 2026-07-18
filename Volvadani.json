@@ -5,12 +5,12 @@
     "name": "Volvadani",
     "gameSystemId": "sys-ec2b-f0d3-4663-8364",
     "gameSystemRevision": 3,
-    "revision": 1,
+    "revision": 2,
     "battleScribeVersion": "2.03",
     "type": "catalogue",
     "sharedProfiles": [
       {
-        "name": "New Profile",
+        "name": "Judicator Cannon",
         "typeId": "a874-3212-1e77-eae3",
         "typeName": "ACT Abilities",
         "hidden": false,
@@ -19,7 +19,69 @@
           {
             "name": "Tags",
             "typeId": "d241-c19b-8fd1-da04",
-            "$text": ""
+            "$text": "Attack, Range 3-5, Charge, Burst 1"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Gains +1D on attacks against criminals with 3+ guilt."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "Foe takes 1 fire damage and gains 1 vulnerable, then splash (target) 1 vulnerable."
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
+      },
+      {
+        "name": "De Jure Proxy ",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "edfe-e95d-e0e2-2593",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "1"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Any turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Foe, range 1-4"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "A foe in range is slain."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Transfer all that foe’s guilt and other negative tokens to a different foe in range."
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
+      },
+      {
+        "name": "Pressure Hammer",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "6181-4c02-1cd0-e57c",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Melee, Burst 1"
           },
           {
             "name": "Effect",
@@ -29,26 +91,302 @@
           {
             "name": "On Hit",
             "typeId": "20c2-cbeb-cb0b-47be",
-            "$text": ""
+            "$text": "1 damage and push 1 per guilt. If pushed into a wall or into the edge of the map, takes 1 damage, then gains 1 vulnerable."
           }
-        ]
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
       },
       {
-        "name": "New Profile",
+        "name": "Steel Eagle Heavy Demolisher Rifle",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "4ab1-4520-5e0f-c4be",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Attack, Charge, Range 2-5, Burst 0"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Can only be used once per combat.; No graze damage. Has a max burst of 5. At the end of turn, gains burst +1."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": "1 fire damage and push 1."
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
+      },
+      {
+        "name": "Penitent’s Mortification",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "12dc-e0bd-c79b-b114",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Foe, Range 2-3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Attach a mine to a foe in range. At the end of their turn, they take 1 fire damage, then splash (self) 1 fire damage. Increase all damage by +1 against foes with 3+ guilt. Then remove all guilt on targets damaged."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
+      },
+      {
+        "name": "Serve Warrant",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "f359-aa6b-6e6e-818b",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Self, Curse"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Until the end of the Praetor’s next turn, damaging the Praetor or any friendly unit adjacent to the Praetor grants 1 guilt. Criminals additionally have -1D on attacks against the Praetor or its adjacent allies for the duration."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
+      },
+      {
+        "name": "Imprison",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "a49f-0b0d-5bdc-8164",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Foe, Range 1-4, Curse."
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Clear all guilt from a foe, then create a wall in a free adjacent space to that foe for each guilt cleared. If at 3+ guilt, foe additionally becomes unable to MOVE, step, or teleport until the end of its next turn."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
+      },
+      {
+        "name": "Fiery Ordinance",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "4dab-7110-071a-d470",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": "Range 1-3"
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": "Create a 3 space line objective zone with at least one space in range. Foes that enter the space for any reason the first time in a round take 1 guilt. Criminals treat this zone as a hazard. This area lasts until this ability is used again."
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
+      },
+      {
+        "name": "Supreme Prohibition ",
         "typeId": "04a5-88c2-b120-5055",
         "typeName": "SOUL Abilities",
         "hidden": false,
-        "id": "edfe-e95d-e0e2-2593",
+        "id": "4770-a4b6-a88a-7ad8",
         "characteristics": [
           {
             "name": "Cost",
             "typeId": "e757-13c7-c21e-70b9",
-            "$text": ""
+            "$text": "1"
           },
           {
             "name": "When",
             "typeId": "54b8-302b-9e65-ec30",
-            "$text": ""
+            "$text": "Round start"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "range 1-4"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Round start."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Create a 2x2 zone with at least one space in range. Foes that end the round in the zone gain 1 guilt and 1 vulnerable. The zone counts as an objective zone for Volvadani laws and lasts until the end of the current round."
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
+      },
+      {
+        "name": "Purified Corpse Oil",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "8153-32ac-7c2a-3dea",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "2"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own or allied turn end"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 1-2"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Own ability, or that of an ally in range, has 0 burst charges."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Refill two or (5+) 3 charges to the ability."
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
+      },
+      {
+        "name": "Weight of Sin",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "7c57-08c7-a2e9-3c3a",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "3"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Target foe turn"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 1-4, Curse"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Foe turn start."
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "This turn, after foe MOVEs or uses any ACT that allows them to step or teleport, they take piercing fire damage equal to their guilt."
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
+      },
+      {
+        "name": "Throw the book",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "5ba1-9f3f-b412-0e05",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "4"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Start of round"
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": "Range 1-4, Curse"
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": "Round start"
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": "Choose a foe in range. That foe is subject to every law this round. When it breaks a law, it also gains 1 vulnerable."
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
+      },
+      {
+        "name": "EGO LEX SUM",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "a40f-8078-0739-28d8",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": "6"
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": "Own turn"
           },
           {
             "name": "Tags",
@@ -58,14 +396,16 @@
           {
             "name": "Trigger",
             "typeId": "3a92-2619-a477-005f",
-            "$text": ""
+            "$text": "Turn start."
           },
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": ""
+            "$text": "All foes in line of sight gain 1 guilt and 1 vulnerable, and the Praetor restores 1 burst to all abilities for themself and all visible allies. Repeat this effect at the start of the Praetor’s turn for the rest of combat."
           }
-        ]
+        ],
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "16"
       }
     ],
     "sharedRules": [
@@ -1948,6 +2288,1303 @@
             "targetId": "5c4d-9068-2b4f-1f43"
           }
         ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Praetor",
+        "hidden": false,
+        "id": "00fb-75fc-d205-2e06",
+        "selectionEntryGroups": [
+          {
+            "name": "Bonus traits",
+            "id": "d45d-6a51-55aa-0f40",
+            "hidden": false,
+            "sortIndex": 1,
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "15",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "7c72-24ce-215e-88c7"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "671e-9798-2204-7d47"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Iron Tithe",
+                "hidden": false,
+                "id": "9164-424d-f750-b129",
+                "sortIndex": 1,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "27f5-d373-3c24-82a1",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9431-0eb3-71cc-5162"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Iron Tithe",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "20dd-1ae7-3950-e3c0",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "Once a round, gain 1 SOUL when slaying a criminal with 3+ guilt."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Fueled by Hate",
+                "hidden": false,
+                "id": "1aeb-6da7-84bc-7389",
+                "sortIndex": 2,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b2fc-812e-f78b-8cf2"
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "fc26-27ab-9d77-aba2",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Fueled by Hate",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "5a74-f40c-31a1-91a0",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "Once a round, you may use an ability at 0 burst charges as if it had 1 burst charge. If you do, you take 1 devil damage at the end of your turn. This could slay you."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "15"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Paragon",
+                "hidden": false,
+                "id": "2c84-4d6c-271d-44db",
+                "sortIndex": 3,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0726-6a18-4a08-6df4"
+                  }
+                ],
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "15",
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "70dc-aea7-2c0a-325c",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Paragon",
+                    "typeId": "c4ab-0724-e1de-ebce",
+                    "typeName": "Traits",
+                    "hidden": false,
+                    "id": "8b4a-e07e-aa80-ab5f",
+                    "characteristics": [
+                      {
+                        "name": "Effect",
+                        "typeId": "b305-f2f7-6e6a-44ce",
+                        "$text": "If you follow your declared law (replace the word ‘Volvadani’ with ‘enemy’ where applicable), at the end of your turn gain +1 burst charge to an ability of your choice."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "15"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Free ACT Upgrade",
+            "id": "e35e-183f-e265-7564",
+            "hidden": false,
+            "sortIndex": 2,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Judicator Cannon",
+                "hidden": false,
+                "id": "ff94-ddf1-cff2-1bdb",
+                "sortIndex": 1,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1e55-b897-493d-db80"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Judicator Cannon",
+                    "id": "c31a-b5d1-3408-a98f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7755-e8b0-340d-2a2b"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Pressure Hammer",
+                "hidden": false,
+                "id": "2cd1-bd4e-4e1d-cc8b",
+                "sortIndex": 2,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6c0e-ae85-0913-f9e1"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Pressure Hammer",
+                    "id": "fa80-dff4-d086-85f6",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6181-4c02-1cd0-e57c"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Steel Eagle Heavy Demolisher Rifle",
+                "hidden": false,
+                "id": "3f93-1873-9a8e-aabe",
+                "sortIndex": 3,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c003-0486-0493-304a"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Steel Eagle Heavy Demolisher Rifle",
+                    "id": "59f0-dcdb-2454-370d",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4ab1-4520-5e0f-c4be"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Penitent’s Mortification",
+                "hidden": false,
+                "id": "e452-09dd-094f-ef4b",
+                "sortIndex": 4,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "488e-d3f7-00cb-e4f6"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Penitent’s Mortification",
+                    "id": "0363-07ed-65c5-85ca",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "12dc-e0bd-c79b-b114"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Serve Warrant",
+                "hidden": false,
+                "id": "34ab-74ad-ed85-e795",
+                "sortIndex": 5,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f88d-4593-596f-eb6b"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Serve Warrant",
+                    "id": "87f8-d992-c298-2c7b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "f359-aa6b-6e6e-818b"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Imprison",
+                "hidden": false,
+                "id": "5e1b-6305-2a45-be61",
+                "sortIndex": 6,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "63c0-f7a6-d73d-859c"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Imprison",
+                    "id": "2d12-cf0c-1730-f331",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a49f-0b0d-5bdc-8164"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Fiery Ordinance",
+                "hidden": false,
+                "id": "1c8c-36c5-4fa4-ffd0",
+                "sortIndex": 7,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1b6c-3494-8c42-9096"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Fiery Ordinance",
+                    "id": "dac0-b571-0ee4-6389",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4dab-7110-071a-d470"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d4cd-506f-a654-96b0"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "93b6-d24d-4306-2e30"
+              }
+            ]
+          },
+          {
+            "name": "Free SOUL Upgrade",
+            "id": "a2e0-de02-e5b0-cb43",
+            "hidden": false,
+            "sortIndex": 3,
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "15",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "De Jure Proxy",
+                "hidden": false,
+                "id": "6d44-a411-7174-3e25",
+                "sortIndex": 1,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fc52-21d7-53c6-3b15"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "De Jure Proxy ",
+                    "id": "a7d8-6a76-3f42-50a9",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "edfe-e95d-e0e2-2593"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Supreme Prohibition",
+                "hidden": false,
+                "id": "8d58-8a89-c19b-6793",
+                "sortIndex": 2,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "a992-df65-7790-22aa"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Supreme Prohibition ",
+                    "id": "0be4-33ff-cb11-6b54",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4770-a4b6-a88a-7ad8"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Purified Corpse Oil",
+                "hidden": false,
+                "id": "f95b-6a0c-7156-4cf3",
+                "sortIndex": 3,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d84c-e98b-0f4d-4847"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Purified Corpse Oil",
+                    "id": "4e35-a34b-72e9-0ddd",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8153-32ac-7c2a-3dea"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Weight of Sin",
+                "hidden": false,
+                "id": "2bed-4c81-6525-e670",
+                "sortIndex": 4,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fba7-0dd4-2b14-338f"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Weight of Sin",
+                    "id": "61af-9705-f3da-7c5e",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7c57-08c7-a2e9-3c3a"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Throw the book",
+                "hidden": false,
+                "id": "a66c-9fae-061e-6fe4",
+                "sortIndex": 5,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "35b7-d4a2-f37b-6e3e"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Throw the book",
+                    "id": "70b2-d111-5874-07c0",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "5ba1-9f3f-b412-0e05"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "EGO LEX SUM",
+                "hidden": false,
+                "id": "e7e2-c3c5-3e2e-5b70",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "sortIndex": 6,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1ce8-f075-0215-cbfb"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "EGO LEX SUM",
+                    "id": "c2b7-98fa-2ae5-bd04",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a40f-8078-0739-28d8"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "237f-31d8-f3de-83a8"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "273c-afd8-3b00-d4fa"
+              }
+            ]
+          },
+          {
+            "name": "ACT Upgrades",
+            "id": "b05a-75cf-c450-cc0b",
+            "hidden": false,
+            "sortIndex": 4,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Judicator Cannon",
+                "hidden": false,
+                "id": "24f0-666d-53a0-9144",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1200-7e4d-6132-18ce"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Judicator Cannon",
+                    "id": "4d97-3f79-1086-c98b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7755-e8b0-340d-2a2b"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Pressure Hammer",
+                "hidden": false,
+                "id": "3d0c-ccff-a2bf-91fc",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "47b4-b87b-91fc-789c"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Pressure Hammer",
+                    "id": "7c4b-1ca7-aa71-3f36",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "6181-4c02-1cd0-e57c"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Steel Eagle Heavy Demolisher Rifle",
+                "hidden": false,
+                "id": "b3f3-9e2d-86c7-7bbc",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c65e-eb5e-e281-5bd2"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Steel Eagle Heavy Demolisher Rifle",
+                    "id": "5dc4-3fc9-7ff3-9798",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4ab1-4520-5e0f-c4be"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Penitent’s Mortification",
+                "hidden": false,
+                "id": "3a43-cc06-59b2-f4fa",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "6de9-067f-4aa7-897a"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Penitent’s Mortification",
+                    "id": "11bf-e101-cb8f-8ed2",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "12dc-e0bd-c79b-b114"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Serve Warrant",
+                "hidden": false,
+                "id": "0926-46ef-3045-4d8e",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "88de-de2f-6654-2737"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Serve Warrant",
+                    "id": "8ba6-55c6-9ae6-c6c8",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "f359-aa6b-6e6e-818b"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Imprison",
+                "hidden": false,
+                "id": "c5a4-7b52-dbfd-bff9",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "fee9-a899-770d-359a"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Imprison",
+                    "id": "eaf0-e181-0150-3e2b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a49f-0b0d-5bdc-8164"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Fiery Ordinance",
+                "hidden": false,
+                "id": "fc82-aa69-f288-e242",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2f8e-9079-a486-af96"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Fiery Ordinance",
+                    "id": "94eb-ae96-8828-f486",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4dab-7110-071a-d470"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "SOUL Upgrades",
+            "id": "601e-ddb3-69ed-0c1f",
+            "hidden": false,
+            "sortIndex": 5,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "De Jure Proxy",
+                "hidden": false,
+                "id": "35ee-6f9b-5aac-aa95",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "39ad-7383-c29d-3067"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "De Jure Proxy ",
+                    "id": "e46b-4f21-b77b-63e7",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "edfe-e95d-e0e2-2593"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Supreme Prohibition",
+                "hidden": false,
+                "id": "bb8b-527b-df01-3070",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3f05-22cb-2785-ab99"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Supreme Prohibition ",
+                    "id": "bda7-af2a-706b-c33d",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "4770-a4b6-a88a-7ad8"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Purified Corpse Oil",
+                "hidden": false,
+                "id": "1d5b-6e47-324d-ba89",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "23e4-7498-58bd-dd2d"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Purified Corpse Oil",
+                    "id": "7ac1-7353-d9ee-3711",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "8153-32ac-7c2a-3dea"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Weight of Sin",
+                "hidden": false,
+                "id": "1a7e-634c-af9b-8ff6",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d103-965d-96dd-5b7f"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Weight of Sin",
+                    "id": "48d3-0284-7ace-582c",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "7c57-08c7-a2e9-3c3a"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Throw the book",
+                "hidden": false,
+                "id": "cedd-40cf-510c-203e",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5a3c-eb5a-8343-6362"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Throw the book",
+                    "id": "2ee7-b907-0d74-f5d1",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "5ba1-9f3f-b412-0e05"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "EGO LEX SUM",
+                "hidden": false,
+                "id": "0d23-b8e2-d125-3240",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "16",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b0ab-0cfd-d69e-3b5f"
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "EGO LEX SUM",
+                    "id": "817d-b7f5-5fd0-f817",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "a40f-8078-0739-28d8"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Steel Purpose",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "a400-9180-d3ce-84a5",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "Once a round, you may grant a unit that damages you or an adjacent unit 1 guilt."
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "15"
+          },
+          {
+            "name": "Praetor",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "3b90-fcd8-1335-6d69",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "8"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "PHYS"
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "15"
+          },
+          {
+            "name": "Hammer Shotgun",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "5200-dbcc-cd4d-fe14",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, range 2-3, Burst 2"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "At turn end regains +1 burst if used against at least one criminal."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage. Gains pierce against criminals with 3+ guilt."
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "15"
+          },
+          {
+            "name": "Stoke Furnace",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "3647-3859-a881-b4c7",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee, Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Self or an adjacent ally may clear a negative token and gains +1 or (4+) +2 burst charges."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "15"
+          },
+          {
+            "name": "Indict",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "b6bc-b301-d5f4-188a",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "1"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Target foe turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "range 1-4"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": "Turn start."
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Foe gains 1 guilt, then gains twice as much guilt this turn."
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "15"
+          },
+          {
+            "name": "Call Witness",
+            "typeId": "04a5-88c2-b120-5055",
+            "typeName": "SOUL Abilities",
+            "hidden": false,
+            "id": "4c37-0758-1b04-49a4",
+            "characteristics": [
+              {
+                "name": "Cost",
+                "typeId": "e757-13c7-c21e-70b9",
+                "$text": "3"
+              },
+              {
+                "name": "When",
+                "typeId": "54b8-302b-9e65-ec30",
+                "$text": "Own turn"
+              },
+              {
+                "name": "Tags",
+                "typeId": "677f-0884-533f-ae72",
+                "$text": "range 1-3"
+              },
+              {
+                "name": "Trigger",
+                "typeId": "3a92-2619-a477-005f",
+                "$text": "Turn End"
+              },
+              {
+                "name": "Effect",
+                "typeId": "d03e-2c10-89c9-8e5c",
+                "$text": "Another ally in range that has not been activated this round may immediately take their turn following this turn."
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "15"
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -1990,6 +3627,14 @@
         "id": "2cf3-ae38-ca59-198a",
         "type": "selectionEntry",
         "targetId": "07f7-8f0e-a7fe-5790"
+      },
+      {
+        "import": true,
+        "name": "Praetor",
+        "hidden": false,
+        "id": "83cc-7dac-bc13-217b",
+        "type": "selectionEntry",
+        "targetId": "00fb-75fc-d205-2e06"
       }
     ]
   }

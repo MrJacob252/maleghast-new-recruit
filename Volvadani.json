@@ -1,0 +1,1996 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "3476-93bb-83b4-84b0",
+    "name": "Volvadani",
+    "gameSystemId": "sys-ec2b-f0d3-4663-8364",
+    "gameSystemRevision": 3,
+    "revision": 1,
+    "battleScribeVersion": "2.03",
+    "type": "catalogue",
+    "sharedProfiles": [
+      {
+        "name": "New Profile",
+        "typeId": "a874-3212-1e77-eae3",
+        "typeName": "ACT Abilities",
+        "hidden": false,
+        "id": "7755-e8b0-340d-2a2b",
+        "characteristics": [
+          {
+            "name": "Tags",
+            "typeId": "d241-c19b-8fd1-da04",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "08c9-0af1-3467-12b3",
+            "$text": ""
+          },
+          {
+            "name": "On Hit",
+            "typeId": "20c2-cbeb-cb0b-47be",
+            "$text": ""
+          }
+        ]
+      },
+      {
+        "name": "New Profile",
+        "typeId": "04a5-88c2-b120-5055",
+        "typeName": "SOUL Abilities",
+        "hidden": false,
+        "id": "edfe-e95d-e0e2-2593",
+        "characteristics": [
+          {
+            "name": "Cost",
+            "typeId": "e757-13c7-c21e-70b9",
+            "$text": ""
+          },
+          {
+            "name": "When",
+            "typeId": "54b8-302b-9e65-ec30",
+            "$text": ""
+          },
+          {
+            "name": "Tags",
+            "typeId": "677f-0884-533f-ae72",
+            "$text": ""
+          },
+          {
+            "name": "Trigger",
+            "typeId": "3a92-2619-a477-005f",
+            "$text": ""
+          },
+          {
+            "name": "Effect",
+            "typeId": "d03e-2c10-89c9-8e5c",
+            "$text": ""
+          }
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Burst X",
+        "id": "7ebe-9b49-fcdb-dda9",
+        "hidden": false,
+        "page": "11",
+        "description": "This ability starts with X burst charges. When ACTing, may repeat this ability again with the same ACT by spending a burst charge. This can make multiple attacks or choose different targets. Burst charges can be regained by various abilities. If burst is at 0, the ability cannot be used. Burst has a starting value listed and a maximum of 3.",
+        "publicationId": "ec99-4149-c4ca-7263"
+      },
+      {
+        "name": "Tithe Law",
+        "id": "00d6-942f-6356-6811",
+        "hidden": false,
+        "page": "12",
+        "description": "At the start of each round, each Volvadani necromancer must declare an active law from the list. Each Volvadani necromancer can only declare each law once per game, and each only lasts until the end of the round. Units that break the law gain a guilt token at the end of their turn. A guilt token is a negative token. A unit with at least one guilt token is considered a criminal. Volvadani abilities are stronger against criminals.",
+        "publicationId": "ec99-4149-c4ca-7263"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Scewhead",
+        "hidden": false,
+        "id": "259c-1cae-8857-ff01",
+        "page": "12",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "caf4-8335-75ac-c892",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Screwhead",
+            "hidden": false,
+            "id": "c154-e5af-6d36-c392",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "9cf6-6914-fe76-e3cf"
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "c422-7dc4-5583-c6fd",
+                "id": "9f2c-753f-eb3d-c877",
+                "primary": true,
+                "name": "Scion"
+              }
+            ],
+            "page": "12",
+            "publicationId": "ec99-4149-c4ca-7263",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "8506-10aa-5209-7394",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Superheated",
+                "hidden": false,
+                "id": "a6b2-5473-078a-d51e",
+                "sortIndex": 1,
+                "page": "12",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2cc0-d636-64ca-892a"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Superheated",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "8a65-cad6-7c67-548d",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Roaring reload’s splash deals 1 fire damage to criminals after push"
+                      }
+                    ],
+                    "page": "12"
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "d57c-1472-2476-0ddf",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "publicationId": "ec99-4149-c4ca-7263"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Blast Slag",
+                "hidden": false,
+                "id": "2d2c-0235-7916-5f41",
+                "sortIndex": 2,
+                "page": "12",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "1805-5a8e-83bd-a11f",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0923-baa9-0ecc-3619"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Blast Slag",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "a4d0-3f23-3505-e88c",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Roaring reload creates a hazard in free adjacent spaces after it resolves."
+                      }
+                    ],
+                    "page": "12"
+                  }
+                ],
+                "publicationId": "ec99-4149-c4ca-7263"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Shimmering Heat",
+                "hidden": false,
+                "id": "844e-a6a5-5449-384e",
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "4e6e-2192-b5bd-cf8c",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d20f-ac1d-775e-3f00"
+                  }
+                ],
+                "page": "12",
+                "profiles": [
+                  {
+                    "name": "Shimmering Heat",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "e8f0-6db3-20fb-2db6",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "The Screwhead and all adjacent units lose the benefit of all armor."
+                      }
+                    ],
+                    "page": "12"
+                  }
+                ],
+                "publicationId": "ec99-4149-c4ca-7263"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "b325-c284-57a7-b6f2",
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Clad in Law",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "2d6b-479d-3898-fafa",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "Has SUPER armor against criminals"
+              }
+            ],
+            "page": "12",
+            "publicationId": "ec99-4149-c4ca-7263"
+          },
+          {
+            "name": "Scewhead",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "9232-8d7a-9282-8b0a",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-/SUPER"
+              }
+            ],
+            "page": "12",
+            "publicationId": "ec99-4149-c4ca-7263"
+          },
+          {
+            "name": "Drum Shotgun",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "71e7-ab61-aff2-faca",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, Range 2-2, Burst 2"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage and push 1. On hit: Gains pierce against criminals."
+              }
+            ],
+            "page": "12",
+            "publicationId": "ec99-4149-c4ca-7263"
+          },
+          {
+            "name": "Piston Fist",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "699e-6866-36e6-d8bc",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee, Burst 1"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Step 1, then push an adjacent unit 2. Effect: If target would be pushed into a wall or the edge of the map, they gain 2 vulnerable."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "page": "12",
+            "publicationId": "ec99-4149-c4ca-7263"
+          },
+          {
+            "name": "Roaring Reload",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "5b93-ba4b-aeaf-c6cd",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Self"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Splash (self): Push 1. All burst abilities gain +1 or (4+) 2 charges."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "page": "12",
+            "publicationId": "ec99-4149-c4ca-7263"
+          }
+        ],
+        "publicationId": "ec99-4149-c4ca-7263"
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Bobby",
+        "hidden": false,
+        "id": "4fb6-5963-ec67-80c9",
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "13",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "9463-539f-a6ea-40ec",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Bobby",
+            "hidden": false,
+            "id": "bd9f-1011-721a-631e",
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "13",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "a5cb-2aa7-a054-c37b",
+                "id": "da9a-0922-bbd6-f0a7",
+                "primary": true,
+                "name": "Horror"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "80fb-9eca-e6f3-3912"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "c75f-a741-dbd6-c2a1",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Pursuit",
+                "hidden": false,
+                "id": "2481-52af-6e6e-8502",
+                "sortIndex": 1,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "13",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "1a16-852c-f2a3-c0db",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "90e2-7bd9-00ff-2b5b"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Pursuit",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "a85a-ecfa-8965-8ea6",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "If The Clamps is broken early by a foe, its target gains 2 guilt."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "13"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Frenzied Bobby",
+                "hidden": false,
+                "id": "fa35-6202-ee08-6f6d",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "0d90-94a8-3c11-ebc7",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "sortIndex": 2,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "13",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d7b5-b9eb-3962-fe92"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Frenzied Bobby",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "3bfa-edc1-3cad-68c4",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "The Bobby gains +1D on attacks against criminals. "
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "13"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Mage Hunter",
+                "hidden": false,
+                "id": "7540-950b-5b3b-dca7",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "13",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "sortIndex": 3,
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "6fc1-1a3e-2e9c-5b3b",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8620-3709-7491-f4f4"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Mage Hunter",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "220d-ff70-f2a8-bddd",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "The Bobby has Curseproof and MAG armor against criminals."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "13"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "8aa1-da23-f629-b3cf",
+            "message": "To add more than one unit of the same type, use the selection inside the unit type."
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Clattering Engine",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "55c2-5fe7-7371-24d7",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "This unit’s MOVE has burst 3. At 0 burst, it cannot MOVE."
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "13"
+          },
+          {
+            "name": "Bobby",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "c0af-6ba2-5727-88e2",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "4"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "13"
+          },
+          {
+            "name": "Ferocious Walloping",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "4730-6c14-ee15-5012",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, Melee, Burst 1"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage, then inflict 1 vulnerable against criminals."
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "13"
+          },
+          {
+            "name": "The Clamps",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "607b-7d05-7319-d7b7",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee, Foe"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Adjacent foe gains 1 vulnerable and cannot exit a space adjacent to the Bobby until the Bobby is slain, the Bobby breaks adjacency for any reason, or the start of the Bobby’s next turn."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "13"
+          },
+          {
+            "name": "Bloodhound",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "ba78-aa36-50dc-9b4b",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Foe, range 1-4"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Target a foe in range. For each guilt on the target, gain +1 burst charge to any ability and step 1."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "13"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Clerk",
+        "hidden": false,
+        "id": "4030-1ff3-73e4-cc92",
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "13",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "30d4-2344-a7c5-d111",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Clerk",
+            "hidden": false,
+            "id": "e26a-e3b3-47f6-112a",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "page": "13",
+            "publicationId": "ec99-4149-c4ca-7263",
+            "categoryLinks": [
+              {
+                "targetId": "8026-360f-68ed-6a0c",
+                "id": "2e7a-bfaa-bde1-89ea",
+                "primary": true,
+                "name": "Freak"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d1d5-6a11-7d34-0b85"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "bf88-d5e5-18ae-0b17",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Shuffle Papers",
+                "hidden": false,
+                "id": "4585-8bd8-b9dc-eafd",
+                "sortIndex": 1,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "13",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "d749-dcab-c88e-5ba0",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b5a4-f35e-3d27-cc75"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Shuffle Papers",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "a219-627e-d1e6-d158",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "At the start of this unit’s turn, instead of using its regular passive, may move a guilt token from a foe in line of sight to any other foe in line of sight."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "13"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Contractual Loophole",
+                "hidden": false,
+                "id": "ac68-8145-e35f-5ad3",
+                "sortIndex": 2,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "13",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "9073-d869-ac72-29e1",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ffc5-c4b7-1e05-9d42"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Contractual Loophole",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "093e-6675-bd01-1729",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "When this unit is slain, it instead remains at 1 hp and becomes immune to all damage. At the end of its next turn, it is obliterated."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "13"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Union Healthcare",
+                "hidden": false,
+                "id": "5d8d-5367-8173-d212",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "13",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "7105-f514-563b-63fe",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "sortIndex": 3,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d035-d854-4eb2-ff6f"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Union Healthcare",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "617e-7135-f0a7-c371",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Deputize immediately allows a unit to step 2, ignoring adverse terrain and elevation penalties."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "13"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "87d7-f640-529a-8b67"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Technicallity",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "6273-44bb-726b-c5b3",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "At turn start, may inflict 1 guilt on a foe in range 1-3."
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "13"
+          },
+          {
+            "name": "Clerk",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "13d5-91a5-63b2-8993",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "3+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "13"
+          },
+          {
+            "name": "Court Summons",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "d5d5-26d4-a453-f3f6",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Foe, range 2-4, Curse"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Target foe gains 1 vulnerable, then is pulled 1 per guilt. If it does not end its next turn adjacent to the Clerk, it takes 1 fire damage and 1 guilt."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "13"
+          },
+          {
+            "name": "Discard Contraband",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "12ce-2bf8-9650-63a0",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Range 1-4, Burst 1"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Target unit discards one positive and negative token of your choice, except guilt. Create a hazard in a free adjacent space to that unit."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "13"
+          },
+          {
+            "name": "Deputize",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "010d-f754-504c-a229",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Ally, Range 1-4"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "An ally in range gains +2 or (5+) +3 burst charges, distributed in any manner they choose, but their abilities during their next turn have no effect against any foe with less than 3 guilt."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "13"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Mancatcher",
+        "hidden": false,
+        "id": "e0cd-7c25-0be8-99da",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Mancatcher",
+            "hidden": false,
+            "id": "6042-d3f6-eacb-b72f",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14",
+            "categoryLinks": [
+              {
+                "targetId": "85b3-be32-3ac6-24b2",
+                "id": "aef8-f3d5-1961-da6c",
+                "primary": true,
+                "name": "Hunter"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "445a-1809-a22e-71b0"
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "9352-116b-67c9-b84b",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "601d-db8e-ad30-e78d",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Wicked Chain",
+                "hidden": false,
+                "id": "aa86-364d-0e60-cd4d",
+                "sortIndex": 1,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "14",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "b808-133f-798b-f23e",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "15a0-a432-fd3b-9a10"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Wicked Chain",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "3451-beed-f78f-533e",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Chain Grab also has splash (target): pull all criminals 1"
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "14"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Caltrops",
+                "hidden": false,
+                "id": "c510-4083-7e08-b105",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "14",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "dff6-555e-75c1-f4b7",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "sortIndex": 2,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "77b8-8e58-8ca3-537c"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Caltrops",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "6e89-f4a8-1f0f-35cf",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "After pulling a unit, chain grab leaves a hazard in the first space they vacate."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "14"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Cleanup Duty",
+                "hidden": false,
+                "id": "2044-aa32-994c-59a6",
+                "sortIndex": 3,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "14",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "d82c-927b-cceb-0b7c",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9e6a-4327-670b-7d9f"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Cleanup Duty",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "4dec-7229-7e5e-7cc8",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "When slaying a criminal, may replace any corpse they create with a hazard."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "14"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "1386-d5ca-f4cc-5f91"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Make Quota",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "31ee-d470-37bc-dd1c",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "At the end of any turn this unit slays a criminal, may gain +2 burst to any ability."
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14"
+          },
+          {
+            "name": "Chain Grab",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "f3ae-b260-43f0-ea94",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, Range 3-4, Burst 2"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage and pull target spaces equal to their guilt. Criminals with 3+ guilt take 1 fire damage again"
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14"
+          },
+          {
+            "name": "Spinecracker",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "55e6-dced-638c-9b63",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Foe, Range 2-4, Curse"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "Target foe must choose: gain 1 vulnerable and become unable to MOVE until the end of its next turn, or take piercing fire damage equal to their guilt."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14"
+          },
+          {
+            "name": "Mancatcher",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "578c-81b4-6088-9486",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "4"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "4+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "-"
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14"
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Penitent Engine",
+        "hidden": false,
+        "id": "07f7-8f0e-a7fe-5790",
+        "publicationId": "ec99-4149-c4ca-7263",
+        "page": "14",
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "87d8-41e5-2255-9dae",
+            "primary": true,
+            "name": "Unit"
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Penitent Engine",
+            "hidden": false,
+            "id": "d472-6c72-f5ee-0602",
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14",
+            "costs": [
+              {
+                "name": "Unit Slots",
+                "typeId": "729d-200e-b1c7-683e",
+                "value": 1
+              },
+              {
+                "name": "Dark Power",
+                "typeId": "2bfb-93d9-91d6-b153",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "targetId": "7314-e0e7-35fe-aa92",
+                "id": "beed-f4e3-e979-608c",
+                "primary": true,
+                "name": "Tyrant"
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "be07-8f59-a531-e060"
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Upgrades",
+            "id": "c43b-cfe6-e66a-7224",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Heavy swing",
+                "hidden": false,
+                "id": "455b-f60d-6969-e559",
+                "sortIndex": 1,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "14",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "6a44-2c4a-6e7d-2116",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b945-d3f5-d022-39b6"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Heavy swing",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "1b62-784f-e397-15fd",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Pendulum swing gains +1 maximum range but pushes 1 instead."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "14"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Hell Pins",
+                "hidden": false,
+                "id": "d587-afd7-6181-8433",
+                "sortIndex": 2,
+                "publicationId": "ec99-4149-c4ca-7263",
+                "page": "14",
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "6f3c-04a7-e099-5522",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b376-05f8-0be1-38fd"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Hell Pins",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "9d93-8fe1-f8fb-c7e8",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "A unit that survives final sentence gains 2 vulnerable."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "14"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Decapitate",
+                "hidden": false,
+                "id": "98c9-d778-bd94-eef8",
+                "categoryLinks": [
+                  {
+                    "targetId": "a70b-cf66-dbc9-4441",
+                    "id": "3005-37c4-fc7c-b07f",
+                    "primary": false,
+                    "name": "Upgrade"
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "Unit Slots",
+                    "typeId": "729d-200e-b1c7-683e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Dark Power",
+                    "typeId": "2bfb-93d9-91d6-b153",
+                    "value": 1
+                  }
+                ],
+                "page": "14",
+                "publicationId": "ec99-4149-c4ca-7263",
+                "sortIndex": 3,
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "98f2-b08f-754f-c242"
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Decapitate",
+                    "typeId": "bc74-524a-c3d8-deb8",
+                    "typeName": "Upgrades",
+                    "hidden": false,
+                    "id": "3a15-ff87-4583-4c9b",
+                    "characteristics": [
+                      {
+                        "name": "Upgrade Effect",
+                        "typeId": "d962-7955-1a5c-5069",
+                        "$text": "Pendulum swing deals devil damage against criminals with 4+ guilt."
+                      }
+                    ],
+                    "publicationId": "ec99-4149-c4ca-7263",
+                    "page": "14"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Penitent Engine",
+            "typeId": "6426-dcea-42df-f2d5",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "f3b9-6c21-de32-c30c",
+            "characteristics": [
+              {
+                "name": "MV",
+                "typeId": "db02-56b8-b943-0359",
+                "$text": "3"
+              },
+              {
+                "name": "HP",
+                "typeId": "ad0d-0434-b3bd-9cfe",
+                "$text": "6"
+              },
+              {
+                "name": "DF",
+                "typeId": "5357-22fe-763d-4a20",
+                "$text": "2+"
+              },
+              {
+                "name": "ARM",
+                "typeId": "d539-7a96-9a0b-9090",
+                "$text": "PHYS"
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14"
+          },
+          {
+            "name": "Sin Furnace",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "5716-3b10-3bd3-f594",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "Before entering any space when MOVEing, the Engine can consume an adjacent corpse, wall, or hazard, removing it and gaining +1 burst charge. It can do this once per MOVE."
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14"
+          },
+          {
+            "name": "Pendulum Swing",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "c9b6-1abd-5205-4865",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Attack, range 1-3, burst 1"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": ""
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": "1 damage and pull 1. Effect: Deals 2 damage against criminals with 3+ guilt."
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14"
+          },
+          {
+            "name": "Penitent Gaze",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "deb1-d75b-5e2b-99fe",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Line 3, Burst 1"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "The first foe in the line gains 1 vulnerable and 2 or (5+) 3 guilt."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14"
+          },
+          {
+            "name": "Final Sentence",
+            "typeId": "a874-3212-1e77-eae3",
+            "typeName": "ACT Abilities",
+            "hidden": false,
+            "id": "4552-095d-9a01-dab9",
+            "characteristics": [
+              {
+                "name": "Tags",
+                "typeId": "d241-c19b-8fd1-da04",
+                "$text": "Melee"
+              },
+              {
+                "name": "Effect",
+                "typeId": "08c9-0af1-3467-12b3",
+                "$text": "An adjacent criminal with 3+ guilt takes 1 or (6+) 2 devil damage. If this obliterates the criminal, the engine feeds on their sin. It may immediately may MOVE again and gains +1 burst charge per guilt on the criminal, distributed as it wishes."
+              },
+              {
+                "name": "On Hit",
+                "typeId": "20c2-cbeb-cb0b-47be",
+                "$text": ""
+              }
+            ],
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Tyrant",
+            "id": "4b43-0a84-1cef-3988",
+            "hidden": false,
+            "type": "profile",
+            "publicationId": "ec99-4149-c4ca-7263",
+            "page": "14",
+            "targetId": "5c4d-9068-2b4f-1f43"
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": "Scewhead",
+        "hidden": false,
+        "id": "be76-2f67-02aa-ffc6",
+        "type": "selectionEntry",
+        "targetId": "259c-1cae-8857-ff01"
+      },
+      {
+        "import": true,
+        "name": "Bobby",
+        "hidden": false,
+        "id": "e51d-0a1d-3d2d-ff58",
+        "type": "selectionEntry",
+        "targetId": "4fb6-5963-ec67-80c9"
+      },
+      {
+        "import": true,
+        "name": "Clerk",
+        "hidden": false,
+        "id": "a3b1-0125-8ce0-e3be",
+        "type": "selectionEntry",
+        "targetId": "4030-1ff3-73e4-cc92"
+      },
+      {
+        "import": true,
+        "name": "Mancatcher",
+        "hidden": false,
+        "id": "3830-6dfc-98c0-b7ac",
+        "type": "selectionEntry",
+        "targetId": "e0cd-7c25-0be8-99da"
+      },
+      {
+        "import": true,
+        "name": "Penitent Engine",
+        "hidden": false,
+        "id": "2cf3-ae38-ca59-198a",
+        "type": "selectionEntry",
+        "targetId": "07f7-8f0e-a7fe-5790"
+      }
+    ]
+  }
+}

@@ -455,6 +455,14 @@
         "publisherUrl": "https://patreon.com/killsixbilliondemons",
         "publisher": "Games for Freaks",
         "publicationDate": "October 2024"
+      },
+      {
+        "name": "Games for Freaks 4 2026",
+        "id": "ec99-4149-c4ca-7263",
+        "hidden": false,
+        "publisher": "Games for Freaks",
+        "publisherUrl": "https://patreon.com/killsixbilliondemons",
+        "publicationDate": "June 2026"
       }
     ],
     "costTypes": [

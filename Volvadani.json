@@ -5,7 +5,7 @@
     "name": "Volvadani",
     "gameSystemId": "sys-ec2b-f0d3-4663-8364",
     "gameSystemRevision": 3,
-    "revision": 3,
+    "revision": 4,
     "battleScribeVersion": "2.03",
     "type": "catalogue",
     "sharedProfiles": [
@@ -3839,6 +3839,20 @@
             ],
             "publicationId": "ec99-4149-c4ca-7263",
             "page": "15"
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "default-category",
+            "id": "6d52-da70-4526-6826",
+            "primary": false,
+            "name": "Unit"
+          },
+          {
+            "targetId": "fe30-71be-eb40-926a",
+            "id": "2ed2-93ac-a6e5-51a6",
+            "primary": true,
+            "name": "Necromancer"
           }
         ]
       }

@@ -5,7 +5,7 @@
     "name": "Goregrinders",
     "gameSystemId": "sys-ec2b-f0d3-4663-8364",
     "gameSystemRevision": 1,
-    "revision": 2,
+    "revision": 3,
     "battleScribeVersion": "2.03",
     "page": "",
     "sharedSelectionEntries": [
@@ -287,7 +287,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Allies gain 1 speed per negative token removed from Cauterize."
+                        "$text": "Allies gain 1 speed per negative token removed with Cauterize."
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
@@ -497,12 +497,12 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "Blooded",
+                "name": "Bladed",
                 "hidden": false,
                 "id": "97d7-a72e-576c-e6cf",
                 "profiles": [
                   {
-                    "name": "Blooded",
+                    "name": "Bladed",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
@@ -554,12 +554,12 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "Overclocked",
+                "name": "Sprinter",
                 "hidden": false,
                 "id": "7ed0-d66b-a72a-7ba0",
                 "profiles": [
                   {
-                    "name": "Overclocked",
+                    "name": "Sprinter",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
@@ -568,7 +568,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "At 1 hp or lower, gain free movement."
+                        "$text": "At 0 hp, gain free movement"
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
@@ -700,7 +700,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "MOVE as far as possible in a straight line, passing through units. Then, units passed through during this move take 1 damage."
+                "$text": "Next MOVE goes as far as possible in a straight line, passing through and dealing 1 damage to any units passed through."
               },
               {
                 "name": "On Hit",
@@ -850,7 +850,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "MOVE as far as possible in a straight line. Then, all units adjacent to any space of this MOVE take 1 fire damage."
+                "$text": "Next MOVE goes as far as possible in a straight line, passing through units. Then, all units moved through take 1 fire damage. If no units were moved though, gain retaliation."
               },
               {
                 "name": "On Hit",
@@ -944,7 +944,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "May step 1 before and after using Chainsaw."
+                        "$text": "May step 1 before and after using Chainsaw or Wild Slashes."
                       }
                     ],
                     "page": ""
@@ -1191,7 +1191,7 @@
               {
                 "name": "MV",
                 "typeId": "db02-56b8-b943-0359",
-                "$text": "4"
+                "$text": "5"
               },
               {
                 "name": "HP",
@@ -1225,7 +1225,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Unit MOVEs as far as possible in a straight line. The first enemy unit this unit passes through during this MOVE  takes 1 fire damage. Then this unit gains 2 speed."
+                "$text": "Unit MOVEs as far as possible in a straight line until it would enter the space of an unit, or it runs out of movement. That unit takes 1 fire damage. Then this unit gains 2 speed."
               },
               {
                 "name": "On Hit",
@@ -1365,7 +1365,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Spin out grants 1 berserk."
+                        "$text": "This unit gains 1 berserk if it starts its turn at 1 hp or lower."
                       }
                     ],
                     "page": ""
@@ -1422,7 +1422,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "At 1 hp, may MOVE again for free at any point during turn."
+                        "$text": "At 1 hp or lower, may MOVE again for free on its turn"
                       }
                     ],
                     "page": ""
@@ -1639,7 +1639,7 @@
               {
                 "name": "Tags",
                 "typeId": "677f-0884-533f-ae72",
-                "$text": "Range 3"
+                "$text": "Curse, Range 1-2"
               },
               {
                 "name": "Trigger",
@@ -2452,7 +2452,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 1,
+                "sortIndex": 3,
                 "infoLinks": [
                   {
                     "name": "Hellrider Kick",
@@ -2480,7 +2480,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 2,
+                "sortIndex": 1,
                 "infoLinks": [
                   {
                     "name": "Overclock",
@@ -2508,7 +2508,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 3,
+                "sortIndex": 2,
                 "infoLinks": [
                   {
                     "name": "Gorebather",
@@ -2536,7 +2536,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 5,
+                "sortIndex": 4,
                 "infoLinks": [
                   {
                     "name": "Killing Spree",
@@ -2564,7 +2564,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 4,
+                "sortIndex": 5,
                 "infoLinks": [
                   {
                     "name": "Blood Boil",
@@ -2628,7 +2628,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 1,
+                "sortIndex": 3,
                 "infoLinks": [
                   {
                     "name": "Hellrider Kick",
@@ -2668,7 +2668,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 2,
+                "sortIndex": 1,
                 "infoLinks": [
                   {
                     "name": "Overclock",
@@ -2708,7 +2708,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 3,
+                "sortIndex": 2,
                 "infoLinks": [
                   {
                     "name": "Gorebather",
@@ -2748,7 +2748,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 5,
+                "sortIndex": 4,
                 "infoLinks": [
                   {
                     "name": "Killing Spree",
@@ -2788,7 +2788,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 4,
+                "sortIndex": 5,
                 "infoLinks": [
                   {
                     "name": "Blood Boil",
@@ -3307,7 +3307,7 @@
             ]
           },
           {
-            "name": "Overclock",
+            "name": "Inject Nitro",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
@@ -3321,7 +3321,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Self or a unit in range gains 2 speed. If target is at 1 hp or lower, splash (target) 1 fire damage."
+                "$text": "Self or a unit in range gains 2 speed. If target is at 0 hp or lower, splash (target) 1 fire damage."
               },
               {
                 "name": "On Hit",
@@ -3400,12 +3400,12 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "Rage Overclock",
+                "name": "Rage Serum",
                 "hidden": false,
                 "id": "52d5-b28a-d379-8750",
                 "profiles": [
                   {
-                    "name": "Rage Overclock",
+                    "name": "Rage Serum",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
@@ -3414,7 +3414,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Overclock has a 5+ effect chance to grant retaliation until the start of this units next turn."
+                        "$text": "Inject Nitro has a 5+ effect chance to grant retaliation until the start of this units next turn."
                       }
                     ],
                     "page": ""
@@ -3471,7 +3471,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Restart engine allows allows ally to step 2"
+                        "$text": "Restart engine allows allows the targeted ally to step 2."
                       }
                     ],
                     "page": ""
@@ -3528,7 +3528,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "At 1 hp or lower, all abilities target self and an adjacent ally."
+                        "$text": "At 1 hp or lower, all abilities may target self and an adjacent ally."
                       }
                     ],
                     "page": ""
@@ -3754,12 +3754,12 @@
           {
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
-            "$text": ""
+            "$text": "This attack rolls -1D. Ignore this penalty against large units."
           },
           {
             "name": "On Hit",
             "typeId": "20c2-cbeb-cb0b-47be",
-            "$text": "2 damage, then 1 fire damage again. Effect: This attack rolls -1D."
+            "$text": "2 damage, then 1 fire damage again."
           }
         ]
       },
@@ -3778,7 +3778,7 @@
           {
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
-            "$text": "1 damage. If only one unit is caught in the area, increase this damage to 2 instead and this line passes through and destroys walls."
+            "$text": "1 damage. If only one unit is caught in the area, damage gains piercing and this line passes through and destroys walls."
           },
           {
             "name": "On Hit",
@@ -3802,7 +3802,7 @@
           {
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
-            "$text": "Increase this damage by +1 on hit for every 3 hp this unit is missing. If this unit is at 0 hp, this damage obliterates its target if it slays them"
+            "$text": "Increase this damage by +1 on hit for every 3 hp this unit is missing. If this unit is at 0 hp, this damage obliterates its target if it slays them."
           },
           {
             "name": "On Hit",
@@ -3821,7 +3821,7 @@
           {
             "name": "Cost",
             "typeId": "e757-13c7-c21e-70b9",
-            "$text": "1"
+            "$text": "2"
           },
           {
             "name": "When",
@@ -3841,7 +3841,7 @@
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": "MOVE with free movement, then deal 1 fire damage to an adjacent foe."
+            "$text": "MOVE in a straight line, then deal 1 fire damage to an adjacent foe."
           }
         ]
       },
@@ -3875,7 +3875,7 @@
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": "Self or unit in range gains 2 speed. If the unit is at 1 hp or lower, splash (target): 1 fire damage."
+            "$text": "Self or unit in range gains 2 speed. If the unit is at 0 hp, splash (target): 1 fire damage."
           }
         ]
       },
@@ -3889,7 +3889,7 @@
           {
             "name": "Cost",
             "typeId": "e757-13c7-c21e-70b9",
-            "$text": "2"
+            "$text": "1"
           },
           {
             "name": "When",
@@ -3909,7 +3909,7 @@
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": "Step 1. All allied units anywhere may step 1."
+            "$text": "Step 1. All allied units in range 1-2 may step 1."
           }
         ]
       },
@@ -3928,7 +3928,7 @@
           {
             "name": "When",
             "typeId": "54b8-302b-9e65-ec30",
-            "$text": "Any Turn"
+            "$text": "Own or allied turn."
           },
           {
             "name": "Tags",
@@ -3943,7 +3943,7 @@
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": "Step 1, then deal 1 piercing damage to an adjacent unit. Speed can be spent to extend this step by +2. If that unit is slain, repeat this effect. It can repeat any number of times."
+            "$text": "Step 1, then deal 1 piercing damage to an adjacent unit. Speed can be spent to extend this step by +2. If that unit is slain, repeat this effect. It can repeat any number of times."
           }
         ]
       },
@@ -3977,7 +3977,7 @@
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": "Unit is not slain but remains at 0 hp and becomes immune to all damage. At the end of its next turn, it explodes, obliterating it, and dealing splash (self): 1 fire damage."
+            "$text": "Unit is not slain but remains at 0 hp and becomes immune to all damage. At the end of its next turn, it explodes, obliterating it, and dealing splash (self): 1 fire damage."
           }
         ]
       },
@@ -4006,12 +4006,12 @@
           {
             "name": "Trigger",
             "typeId": "3a92-2619-a477-005f",
-            "$text": ""
+            "$text": "You deal damage to an adjacent foe."
           },
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": "Deal 6 devil damage to an adjacent unit. Then deal 6 devil damage to yourself."
+            "$text": "Deal 6 devil damage to that foe. Then deal 6 devil damage to yourself."
           }
         ]
       }
@@ -4082,7 +4082,7 @@
         "hidden": false,
         "publicationId": "da35-e534-5d09-746b",
         "page": "32",
-        "description": "After a berserk unit ACTs, it splashes (self) 1 damage, then discards a berserk token. This damage can’t be increased in any way. If this effect does not damage any other characters, it deals 1 damage to itself instead, ignoring armor. Berserk counts as a positive and a negative token.",
+        "description": "After a berserk unit ACTs, it splashes (self) 1 damage, then discards a berserk token. This damage can’t be increased in any way. If this effect does not damage any other characters, it deals 1 piercing damage to itself instead. Berserk counts as a positive and a negative token.",
         "alias": [
           "berserk"
         ]

@@ -5,7 +5,7 @@
     "name": "Abhorrers",
     "gameSystemId": "sys-ec2b-f0d3-4663-8364",
     "gameSystemRevision": 2,
-    "revision": 1,
+    "revision": 2,
     "battleScribeVersion": "2.03",
     "rules": [
       {
@@ -26,7 +26,7 @@
           {
             "name": "Effect",
             "typeId": "b305-f2f7-6e6a-44ce",
-            "$text": "A unit affected by a Miracle has a 5+ effect chance to instantly return to life at 1 hp at the end of any turn it is slain, clearing all tokens."
+            "$text": "A unit affected by a Miracle has a 5+ effect chance to instantly return to life at 1 hp at the end of any turn it is slain, clearing all tokens. It then loses this trait and you gain 1 SOUL."
           }
         ]
       },
@@ -45,12 +45,12 @@
           {
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
-            "$text": "Splash (self)"
+            "$text": "Splash (self). Self and allies in the area may convert any number of vitality to strength."
           },
           {
             "name": "On Hit",
             "typeId": "20c2-cbeb-cb0b-47be",
-            "$text": "Self and allies in the area may convert any number of vitality to strength."
+            "$text": ""
           }
         ]
       },
@@ -64,12 +64,12 @@
           {
             "name": "Tags",
             "typeId": "d241-c19b-8fd1-da04",
-            "$text": "Range 4"
+            "$text": "Range 1-4"
           },
           {
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
-            "$text": "Remove all negative tokens on an ally, then transfer to self. That ally gains 1 vitality per negative token removed and becomes curseproof until the start of its next turn"
+            "$text": "Remove all negative tokens on an ally, then transfer to self. That ally gains 1 vitality per negative token removed (up to 3 times) and becomes curseproof until the start of its next turn."
           },
           {
             "name": "On Hit",
@@ -117,7 +117,7 @@
           {
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
-            "$text": "Until end of next turn, foes ending their turn in range 2 of this unit have a hazard created under them, then are pushed 1."
+            "$text": "Until end of this unit’s next turn, foes ending their turn in range 2 of this unit have a hazard created under them, then are pushed 1."
           },
           {
             "name": "On Hit",
@@ -136,7 +136,7 @@
           {
             "name": "Tags",
             "typeId": "d241-c19b-8fd1-da04",
-            "$text": "Attack, Range 2-4, Charge"
+            "$text": "Attack, Range 2-2"
           },
           {
             "name": "Effect",
@@ -146,7 +146,7 @@
           {
             "name": "On Hit",
             "typeId": "20c2-cbeb-cb0b-47be",
-            "$text": "1 holy damage and splash (target): 1 holy damage. Stance (Round 3+): and create a hazard under target (round 5+) all targets in the area."
+            "$text": "1 holy damage and splash (target): 1 holy damage. Stance (Round 3+): and create a hazard under primary target (round 5+) all units in the area."
           }
         ]
       },
@@ -170,7 +170,7 @@
           {
             "name": "On Hit",
             "typeId": "20c2-cbeb-cb0b-47be",
-            "$text": "2 damage. Stance: May step spaces equal to the round number with free movement, in a straight line, before the attack. On hit, push target half that any spaces."
+            "$text": "2 damage. Stance: May step spaces up to the round number with free movement, in a straight line, before the attack. On hit, push target half that many spaces."
           }
         ]
       },
@@ -184,7 +184,7 @@
           {
             "name": "Tags",
             "typeId": "d241-c19b-8fd1-da04",
-            "$text": "Attack, Range 2-5"
+            "$text": "Attack, Range 2-4"
           },
           {
             "name": "Effect",
@@ -194,7 +194,7 @@
           {
             "name": "On Hit",
             "typeId": "20c2-cbeb-cb0b-47be",
-            "$text": "1 damage. Stance: Roll the effect die. If you roll under the round number, deal 1 holy damage again. If you roll exactly the round number, deal 2 holy damage again instead."
+            "$text": "1 damage. Stance: Roll the effect die. If you roll under the round number, deal 1 holy damage again. If you roll exactly the round number, deal 2 holy damage again instead."
           }
         ]
       },
@@ -223,12 +223,12 @@
           {
             "name": "Trigger",
             "typeId": "3a92-2619-a477-005f",
-            "$text": "A unit MOVEs, and that move resolves."
+            "$text": "Turn end."
           },
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": "Stance: Step spaces equal to 1 + the round number, then push an adjacent unit 1."
+            "$text": "Stance: Step spaces equal to 1 + the round number, then push an adjacent unit 1."
           }
         ]
       },
@@ -247,7 +247,7 @@
           {
             "name": "When",
             "typeId": "54b8-302b-9e65-ec30",
-            "$text": "Own or Allied turn."
+            "$text": "Own turn."
           },
           {
             "name": "Tags",
@@ -257,12 +257,12 @@
           {
             "name": "Trigger",
             "typeId": "3a92-2619-a477-005f",
-            "$text": ""
+            "$text": "Turn start"
           },
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": "Stance: Step 1, then cut a line area with spaces equal to the round number +2, dealing 1 damage to all characters within and pushing those characters 1. Stance (R5+): This damage becomes Devil Damage."
+            "$text": "Step 1, then cut a line area with spaces equal to the round number +2, dealing 1 damage to all characters within and pushing those characters 1. Stance (R5+): This damage becomes Devil Damage."
           }
         ]
       },
@@ -276,7 +276,7 @@
           {
             "name": "Cost",
             "typeId": "e757-13c7-c21e-70b9",
-            "$text": "2"
+            "$text": "1"
           },
           {
             "name": "When",
@@ -325,7 +325,7 @@
           {
             "name": "Trigger",
             "typeId": "3a92-2619-a477-005f",
-            "$text": "This unit takes damage from an ACT ability, and that ability resolves"
+            "$text": "This unit takes damage from an ACT ability, and that ability resolves."
           },
           {
             "name": "Effect",
@@ -344,7 +344,7 @@
           {
             "name": "Cost",
             "typeId": "e757-13c7-c21e-70b9",
-            "$text": "4"
+            "$text": "5"
           },
           {
             "name": "When",
@@ -378,7 +378,7 @@
           {
             "name": "Cost",
             "typeId": "e757-13c7-c21e-70b9",
-            "$text": "6"
+            "$text": "5"
           },
           {
             "name": "When",
@@ -398,7 +398,7 @@
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": "Return unit to life at 1 hp at the end of the turn. It becomes immune to all damage and curseproof until the start of its next turn. Stance (R3+) and it gains 1 vitality (R5+) 3 vitality instead."
+            "$text": "Return unit to life at 1 hp at the end of the turn and remove all negative tokens. It becomes immune to all damage and curseproof until the end of its next turn. Stance (R3+) and it gains 1 vitality (R5+) 3 vitality instead."
           }
         ]
       }
@@ -453,7 +453,7 @@
               {
                 "name": "ARM",
                 "typeId": "d539-7a96-9a0b-9090",
-                "$text": ""
+                "$text": "-"
               }
             ]
           },
@@ -472,12 +472,12 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "1 damage. Stance (Odd): and step 2, Stance (Even): and gain 1 vitality, Stance (Round 5+): Increase damage to 3."
+                "$text": "\n"
               },
               {
                 "name": "On Hit",
                 "typeId": "20c2-cbeb-cb0b-47be",
-                "$text": "\n"
+                "$text": "1 damage. Stance (Odd): and step 2, Stance (Even): and gain 1 vitality, Stance (Round 5+): Increase damage to 3"
               }
             ]
           },
@@ -491,7 +491,7 @@
               {
                 "name": "Effect",
                 "typeId": "b305-f2f7-6e6a-44ce",
-                "$text": "Lacks Miracle. However, while alive, miracle triggers for adjacent allies on a 4+, and gain 1 SOUL the first time it triggers in a round."
+                "$text": "Lacks Miracle. However, while alive, miracle triggers for adjacent allies on a 4+"
               }
             ]
           },
@@ -515,7 +515,7 @@
               {
                 "name": "Tags",
                 "typeId": "677f-0884-533f-ae72",
-                "$text": "Range 2-6"
+                "$text": "Range 1-2"
               },
               {
                 "name": "Trigger",
@@ -525,7 +525,7 @@
               {
                 "name": "Effect",
                 "typeId": "d03e-2c10-89c9-8e5c",
-                "$text": "Self takes 1 piercing damage, which cannot slay self. One allied unit in range gains one, (3+) two, or (5+) three vitality."
+                "$text": "Self takes 1 piercing damage, which cannot slay self. One allied unit in range gains one, (4+) two, or (6+) three vitality."
               }
             ]
           },
@@ -599,7 +599,7 @@
                       {
                         "name": "Effect",
                         "typeId": "b305-f2f7-6e6a-44ce",
-                        "$text": "Stance: (Round 3+): Attacks cannot miss (all misses turn into hits)."
+                        "$text": "Stance: (Round 3+): Attacks gain +1D"
                       }
                     ]
                   }
@@ -711,7 +711,7 @@
                       {
                         "name": "Effect",
                         "typeId": "b305-f2f7-6e6a-44ce",
-                        "$text": "Stance (Round 3+): May step 2 after ACTing."
+                        "$text": "Stance (Round 3+): May step 2 either before or after ACTing."
                       }
                     ]
                   }
@@ -1068,7 +1068,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 2,
+                "sortIndex": 3,
                 "infoLinks": [
                   {
                     "name": "Sword Art: Safflower cut",
@@ -1096,7 +1096,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 3,
+                "sortIndex": 2,
                 "infoLinks": [
                   {
                     "name": "Grace",
@@ -1544,7 +1544,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 2,
+                "sortIndex": 3,
                 "infoLinks": [
                   {
                     "name": "Sword Art: Safflower cut",
@@ -1584,7 +1584,7 @@
                     "includeChildSelections": false
                   }
                 ],
-                "sortIndex": 3,
+                "sortIndex": 2,
                 "infoLinks": [
                   {
                     "name": "Grace",
@@ -1813,12 +1813,12 @@
               {
                 "name": "Tags",
                 "typeId": "d241-c19b-8fd1-da04",
-                "$text": "Self, Range 3-6"
+                "$text": "Self, Range 3-5"
               },
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Remove one or two vitality tokens on this unit, then deal 1 holy damage to that many units in range, and push those units 1."
+                "$text": "Remove one or two vitality tokens on this unit, then deal 1 holy damage to that many units in range, ignoring line of sight, and push those units 1. Stance (4+): damage becomes piercing."
               },
               {
                 "name": "On Hit",
@@ -1837,12 +1837,12 @@
               {
                 "name": "Tags",
                 "typeId": "d241-c19b-8fd1-da04",
-                "$text": "Range 2-6"
+                "$text": "Range 2-5"
               },
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Create one, (3+) two, (5+) or three hazards in range. May destroy a wall instead of creating a hazard."
+                "$text": "Create one or (4+) two or (6+) three hazards in range. May destroy a wall instead of creating a hazard."
               },
               {
                 "name": "On Hit",
@@ -1861,7 +1861,7 @@
               {
                 "name": "Effect",
                 "typeId": "b305-f2f7-6e6a-44ce",
-                "$text": "Lacks miracle, but starts combat with 4 vitality tokens."
+                "$text": "Lacks miracle, but starts combat with 3 vitality tokens."
               }
             ]
           }
@@ -1958,7 +1958,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Ablutions gains stance (round 3+): gain 3 vitality instead, (round 5+): gain 4 vitality instead."
+                        "$text": "Ablutions gains stance (round 3+): gain 3 vitality instead, (round 5+): gain 4 vitality instead."
                       }
                     ],
                     "page": ""
@@ -2001,12 +2001,12 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "Witness",
+                "name": "Immaculate",
                 "hidden": false,
                 "id": "c44b-3c3c-d005-683b",
                 "profiles": [
                   {
-                    "name": "Witness",
+                    "name": "Immaculate",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
@@ -2015,7 +2015,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Indignation gains stance (round 4+): deal 2 holy damage instead."
+                        "$text": "All attacks automatically miss the holy body if not made from adjacent spaces."
                       }
                     ],
                     "page": ""
@@ -2189,7 +2189,7 @@
               {
                 "name": "On Hit",
                 "typeId": "20c2-cbeb-cb0b-47be",
-                "$text": "Self and an adjacent ally gain 1 vitality (Stance: R4+): 2 vitality. Then deal 1 damage and push 1. Cannot miss allies and pushes them +1."
+                "$text": "Self and an adjacent ally gain 1 vitality (Stance: R4+): 2 vitality. Then deal 1 damage and push 1. Cannot miss allies and pushes them +1."
               }
             ]
           },
@@ -2203,12 +2203,12 @@
               {
                 "name": "Tags",
                 "typeId": "d241-c19b-8fd1-da04",
-                "$text": "Self, Range 1-3, Ally"
+                "$text": "Range 1-3"
               },
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Target unit converts all vitality into strength, and then becomes unable to gain vitality tokens for the rest of combat."
+                "$text": "Self or target unit converts all vitality into strength."
               },
               {
                 "name": "On Hit",
@@ -2232,7 +2232,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Choose self or an adjacent ally. At the end of that unit’s turn, slay them. They splash (self) 1 holy damage to foes, 1 vitality to allies. Increase damage and vitality by +1 if the unit had 3 or more vitality."
+                "$text": "Choose self or an adjacent ally. At the end of that unit’s turn, slay them. They splash (self) 1 holy damage to foes, 1 vitality to allies. Stance (R4+): Damage gains pierce and also clears a negative token from all allies in the area."
               },
               {
                 "name": "On Hit",
@@ -2391,7 +2391,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Blood of the Covenant causes miracle to trigger on a 3+"
+                        "$text": "Blood of the Covenant causes miracle to trigger on a 3+."
                       }
                     ],
                     "page": ""
@@ -2910,7 +2910,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "An allied unit in range gains miracle. If it already had miracle, miracle triggers on a 2+ until the end of their next turn. At the end of that unit’s turn, they lose miracle."
+                "$text": "An allied unit in range gains miracle. If it already had miracle, miracle triggers on a 2+ until the end of their next turn. At the end of that unit’s turn, they lose miracle."
               },
               {
                 "name": "On Hit",
@@ -2934,7 +2934,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Become unable to MOVE or step until start of this unit’s next turn. At the start of that turn, allied units adjacent to this unit gain 1 vitality."
+                "$text": "Gain 1 vitality. Become unable to MOVE or step until start of this unit’s next turn. At the start of that turn, a number of allied units adjacent to this unit equal to the current round number may gain 1 vitality."
               },
               {
                 "name": "On Hit",
@@ -2958,7 +2958,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Splash (self): Stance (Even): Allies gain 1 vitality. (Odd): foes take 1 holy damage."
+                "$text": "Stance (Odd): Remove a negative token from an ally in the area, then grant that ally 1 strength. (Even): Splash (self): Foes take 1 holy damage."
               },
               {
                 "name": "On Hit",
@@ -3003,7 +3003,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Self and adjacent units are curseproof during gentleness."
+                        "$text": "While delay judgement is active, its target is curseproof."
                       }
                     ],
                     "page": ""
@@ -3117,7 +3117,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Stance (Round 4+): Blessed Censer’s effects trigger twice"
+                        "$text": "Stance (Round 4+): Blessed Censer’s damage becomes piercing, and it also grants vitality when removing a negative token from an ally."
                       }
                     ],
                     "page": ""
@@ -3285,7 +3285,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Stance: MOVE again. The next use of Whirling Chain deals +damage equal to half the round number, rounded up."
+                "$text": "Stance: MOVE again. Whirling Chain deals +damage equal to half the round number the next time it hits, rounded up. This effect does not stack."
               },
               {
                 "name": "On Hit",
@@ -3314,7 +3314,7 @@
               {
                 "name": "On Hit",
                 "typeId": "20c2-cbeb-cb0b-47be",
-                "$text": "2 damage. Stance (Odd): and MOVE again, Stance (Even) and push unit 2"
+                "$text": "2 damage. Stance (Odd): and MOVE again, Stance (Even): and push unit 2"
               }
             ]
           },
@@ -3650,7 +3650,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "1 holy damage and (3+) create a hazard under target."
+                "$text": "1 holy damage and (4+) create a hazard under target."
               },
               {
                 "name": "On Hit",
@@ -3800,7 +3800,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "May step 2 before using Mea Culpa"
+                        "$text": "May step 2 with free movement before using Mea Culpa"
                       }
                     ],
                     "page": ""
@@ -3857,7 +3857,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Stance (round 4+): Excoriate triggers both effects."
+                        "$text": "Stance (round 4+): Excoriate triggers both effects"
                       }
                     ],
                     "page": ""

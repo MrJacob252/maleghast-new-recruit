@@ -5,7 +5,7 @@
     "name": "Steeple Wracks",
     "gameSystemId": "sys-ec2b-f0d3-4663-8364",
     "gameSystemRevision": 2,
-    "revision": 2,
+    "revision": 3,
     "battleScribeVersion": "2.03",
     "sharedRules": [
       {
@@ -13,14 +13,16 @@
         "id": "3e9d-da84-1df5-1647",
         "hidden": false,
         "page": "5",
-        "description": "This ability gains extra bonuses if X or more allied units or walls are adjacent to the target, including this one."
+        "description": "This ability gains extra bonuses if X or more allied units or walls are adjacent to the target, including this unit.",
+        "publicationId": "e760-0d8f-1201-98d5"
       },
       {
         "name": "Dive Bomb",
         "id": "7cfb-ced5-58e3-b0de",
         "hidden": false,
-        "description": "Once a round, at the end of own or an allied turn, a single steeplewrack unit may MOVE for free.",
-        "page": "5"
+        "description": "Once a round, at the end of any turn, a single steeplewrack unit may MOVE for free.",
+        "page": "5",
+        "publicationId": "e760-0d8f-1201-98d5"
       }
     ],
     "type": "catalogue",
@@ -162,7 +164,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Bloodletting gains Rip Apart (5+): and deal 1 curse damage again"
+                        "$text": "Bloodletting gains Rip Apart (5+): and deal 1 curse damage again."
                       }
                     ],
                     "page": "6"
@@ -218,7 +220,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "At round 5+, become immune to graze, line, and splash damage."
+                        "$text": "At round 5+, become immune to graze, line, and splash damage. "
                       }
                     ],
                     "page": "6"
@@ -273,7 +275,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "This faction’s dive bomb trait can be used for free on one flock unit a round."
+                        "$text": "This faction’s dive bomb trait can be used for free on one flock unit a round."
                       }
                     ],
                     "page": "6"
@@ -344,7 +346,7 @@
               {
                 "name": "Effect",
                 "typeId": "b305-f2f7-6e6a-44ce",
-                "$text": "For every unit slot spent on Flock, you may summon an additional\nflock unit in free space adjacent to an allied unit at the end of every round."
+                "$text": "For every unit slot spent on Flock, you may summon an additional flock unit in a free space adjacent to an allied unit at the end of every odd round. "
               }
             ],
             "page": "6"
@@ -369,7 +371,7 @@
               {
                 "name": "On Hit",
                 "typeId": "20c2-cbeb-cb0b-47be",
-                "$text": "1 damage. Rip Apart (3+): gains piercing."
+                "$text": "1 damage. Rip Apart (3+): gains piercing on hit."
               }
             ]
           },
@@ -383,12 +385,12 @@
               {
                 "name": "Tags",
                 "typeId": "d241-c19b-8fd1-da04",
-                "$text": "Self"
+                "$text": ""
               },
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "This unit gains 1 or (6+) 2 speed. It may then immediately spend two speed tokens to summon an additional Flock unit in an adjacent space."
+                "$text": "This unit gains 1 or (6+) 2 speed. It may then immediately spend two speed tokens to summon an additional Flock unit in a free adjacent space."
               },
               {
                 "name": "On Hit",
@@ -510,7 +512,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "At 1 hp or lower, this unit is immune to damage from grazes, lines, and splash effects"
+                        "$text": "At 1 hp or lower, this unit is immune to damage from grazes, lines, and splash effects."
                       }
                     ],
                     "page": "6"
@@ -566,7 +568,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Cannibalize can also be used on an enemy unit at 1 hp or lower, but does not grant tokens if used this way"
+                        "$text": "Cannibalize can also be used on an enemy unit at 1 hp or lower, but does not grant tokens if used this way."
                       }
                     ],
                     "page": "6"
@@ -698,7 +700,7 @@
               {
                 "name": "On Hit",
                 "typeId": "20c2-cbeb-cb0b-47be",
-                "$text": "1 damage. Rip Apart (3+): +1 damage and gain 1 speed, Rip Apart (5+): and gain 1 strength and summon a Flock unit in free space adjacent to the target."
+                "$text": "1 damage. Rip Apart (2+): +1 damage and gain 1 speed, Rip Apart (4+): and gain 1 strength and summon a flock adjacent to the target."
               }
             ],
             "page": "6"
@@ -743,7 +745,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Slay an adjacent allied unit. This unit gains 1 strength, 1 speed, and may MOVE again"
+                "$text": "Slay an adjacent allied unit. This unit may ACT again and gains 1 speed (4+) and 1 strength. Can only be used once a turn."
               },
               {
                 "name": "On Hit",
@@ -830,7 +832,7 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "Ear Splitter",
+                "name": "Rapturous",
                 "hidden": false,
                 "id": "3f15-d9ed-7d79-3ea6",
                 "sortIndex": 1,
@@ -867,7 +869,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Ear Splitter",
+                    "name": "Rapturous",
                     "typeId": "bc74-524a-c3d8-deb8",
                     "typeName": "Upgrades",
                     "hidden": false,
@@ -876,7 +878,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Sonic screech also grants one or two allies in the area 1 speed or strength."
+                        "$text": "Sonic screech may slay an ally in the area to regain ACT, but can only be used once a turn."
                       }
                     ],
                     "page": "7"
@@ -932,7 +934,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Paranoia deals 1 piercing curse damage, but only counts as +1 adjacent unit"
+                        "$text": "Paranoia deals 1 piercing curse damage, but only counts as +1 adjacent unit."
                       }
                     ]
                   }
@@ -986,7 +988,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "When Siren’s Song expires, adjacent allies gain 1 speed."
+                        "$text": "When Siren’s Song expires, up to three adjacent allies gain 1 speed."
                       }
                     ]
                   }
@@ -1047,7 +1049,7 @@
               {
                 "name": "Tags",
                 "typeId": "d241-c19b-8fd1-da04",
-                "$text": "Curse, Range 1-3"
+                "$text": "Curse, Range 1-4"
               },
               {
                 "name": "Effect",
@@ -1076,7 +1078,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Splash (self): 1 curse damage. Push all units one (5+) or two spaces."
+                "$text": "Splash (self): 1 curse damage to foes. Push all units one (4+) or two spaces."
               },
               {
                 "name": "On Hit",
@@ -1100,7 +1102,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Until the start of this unit’s next turn, while adjacent to this unit, enemy units take -1D on attacks, and self and allies are immune to graze damage"
+                "$text": "Until the start of this unit’s next turn, adjacent enemy units take -1D on attacks, and self and adjacent allies are immune to graze damage."
               },
               {
                 "name": "On Hit",
@@ -1229,7 +1231,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "If starting turn adjacent to a wall, gain 1 speed and clear a negative token"
+                        "$text": "If starting turn adjacent to a wall, gain 1 speed and clear a negative token."
                       }
                     ],
                     "page": "7"
@@ -1285,7 +1287,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "While adjacent to a wall, damage always ignores vitality and armor."
+                        "$text": "While target is adjacent to a wall, damage always gains pierce and ignores vitality."
                       }
                     ]
                   }
@@ -1371,7 +1373,7 @@
               {
                 "name": "Effect",
                 "typeId": "b305-f2f7-6e6a-44ce",
-                "$text": "May move through walls, but not end its turn in one. When\nmoving through a wall, gain free movement until end of turn."
+                "$text": "May move through walls, but not end its turn in one. When moving through a wall, gain free movement until end of turn."
               }
             ]
           },
@@ -1406,7 +1408,7 @@
             "page": "7"
           },
           {
-            "name": "Prepare the Pole",
+            "name": "Sacrificial Pole",
             "typeId": "a874-3212-1e77-eae3",
             "typeName": "ACT Abilities",
             "hidden": false,
@@ -1420,7 +1422,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Step 2, then create a wall in a free adjacent space (4+) and gain 1 speed."
+                "$text": "Step 2 with free movement, then create a wall in a free adjacent space. May then slay an adjacent allied unit to regain ACT. Can only be used once a turn."
               },
               {
                 "name": "On Hit",
@@ -1450,7 +1452,7 @@
               {
                 "name": "On Hit",
                 "typeId": "20c2-cbeb-cb0b-47be",
-                "$text": "2 damage. Rip Apart (3+): ignoring armor, Rip Apart (5+): then 1 damage again and summon a flock unit adjacent to target."
+                "$text": "1 damage. Rip Apart (2+): with pierce, Rip Apart (4+): then 1 damage again, and summon a flock unit adjacent to target."
               }
             ],
             "page": "7"
@@ -1568,7 +1570,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "When it first arrives, the Owl may slay all adjacent allied\nunits, gaining 1 speed or strength for each."
+                        "$text": "When it first arrives, the Owl may slay all adjacent allied units, gaining 1 speed or strength for each."
                       }
                     ],
                     "page": "8"
@@ -1624,7 +1626,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "The Owl loses Large (it becomes 1x1)\nand gains free movement."
+                        "$text": "The Owl loses Large (it becomes 1x1) and gains free movement."
                       }
                     ]
                   }
@@ -1782,7 +1784,7 @@
               {
                 "name": "On Hit",
                 "typeId": "20c2-cbeb-cb0b-47be",
-                "$text": "2 damage. Rip Apart (3+): +1 damage. Rip Apart (5+): +1 damage, and obliterate target if it is slain."
+                "$text": "2 damage. Rip Apart (2+): +1 damage. Rip Apart (4+): +1 damage, and obliterate target if it is slain."
               }
             ],
             "page": "8"
@@ -1827,7 +1829,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Splash (target): Deal 1 curse damage once, to a unit in the area for each wall in the area. The same unit can be targeted more than once."
+                "$text": "Splash (target): Deal 1 curse damage once to a unit in the area for each wall in the area, up to three times. The same unit can be targeted more than once."
               },
               {
                 "name": "On Hit",
@@ -2012,7 +2014,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Horrendous Pecking does not break if this unit moves out of its turn."
+                        "$text": "Horrendous Pecking does not break if this unit moves out of its turn. "
                       }
                     ],
                     "publicationId": "0300-2d2b-d6c4-502c",
@@ -2103,17 +2105,17 @@
               {
                 "name": "MV",
                 "typeId": "db02-56b8-b943-0359",
-                "$text": "3"
+                "$text": "4"
               },
               {
                 "name": "HP",
                 "typeId": "ad0d-0434-b3bd-9cfe",
-                "$text": "3"
+                "$text": "4"
               },
               {
                 "name": "DF",
                 "typeId": "5357-22fe-763d-4a20",
-                "$text": "3+"
+                "$text": "4+"
               },
               {
                 "name": "ARM",
@@ -2134,7 +2136,7 @@
               {
                 "name": "Effect",
                 "typeId": "b305-f2f7-6e6a-44ce",
-                "$text": "This unit also counts as wall. It blocks line of sight and can be used for cover like a wall. Effects that would destroy walls have no effect on\nthis unit."
+                "$text": "This unit also counts as wall. It blocks line of sight and can be used for cover like a wall. Effects that would destroy walls have no effect on this unit."
               }
             ],
             "publicationId": "0300-2d2b-d6c4-502c",
@@ -2160,7 +2162,7 @@
               {
                 "name": "On Hit",
                 "typeId": "20c2-cbeb-cb0b-47be",
-                "$text": "1 damage. Rip Apart (3+): +1 damage (5+): +1 damage. This unit may spend speed tokens as part of this ability to reduce the cost of Rip Apart by 1 per token spend."
+                "$text": "1 damage. Rip Apart (2+): +1 damage (4+): +1 damage."
               }
             ],
             "publicationId": "0300-2d2b-d6c4-502c",
@@ -2181,7 +2183,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Until end of this unit’s next turn, after any adjacent unit is slain, summon a flock in free space in range. This effect cannot trigger more than once a turn."
+                "$text": "Gain 1 speed. Until end of this unit’s next turn, after any adjacent unit is slain, summon a flock in free space in range 1-2. This effect cannot trigger more than once a turn."
               },
               {
                 "name": "On Hit",
@@ -2207,7 +2209,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Until this unit MOVEs or steps, any foe that ends a MOVE or ACT in an adjacent space takes 1 piercing damage. On slay, this unit gains 1 speed. This effect cannot trigger more than once a turn."
+                "$text": "Gain Physical Armor. Any unit that starts or ends a MOVE in an adjacent space takes 1 damage. This effect cannot trigger more than once a turn, and lasts indefinitely or until this unit MOVEs or steps."
               },
               {
                 "name": "On Hit",
@@ -2302,7 +2304,7 @@
                       {
                         "name": "Effect",
                         "typeId": "b305-f2f7-6e6a-44ce",
-                        "$text": "Allied units may trigger ‘slay unit’ or ‘slay allied unit’ effects on you by dealing 1 devil damage to you instead."
+                        "$text": "Once a round, an allied unit may trigger a ‘slay unit’ or ‘slay allied unit’ effect on you for free."
                       }
                     ]
                   }
@@ -2344,7 +2346,7 @@
                       {
                         "name": "Effect",
                         "typeId": "b305-f2f7-6e6a-44ce",
-                        "$text": "When an adjacent allied unit is slain, gain 1 strength. This effect can only trigger once a round."
+                        "$text": "When an allied unit in range 1-2 is slain,another allied unit in range gains 1 strength. This effect can only trigger once a round."
                       }
                     ]
                   }
@@ -2386,7 +2388,7 @@
                       {
                         "name": "Effect",
                         "typeId": "b305-f2f7-6e6a-44ce",
-                        "$text": "When an adjacent allied unit is slain, summon a flock unit in a free adjacent space. This effect can only trigger once a round."
+                        "$text": "When an allied unit in range 1-2 is slain, summon a flock unit in a free adjacent space. This effect can only trigger once a round."
                       }
                     ]
                   }
@@ -2729,7 +2731,7 @@
                 "name": "Impale",
                 "hidden": false,
                 "id": "d32e-676b-12ca-5a00",
-                "sortIndex": 4,
+                "sortIndex": 5,
                 "constraints": [
                   {
                     "type": "max",
@@ -2756,7 +2758,7 @@
                 "name": "Carrion Burial",
                 "hidden": false,
                 "id": "9ad1-f829-7dd9-d4c4",
-                "sortIndex": 5,
+                "sortIndex": 4,
                 "constraints": [
                   {
                     "type": "max",
@@ -3292,7 +3294,7 @@
                     "targetId": "9e39-023d-2825-9936"
                   }
                 ],
-                "sortIndex": 4,
+                "sortIndex": 5,
                 "costs": [
                   {
                     "name": "Unit Slots",
@@ -3331,7 +3333,7 @@
                     "targetId": "3d39-e0f3-e3c7-8bfe"
                   }
                 ],
-                "sortIndex": 5,
+                "sortIndex": 4,
                 "costs": [
                   {
                     "name": "Unit Slots",
@@ -3462,7 +3464,7 @@
               {
                 "name": "Cost",
                 "typeId": "e757-13c7-c21e-70b9",
-                "$text": "1"
+                "$text": "3"
               },
               {
                 "name": "When",
@@ -3472,17 +3474,17 @@
               {
                 "name": "Tags",
                 "typeId": "677f-0884-533f-ae72",
-                "$text": "Range 1-2"
+                "$text": "Range 1-4"
               },
               {
                 "name": "Trigger",
                 "typeId": "3a92-2619-a477-005f",
-                "$text": "End of turn"
+                "$text": ""
               },
               {
                 "name": "Effect",
                 "typeId": "d03e-2c10-89c9-8e5c",
-                "$text": "Summon one or (6+) two flock thralls in range."
+                "$text": "Summon two or (5+) three flock thralls in range."
               }
             ],
             "page": "9"
@@ -3497,7 +3499,7 @@
               {
                 "name": "Cost",
                 "typeId": "e757-13c7-c21e-70b9",
-                "$text": "3"
+                "$text": "1"
               },
               {
                 "name": "When",
@@ -3507,7 +3509,7 @@
               {
                 "name": "Tags",
                 "typeId": "677f-0884-533f-ae72",
-                "$text": "Range 3"
+                "$text": "Range 1-3"
               },
               {
                 "name": "Trigger",
@@ -3517,7 +3519,7 @@
               {
                 "name": "Effect",
                 "typeId": "d03e-2c10-89c9-8e5c",
-                "$text": "Slay an allied unit in range. Up to three allies adjacent to the slain unit and self gain 1 strength and may clear a negative token."
+                "$text": "Slay an allied unit in range. Self or an ally adjacent to that unit gains 1 strength. 1 speed, and may clear a negative token."
               }
             ],
             "page": "9"
@@ -3625,7 +3627,7 @@
           {
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
-            "$text": "All allied units in range 2 of target foe are pushed 1 towards that foe (4+) and gain 1, (6+) or 2 strength."
+            "$text": "All allied units in range 2 of target foe are pushed 1 towards that foe. One, (3+) two, or (5+) three of those allies gain 1 strength."
           },
           {
             "name": "On Hit",
@@ -3675,7 +3677,7 @@
           {
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
-            "$text": "Until start of this unit’s next turn, cannot MOVE or step but self and adjacent allies gain cover from all directions and immunity to grazes."
+            "$text": "Until start of this unit’s next turn, self and adjacent allies gain cover from all directions and immunity to grazes."
           },
           {
             "name": "On Hit",
@@ -3700,7 +3702,7 @@
           {
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
-            "$text": "Slay allied unit in range. Then summon a flock unit in range for every hp it is missing."
+            "$text": "Slay a non-thrall allied unit in range. Then summon two flock in range. Each deals 1 damage to an adjacent unit after being summoned, but can’t target the same unit more than once. If that unit was at 1 hp or lower, summon three flock instead."
           },
           {
             "name": "On Hit",
@@ -3730,7 +3732,7 @@
           {
             "name": "On Hit",
             "typeId": "20c2-cbeb-cb0b-47be",
-            "$text": "1 curse damage. Effect: Summon one or (5+) two flock units adjacent to the target."
+            "$text": "1 curse damage and Summon one or (5+) two flock units adjacent to the target."
           }
         ],
         "page": "9"
@@ -3755,7 +3757,7 @@
           {
             "name": "On Hit",
             "typeId": "20c2-cbeb-cb0b-47be",
-            "$text": "1 devil damage. Effect: Then may pull self 2 towards a wall in range 3, or pull target 2 towards self or a wall in range 3."
+            "$text": "1 devil damage, then may pull self 2 towards a wall in range 3, or pull target 2 towards self or a wall in range 3."
           }
         ],
         "page": "9"
@@ -3770,17 +3772,17 @@
           {
             "name": "Tags",
             "typeId": "d241-c19b-8fd1-da04",
-            "$text": "Attack, Range 2"
+            "$text": "Attack, Range 1-2"
           },
           {
             "name": "Effect",
             "typeId": "08c9-0af1-3467-12b3",
-            "$text": ""
+            "$text": "May step 2 after attack with free movement, and may pass through walls during this movement."
           },
           {
             "name": "On Hit",
             "typeId": "20c2-cbeb-cb0b-47be",
-            "$text": "2 damage. Effect: May step 2 after attack with free movement, and may pass through walls during this movement."
+            "$text": "2 damage."
           }
         ],
         "page": "9"
@@ -3805,7 +3807,7 @@
           {
             "name": "Tags",
             "typeId": "677f-0884-533f-ae72",
-            "$text": "Range 3"
+            "$text": "Range 1-3"
           },
           {
             "name": "Trigger",
@@ -3815,7 +3817,7 @@
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": "Self or an allied unit in range gains 1 speed and steps 2. They may pass through walls during this step"
+            "$text": "Self or an allied unit in range gains 1 speed and steps 2. They may pass through walls during this step."
           }
         ],
         "page": "9"
@@ -3835,7 +3837,7 @@
           {
             "name": "When",
             "typeId": "54b8-302b-9e65-ec30",
-            "$text": "Foe Turn, foe is in range 3"
+            "$text": "Foe Turn, foe is in range 1-3"
           },
           {
             "name": "Tags",
@@ -3875,17 +3877,17 @@
           {
             "name": "Tags",
             "typeId": "677f-0884-533f-ae72",
-            "$text": "Range 3"
+            "$text": "Range 1-3"
           },
           {
             "name": "Trigger",
             "typeId": "3a92-2619-a477-005f",
-            "$text": "Self or ally in range is targeted by a line or splash effect."
+            "$text": "Self or ally in range is targeted by a line or splash effect."
           },
           {
             "name": "Effect",
             "typeId": "d03e-2c10-89c9-8e5c",
-            "$text": "Reduce all damage taken by the targeted unit from the effect by 1 and the targeted unit becomes immune to any tokens or effects it would inflict."
+            "$text": "Reduce all damage taken by the targeted unit from the effect by 1 and the targeted unit becomes immune to any tokens or other effects it would inflict."
           }
         ],
         "page": "9"
@@ -3900,7 +3902,7 @@
           {
             "name": "Cost",
             "typeId": "e757-13c7-c21e-70b9",
-            "$text": "3"
+            "$text": "4"
           },
           {
             "name": "When",
@@ -3910,7 +3912,7 @@
           {
             "name": "Tags",
             "typeId": "677f-0884-533f-ae72",
-            "$text": "Range 2-3"
+            "$text": "Range 2-4"
           },
           {
             "name": "Trigger",
@@ -3935,7 +3937,7 @@
           {
             "name": "Cost",
             "typeId": "e757-13c7-c21e-70b9",
-            "$text": "4"
+            "$text": "3"
           },
           {
             "name": "When",
@@ -3945,7 +3947,7 @@
           {
             "name": "Tags",
             "typeId": "677f-0884-533f-ae72",
-            "$text": "Range 3, Curse"
+            "$text": "Range 1-3, Curse"
           },
           {
             "name": "Trigger",

@@ -5,7 +5,7 @@
     "name": "Carcass",
     "gameSystemId": "sys-ec2b-f0d3-4663-8364",
     "gameSystemRevision": 1,
-    "revision": 3,
+    "revision": 4,
     "battleScribeVersion": "2.03",
     "page": "",
     "sharedSelectionEntries": [
@@ -298,7 +298,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Regurgitate Ammo now targets two different adjacent unit and no longer grants stregth."
+                        "$text": "Regurgitate Ammo now targets two different adjacent unit and no longer grants strength."
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
@@ -1291,7 +1291,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Unit becomes unable to MOVE or step, but ranged abilities gain +2 maximum range and ignore armor and cover. It can end this effect by sacrificing a MOVE, but if it does, it loses all associate effects."
+                "$text": "Unit becomes unable to MOVE or step, but ranged abilities gain +2 maximum range, +1D to hit, and pierce. It can end this effect by sacrificing a MOVE, but if it does, it loses all associate effects."
               },
               {
                 "name": "On Hit",
@@ -1641,7 +1641,7 @@
               {
                 "name": "Tags",
                 "typeId": "d241-c19b-8fd1-da04",
-                "$text": "Attack, range 2-4, reload"
+                "$text": "Attack, range 2-3, reload"
               },
               {
                 "name": "Effect",
@@ -1651,7 +1651,7 @@
               {
                 "name": "On Hit",
                 "typeId": "20c2-cbeb-cb0b-47be",
-                "$text": "2 damage. On hit:(4+): One other foe in range takes 1 damage, (6+) one other foe in range takes 1 damage."
+                "$text": "2 damage and (4+): One other foe in range takes 1 damage, (6+) one other foe in range takes 1 damage."
               }
             ],
             "publicationId": "da35-e534-5d09-746b",
@@ -1667,7 +1667,7 @@
               {
                 "name": "Effect",
                 "typeId": "b305-f2f7-6e6a-44ce",
-                "$text": "Once a round, reloading grants you 1 strength"
+                "$text": "Headshots grant you 1 strength and allow you to step 1"
               }
             ],
             "publicationId": "da35-e534-5d09-746b",
@@ -1739,7 +1739,7 @@
               {
                 "name": "Effect",
                 "typeId": "d03e-2c10-89c9-8e5c",
-                "$text": "Clear one (5+) or two negative tokens. Ranged attacks automatically miss you until the end of your next turn (5+) and you are immune to splash and line damage for the duration."
+                "$text": "Clear one (5+) or two negative tokens. Ranged attacks automatically miss you until the end of your next turn (5+) and you are immune to splash and line damage for the duration."
               }
             ],
             "publicationId": "da35-e534-5d09-746b",
@@ -1781,7 +1781,7 @@
                       {
                         "name": "Effect",
                         "typeId": "b305-f2f7-6e6a-44ce",
-                        "$text": "You can use your units as cover. While in cover your abilities gain +2 range."
+                        "$text": "You can use your units as cover. While in cover your abilities gain +1 range."
                       }
                     ],
                     "publicationId": "da35-e534-5d09-746b",
@@ -3530,7 +3530,7 @@
               {
                 "name": "MV",
                 "typeId": "db02-56b8-b943-0359",
-                "$text": "3"
+                "$text": "4"
               },
               {
                 "name": "HP",
@@ -3561,12 +3561,12 @@
               {
                 "name": "Tags",
                 "typeId": "d241-c19b-8fd1-da04",
-                "$text": "Line 4, reload"
+                "$text": "Line 5, reload"
               },
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "First unit in the line takes 1 piercing damage. If catching an allied unit in the line, also inflict 2 vulnerable."
+                "$text": "First unit in the line takes 1 piercing damage. If catching an allied unit in the line, also inflict 2 vulnerable."
               },
               {
                 "name": "On Hit",
@@ -3592,7 +3592,7 @@
               {
                 "name": "Effect",
                 "typeId": "08c9-0af1-3467-12b3",
-                "$text": "Step 1, then push an adjacent foe 1 or (5+) 2 spaces. That foe must spend a MOVE before next attacking."
+                "$text": "Step 1, then push an adjacent foe 2 spaces. That foe must spend a MOVE before next attacking."
               },
               {
                 "name": "On Hit",
@@ -3624,6 +3624,22 @@
                 "name": "On Hit",
                 "typeId": "20c2-cbeb-cb0b-47be",
                 "$text": ""
+              }
+            ],
+            "publicationId": "0300-2d2b-d6c4-502c",
+            "page": "16"
+          },
+          {
+            "name": "Active Camo",
+            "typeId": "c4ab-0724-e1de-ebce",
+            "typeName": "Traits",
+            "hidden": false,
+            "id": "acb6-5eb7-195a-031f",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "b305-f2f7-6e6a-44ce",
+                "$text": "If this unit ends its turn with no foes adjacent, this unit becomes curseproof and all attacks against it gain -1D. Both effects last until the start of its next turn."
               }
             ],
             "publicationId": "0300-2d2b-d6c4-502c",
@@ -3701,7 +3717,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "May step 1 before and after activating Cross Fire, but it becomes line 3"
+                        "$text": "May step 1 before and after activating Cross Fire, but it becomes line 4"
                       }
                     ],
                     "publicationId": "0300-2d2b-d6c4-502c",
@@ -3751,7 +3767,7 @@
                       {
                         "name": "Upgrade Effect",
                         "typeId": "d962-7955-1a5c-5069",
-                        "$text": "Cross fire’s extra effect also triggers if it catches a wall in the line"
+                        "$text": "Cross Fire’s extra effect also triggers if it catches a wall in the line."
                       }
                     ],
                     "publicationId": "0300-2d2b-d6c4-502c",
@@ -3951,7 +3967,7 @@
           {
             "name": "Tags",
             "typeId": "d241-c19b-8fd1-da04",
-            "$text": "Attack, range 3-6, charge, reload*"
+            "$text": "Attack, range 3-5, charge, reload*"
           },
           {
             "name": "Effect",
@@ -4009,7 +4025,7 @@
           {
             "name": "On Hit",
             "typeId": "20c2-cbeb-cb0b-47be",
-            "$text": "2 damage. Headshot: this attack deals +1 base damage on hit for the rest of combat, up to a maximum of 5."
+            "$text": "2 damage. Headshot: reload, and this attack deals +1 base damage on hit for the rest of combat, up to a maximum of 5."
           }
         ]
       },
@@ -4096,7 +4112,7 @@
           {
             "name": "When",
             "typeId": "54b8-302b-9e65-ec30",
-            "$text": "Any turn"
+            "$text": "Foe turn"
           },
           {
             "name": "Tags",

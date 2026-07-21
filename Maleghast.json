@@ -3,7 +3,7 @@
     "id": "sys-ec2b-f0d3-4663-8364",
     "name": "Maleghast",
     "battleScribeVersion": "2.03",
-    "revision": 3,
+    "revision": 4,
     "categoryEntries": [
       {
         "name": "Unit",
@@ -432,16 +432,16 @@
     "type": "gameSystem",
     "publications": [
       {
-        "name": "Malehast Update 3",
+        "name": "Malehast Update 4.5",
         "id": "da35-e534-5d09-746b",
         "hidden": false,
         "shortName": "Maleghast",
-        "publisher": "Magnagothica Maleghast Update 3",
+        "publisher": "Magnagothica Maleghast Update 4.5",
         "publisherUrl": "https://tombloom.itch.io/magnagothica-maleghast",
-        "publicationDate": "2025-05-30"
+        "publicationDate": "2026"
       },
       {
-        "name": "Games for Freaks 2 2025",
+        "name": "Games for Freaks 2.3.5",
         "id": "0300-2d2b-d6c4-502c",
         "hidden": false,
         "publisher": "Games for Freaks",
@@ -449,15 +449,15 @@
         "publisherUrl": "https://patreon.com/killsixbilliondemons"
       },
       {
-        "name": "Games for Freaks 1 2024",
+        "name": "Games for Freaks 1.3.5",
         "id": "e760-0d8f-1201-98d5",
         "hidden": false,
         "publisherUrl": "https://patreon.com/killsixbilliondemons",
-        "publisher": "Games for Freaks",
+        "publisher": "Games for Freaks 1.3.5",
         "publicationDate": "October 2024"
       },
       {
-        "name": "Games for Freaks 4 2026",
+        "name": "Games for Freaks 4.1",
         "id": "ec99-4149-c4ca-7263",
         "hidden": false,
         "publisher": "Games for Freaks",
@@ -993,7 +993,7 @@
           {
             "name": "Effect",
             "typeId": "b305-f2f7-6e6a-44ce",
-            "$text": "Ignores adverse terrain and elevation attack and movement penalties."
+            "$text": "Ignores adverse terrain and elevation attack and movement penalties"
           }
         ]
       }
